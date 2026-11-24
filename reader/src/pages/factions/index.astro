@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AssetFigure from "../../components/AssetFigure.astro";
+import { loadEntityIndexData } from "../../lib/book";
+import { buildPublicCanonIndexCards } from "../../lib/public-canon";
+
+const { ready, entities } = await loadEntityIndexData("faction");
+const cards = await buildPublicCanonIndexCards("faction", entities);
+---
+
+<BaseLayout title="Factions" description="Browse the factions of the book." activeSection="factions">
+  <section class="hero">
+    <p class="eyebrow">Canon Atlas</p>
+    <h1>Factions</h1>
+    <p class="lede">Map visible power groups without opening private strategy notes too early.</p>
+  </section>
+
+  {ready ? (
+    cards.length > 0 ? (
+      <section class="section">
+        <div class="catalog-grid">
+          {cards.map((entity) => (
+            <article class="card catalog-card">
+              <a href={`factions/${entity.slug}/`}>
+                {entity.figure && <AssetFigure figure={entity.figure} className="catalog-media" />}
+                <div class="chapter-number">{entity.eyebrow}</div>
+                <h2 class="chapter-title">{entity.label}</h2>
+                <div class="chapter-meta">{entity.summary}</div>
+                {entity.chips.length > 0 && (
+                  <div class="chip-row">
+                    {entity.chips.map((chip) => <span class="chip">{chip}</span>)}
+                  </div>
+                )}
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <div class="empty">No public-safe faction dossiers are visible yet.</div>
+    )
+  ) : (
+    <div class="empty">No book repository detected for the reader.</div>
+  )}
+</BaseLayout>

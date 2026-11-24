@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Manuscript (Full + Sample)",
+      "type": "shell",
+      "command": "node scripts/run-manuscript.mjs",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Manuscript (Full Only)",
+      "type": "shell",
+      "command": "node scripts/run-manuscript.mjs --full-only",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Manuscript (Sample Only)",
+      "type": "shell",
+      "command": "node scripts/run-manuscript.mjs --sample-only",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Install Manuscript Dependencies",
+      "type": "shell",
+      "command": "pip install -r scripts/requirements-manuscript.txt",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

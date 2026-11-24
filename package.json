@@ -1,0 +1,14 @@
+{
+  "name": "grande-libro-della-giungla",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix reader",
+    "build": "npm run build --prefix reader",
+    "preview": "npm run preview --prefix reader",
+    "export:epub": "npm run export:epub --prefix reader",
+    "export:manuscript": "node scripts/run-manuscript.mjs",
+    "sync:script-ledger": "node scripts/sync-script-ledger.mjs",
+    "doctor": "npm run doctor --prefix reader",
+    "install": "npm install --prefix reader"
+  }
+}

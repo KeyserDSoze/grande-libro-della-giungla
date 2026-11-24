@@ -1,0 +1,1500 @@
+---
+import type { GlossaryEntry } from "../lib/glossary";
+import { getReaderPassword } from "../lib/reader-mode.js";
+import { encryptString } from "../lib/content-crypto.js";
+
+interface Props {
+  glossary: GlossaryEntry[];
+  chapters: Array<{ slug: string; metadata: { number: number; title: string } }>;
+  currentChapterNumber?: number;
+}
+
+const { glossary, chapters } = Astro.props;
+const password = getReaderPassword();
+const rawGlossaryJson = JSON.stringify(glossary).replace(/</g, "\\u003c");
+const glossaryEncrypted = password ? encryptString(rawGlossaryJson, password) : null;
+const chaptersJson = JSON.stringify(chapters).replace(/</g, "\\u003c");
+---
+
+<div class="canon-overlay" data-canon-overlay hidden>
+  <button type="button" class="canon-overlay__backdrop" data-canon-close aria-label="Close canon popup"></button>
+  <aside class="canon-overlay__panel" aria-live="polite" aria-modal="true" role="dialog">
+    <button type="button" class="canon-overlay__close" data-canon-close aria-label="Close canon popup">x</button>
+    <p class="eyebrow" data-canon-kind></p>
+    <h2 data-canon-title></h2>
+    <div class="canon-tabs" data-canon-tabs>
+      <button type="button" class="canon-tab is-active" data-canon-tab="overview">Overview</button>
+      <button type="button" class="canon-tab" data-canon-tab="notes">Notes</button>
+      <button type="button" class="canon-tab" data-canon-tab="metadata">Metadata</button>
+      <button type="button" class="canon-tab" data-canon-tab="image">Image</button>
+    </div>
+    <section class="canon-panel is-active" data-canon-panel="overview">
+      <div class="chip-row" data-canon-meta></div>
+      <p class="chapter-meta" data-canon-summary></p>
+      <div class="canon-related" data-canon-mentions-wrap hidden>
+        <p class="label">Mentioned In</p>
+        <div class="chip-row" data-canon-mentions></div>
+      </div>
+    </section>
+    <section class="canon-panel" data-canon-panel="notes">
+      <div class="prose canon-overlay__body" data-canon-body></div>
+    </section>
+    <section class="canon-panel" data-canon-panel="metadata">
+      <div class="meta-list" data-canon-metadata></div>
+    </section>
+    <section class="canon-panel" data-canon-panel="image">
+      <div class="canon-overlay__image-panel" data-canon-image-panel></div>
+    </section>
+    <a class="chip" data-canon-link href="./">Open full entry</a>
+  </aside>
+</div>
+
+<div class="reader-overlay" data-reader-overlay hidden>
+  <button type="button" class="reader-overlay__backdrop" data-reader-close aria-label="Close reading settings"></button>
+  <aside class="reader-overlay__panel" aria-live="polite" aria-modal="true" role="dialog">
+    <button type="button" class="reader-overlay__close" data-reader-close aria-label="Close reading settings">x</button>
+    <p class="eyebrow">Reading Settings</p>
+    <h2>Reader</h2>
+    <div class="reader-section">
+      <p class="reader-section__label">Appearance</p>
+      <div class="reader-control-grid">
+        <label class="reader-control">
+          <span class="label">Color theme</span>
+          <select data-reader-theme>
+            <option value="system">System default</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <hr class="reader-section-divider" />
+    <div class="reader-section">
+      <p class="reader-section__label">Typography</p>
+      <div class="reader-control-grid">
+        <label class="reader-control">
+          <span class="label">Font Size</span>
+          <input type="range" min="0.92" max="1.22" step="0.02" value="1" data-reader-font-scale />
+        </label>
+        <label class="reader-control">
+          <span class="label">Line Height</span>
+          <input type="range" min="1.45" max="1.95" step="0.05" value="1.72" data-reader-line-height />
+        </label>
+        <label class="reader-control">
+          <span class="label">Measure</span>
+          <select data-reader-measure>
+            <option value="60ch">Compact</option>
+            <option value="72ch">Classic</option>
+            <option value="84ch">Wide</option>
+          </select>
+        </label>
+        <label class="reader-control">
+          <span class="label">Body Font</span>
+          <select data-reader-font-family>
+            <option value="classic">Classic Serif</option>
+            <option value="modern">Modern Serif</option>
+            <option value="sans">Quiet Sans</option>
+          </select>
+        </label>
+        <label class="reader-control" data-reader-spoiler-wrap hidden>
+          <span class="label">Spoiler Limit</span>
+          <select data-reader-spoiler-limit></select>
+        </label>
+      </div>
+    </div>
+    <hr class="reader-section-divider" />
+    <div class="reader-section">
+      <p class="reader-section__label">Canon access</p>
+      <div class="reader-control-grid">
+        <label class="reader-control">
+          <span class="label">View mode</span>
+          <select data-reader-canon-mode>
+            <option value="public">Public reader</option>
+            <option value="full">Full canon (author)</option>
+          </select>
+        </label>
+      </div>
+      <p class="reader-section__note">Full canon shows all hidden character, faction, and item data. Reloads the page. Effective in dev server only; for production, set NARRARIUM_READER_CANON_MODE=full in .env.</p>
+    </div>
+  </aside>
+</div>
+
+<aside class="tts-player" data-tts-player hidden>
+  <div class="tts-player__top">
+    <div>
+      <p class="eyebrow">Read Aloud</p>
+      <p class="tts-player__title" data-tts-title>Ready</p>
+    </div>
+    <div class="tts-player__top-actions">
+      <span class="chip" data-tts-badge>Browser voice</span>
+      <button type="button" class="icon-btn" data-tts-close aria-label="Hide read aloud controls">x</button>
+    </div>
+  </div>
+  <p class="tts-player__label" data-tts-label>Choose a chapter or scene to start reading aloud.</p>
+  <div class="tts-player__controls">
+    <button type="button" class="tts-button is-primary" data-tts-play-toggle>Read chapter</button>
+    <button type="button" class="tts-button" data-tts-stop>Stop</button>
+  </div>
+  <div class="tts-player__settings">
+    <label>
+      <span class="label">Voice</span>
+      <select data-tts-voice></select>
+    </label>
+    <label>
+      <span class="label">Speed</span>
+      <input type="range" min="0.7" max="1.35" step="0.05" value="1" data-tts-rate />
+    </label>
+  </div>
+  <div class="tts-status" data-tts-status>Speech will resume from the saved sentence when available.</div>
+</aside>
+
+{glossaryEncrypted
+  ? <script type="application/json" id="canon-glossary-data" data-enc-iv={glossaryEncrypted.iv} data-enc-ct={glossaryEncrypted.ct}></script>
+  : <script type="application/json" id="canon-glossary-data" set:html={rawGlossaryJson}></script>
+}
+<script type="application/json" id="reader-chapter-data" set:html={chaptersJson}></script>
+
+<script>
+  import { buildCanonHrefIndex, normalizeCanonEntityHref } from "../lib/canon-mentions.js";
+
+  const themeStorageKey = "narrarium-reader-theme";
+  const progressStorageKey = "narrarium-reader-progress";
+  const bookmarkStorageKey = "narrarium-reader-bookmark";
+  const preferencesStorageKey = "narrarium-reader-preferences";
+  const spoilerLimitStorageKey = "narrarium-reader-spoiler-limit";
+  const ttsVoiceStorageKey = "narrarium-reader-tts-voice";
+  const ttsRateStorageKey = "narrarium-reader-tts-rate";
+  const ttsProgressStorageKey = "narrarium-reader-tts-progress";
+  const ttsPlayerDismissedStorageKey = "narrarium-reader-tts-player-dismissed";
+  const chapterDataElement = document.getElementById("reader-chapter-data");
+  const chapterEntries = chapterDataElement ? JSON.parse(chapterDataElement.textContent || "[]") : [];
+  const currentPageChapterRaw = document.body.dataset.readerChapterNumber;
+  const currentPageChapterNumber = currentPageChapterRaw ? Number(currentPageChapterRaw) : Number.NaN;
+
+  type ModalElement = HTMLElement & {
+    _narrariumModalState?: {
+      inertNodes: Array<{ node: Element; hadInert: boolean }>;
+      previouslyFocused: HTMLElement | null;
+    };
+  };
+
+  // glossaryEntries is populated after content decryption (or immediately when
+  // there is no password protection). Declared as let so _loadGlossaryAndInit
+  // can reassign before dependent initializers run.
+  // eslint-disable-next-line prefer-const
+  let glossaryEntries: any[] = [];
+
+  function _loadGlossaryAndInit() {
+    const el = document.getElementById("canon-glossary-data");
+    // Guard: skip if the element still carries encrypted attrs (not yet decrypted).
+    if (!el || el.hasAttribute("data-enc-iv")) return;
+    try { glossaryEntries = JSON.parse(el.textContent || "[]"); } catch { glossaryEntries = []; }
+    initializeCanonMentions();
+    initializeReadAloud();
+  }
+
+  initializeThemeToggle();
+  initializeReaderPreferences();
+  initializeReaderSettings();
+  initializeSearchOverlay();
+  initializeCanonModeToggle();
+  initializeReadingProgress();
+
+  // Wait for content to be available before initializing glossary-dependent features.
+  ((window as any)._narrariumContentReady || Promise.resolve("plain")).then((state: string) => {
+    if (state !== "locked") _loadGlossaryAndInit();
+  });
+  // Re-init after manual password unlock (state was "locked" when promise resolved).
+  document.addEventListener("narrarium:content-unlocked", _loadGlossaryAndInit);
+
+  function initializeThemeToggle() {
+    const saved = readStorage(themeStorageKey);
+    const initialTheme = saved || (prefersDarkTheme() ? "dark" : "light");
+    applyTheme(initialTheme);
+  }
+
+  function applyTheme(theme, persist) {
+    document.documentElement.dataset.theme = theme;
+    if (persist) {
+      writeStorage(themeStorageKey, theme);
+    }
+  }
+
+  function initializeReaderPreferences() {
+    const defaults = {
+      fontScale: 1,
+      lineHeight: 1.72,
+      measure: "72ch",
+      fontFamily: "classic",
+    };
+    const saved = readJson(preferencesStorageKey) || {};
+    const preferences = {
+      ...defaults,
+      ...saved,
+    };
+
+    applyReaderPreferences(preferences);
+  }
+
+  function applyReaderPreferences(preferences) {
+    const root = document.documentElement;
+    root.style.setProperty("--reader-font-scale", String(preferences.fontScale || 1));
+    root.style.setProperty("--reader-leading", String(preferences.lineHeight || 1.72));
+    root.style.setProperty("--reader-measure", preferences.measure || "72ch");
+    root.style.setProperty("--reader-copy-family", fontFamilyValue(preferences.fontFamily));
+    writeStorage(preferencesStorageKey, JSON.stringify(preferences));
+  }
+
+  function initializeReaderSettings() {
+    const overlay = document.querySelector("[data-reader-overlay]");
+    const toggle = document.querySelector("[data-reader-settings-toggle]");
+    if (!overlay || !toggle) return;
+
+    const preferences = readJson(preferencesStorageKey) || {
+      fontScale: 1,
+      lineHeight: 1.72,
+      measure: "72ch",
+      fontFamily: "classic",
+    };
+
+    const fontScaleInput = overlay.querySelector("[data-reader-font-scale]");
+    const lineHeightInput = overlay.querySelector("[data-reader-line-height]");
+    const measureInput = overlay.querySelector("[data-reader-measure]");
+    const fontFamilyInput = overlay.querySelector("[data-reader-font-family]");
+    const spoilerWrap = overlay.querySelector("[data-reader-spoiler-wrap]");
+    const spoilerLimitInput = overlay.querySelector("[data-reader-spoiler-limit]");
+
+    if (fontScaleInput) fontScaleInput.value = String(preferences.fontScale || 1);
+    if (lineHeightInput) lineHeightInput.value = String(preferences.lineHeight || 1.72);
+    if (measureInput) measureInput.value = preferences.measure || "72ch";
+    if (fontFamilyInput) fontFamilyInput.value = preferences.fontFamily || "classic";
+
+    const themeInput = overlay.querySelector("[data-reader-theme]");
+    if (themeInput) {
+      const savedTheme = readStorage(themeStorageKey);
+      themeInput.value = savedTheme || "system";
+      themeInput.addEventListener("change", () => {
+        const value = themeInput.value;
+        if (value === "system") {
+          applyTheme(prefersDarkTheme() ? "dark" : "light", false);
+          removeStorage(themeStorageKey);
+        } else {
+          applyTheme(value, true);
+        }
+      });
+    }
+
+    if (Number.isFinite(currentPageChapterNumber) && spoilerWrap && spoilerLimitInput) {
+      spoilerWrap.hidden = false;
+      const options = [{ label: "Current chapter", value: String(currentPageChapterNumber) }].concat(
+        chapterEntries
+          .filter((chapter) => chapter.metadata.number <= currentPageChapterNumber)
+          .map((chapter) => ({
+            label: `Up to Chapter ${String(chapter.metadata.number).padStart(3, "0")} - ${chapter.metadata.title}`,
+            value: String(chapter.metadata.number),
+          }))
+          .reverse(),
+      );
+      const rendered = new Set();
+      spoilerLimitInput.replaceChildren(
+        ...options.flatMap((option) => {
+          if (rendered.has(option.value)) return [];
+          rendered.add(option.value);
+          const node = document.createElement("option");
+          node.value = option.value;
+          node.textContent = option.label;
+          return [node];
+        }),
+      );
+      spoilerLimitInput.value = String(getSelectedSpoilerLimit() || currentPageChapterNumber);
+      spoilerLimitInput.addEventListener("change", () => {
+        writeStorage(spoilerLimitStorageKey, spoilerLimitInput.value);
+        window.location.reload();
+      });
+    }
+
+    const updatePreferences = () => {
+      applyReaderPreferences({
+        fontScale: Number(fontScaleInput?.value || 1),
+        lineHeight: Number(lineHeightInput?.value || 1.72),
+        measure: measureInput?.value || "72ch",
+        fontFamily: fontFamilyInput?.value || "classic",
+      });
+    };
+
+    fontScaleInput?.addEventListener("input", updatePreferences);
+    lineHeightInput?.addEventListener("input", updatePreferences);
+    measureInput?.addEventListener("change", updatePreferences);
+    fontFamilyInput?.addEventListener("change", updatePreferences);
+
+    toggle.addEventListener("click", () => {
+      openModalOverlay(overlay, toggle, "[data-reader-close]");
+    });
+
+    overlay.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+      if (target.closest("[data-reader-close]")) {
+        closeReaderOverlay();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeReaderOverlay();
+      }
+    });
+  }
+
+  function closeReaderOverlay() {
+    const overlay = document.querySelector("[data-reader-overlay]");
+    if (!(overlay instanceof HTMLElement) || overlay.hidden) return;
+    closeModalOverlay(overlay);
+  }
+
+  function openModalOverlay(overlay: Element, trigger: Element | null, initialSelector: string) {
+    const modal = overlay as ModalElement;
+    if (!(modal instanceof HTMLElement)) return;
+    modal.hidden = false;
+    modal.dataset.modalTriggerId = trigger instanceof HTMLElement ? (trigger.id || "") : "";
+    if (trigger instanceof HTMLElement && !trigger.id) {
+      trigger.id = `reader-modal-trigger-${Math.random().toString(36).slice(2)}`;
+      modal.dataset.modalTriggerId = trigger.id;
+    }
+    document.body.classList.add("has-overlay");
+    const modalState = modal._narrariumModalState = {
+      inertNodes: [],
+      previouslyFocused: document.activeElement instanceof HTMLElement ? document.activeElement : null,
+    };
+    Array.from(document.body.children).forEach((node) => {
+      if (node === modal || node.matches("[data-narrarium-modal-layer]")) return;
+      modalState.inertNodes.push({ node, hadInert: node.hasAttribute("inert") });
+      node.setAttribute("inert", "");
+    });
+    const initial = modal.querySelector(initialSelector);
+    if (initial instanceof HTMLElement) initial.focus();
+    else modal.querySelector("button, input, select, textarea, a")?.focus();
+  }
+
+  function closeModalOverlay(overlay: Element) {
+    const modal = overlay as ModalElement;
+    if (!(modal instanceof HTMLElement) || modal.hidden) return;
+    const triggerId = modal.dataset.modalTriggerId;
+    const modalState = modal._narrariumModalState;
+    modal.hidden = true;
+    delete modal.dataset.modalTriggerId;
+    document.body.classList.remove("has-overlay");
+    for (const { node, hadInert } of modalState?.inertNodes || []) {
+      if (hadInert) node.setAttribute("inert", "");
+      else node.removeAttribute("inert");
+    }
+    delete modal._narrariumModalState;
+    if (triggerId) document.getElementById(triggerId)?.focus();
+    else modalState?.previouslyFocused?.focus();
+  }
+
+  document.addEventListener("keydown", (event) => {
+    const overlay = document.querySelector("[data-canon-overlay]:not([hidden]), [data-reader-overlay]:not([hidden]), [data-search-overlay]:not([hidden])");
+    if (!(overlay instanceof HTMLElement)) return;
+    if (event.key === "Tab") {
+      const focusable = [...overlay.querySelectorAll("button, input, select, textarea, a[href]")]
+        .filter((node) => node instanceof HTMLElement && !node.hasAttribute("disabled") && !node.hidden);
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+  });
+
+  function initializeReadingProgress() {
+    const continueLink = document.querySelector("[data-continue-link]");
+    const progress = readJson(progressStorageKey) || {};
+
+    if (Number.isFinite(currentPageChapterNumber)) {
+      const title = document.querySelector("h1")?.textContent?.trim() || `Chapter ${String(currentPageChapterNumber).padStart(3, "0")}`;
+      const nextProgress = {
+        chapterNumber: currentPageChapterNumber,
+        href: window.location.pathname,
+        title,
+      };
+
+      if (!progress.chapterNumber || currentPageChapterNumber >= progress.chapterNumber) {
+        writeStorage(progressStorageKey, JSON.stringify(nextProgress));
+      }
+
+      const bookmarkButton = document.querySelector("[data-bookmark-toggle]");
+      if (bookmarkButton) {
+        syncBookmarkButton(bookmarkButton, nextProgress);
+        bookmarkButton.addEventListener("click", () => toggleBookmark(bookmarkButton, nextProgress));
+      }
+    }
+
+    const latestProgress = readJson(progressStorageKey);
+    if (continueLink && latestProgress?.href) {
+      continueLink.hidden = false;
+      continueLink.href = latestProgress.href;
+      continueLink.textContent = `Continue: ${latestProgress.title}`;
+    }
+  }
+
+  function initializeCanonMentions() {
+    if (glossaryEntries.length === 0) return;
+
+    const limit = getSelectedSpoilerLimit();
+    const visibleEntries = glossaryEntries.filter((entry) => isEntryVisible(entry, limit));
+    const glossaryById = new Map(visibleEntries.map((entry) => [entry.id, entry]));
+    const hrefIndex = buildCanonHrefIndex(visibleEntries);
+    const termMap = new Map();
+
+    for (const entry of visibleEntries) {
+      for (const term of entry.terms || []) {
+        const normalized = String(term || "").trim();
+        if (!normalized || normalized.length < 3) continue;
+        const key = normalized.toLowerCase();
+        if (!termMap.has(key)) {
+          termMap.set(key, entry.id);
+        }
+      }
+    }
+
+    const terms = [...termMap.keys()].sort((left, right) => right.length - left.length);
+    const pattern = terms.length > 0
+      ? new RegExp(`(^|[^\\p{L}\\p{N}])(${terms.map(escapeRegex).join("|")})(?=$|[^\\p{L}\\p{N}])`, "giu")
+      : null;
+
+    enhanceCanonRoot(document, pattern, termMap, hrefIndex);
+    initializeCanonOverlay(pattern, termMap, hrefIndex, glossaryById, limit);
+  }
+
+  function enhanceCanonRoot(root, pattern, termMap, hrefIndex) {
+    const containers = root instanceof Document
+      ? root.querySelectorAll(".prose p, .prose li, .prose blockquote")
+      : root.matches?.(".prose")
+        ? root.querySelectorAll("p, li, blockquote")
+        : root.querySelectorAll(".prose p, .prose li, .prose blockquote");
+
+    containers.forEach((container) => {
+      if (container.dataset.canonEnhanced === "true") return;
+      rewriteLegacyCanonLinks(container, hrefIndex);
+      container.dataset.canonEnhanced = "true";
+      if (!pattern) {
+        return;
+      }
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+      const textNodes = [];
+      while (walker.nextNode()) {
+        textNodes.push(walker.currentNode);
+      }
+
+      for (const node of textNodes) {
+        enhanceTextNode(node, pattern, termMap);
+      }
+    });
+  }
+
+  function enhanceTextNode(textNode, pattern, termMap) {
+    const parent = textNode.parentElement;
+    if (!parent || parent.closest("a, button, code, pre, h1, h2, h3, h4, h5, h6, [data-no-canon]")) {
+      return;
+    }
+
+    const raw = textNode.textContent || "";
+    pattern.lastIndex = 0;
+    if (!pattern.test(raw)) {
+      return;
+    }
+    pattern.lastIndex = 0;
+
+    const fragment = document.createDocumentFragment();
+    let cursor = 0;
+    let match;
+
+    while ((match = pattern.exec(raw))) {
+      const boundary = match[1] || "";
+      const term = match[2] || "";
+      const entryId = termMap.get(term.toLowerCase());
+      const start = match.index;
+
+      if (start > cursor) {
+        fragment.append(raw.slice(cursor, start));
+      }
+
+      if (boundary) {
+        fragment.append(boundary);
+      }
+
+      if (entryId) {
+        fragment.append(createCanonMentionButton(entryId, term));
+      } else {
+        fragment.append(term);
+      }
+
+      cursor = start + boundary.length + term.length;
+    }
+
+    if (cursor < raw.length) {
+      fragment.append(raw.slice(cursor));
+    }
+
+    textNode.replaceWith(fragment);
+  }
+
+  function rewriteLegacyCanonLinks(container, hrefIndex) {
+    container.querySelectorAll("a[href]").forEach((anchor) => {
+      if (!(anchor instanceof HTMLAnchorElement) || anchor.closest("[data-no-canon]")) {
+        return;
+      }
+
+      const normalizedHref = normalizeCanonEntityHref(anchor.getAttribute("href") || "");
+      if (!normalizedHref) {
+        return;
+      }
+
+      const label = anchor.textContent || "";
+      const entryId = hrefIndex.get(normalizedHref);
+      anchor.replaceWith(entryId ? createCanonMentionButton(entryId, label) : document.createTextNode(label));
+    });
+  }
+
+  function createCanonMentionButton(entryId, label) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "canon-mention";
+    button.dataset.canonId = entryId;
+    button.textContent = label;
+    return button;
+  }
+
+  function initializeCanonOverlay(pattern, termMap, hrefIndex, glossaryById, limit) {
+    const overlay = document.querySelector("[data-canon-overlay]");
+    if (!overlay || overlay.dataset.bound === "true") return;
+    overlay.dataset.bound = "true";
+
+    const title = overlay.querySelector("[data-canon-title]");
+    const kind = overlay.querySelector("[data-canon-kind]");
+    const summary = overlay.querySelector("[data-canon-summary]");
+    const meta = overlay.querySelector("[data-canon-meta]");
+    const link = overlay.querySelector("[data-canon-link]");
+    const body = overlay.querySelector("[data-canon-body]");
+    const metadata = overlay.querySelector("[data-canon-metadata]");
+    const imagePanel = overlay.querySelector("[data-canon-image-panel]");
+    const mentions = overlay.querySelector("[data-canon-mentions]");
+    const mentionsWrap = overlay.querySelector("[data-canon-mentions-wrap]");
+
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+
+      const trigger = target.closest("[data-canon-id]");
+      if (trigger instanceof HTMLElement) {
+        const entry = glossaryById.get(trigger.dataset.canonId || "");
+        if (!entry) return;
+        event.preventDefault();
+        const revealed = isEntryRevealed(entry, limit);
+        title.textContent = entry.label;
+        kind.textContent = entry.kindLabel;
+        summary.textContent = entry.summary;
+        link.href = entry.href;
+        link.hidden = !revealed;
+        body.innerHTML = revealed ? entry.bodyHtml || "" : "";
+        enhanceCanonRoot(body, pattern, termMap, hrefIndex);
+        metadata.replaceChildren(...(entry.metadataEntries || []).map((item) => {
+          const row = document.createElement("div");
+          row.className = "meta-row";
+          const key = document.createElement("div");
+          key.className = "meta-key";
+          key.textContent = item.label;
+          const value = document.createElement("div");
+          value.className = "meta-value";
+          value.textContent = item.value;
+          row.append(key, value);
+          return row;
+        }));
+        meta.replaceChildren(...(entry.meta || []).map((value) => {
+          const span = document.createElement("span");
+          span.className = "chip";
+          span.textContent = value;
+          return span;
+        }));
+        mentions.replaceChildren(...(entry.mentions || []).map((item) => {
+          const anchor = document.createElement("a");
+          anchor.className = "chip";
+          anchor.href = item.href;
+          anchor.textContent = item.label;
+          return anchor;
+        }));
+        mentionsWrap.hidden = !(entry.mentions && entry.mentions.length > 0);
+
+        if (revealed && entry.imageSrc) {
+          const wrap = document.createElement("div");
+          wrap.className = "canon-overlay__media";
+          const img = document.createElement("img");
+          img.src = entry.imageSrc;
+          img.alt = entry.imageAlt || entry.label;
+          wrap.append(img);
+          imagePanel.replaceChildren(wrap);
+        } else {
+          imagePanel.replaceChildren();
+        }
+
+        syncCanonTabs(overlay, {
+          notes: Boolean(revealed && entry.bodyHtml),
+          metadata: Boolean(entry.metadataEntries?.length),
+          image: Boolean(revealed && entry.imageSrc),
+        });
+
+        openModalOverlay(overlay, trigger, "[data-canon-close]");
+        return;
+      }
+
+      const tabTrigger = target.closest("[data-canon-tab]");
+      if (tabTrigger instanceof HTMLElement) {
+        activateCanonTab(overlay, tabTrigger.dataset.canonTab || "overview");
+        return;
+      }
+
+      if (target.closest("[data-canon-close]")) {
+        closeCanonOverlay();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeCanonOverlay();
+      }
+    });
+  }
+
+  function closeCanonOverlay() {
+    const overlay = document.querySelector("[data-canon-overlay]");
+    if (!(overlay instanceof HTMLElement) || overlay.hidden) return;
+    closeModalOverlay(overlay);
+  }
+
+  function syncCanonTabs(overlay, availability) {
+    overlay.querySelectorAll("[data-canon-tab]").forEach((button) => {
+      const key = button.dataset.canonTab;
+      const enabled = key === "overview" || availability[key];
+      button.hidden = !enabled;
+      button.disabled = !enabled;
+    });
+    activateCanonTab(overlay, "overview");
+  }
+
+  function activateCanonTab(overlay, key) {
+    const nextKey = overlay.querySelector(`[data-canon-tab="${key}"]`)?.hidden ? "overview" : key;
+    overlay.querySelectorAll("[data-canon-tab]").forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.canonTab === nextKey);
+    });
+    overlay.querySelectorAll("[data-canon-panel]").forEach((panel) => {
+      panel.classList.toggle("is-active", panel.dataset.canonPanel === nextKey);
+    });
+  }
+
+  function getSelectedSpoilerLimit() {
+    if (!Number.isFinite(currentPageChapterNumber)) {
+      return null;
+    }
+
+    const saved = Number(readStorage(spoilerLimitStorageKey) || "");
+    if (Number.isFinite(saved)) {
+      return Math.min(saved, currentPageChapterNumber);
+    }
+
+    const progress = readJson(progressStorageKey);
+    if (progress?.chapterNumber) {
+      return Math.min(progress.chapterNumber, currentPageChapterNumber);
+    }
+
+    return currentPageChapterNumber;
+  }
+
+  function isEntryVisible(entry, limit) {
+    return entry.visibleFrom == null || (typeof limit === "number" && limit >= entry.visibleFrom);
+  }
+
+  function isEntryRevealed(entry, limit) {
+    return entry.revealedFrom == null || (typeof limit === "number" && limit >= entry.revealedFrom);
+  }
+
+  function syncBookmarkButton(button, bookmark) {
+    const current = readJson(bookmarkStorageKey);
+    const isCurrent = current?.href === bookmark.href;
+    button.textContent = isCurrent ? "Bookmarked" : "Save bookmark";
+    button.classList.toggle("is-active", isCurrent);
+  }
+
+  function toggleBookmark(button, bookmark) {
+    const current = readJson(bookmarkStorageKey);
+    if (current?.href === bookmark.href) {
+      removeStorage(bookmarkStorageKey);
+    } else {
+      writeStorage(bookmarkStorageKey, JSON.stringify(bookmark));
+    }
+    syncBookmarkButton(button, bookmark);
+  }
+
+  function initializeReadAloud() {
+    if (!("speechSynthesis" in window) || typeof window.SpeechSynthesisUtterance === "undefined") {
+      return;
+    }
+
+    const player = document.querySelector("[data-tts-player]");
+    const roots = [...document.querySelectorAll("[data-tts-root]")];
+    const triggers = [...document.querySelectorAll("[data-tts-trigger]")];
+    const panelToggle = document.querySelector("[data-tts-panel-toggle]");
+    if (!(player instanceof HTMLElement) || roots.length === 0) {
+      return;
+    }
+
+    document.body.classList.add("tts-enabled");
+    triggers.forEach((trigger) => {
+      if (trigger instanceof HTMLElement) {
+        trigger.hidden = false;
+      }
+    });
+
+    const scopes = buildTtsScopes(roots);
+    if (!scopes.has("chapter")) {
+      return;
+    }
+
+    if (panelToggle instanceof HTMLButtonElement) {
+      panelToggle.hidden = false;
+    }
+
+    const titleElement = player.querySelector("[data-tts-title]");
+    const labelElement = player.querySelector("[data-tts-label]");
+    const badgeElement = player.querySelector("[data-tts-badge]");
+    const statusElement = player.querySelector("[data-tts-status]");
+    const playToggle = player.querySelector("[data-tts-play-toggle]");
+    const stopButton = player.querySelector("[data-tts-stop]");
+    const closeButton = player.querySelector("[data-tts-close]");
+    const voiceSelect = player.querySelector("[data-tts-voice]");
+    const rateInput = player.querySelector("[data-tts-rate]");
+
+    if (
+      !(titleElement instanceof HTMLElement) ||
+      !(labelElement instanceof HTMLElement) ||
+      !(badgeElement instanceof HTMLElement) ||
+      !(statusElement instanceof HTMLElement) ||
+      !(playToggle instanceof HTMLButtonElement) ||
+      !(stopButton instanceof HTMLButtonElement) ||
+      !(closeButton instanceof HTMLButtonElement) ||
+      !(voiceSelect instanceof HTMLSelectElement) ||
+      !(rateInput instanceof HTMLInputElement)
+    ) {
+      return;
+    }
+
+    const state = {
+      scopes,
+      speech: window.speechSynthesis,
+      glossaryRules: buildPronunciationRules(glossaryEntries),
+      triggers,
+      voices: [],
+      voiceUri: readStorage(ttsVoiceStorageKey) || "",
+      rate: clampNumber(Number(readStorage(ttsRateStorageKey) || "1"), 0.7, 1.35, 1),
+      scopeId: "chapter",
+      index: 0,
+      runId: 0,
+      speaking: false,
+      paused: false,
+      focusMode: document.body.classList.contains("is-focus-mode"),
+      dismissed: readStorage(ttsPlayerDismissedStorageKey) === "true",
+      titleElement,
+      labelElement,
+      badgeElement,
+      statusElement,
+      playToggle,
+      stopButton,
+      closeButton,
+      voiceSelect,
+      rateInput,
+      player,
+      panelToggle,
+    };
+
+    const savedProgress = readJson(ttsProgressStorageKey);
+    if (savedProgress?.path === window.location.pathname && typeof savedProgress.scopeId === "string" && scopes.has(savedProgress.scopeId)) {
+      state.scopeId = savedProgress.scopeId;
+      state.index = clampIndex(savedProgress.index, scopes.get(savedProgress.scopeId).segments.length);
+    }
+
+    rateInput.value = String(state.rate);
+    bindTtsTriggerButtons(triggers, state);
+    bindTtsPlayerControls(state);
+    bindRuntimeTtsEvents(state);
+    populateVoiceOptions(state);
+    updateTtsTriggerButtons(triggers, state);
+    updateTtsUi(state);
+
+    if (typeof window.speechSynthesis.addEventListener === "function") {
+      window.speechSynthesis.addEventListener("voiceschanged", () => populateVoiceOptions(state));
+    } else {
+      window.speechSynthesis.onvoiceschanged = () => populateVoiceOptions(state);
+    }
+
+    if (panelToggle instanceof HTMLButtonElement) {
+      panelToggle.addEventListener("click", () => {
+        if (state.player.hidden) {
+          showTtsPlayer(state, { persistDismissed: false });
+          updateTtsUi(state);
+          return;
+        }
+
+        hideTtsPlayer(state, { persistDismissed: true });
+      });
+    }
+
+    window.addEventListener("beforeunload", () => {
+      state.runId += 1;
+      state.speech.cancel();
+    });
+
+    hideTtsPlayer(state, { persistDismissed: false });
+  }
+
+  function buildTtsScopes(roots) {
+    const scopes = new Map();
+    const chapterSegments = [];
+
+    roots.forEach((root) => {
+      if (!(root instanceof HTMLElement)) {
+        return;
+      }
+
+      const rootId = root.dataset.ttsRoot || "";
+      if (!rootId) {
+        return;
+      }
+
+      const segments = prepareTtsSegments(root);
+      if (segments.length === 0) {
+        return;
+      }
+
+      const label = root.dataset.ttsLabel || root.closest(".scene")?.querySelector("h3")?.textContent?.trim() || rootId;
+      scopes.set(rootId, { id: rootId, label, segments });
+      chapterSegments.push(...segments);
+    });
+
+    if (chapterSegments.length > 0) {
+      scopes.set("chapter", {
+        id: "chapter",
+        label: document.querySelector("h1")?.textContent?.trim() || "Current chapter",
+        segments: chapterSegments,
+      });
+    }
+
+    return scopes;
+  }
+
+  function prepareTtsSegments(root) {
+    if (root.dataset.ttsPrepared === "true") {
+      return [...root.querySelectorAll("[data-tts-segment]")];
+    }
+
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const textNodes = [];
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      const parent = node.parentElement;
+      if (!parent || parent.closest("script, style, textarea, input, select, audio, video, [data-no-tts]")) {
+        continue;
+      }
+      if (!(node.textContent || "").trim()) {
+        continue;
+      }
+      textNodes.push(node);
+    }
+
+    textNodes.forEach((node) => wrapTextNodeForTts(node));
+    root.dataset.ttsPrepared = "true";
+    return [...root.querySelectorAll("[data-tts-segment]")].filter((segment) => (segment.dataset.ttsText || "").trim().length > 0);
+  }
+
+  function wrapTextNodeForTts(textNode) {
+    const raw = textNode.textContent || "";
+    const parts = splitSentenceParts(raw);
+    if (parts.length === 0) {
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+    parts.forEach((part) => {
+      if (!part.text) {
+        return;
+      }
+
+      if (!part.speakable) {
+        fragment.append(document.createTextNode(part.text));
+        return;
+      }
+
+      const span = document.createElement("span");
+      span.className = "tts-segment";
+      span.dataset.ttsSegment = "true";
+      span.dataset.ttsText = normalizeWhitespace(part.text);
+      span.textContent = part.text;
+      fragment.append(span);
+    });
+
+    textNode.replaceWith(fragment);
+  }
+
+  function splitSentenceParts(text) {
+    if (!text) {
+      return [];
+    }
+
+    const boundaries = [];
+    if (typeof Intl !== "undefined" && typeof Intl.Segmenter === "function") {
+      const segmenter = new Intl.Segmenter(undefined, { granularity: "sentence" });
+      for (const segment of segmenter.segment(text)) {
+        boundaries.push({ start: segment.index, end: segment.index + segment.segment.length });
+      }
+    } else {
+      const fallback = /[^.!?]+(?:[.!?]+|$)/g;
+      let match;
+      while ((match = fallback.exec(text))) {
+        boundaries.push({ start: match.index, end: match.index + match[0].length });
+      }
+    }
+
+    if (boundaries.length === 0) {
+      return [{ text, speakable: Boolean(text.trim()) }];
+    }
+
+    const parts = [];
+    let cursor = 0;
+    boundaries.forEach((boundary) => {
+      if (boundary.start > cursor) {
+        parts.push({ text: text.slice(cursor, boundary.start), speakable: false });
+      }
+
+      const chunk = text.slice(boundary.start, boundary.end);
+      parts.push({ text: chunk, speakable: Boolean(chunk.trim()) });
+      cursor = boundary.end;
+    });
+
+    if (cursor < text.length) {
+      parts.push({ text: text.slice(cursor), speakable: false });
+    }
+
+    return parts;
+  }
+
+  function bindTtsTriggerButtons(triggers, state) {
+    triggers.forEach((trigger) => {
+      if (!(trigger instanceof HTMLButtonElement)) {
+        return;
+      }
+
+      trigger.dataset.defaultLabel = trigger.textContent || "Read aloud";
+      trigger.addEventListener("click", () => {
+        showTtsPlayer(state, { persistDismissed: false });
+        const scopeId = trigger.dataset.ttsTrigger || "chapter";
+        startTtsScope(state, scopeId);
+        updateTtsTriggerButtons(triggers, state);
+      });
+    });
+  }
+
+  function bindTtsPlayerControls(state) {
+    state.playToggle.addEventListener("click", () => {
+      showTtsPlayer(state, { persistDismissed: false });
+      if (state.speech.speaking && !state.speech.paused) {
+        state.speech.pause();
+        state.paused = true;
+        updateTtsUi(state);
+        return;
+      }
+
+      if (state.speech.paused) {
+        state.speech.resume();
+        state.paused = false;
+        updateTtsUi(state);
+        return;
+      }
+
+      startTtsScope(state, state.scopeId || "chapter");
+    });
+
+    state.stopButton.addEventListener("click", () => {
+      stopTts(state, true);
+      updateTtsUi(state);
+    });
+
+    state.closeButton.addEventListener("click", () => {
+      hideTtsPlayer(state, { persistDismissed: true });
+    });
+
+    state.voiceSelect.addEventListener("change", () => {
+      state.voiceUri = state.voiceSelect.value;
+      writeStorage(ttsVoiceStorageKey, state.voiceUri);
+      updateTtsUi(state);
+      if (state.speech.speaking && !state.speech.paused) {
+        restartCurrentTtsSegment(state);
+      }
+    });
+
+    state.rateInput.addEventListener("input", () => {
+      state.rate = clampNumber(Number(state.rateInput.value || "1"), 0.7, 1.35, 1);
+      writeStorage(ttsRateStorageKey, String(state.rate));
+      updateTtsUi(state);
+      if (state.speech.speaking && !state.speech.paused) {
+        restartCurrentTtsSegment(state);
+      }
+    });
+  }
+
+  function bindRuntimeTtsEvents(state) {
+    window.addEventListener("narrarium:tts-start", (event) => {
+      const detail = event instanceof CustomEvent ? event.detail || {} : {};
+      const scopeId = typeof detail.scopeId === "string" ? detail.scopeId : "chapter";
+      showTtsPlayer(state, { persistDismissed: false });
+      startTtsScope(state, scopeId, { fromStart: Boolean(detail.fromStart) });
+      updateTtsTriggerButtons(state.triggers, state);
+    });
+
+    window.addEventListener("narrarium:tts-stop", (event) => {
+      const detail = event instanceof CustomEvent ? event.detail || {} : {};
+      stopTts(state, detail.keepProgress !== false);
+      updateTtsUi(state);
+    });
+
+    window.addEventListener("narrarium:focus-mode-change", (event) => {
+      const detail = event instanceof CustomEvent ? event.detail || {} : {};
+      state.focusMode = Boolean(detail.enabled);
+      if (state.focusMode) {
+        hideTtsPlayer(state, { persistDismissed: false });
+      }
+      syncTtsPanelToggle(state);
+    });
+  }
+
+  function populateVoiceOptions(state) {
+    const voices = state.speech.getVoices().slice().sort((left, right) => left.name.localeCompare(right.name));
+    state.voices = voices;
+    state.voiceSelect.replaceChildren();
+
+    const fallbackOption = document.createElement("option");
+    fallbackOption.value = "";
+    fallbackOption.textContent = "Browser default";
+    state.voiceSelect.append(fallbackOption);
+
+    voices.forEach((voice) => {
+      const option = document.createElement("option");
+      option.value = voice.voiceURI;
+      option.textContent = `${voice.name}${voice.lang ? ` (${voice.lang})` : ""}`;
+      state.voiceSelect.append(option);
+    });
+
+    if (state.voiceUri && voices.some((voice) => voice.voiceURI === state.voiceUri)) {
+      state.voiceSelect.value = state.voiceUri;
+    } else {
+      state.voiceSelect.value = "";
+      state.voiceUri = "";
+    }
+
+    updateTtsUi(state);
+  }
+
+  function updateTtsTriggerButtons(triggers, state) {
+    const savedProgress = readJson(ttsProgressStorageKey);
+    triggers.forEach((trigger) => {
+      if (!(trigger instanceof HTMLButtonElement)) {
+        return;
+      }
+
+      const scopeId = trigger.dataset.ttsTrigger || "chapter";
+      const defaultLabel = trigger.dataset.defaultLabel || "Read aloud";
+      const shouldResume = savedProgress?.path === window.location.pathname && savedProgress.scopeId === scopeId && Number(savedProgress.index) > 0;
+      trigger.textContent = shouldResume ? defaultLabel.replace(/^Read/, "Resume") : defaultLabel;
+    });
+  }
+
+  function startTtsScope(state, scopeId, options) {
+    const scope = state.scopes.get(scopeId);
+    if (!scope || scope.segments.length === 0) {
+      return;
+    }
+
+    const savedProgress = readJson(ttsProgressStorageKey);
+    state.scopeId = scopeId;
+    state.index = options?.fromStart
+      ? 0
+      : savedProgress?.path === window.location.pathname && savedProgress.scopeId === scopeId
+        ? clampIndex(savedProgress.index, scope.segments.length)
+        : 0;
+
+    state.runId += 1;
+    state.speech.cancel();
+    state.speaking = false;
+    state.paused = false;
+    clearTtsHighlight();
+    speakCurrentTtsSegment(state);
+  }
+
+  function restartCurrentTtsSegment(state) {
+    const scope = state.scopes.get(state.scopeId || "");
+    if (!scope || scope.segments.length === 0) {
+      return;
+    }
+
+    state.runId += 1;
+    state.speech.cancel();
+    state.speaking = false;
+    state.paused = false;
+    speakCurrentTtsSegment(state);
+  }
+
+  function speakCurrentTtsSegment(state) {
+    const scope = state.scopes.get(state.scopeId || "chapter");
+    if (!scope || scope.segments.length === 0) {
+      return;
+    }
+
+    if (state.index >= scope.segments.length) {
+      finishTtsScope(state);
+      return;
+    }
+
+    const segment = scope.segments[state.index];
+    const rawText = normalizeWhitespace(segment.dataset.ttsText || segment.textContent || "");
+    if (!rawText) {
+      state.index += 1;
+      speakCurrentTtsSegment(state);
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(applyPronunciationRules(rawText, state.glossaryRules));
+    const selectedVoice = state.voices.find((voice) => voice.voiceURI === state.voiceUri);
+    if (selectedVoice) {
+      utterance.voice = selectedVoice;
+    }
+    utterance.rate = state.rate;
+
+    const runId = state.runId;
+    utterance.onstart = () => {
+      if (runId !== state.runId) {
+        return;
+      }
+      state.speaking = true;
+      state.paused = false;
+      highlightTtsSegment(segment);
+      saveTtsProgress(state);
+      ensureTtsSegmentVisible(segment);
+      updateTtsUi(state);
+    };
+    utterance.onend = () => {
+      if (runId !== state.runId) {
+        return;
+      }
+      state.index += 1;
+      if (state.index >= scope.segments.length) {
+        finishTtsScope(state);
+        return;
+      }
+      saveTtsProgress(state);
+      speakCurrentTtsSegment(state);
+    };
+    utterance.onerror = () => {
+      if (runId !== state.runId) {
+        return;
+      }
+      state.index += 1;
+      if (state.index >= scope.segments.length) {
+        finishTtsScope(state);
+        return;
+      }
+      speakCurrentTtsSegment(state);
+    };
+
+    state.speech.speak(utterance);
+  }
+
+  function stopTts(state, keepProgress) {
+    state.runId += 1;
+    state.speech.cancel();
+    state.speaking = false;
+    state.paused = false;
+    clearTtsHighlight();
+    if (keepProgress) {
+      saveTtsProgress(state);
+    } else {
+      clearTtsProgress();
+      state.index = 0;
+    }
+  }
+
+  function finishTtsScope(state) {
+    state.runId += 1;
+    state.speech.cancel();
+    state.speaking = false;
+    state.paused = false;
+    state.index = 0;
+    clearTtsProgress();
+    clearTtsHighlight();
+    updateTtsUi(state);
+  }
+
+  function saveTtsProgress(state) {
+    const scope = state.scopes.get(state.scopeId || "chapter");
+    if (!scope) {
+      return;
+    }
+
+    writeStorage(ttsProgressStorageKey, JSON.stringify({
+      path: window.location.pathname,
+      scopeId: state.scopeId,
+      scopeLabel: scope.label,
+      index: state.index,
+    }));
+  }
+
+  function clearTtsProgress() {
+    removeStorage(ttsProgressStorageKey);
+  }
+
+  function updateTtsUi(state) {
+    const scope = state.scopes.get(state.scopeId || "chapter") || state.scopes.get("chapter");
+    const savedProgress = readJson(ttsProgressStorageKey);
+    const hasResume = savedProgress?.path === window.location.pathname && scope && savedProgress.scopeId === scope.id && Number(savedProgress.index) > 0;
+    const voice = state.voices.find((entry) => entry.voiceURI === state.voiceUri);
+
+    state.titleElement.textContent = scope?.label || "Read aloud";
+    state.labelElement.textContent = state.speaking
+      ? `Reading ${scope?.label || "current scope"}`
+      : hasResume
+        ? `Resume from sentence ${Number(savedProgress.index) + 1} in ${scope?.label || "current scope"}.`
+        : "Choose a chapter or scene to start reading aloud.";
+    state.badgeElement.textContent = voice ? `${voice.name}${voice.lang ? ` - ${voice.lang}` : ""}` : "Browser default";
+    state.statusElement.textContent = state.speaking
+      ? state.paused
+        ? "Paused. Use Resume to continue from the current sentence."
+        : `Speaking at ${state.rate.toFixed(2)}x.`
+      : hasResume
+        ? "Saved reading position available for this page."
+        : "Speech will resume from the saved sentence when available.";
+    state.playToggle.textContent = state.speaking ? (state.paused ? "Resume" : "Pause") : hasResume ? "Resume" : "Read chapter";
+    updateTtsTriggerButtons(state.triggers, state);
+  }
+
+  function showTtsPlayer(state, options) {
+    if (state.focusMode) {
+      return;
+    }
+
+    state.dismissed = false;
+    state.player.hidden = false;
+    syncTtsPanelToggle(state);
+    if (options?.persistDismissed === false) {
+      removeStorage(ttsPlayerDismissedStorageKey);
+    } else {
+      writeStorage(ttsPlayerDismissedStorageKey, "false");
+    }
+  }
+
+  function hideTtsPlayer(state, options) {
+    state.player.hidden = true;
+    state.dismissed = true;
+    syncTtsPanelToggle(state);
+    if (options?.persistDismissed) {
+      writeStorage(ttsPlayerDismissedStorageKey, "true");
+    }
+  }
+
+  function syncTtsPanelToggle(state) {
+    if (!(state.panelToggle instanceof HTMLButtonElement)) {
+      return;
+    }
+
+    const expanded = !state.player.hidden && !state.focusMode;
+    state.panelToggle.setAttribute("aria-pressed", expanded ? "true" : "false");
+    state.panelToggle.setAttribute("aria-label", expanded ? "Hide read aloud controls" : "Open read aloud controls");
+    state.panelToggle.textContent = expanded ? "🔈" : "🔊";
+  }
+
+  function highlightTtsSegment(segment) {
+    clearTtsHighlight();
+    segment.classList.add("is-speaking");
+    const scene = segment.closest(".scene");
+    if (scene instanceof HTMLElement) {
+      scene.classList.add("is-speaking");
+    }
+  }
+
+  function clearTtsHighlight() {
+    document.querySelectorAll(".tts-segment.is-speaking").forEach((segment) => segment.classList.remove("is-speaking"));
+    document.querySelectorAll(".scene.is-speaking").forEach((scene) => scene.classList.remove("is-speaking"));
+  }
+
+  function ensureTtsSegmentVisible(segment) {
+    const rect = segment.getBoundingClientRect();
+    if (rect.top < 120 || rect.bottom > window.innerHeight - 180) {
+      segment.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  }
+
+  function buildPronunciationRules(entries) {
+    const seen = new Set();
+    return entries
+      .flatMap((entry) => (entry.terms || []).map((term) => ({ term, spokenLabel: entry.spokenLabel || entry.label })))
+      .filter((entry) => {
+        const normalizedTerm = String(entry.term || "").trim();
+        const normalizedSpoken = String(entry.spokenLabel || "").trim();
+        if (!normalizedTerm || !normalizedSpoken || normalizedTerm.toLowerCase() === normalizedSpoken.toLowerCase()) {
+          return false;
+        }
+        const key = `${normalizedTerm.toLowerCase()}=>${normalizedSpoken.toLowerCase()}`;
+        if (seen.has(key)) {
+          return false;
+        }
+        seen.add(key);
+        return true;
+      })
+      .sort((left, right) => String(right.term).length - String(left.term).length)
+      .map((entry) => ({
+        spokenLabel: String(entry.spokenLabel).trim(),
+        pattern: new RegExp(`(^|[^\\p{L}\\p{N}])(${escapeRegex(String(entry.term).trim())})(?=$|[^\\p{L}\\p{N}])`, "giu"),
+      }));
+  }
+
+  function applyPronunciationRules(text, rules) {
+    return rules.reduce(
+      (output, rule) => output.replace(rule.pattern, (match, boundary) => `${boundary || ""}${rule.spokenLabel}`),
+      text,
+    );
+  }
+
+  function normalizeWhitespace(value) {
+    return String(value || "").replace(/\s+/g, " ").trim();
+  }
+
+  function clampIndex(value, size) {
+    const index = Number(value || 0);
+    if (!Number.isFinite(index)) {
+      return 0;
+    }
+    return Math.max(0, Math.min(Math.floor(index), Math.max(0, size - 1)));
+  }
+
+  function clampNumber(value, min, max, fallback) {
+    if (!Number.isFinite(value)) {
+      return fallback;
+    }
+    return Math.max(min, Math.min(max, value));
+  }
+
+  function prefersDarkTheme() {
+    return typeof window.matchMedia === "function" && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+
+  function readStorage(key) {
+    try {
+      return localStorage.getItem(key);
+    } catch {
+      return null;
+    }
+  }
+
+  function writeStorage(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch {
+      // Ignore storage failures so reader controls still work in restricted contexts.
+    }
+  }
+
+  function removeStorage(key) {
+    try {
+      localStorage.removeItem(key);
+    } catch {
+      // Ignore storage failures so reader controls still work in restricted contexts.
+    }
+  }
+
+  function readJson(key) {
+    try {
+      return JSON.parse(readStorage(key) || "null");
+    } catch {
+      return null;
+    }
+  }
+
+  function fontFamilyValue(key) {
+    switch (key) {
+      case "modern":
+        return '"Cormorant Garamond", "Times New Roman", serif';
+      case "sans":
+        return '"Avenir Next", "Segoe UI", sans-serif';
+      default:
+        return 'Baskerville, "Palatino Linotype", "Book Antiqua", "Iowan Old Style", serif';
+    }
+  }
+
+  function initializeSearchOverlay() {
+    const overlay = document.querySelector("[data-search-overlay]");
+    const toggle = document.querySelector("[data-search-toggle]");
+    if (!overlay || !toggle) return;
+
+    toggle.addEventListener("click", () => {
+        openModalOverlay(overlay, toggle, "[data-search-input]");
+    });
+
+    overlay.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+      if (target.closest("[data-search-close]")) {
+        closeSearchOverlay();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !overlay.hidden) {
+        closeSearchOverlay();
+        return;
+      }
+      if (
+        overlay.hidden &&
+        (event.key === "/" || ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k")) &&
+        !(document.activeElement instanceof HTMLInputElement) &&
+        !(document.activeElement instanceof HTMLTextAreaElement)
+      ) {
+        event.preventDefault();
+        openModalOverlay(overlay, toggle, "[data-search-input]");
+      }
+    });
+  }
+
+  function closeSearchOverlay() {
+    const overlay = document.querySelector("[data-search-overlay]");
+    if (!(overlay instanceof HTMLElement) || overlay.hidden) return;
+    closeModalOverlay(overlay);
+  }
+
+  function initializeCanonModeToggle() {
+    const select = document.querySelector("[data-reader-canon-mode]");
+    if (!select) return;
+    const fullCanon = document.body.dataset.fullCanon === "true";
+    select.value = fullCanon ? "full" : "public";
+    select.addEventListener("change", () => {
+      document.cookie = select.value === "full"
+        ? "narrarium-canon=full; Path=/; SameSite=Lax"
+        : "narrarium-canon=public; Path=/; SameSite=Lax";
+      window.location.reload();
+    });
+  }
+
+  function escapeRegex(value) {
+    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+</script>

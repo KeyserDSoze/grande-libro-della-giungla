@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "status": "paused",
+  "phase": "concept",
+  "brief": {
+    "idea": "### PREMESSA COSTRUITA\n\nNon è una storia di furto. È una storia di scambio sbilanciato.\nLe due scimmie non vogliono umiliare il leone: hanno bisogno di cibo per la colonia di piccoli che non arrivano ancora all’albero basso. Il leone Kaza controlla l’unico punto d’ombra con acqua e la riserva di frutta secca che ha accumulato per la stagione secca. Non è stupido, è sovraccarico e ferito a una zampa. Le scimmie non sono furbe in assoluto: una osserva i suoni, l’altra ricorda le relazioni.\n\nProtagonisti:\n* **Nira**, giovane scimmia dal manto a macchie, udito fine. Non parla tanto, ascolta.\n* **Bomo**, scimmia più vecchia, memoria del vento. Sa i nomi di ogni sentiero e di chi deve a chi un favore.\n\nAntagonista funzionale: **Kaza**, leone del Terminale di Salsedine. Non cattivo, guardiano territoriale.\n\n### LONG-TERM - Arco totale e rivelazioni\n\n**Arco:** Da conflitto di scarsità a comprensione del sistema.\nCapitolo 1 = Mappatura del problema. Capitolo 2 = Costruzione dell’inganno come esperimento. Capitolo 3 = Conseguenza e riequilibrio.\n\n**Rivelazioni programmate:**\n1. Il cibo del leone non è suo solo: è stato raccolto da formiche e uccelli che lui non vede.\n2. Le scimmie non rubano, spostano l’attenzione del leone su una risorsa abbondante che lui disprezza.\n3. Il vero “furto” è l’informazione: il leone impara che il suo controllo è fragile senza gli occhi degli altri.\n\n**Payoff lungo:** i bambini capiscono che l’astuzia è osservazione, non forza. La giungla è un circuito, non un magazzino.\n\n### MID-TERM - Archi e capitoli\n\n**CAPITOLO 1 - L’ombra che pesa**\nArco: fame dei piccoli vs regola del leone.\nBeat centrale: Nira e Bomo scoprono che Kaza dorme sopra la pila di frutta secca ma non la mangia tutta, la tiene. Scoprono la zampa zoppicante e il rumore dell’acqua che si ritira.\nConflitto interno: Bomo vuole chiedere, Nira vuole capire prima.\nRischio cliché: leone pigro. Antidoto: Kaza è sveglio, conta le pile.\n\n**CAPITOLO 2 - Il suono sbagliato**\nArco: progettazione dell’inganno.\nBeat centrale: le scimmie non entrano nella tana. Usano il fiume e la roccia a specchio per far credere a Kaza che un branco più grande si stia avvicinando al suo cibo.\nAlternative qui:\nA. Inganno acustico: replicare i passi di bufali con pietre e tronchi.\nB. Inganno visivo: riflesso nell’acqua che raddoppia l’ombra del leone.\nC. Inganno sociale: convincere un corvo a portare un messaggio falso.\nScelta consigliata: A+B combinati, concreto e verificabile.\nConseguenza immediata: Kaza si sposta per difendere, lascia scoperta la pila.\n\n**CAPITOLO 3 - Il pasto che resta**\nArco: esecuzione e prezzo.\nBeat centrale: mentre Kaza inseguie l’eco, le scimmie prendono solo ciò che serve per i piccoli e lasciano un segno. Il leone torna, capisce, ma non attacca perché l’eco è reale: il fiume sta cambiando corso.\nRivelazione finale: il cibo preso non sparisce, viene restituito in forma diversa. La colonia aiuta a spostare la frutta secca più in alto prima della piena.\n\n### ALTERNATIVE, CONFLITTI, CONSEGUENZE\n\n* **Alternativa morale:** le scimmie offrono un servizio in cambio di cibo, non ingannano. Più cooperativa, meno rischiosa per cliché.\n* **Conflitto esterno:** la stagione secca avanza, l’acqua cala.\n* **Conflitto interno:** Nira vuole agire subito, Bomo vuole rispettare.\n* **Conseguenze:** la colonia mangia, il leone perde una parte della riserva ma guadagna un alleato di sorveglianza. Nessuno viene umiliato.\n\n### RISCHI DI CLICHÉ E ANTIDOTO\n\n* Scimmie chiacchierone e leone ruggente stupido → Antidoto: dialoghi minimali, descrizioni sensoriali. Il leone ragiona.\n* Furto glorificato → Antidoto: quantità limitata, restituzione simbolica.\n* Trucco magico → Antidoto: tutto spiegato con fisica della giungla: eco, ombra, vento.\n\n### INDIZI E PAYOFF\n\nIndizi seminati Cap 1: il leone che guarda sempre verso nord, il corvo che non canta, la roccia lucida vicino al fiume.\nPayoff Cap 3: il lettore riconosce la roccia lucida come specchio sonoro. Il leone non è sconfitto, è spostato.\n\n### CRITERI DI SELEZIONE\n\n1. Concretezza sensoriale > astrazione morale.\n2. Agency dei bambini: i protagonisti imparano osservando, non per caso.\n3. Coerenza ecologica: ogni azione ha un costo visibile.\n4. Nessuna umiliazione dell’antagonista.\n5. Tre capitoli chiusi ma con porta aperta per espansione del Grande Libro.\n\nValidazione, Critica adversarial e Outline dettagliato da svolgere dopo fissaggio di questa direzione.",
+    "synopsis": "",
+    "wordsPerScene": 1400,
+    "genre": "Romanzo",
+    "audience": "bambini"
+  },
+  "options": {
+    "readers": true,
+    "maxReaders": 5,
+    "readersOnPlan": true,
+    "specialists": true,
+    "pauseAfterPlan": true,
+    "pauseAfterEachChapter": false,
+    "chaptersPerRun": 0,
+    "budgetLimit": 0,
+    "budgetTokens": 0,
+    "syncAfterChapter": false,
+    "fillOutline": true,
+    "frozenEdits": "auto",
+    "longRetry": {
+      "everyMinutes": 15,
+      "cycles": 6
+    }
+  },
+  "concept": {
+    "done": false,
+    "generated": false,
+    "secrets": []
+  },
+  "plan": null,
+  "review": null,
+  "revision": null,
+  "finalDone": false,
+  "constraints": [],
+  "interventions": [],
+  "directorNotes": [],
+  "question": null,
+  "frozenSince": "2026-11-23T10:41:46.157Z",
+  "runner": null,
+  "stats": {
+    "tasks": 0,
+    "aiCalls": 6,
+    "inputTokens": 16104,
+    "outputTokens": 6137,
+    "cost": 0,
+    "currency": "USD",
+    "failures": 7,
+    "usageUnknownCalls": 6,
+    "costUnknownCalls": 6
+  },
+  "message": null,
+  "lastError": null,
+  "createdAt": "2026-11-22T00:49:32.173Z",
+  "updatedAt": "2026-11-23T17:25:29.500Z",
+  "version": 32
+}

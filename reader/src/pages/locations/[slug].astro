@@ -1,0 +1,60 @@
+---
+import path from "node:path";
+import { listEntities, pathExists } from "narrarium";
+import AssetFigure from "../../components/AssetFigure.astro";
+import EncryptedHtml from "../../components/EncryptedHtml.astro";
+import MetadataSection from "../../components/MetadataSection.astro";
+import RelatedLinks from "../../components/RelatedLinks.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getBookRoot, loadEntityPageData } from "../../lib/book";
+import { buildCanonPageView } from "../../lib/public-canon";
+
+export async function getStaticPaths() {
+  const root = getBookRoot();
+  const ready = await pathExists(path.join(root, "book.md"));
+  if (!ready) return [];
+
+  const entities = await listEntities(root, "location");
+  return entities.map((entity) => ({ params: { slug: entity.slug }, props: { slug: entity.slug } }));
+}
+
+const { slug } = Astro.props;
+const entity = await loadEntityPageData("location", slug);
+const view = await buildCanonPageView("location", entity);
+---
+
+<BaseLayout title={view.title} description={view.description} activeSection="locations">
+  <section class="hero">
+    <p class="eyebrow">{view.eyebrow}</p>
+    <h1>{view.title}</h1>
+    <p class="lede">{view.description}</p>
+    <div class="chapter-meta"><a href="locations/">Back to locations</a></div>
+    {view.figure && <AssetFigure figure={view.figure} className="hero-media" />}
+  </section>
+
+  {view.notice && <div class="empty">{view.notice}</div>}
+
+  {view.metaEntries.length > 0 && (
+    <section class="section">
+      <MetadataSection entries={view.metaEntries} heading={view.mode === "full" ? "Metadata" : "Public dossier"} />
+    </section>
+  )}
+
+  {view.relatedLinks.length > 0 && (
+    <section class="section">
+      <RelatedLinks links={view.relatedLinks} />
+    </section>
+  )}
+
+  {view.storyLinks.length > 0 && (
+    <section class="section">
+      <RelatedLinks links={view.storyLinks} heading="Mentioned in story" />
+    </section>
+  )}
+
+  {view.html && (
+    <section class="section">
+      <article class="scene prose"><EncryptedHtml html={view.html} /></article>
+    </section>
+  )}
+</BaseLayout>

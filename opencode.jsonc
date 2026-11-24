@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [".github/copilot-instructions.md"],
+  "default_agent": "build",
+  "agent": {
+    "build": {
+      "temperature": 0.45,
+      "top_p": 1,
+      "options": {
+        "reasoningEffort": "high",
+        "reasoningSummary": "detailed",
+        "textVerbosity": "high",
+        "include": ["reasoning.encrypted_content", "usage"]
+      }
+    },
+    "plan": {
+      "temperature": 0.2,
+      "top_p": 1,
+      "options": {
+        "reasoningEffort": "high",
+        "reasoningSummary": "detailed",
+        "textVerbosity": "high",
+        "include": ["reasoning.encrypted_content", "usage"]
+      }
+    }
+  },
+  "watcher": {
+    "ignore": ["conversations/sessions/**", "conversations/*.json"]
+  },
+  "mcp": {
+    "narrarium": {
+      "type": "local",
+      "command": ["npx", "narrarium-mcp-server"],
+      "enabled": true,
+      "timeout": 15000,
+      "environment": {
+        "OPENCODE_ENABLE_EXA": "1"
+      }
+    }
+  }
+}

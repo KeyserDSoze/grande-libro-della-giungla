@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "narrarium": {
+      "command": "npx",
+      "args": ["narrarium-mcp-server"]
+    }
+  }
+}

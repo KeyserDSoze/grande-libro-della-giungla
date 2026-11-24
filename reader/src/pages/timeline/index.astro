@@ -1,0 +1,62 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AssetFigure from "../../components/AssetFigure.astro";
+import EncryptedHtml from "../../components/EncryptedHtml.astro";
+import { loadTimelinePageData } from "../../lib/book";
+import { buildPublicCanonIndexCards, publicTimelineNotice } from "../../lib/public-canon";
+import { isFullCanonMode } from "../../lib/reader-mode";
+import { renderReaderMarkdown } from "../../lib/markdown";
+
+const { ready, main, events } = await loadTimelinePageData();
+const showFullTimeline = isFullCanonMode();
+const mainHtml = showFullTimeline && main?.body ? renderReaderMarkdown(main.body) : "";
+const cards = await buildPublicCanonIndexCards("timeline-event", events);
+const timelineNotice = publicTimelineNotice();
+---
+
+<BaseLayout title="Timeline" description="Browse the chronology of the book." activeSection="timeline">
+  <section class="hero">
+    <p class="eyebrow">Canon Atlas</p>
+    <h1>Timeline</h1>
+    <p class="lede">Follow the visible chronology without opening future-plot notes too early.</p>
+  </section>
+
+  {ready ? (
+    <>
+      {timelineNotice && <div class="empty">{timelineNotice}</div>}
+
+      {showFullTimeline && main && (
+        <section class="section">
+          <article class="scene prose"><EncryptedHtml html={mainHtml} /></article>
+        </section>
+      )}
+
+      {cards.length > 0 ? (
+        <section class="section">
+          <h2>Events</h2>
+          <div class="catalog-grid">
+            {cards.map((entity) => (
+              <article class="card catalog-card">
+                <a href={`timeline/${entity.slug}/`}>
+                  {entity.figure && <AssetFigure figure={entity.figure} className="catalog-media" />}
+                  <div class="chapter-number">{entity.eyebrow}</div>
+                  <h2 class="chapter-title">{entity.label}</h2>
+                  <div class="chapter-meta">{entity.summary}</div>
+                  {entity.chips.length > 0 && (
+                    <div class="chip-row">
+                      {entity.chips.map((chip) => <span class="chip">{chip}</span>)}
+                    </div>
+                  )}
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : (
+        <div class="empty">No public-safe timeline events are visible yet.</div>
+      )}
+    </>
+  ) : (
+    <div class="empty">No book repository detected for the reader.</div>
+  )}
+</BaseLayout>

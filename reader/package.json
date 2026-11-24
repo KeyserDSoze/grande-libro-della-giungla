@@ -1,0 +1,24 @@
+{
+  "name": "grande-libro-della-giungla-reader",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "export:epub": "node ./scripts/export-epub.mjs",
+    "doctor": "node ./scripts/doctor.mjs",
+    "dev": "node ./scripts/dev.mjs",
+    "build": "npm run export:epub && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "narrarium": "^0.1.61",
+    "astro": "^7.2.6",
+    "chokidar": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "typescript": "^5.9.3"
+  }
+}

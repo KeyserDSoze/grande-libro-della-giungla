@@ -1,0 +1,55 @@
+# Narrarium Manuscript Export Settings
+# This file controls how the .docx manuscript is generated.
+# Edit these values and run the VS Code build task (Ctrl+Shift+B).
+
+# Number of chapters to include in the sample manuscript for editors.
+# Set to 0 to skip sample generation.
+sample_chapters: 5
+
+# Whether to show paragraph/scene titles in the manuscript.
+# In standard manuscript format these are typically hidden.
+show_paragraph_titles: false
+
+# Whether to include chapter summaries (from frontmatter) in the manuscript.
+show_chapter_summary: false
+
+# Font settings (standard manuscript format uses Times New Roman 12pt).
+font_name: Times New Roman
+font_size: 12
+
+# Line spacing (2.0 = double-spaced, standard for submissions).
+line_spacing: 2.0
+
+# Page margins in inches (1.0 is standard).
+margin_inches: 1.0
+
+# First-line paragraph indent in inches.
+paragraph_indent_inches: 0.5
+
+# Minimum consecutive blank lines to create a new paragraph (with indent).
+# Lines below this threshold are joined into the current paragraph.
+# Default 3 means: \n\n\n starts a new paragraph, \n\n does not.
+paragraph_break_newlines: 3
+
+# Scene break marker between paragraphs/scenes within a chapter.
+scene_break: "#"
+
+# Output directory (relative to book root).
+output_dir: build
+
+# Output filenames.
+full_filename: manuscript.docx
+sample_filename: manuscript-sample.docx
+
+# Whether to include a title page.
+include_title_page: true
+
+# Page size: 'letter' (US 8.5x11) or 'a4'.
+page_size: letter
+
+# Custom frontmatter fields to display under chapter/paragraph headings.
+# Use show_custom_<field>: <order> where <field> is a frontmatter key
+# and <order> is a number controlling display order (lower = first).
+# Example: show_custom_date: 10 will display the 'date' field from frontmatter.
+# show_custom_date: 10
+# show_custom_location: 20
