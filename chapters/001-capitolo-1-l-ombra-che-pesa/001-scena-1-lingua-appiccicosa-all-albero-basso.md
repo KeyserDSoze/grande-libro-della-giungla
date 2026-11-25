@@ -1,0 +1,51 @@
+---
+type: paragraph
+id: paragraph:001-capitolo-1-l-ombra-che-pesa:001-scena-1-lingua-appiccicosa-all-albero-basso
+chapter: chapter:001-capitolo-1-l-ombra-che-pesa
+number: 1
+title: Scena 1 - Lingua appiccicosa all'Albero Basso
+summary: Sotto l’Albero Basso il caldo accorcia l’ombra e i piccoli restano
+  immobili al margine della radura mentre Nira appoggia la guancia alla
+  corteccia calda per ascoltarli e Bomo indica il Terminale di Salsedine. I due
+  riconoscono che i piccoli non reggono, non si voltano indietro e se ne vanno
+  lungo il sentiero verso il terminale, lasciando i cuccioli nella macchia
+  d’ombra che continua a restringersi.
+viewpoint: Nira, Bomo
+canon: draft
+---
+
+Il caldo piega le foglie basse dell’Albero Basso. Il tronco è nudo sulla parte bassa, la corteccia screpolata trattiene il sole. Sotto, l’ombra è una macchia sottile che si accorcia ad ogni respiro. I piccoli stanno ai piedi del tronco, fuori dalla chioma, al margine della radura, le zampe raccolte sotto il ventre. Tirano il fiato corto, le narici si aprono e si chiudono rapide. Una lingua rosa spunta da una bocca e si attacca al palato, poi si stacca con un rumore secco. Un altro piccolo si lecca le labbra e la saliva resta appiccicosa, lucida, che trattiene la polvere.
+
+L’aria è densa. Non c’è vento. Il silenzio è rotto solo dal gocciolio interno dei corpi, dal ticchettio lieve della pelle che si asciuga. Le palpebre dei piccoli si appesantiscono e si abbassano a metà, poi si riaprono per paura di perdere l’ombra. Un cucciolo si sposta di un centimetro e la sua ombra si muove con lui, piccola, netta. Nira lo vede. Bomo lo vede. Nessuno parla.
+
+Nira si china. Il manto a macchie le sfiora le ginocchia. Appoggia la guancia alla corteccia calda. Il legno le brucia leggermente. Ascolta. I respiri dei piccoli arrivano come piccoli colpi, irregolari. Uno è più veloce, due sono uguali, uno si ferma e poi riprende più piano. Nira conta con le dita che premono la scorza. Due pressioni, pausa, tre pressioni. Il battito non è suo. È il loro. La corteccia vibra appena. Sente il calore che sale dal tronco verso la sua tempia.
+
+«Non reggono», dice Bomo, gli occhi sul sentiero.
+
+La voce è bassa, roca per la polvere. Non guarda Nira, guarda il sentiero che si apre tra le radici.
+
+«Terminale di Salsedine», dice. Indica con il mento, senza alzare la testa. L’ombra che sta sulla radura è già più stretta che al mattino. La luce ha mangiato la parte bassa dell’albero e si è spostata verso il tronco. L’ombra si ritira. Si vede la sabbia scoperta, bianca, che riflette.
+
+Nira non risponde. Sposta la mano sulla corteccia e sente la ruga del legno sotto il polpastrello. Il piccolo più vicino fa un suono umido quando prova a deglutire. La lingua si attacca di nuovo. Il cucciolo chiude gli occhi.
+
+Bomo fa un passo indietro. Il piede solleva polvere fine che resta sospesa un secondo prima di posarsi. «Lì c’è l’acqua che si ritira», dice. «E la pila.»
+
+Nomina il sentiero come un vecchio debito. Non dice di prendere. Dice solo il nome.
+
+Nira solleva la guancia dal tronco, un dito resta un istante sulla scorza calda come traccia. Il calore le ha segnato la pelle. Le spalle le si allargano, un movimento lento, come se prendesse aria. Non alza lo sguardo sui piccoli. Li lascia sotto l’ombra che si accorcia. La sua ombra si stacca dalla radice e si allunga verso l’uscita dell’Albero Basso.
+
+Bomo la segue senza parlare. Camminano vicini, il passo di lui più pesante, quello di lei più misurato. Il sentiero è un solco stretto tra due radici. Il sole li prende subito sulla nuca. Il caldo è una mano che preme sulla testa.
+
+Dietro di loro, i piccoli restano nella macchia che si restringe. Uno apre gli occhi e guarda la corteccia vuota dove Nira aveva appoggiato la guancia. Un altro si lecca le labbra e la lingua si secca al palato, poi si stacca con un piccolo scatto. Nessuno si muove. L’ombra è l’unica cosa che hanno.
+
+Nira ascolta ancora, anche camminando. Conta i passi di Bomo, conta il proprio respiro, conta il silenzio che si allarga tra un albero e l’altro. Il sentiero sale leggermente e il vento non c’è, solo l’odore di resina calda e di terra secca.
+
+«L’ombra arriva presto», dice Bomo. Non è una domanda.
+
+«Sì», fa Nira. Una parola sola, secca. Le sue orecchie si tendono verso il fruscio lontano. Non c’è fruscio. C’è il crepitio del caldo.
+
+Arrivano al bordo dell’Albero Basso. Da lì si vede la radura. Il Terminale di Salsedine è un’apertura bianca dove la luce non si spezza. Una pozza piccola, già stretta, e accanto una pila alta di frutta secca che prende il sole. L’ombra che si allunga presto si vede già sul bordo della radura, una striscia scura che si sposta lentamente.
+
+Nira si ferma un istante. Il polso le batte alla tempia. Bomo resta accanto a lei, il mento ancora rivolto verso il sentiero. Non si voltano indietro. L’ombra sopra i piccoli è ora una striscia sottile, appena sufficiente a coprire le radici.
+
+Poi si muovono. Nira davanti, le spalle larghe verso la luce, il passo deciso ma non affrettato. Bomo dietro, il respiro regolare, la memoria del sentiero che gli pesa sulla lingua come un nome da non dimenticare. Lasciando l’Albero Basso alle spalle, l’ombra si accorcia dietro di loro e la radura li aspetta con l’aria che incide sulla nuca e la pila che aspetta.

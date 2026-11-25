@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "status": "paused",
-  "phase": "concept",
+  "status": "running",
+  "phase": "write",
   "brief": {
     "idea": "### PREMESSA COSTRUITA\n\nNon è una storia di furto. È una storia di scambio sbilanciato.\nLe due scimmie non vogliono umiliare il leone: hanno bisogno di cibo per la colonia di piccoli che non arrivano ancora all’albero basso. Il leone Kaza controlla l’unico punto d’ombra con acqua e la riserva di frutta secca che ha accumulato per la stagione secca. Non è stupido, è sovraccarico e ferito a una zampa. Le scimmie non sono furbe in assoluto: una osserva i suoni, l’altra ricorda le relazioni.\n\nProtagonisti:\n* **Nira**, giovane scimmia dal manto a macchie, udito fine. Non parla tanto, ascolta.\n* **Bomo**, scimmia più vecchia, memoria del vento. Sa i nomi di ogni sentiero e di chi deve a chi un favore.\n\nAntagonista funzionale: **Kaza**, leone del Terminale di Salsedine. Non cattivo, guardiano territoriale.\n\n### LONG-TERM - Arco totale e rivelazioni\n\n**Arco:** Da conflitto di scarsità a comprensione del sistema.\nCapitolo 1 = Mappatura del problema. Capitolo 2 = Costruzione dell’inganno come esperimento. Capitolo 3 = Conseguenza e riequilibrio.\n\n**Rivelazioni programmate:**\n1. Il cibo del leone non è suo solo: è stato raccolto da formiche e uccelli che lui non vede.\n2. Le scimmie non rubano, spostano l’attenzione del leone su una risorsa abbondante che lui disprezza.\n3. Il vero “furto” è l’informazione: il leone impara che il suo controllo è fragile senza gli occhi degli altri.\n\n**Payoff lungo:** i bambini capiscono che l’astuzia è osservazione, non forza. La giungla è un circuito, non un magazzino.\n\n### MID-TERM - Archi e capitoli\n\n**CAPITOLO 1 - L’ombra che pesa**\nArco: fame dei piccoli vs regola del leone.\nBeat centrale: Nira e Bomo scoprono che Kaza dorme sopra la pila di frutta secca ma non la mangia tutta, la tiene. Scoprono la zampa zoppicante e il rumore dell’acqua che si ritira.\nConflitto interno: Bomo vuole chiedere, Nira vuole capire prima.\nRischio cliché: leone pigro. Antidoto: Kaza è sveglio, conta le pile.\n\n**CAPITOLO 2 - Il suono sbagliato**\nArco: progettazione dell’inganno.\nBeat centrale: le scimmie non entrano nella tana. Usano il fiume e la roccia a specchio per far credere a Kaza che un branco più grande si stia avvicinando al suo cibo.\nAlternative qui:\nA. Inganno acustico: replicare i passi di bufali con pietre e tronchi.\nB. Inganno visivo: riflesso nell’acqua che raddoppia l’ombra del leone.\nC. Inganno sociale: convincere un corvo a portare un messaggio falso.\nScelta consigliata: A+B combinati, concreto e verificabile.\nConseguenza immediata: Kaza si sposta per difendere, lascia scoperta la pila.\n\n**CAPITOLO 3 - Il pasto che resta**\nArco: esecuzione e prezzo.\nBeat centrale: mentre Kaza inseguie l’eco, le scimmie prendono solo ciò che serve per i piccoli e lasciano un segno. Il leone torna, capisce, ma non attacca perché l’eco è reale: il fiume sta cambiando corso.\nRivelazione finale: il cibo preso non sparisce, viene restituito in forma diversa. La colonia aiuta a spostare la frutta secca più in alto prima della piena.\n\n### ALTERNATIVE, CONFLITTI, CONSEGUENZE\n\n* **Alternativa morale:** le scimmie offrono un servizio in cambio di cibo, non ingannano. Più cooperativa, meno rischiosa per cliché.\n* **Conflitto esterno:** la stagione secca avanza, l’acqua cala.\n* **Conflitto interno:** Nira vuole agire subito, Bomo vuole rispettare.\n* **Conseguenze:** la colonia mangia, il leone perde una parte della riserva ma guadagna un alleato di sorveglianza. Nessuno viene umiliato.\n\n### RISCHI DI CLICHÉ E ANTIDOTO\n\n* Scimmie chiacchierone e leone ruggente stupido → Antidoto: dialoghi minimali, descrizioni sensoriali. Il leone ragiona.\n* Furto glorificato → Antidoto: quantità limitata, restituzione simbolica.\n* Trucco magico → Antidoto: tutto spiegato con fisica della giungla: eco, ombra, vento.\n\n### INDIZI E PAYOFF\n\nIndizi seminati Cap 1: il leone che guarda sempre verso nord, il corvo che non canta, la roccia lucida vicino al fiume.\nPayoff Cap 3: il lettore riconosce la roccia lucida come specchio sonoro. Il leone non è sconfitto, è spostato.\n\n### CRITERI DI SELEZIONE\n\n1. Concretezza sensoriale > astrazione morale.\n2. Agency dei bambini: i protagonisti imparano osservando, non per caso.\n3. Coerenza ecologica: ogni azione ha un costo visibile.\n4. Nessuna umiliazione dell’antagonista.\n5. Tre capitoli chiusi ma con porta aperta per espansione del Grande Libro.\n\nValidazione, Critica adversarial e Outline dettagliato da svolgere dopo fissaggio di questa direzione.",
     "synopsis": "",
@@ -22,40 +22,353 @@
     "syncAfterChapter": false,
     "fillOutline": true,
     "frozenEdits": "auto",
+    "publishEvery": "chapter",
     "longRetry": {
       "everyMinutes": 15,
       "cycles": 6
     }
   },
   "concept": {
-    "done": false,
-    "generated": false,
-    "secrets": []
+    "done": true,
+    "generated": true,
+    "secrets": [
+      {
+        "slug": "la-zampa-che-zoppica",
+        "title": "La zampa che zoppica",
+        "revealChapter": 1
+      },
+      {
+        "slug": "la-roccia-lucida-che-parla",
+        "title": "La roccia lucida che parla",
+        "revealChapter": 2
+      },
+      {
+        "slug": "il-cibo-non-e-solo-del-leone",
+        "title": "Il cibo non è solo del leone",
+        "revealChapter": 3
+      },
+      {
+        "slug": "il-fiume-sta-cambiando-corso",
+        "title": "Il fiume sta cambiando corso",
+        "revealChapter": 3
+      }
+    ],
+    "logline": "Due scimmie devono sfamare i piccoli senza umiliare il leone ferito che controlla l’unica ombra con acqua: impareranno che l’astuzia è osservazione, non forza."
   },
-  "plan": null,
+  "plan": {
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Capitolo 1 - L'ombra che pesa",
+        "slug": "001-capitolo-1-l-ombra-che-pesa",
+        "summary": "All’Albero Basso il caldo opprime i piccoli che cercano l’ombra sottile e mostrano sete con lingua appiccicosa e respiri corti. Nira ascolta prima di parlare e si sposta con Bomo verso il Terminale di Salsedine, dove da lontano osservano Kaza sveglio che conta le pile di frutta secca con il naso, vigile e preciso. L’ombra si allunga presto sulla radura e, quando il leone si sposta, si vede la zampa destra che zoppica. Il conflitto tra Bomo e Nira resta un gesto trattenuto: lui tende la mano verso la pila, lei trattiene il polso e il respiro.",
+        "goal": "Mappare la scarsità e il controllo: fame dei piccoli contro la regola del leone, fissando il problema senza soluzioni.",
+        "pov": [
+          "Nira",
+          "Bomo"
+        ],
+        "keyEvents": [
+          "I piccoli mostrano sete con lingua appiccicosa e respiri corti",
+          "Osservazione da lontano di Kaza che conta le pile con il naso",
+          "Indizio visibile della zampa che zoppica",
+          "Indizio dell'ombra che si allunga presto",
+          "Conflitto interno Bomo/Nira reso da gesto e respiro"
+        ],
+        "reveals": [
+          "La zampa che zoppica"
+        ],
+        "status": "done",
+        "scenes": [
+          {
+            "number": 1,
+            "title": "Scena 1 - Lingua appiccicosa all'Albero Basso",
+            "goal": "I piccoli traducono la fame in peso fisico e Nira e Bomo trasformano l'ascolto in decisione di movimento verso il Terminale, fissando la scarsità come problema concreto.",
+            "beats": [
+              "Il caldo stringe le foglie basse dell'Albero Basso, l'aria è densa e i piccoli tirano il fiato corto, le lingue si attaccano al palato e le palpebre si appesantiscono.",
+              "Nira si china, appoggia la guancia alla corteccia calda e ascolta i respiri, conta i battiti con le dita che premono la scorza.",
+              "Bomo nomina il sentiero, 'Terminale di Salsedine', e indica con il mento l'ombra che si ritira già sulla radura.",
+              "Nira si alza prima, le spalle si allargano verso la luce, Bomo la segue senza parlare; lasciano i piccoli sotto l'ombra che si accorcia."
+            ],
+            "pov": "Nira, Bomo",
+            "location": "Albero Basso della Colonia",
+            "characters": [
+              "Nira",
+              "Bomo",
+              "I Piccoli"
+            ],
+            "summary": "Sotto l’Albero Basso il caldo accorcia l’ombra e i piccoli restano immobili al margine della radura mentre Nira appoggia la guancia alla corteccia calda per ascoltarli e Bomo indica il Terminale di Salsedine. I due riconoscono che i piccoli non reggono, non si voltano indietro e se ne vanno lungo il sentiero verso il terminale, lasciando i cuccioli nella macchia d’ombra che continua a restringersi.",
+            "status": "reviewed",
+            "slug": "001-scena-1-lingua-appiccicosa-all-albero-basso",
+            "path": "chapters/001-capitolo-1-l-ombra-che-pesa/001-scena-1-lingua-appiccicosa-all-albero-basso.md",
+            "words": 816,
+            "revisions": 2
+          },
+          {
+            "number": 2,
+            "title": "Scena 2 - Naso che conta all'ombra",
+            "goal": "Da lontano Nira e Bomo mappano il controllo di Kaza e ne leggono la fragilità visibile; il conflitto tra prendere e attendere si incarna in gesto e respiro, senza soluzione.",
+            "beats": [
+              "Dalla radura bassa vedono Kaza sveglio sotto l'ombra che si allunga presto, il naso sfiora le pile di frutta secca e conta, le orecchie si tendono a ogni fruscio.",
+              "Quando il leone si sposta la zampa destra zoppica, il peso si sposta sul fianco e la sabbia si increspa sotto l'artiglio.",
+              "Bomo tende la mano verso la pila, le nocche bianche; Nira trattiene il respiro, il polso le preme l'avambraccio di lui e resta in silenzio.",
+              "La roccia lucida vicino al fiume cattura il sole e l'acqua bassa lascia ghiaia scoperta, un dettaglio che resta sullo sfondo mentre l'ombra si accorcia sulla tana."
+            ],
+            "pov": "Nira, Bomo",
+            "location": "Terminale di Salsedine",
+            "characters": [
+              "Nira",
+              "Bomo",
+              "Kaza"
+            ],
+            "summary": "Nira e Bomo scendono nella radura bianca del Terminale di Salsedine e, nascosti dietro una radice, osservano Kaza sveglio sotto l’ombra che avanza: il leone zoppo sulla zampa destra conta con il naso i frutti della pila di frutta secca. Bomo è tentato di avvicinarsi alla pila ma Nira lo trattiene con il polso, mentre l’ombra si allunga sulla tana e la pozza si ritira lasciando ghiaia scoperta, fino al piccolo scricchiolio di pietra che si muove sull’acqua bassa in lontananza.",
+            "status": "reviewed",
+            "slug": "002-scena-2-naso-che-conta-all-ombra",
+            "path": "chapters/001-capitolo-1-l-ombra-che-pesa/002-scena-2-naso-che-conta-all-ombra.md",
+            "words": 799,
+            "revisions": 2
+          }
+        ],
+        "score": 6,
+        "storySoFarAtClose": "**Grande libro della giungla – Capitolo 1: L’ombra che pesa**\n\nIl racconto si apre all’Albero Basso, dove il caldo piega le foglie basse e il tronco nudo trattiene il sole. Sotto la chioma l’ombra è una macchia sottile che si accorcia ad ogni respiro. I piccoli stanno ai piedi del tronco, zampe raccolte, con respiri corti, narici rapide e lingua rosa che si attacca al palato con un rumore secco; la saliva resta appiccicosa e trattiene la polvere. Le palpebre si appesantiscono per il caldo, ma si riaprono per non perdere l’ombra. Nessuno parla.\n\nNira si china, appoggia la guancia alla corteccia calda e ascolta. I respiri dei piccoli arrivano come piccoli colpi irregolari; conta con le dita che premono la scorza. Bomo, voce bassa e roca, indica il sentiero verso il Terminale di Salsedine: «Lì c’è l’acqua che si ritira. E la pila». Nomina il sentiero come un vecchio debito, senza dire di prendere. Nira solleva la guancia, sente il calore segnare la pelle, e le spalle si allargano lentamente. Camminano vicini lungo un solco stretto tra radici, il sole prende la nuca e il caldo preme come una mano. Dietro di loro i piccoli restano nella macchia che si restringe; l’ombra è l’unica cosa che hanno.\n\nArrivano al bordo dell’Albero Basso. Il Terminale di Salsedine è un’apertura bianca dove la luce non si spezza: una pozza piccola e già stretta, accanto a una pila alta di frutta secca al sole. L’ombra che si allunga presto si vede già sul bordo della radura. Nira si ferma, il polso le batte alla tempia; Bomo resta accanto, mento rivolto al sentiero. Non si voltano indietro. L’ombra sopra i piccoli è ora una striscia sottile appena sufficiente a coprire le radici.\n\nSulla radura bassa, dietro una radice che sporge, Nira si abbassa e tende l’orecchio. Bomo fissa la pila. Kaza è sveglio sotto la striscia scura che avanza: corpo immobile e largo, naso che sfiora le pile con lentezza, un tocco, un passo, un tocco. Conta ogni frutto, orecchie tese a ogni fruscio. L’aria è calda e ferma.\n\nIl leone si sposta verso la pozza e indietro; il peso si sposta sul fianco e la sabbia si increspa sotto l’artiglio. La zampa destra non regge bene: si piega un istante, poi si raddrizza con un piccolo scatto, zoppica di nuovo. Il naso torna alla pila, più vicino. L’ombra lo copre a metà, il ventre resta al sole. La pozza è bassa, bordo di fango screpolato, ghiaia scoperta che spunta come denti; una pietra rimanda il sole in un bagliore accecante.\n\nBomo guarda la pila, le nocche bianche, la mano si tende lentamente verso la frutta secca come se il vuoto potesse essere attraversato senza spostare aria. Il polso di Nira preme l’avambraccio di lui, non lo spinge via, lo trattiene con pressione ferma e misurata. Il respiro di Nira si accorcia poi torna regolare. Non parlano.\n\nKaza alza la testa, naso sull’ultimo frutto della fila, orecchie tese verso la roccia che picchia al sole. La zampa destra si appoggia con cautela, la sabbia si muove in un piccolo vortice. «Non ora», dice Bomo, non un ordine ma un nome che ricorda. Nira annuisce impercettibilmente. L’ombra si accorcia sulla tana di Kaza e avanza verso la pozza. Il caldo preme, l’odore di resina calda sale dalla terra. La pila resta alta al sole, Kaza continua a contare con il naso e la zampa destra zoppica a ogni spostamento.\n\nDa lontano, oltre la radura, un suono si spezza contro la roccia: non un passo, ma un piccolo scricchiolio di pietra che si muove sull’acqua bassa. Il silenzio tra Nira e Bomo si allarga, la tensione resta sospesa tra fame dei piccoli, controllo del leone e il gesto trattenuto che non diventa azione.",
+        "rounds": [
+          { "director": 5, "readers": 5.8, "verdict": "revise", "accepted": 12, "rejected": 2 },
+          { "director": 6, "verdict": "revise", "accepted": 5, "rejected": 0 }
+        ],
+        "outlineDigest": "45187c1722cdcdc1"
+      },
+      {
+        "number": 2,
+        "title": "Capitolo 2 - Il suono sbagliato",
+        "slug": "002-capitolo-2-il-suono-sbagliato",
+        "summary": "Bomo ricorda l’eco dei tamburi restituita dall’acqua e tenta di riprodurla con rami e pietre, ma il rumore è troppo debole: Kaza lo sente, si mette in allerta e resta dov’è. Nira individua nel letto basso del fiume un canale tra le pietre e verifica che il vento può farle rotolare, mentre la roccia lucida rimanda il suono in ritardo; la fila di pietre resta sulla riva come possibile mezzo per attirare Kaza senza entrare nella tana.",
+        "goal": "Costruire l'inganno come esperimento verificabile, passando dal ricordo alla prova e alla soluzione concreta.",
+        "pov": [
+          "Bomo",
+          "Nira"
+        ],
+        "keyEvents": [
+          "Ricordo sensoriale dell'eco dei tamburi nel fiume",
+          "Prova fallita con rumore insufficiente",
+          "Kaza sente ma non si muove per vigilanza",
+          "Scoperta fisica delle pietre in fila mosse dal vento sulla riva"
+        ],
+        "reveals": [
+          "La roccia lucida che parla"
+        ],
+        "status": "done",
+        "scenes": [
+          {
+            "number": 1,
+            "title": "Il ricordo che vibra",
+            "goal": "Bomo traduce il ricordo dell'eco in un'idea di suono da provare; la prova fallisce perché il rumore è troppo piccolo e Kaza resta vigile. Turn: dal ricordo concreto alla misurazione fisica del fallimento.",
+            "beats": [
+              "Bomo nomina il giorno dell'eco: polvere calda che sale dal sentiero, pelle di tamburo che vibra sotto le dita, l'acqua che restituisce il colpo con un ritardo udibile.",
+              "Nira ascolta con la guancia alla terra, conta i respiri dei piccoli lontani e misura il silenzio tra un colpo e l'altro, senza parlare.",
+              "Bomo raccoglie rami secchi e pietre piccole sulla radura e le lascia cadere; il rumore è secco, breve, il vento è basso.",
+              "Kaza alza la testa, naso fermo sull'ultima fila di frutta, orecchie tese verso il fruscio; il corpo resta immobile, vigile, la zampa destra si appoggia con cautela.",
+              "Nira tocca le pietre e sente che non incanalano: il suono non arriva alla tana, il peso del colpo manca."
+            ],
+            "pov": "Bomo",
+            "location": "Radura del Terminale di Salsedine, ai margini dell'Albero Basso",
+            "characters": [
+              "Bomo",
+              "Nira",
+              "Kaza"
+            ],
+            "summary": "Bomo e Nira sono accovacciati dietro la radice, provano con rami secchi e pietre a riprodurre il suono dei tamburi per distrarre il leone Kaza che è a metà ombra sulla fila di frutti, ma i colpi restano secchi e non viaggiano col vento e non incanalano. L’ombra si assottiglia e arretra fino a toccare la tana di Kaza; alla fine Nira si rialza, fa un passo nel sentiero e Bomo la segue con il ramo in mano, mentre il leone resta immobile nella radura.",
+            "status": "reviewed",
+            "slug": "001-il-ricordo-che-vibra",
+            "path": "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md",
+            "words": 621,
+            "revisions": 1
+          },
+          {
+            "number": 2,
+            "title": "La roccia che parla",
+            "goal": "Nira trova sulla riva una disposizione fisica che può amplificare il suono; la roccia lucida rivela la sua funzione acustica. Turn: dalla verifica tattile alla scoperta dell'amplificatore naturale.",
+            "beats": [
+              "Bomo e Nira scendono lungo il sentiero verso la Riva del Fiume Secco; l'ombra si accorcia sulla ghiaia scoperta e l'acqua è ritirata.",
+              "Nira si china sulla riva, le dita passano sulle pietre, ne allinea alcune in fila dove l'acqua bassa le incanala; sente il peso e il rotolio sotto la pelle.",
+              "Il vento basso spinge una pietra contro l'altra; il colpo colpisce la roccia lucida vicino al fiume e il suono torna più lungo sull'acqua, un eco misurabile.",
+              "Bomo nomina la roccia e il luogo nel sentiero, ricorda il nome senza spiegare; Nira misura con il corpo la distanza pietra-roccia e il tempo del ritorno del suono.",
+              "In lontananza Kaza continua a contare con il naso, immobile; l'apparato è verificato, l'inganno resta un esperimento fisico."
+            ],
+            "pov": "Nira",
+            "location": "Riva del Fiume Secco",
+            "characters": [
+              "Bomo",
+              "Nira"
+            ],
+            "summary": "Nira e Bomo scendono lungo il sentiero che si stringe verso il letto basso e la riva ghiaiosa, dove Nira sceglie e allinea pietre in un piccolo canale per provare il suono e l’eco ritardata sulla roccia lucida mentre Bomo nomina i luoghi, “Sentiero di Salsedine” e “Roccia del Ritardo”, e ricorda l’eco dei tamburi sull’acqua. Alla fine la fila di pietre resta sulla riva e i due si allontanano verso l’Albero Basso, con Nira che osserva ancora dalla ghiaia la radura dove Kaza, il leone, vigila sulla pila al sole.",
+            "status": "reviewed",
+            "slug": "002-la-roccia-che-parla",
+            "path": "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md",
+            "words": 818,
+            "revisions": 2
+          }
+        ],
+        "score": 6.5,
+        "storySoFarAtClose": "**Grande libro della giungla – Capitolo 1: L’ombra che pesa**\n\nAll’Albero Basso il caldo riduce l’ombra sotto cui i piccoli si riparano. Nira ascolta i loro respiri; Bomo indica il sentiero verso il Terminale di Salsedine, dove si trovano una pozza e una pila di frutta secca. Nella radura Kaza sorveglia la pila e la pozza: è vigile e la zampa destra gli cede quando si sposta. Nira trattiene Bomo quando lui tende la mano verso il cibo. I due rinunciano ad agire subito; un piccolo scricchiolio di pietra sull’acqua bassa interrompe il silenzio.\n\n**Capitolo 2: Il suono sbagliato**\n\n- Bomo racconta il ricordo del giorno in cui il fiume restituì l’eco dei tamburi: la polvere calda, la pelle vibrante sotto le dita e il colpo che arrivava in ritardo dall’altra parte dell’acqua. Lui prova a ricreare il suono nella radura con rami e pietre, ma i colpi si spengono sulla sabbia. Kaza alza la testa, tende le orecchie e resta immobile, in allerta. Nira constata che le pietre separate non incanalano il suono; un respiro spezzato dei piccoli ricorda loro che il tempo stringe.\n- Nira e Bomo scendono al letto basso del fiume. Tra i sassi Nira trova un canale e dispone tre pietre in fila. Un soffio ne fa urtare due; la roccia lucida rimanda il suono dopo un ritardo che Nira verifica contando e percepisce sul corpo. Bomo chiama il luogo «Roccia del Ritardo» e ricorda che lì il fiume faceva eco ai tamburi. Kaza è ancora presso la pila, mentre i due restano ad ascoltare dalla riva; le pietre rimangono allineate sul posto.\n\nLa possibilità di richiamare Kaza con un suono senza entrare nella tana è stata individuata, ma non ancora tentata. I piccoli sono ancora esposti al progressivo restringersi dell’ombra.",
+        "rounds": [
+          { "director": 6, "readers": 6.4, "verdict": "revise", "accepted": 13, "rejected": 1 },
+          { "director": 6.5, "verdict": "revise", "accepted": 4, "rejected": 1 }
+        ],
+        "outlineDigest": "47f75e2cbf28b064"
+      },
+      {
+        "number": 3,
+        "title": "Capitolo 3 - Il pasto che resta",
+        "slug": "003-capitolo-3-il-pasto-che-resta",
+        "summary": "Il leone si alza e il tempo si misura in respiri: petto che si solleva, pausa tra un passo e l'altro, vuoto dell'ombra che si accorcia. Mentre Kaza si sposta verso il fiume, Nira e Bomo entrano nell'ombra e prendono solo il necessario, il peso si sente nelle mani che scelgono e fermano. Lasciano un frutto marcio visibile come segnale. Il ritorno del leone è rallentato; sulla riva l'acqua si è ritirata, la ghiaia è scoperta e il letto mostra il costo ecologico della stagione. Il silenzio finale si allunga, l'accettazione è implicita nel gesto, senza spiegazioni.",
+        "goal": "Eseguire il prelievo limitato e mostrare il prezzo ecologico, chiudendo il conflitto con un riequilibrio non umiliante.",
+        "pov": [
+          "Nira",
+          "Bomo",
+          "Kaza"
+        ],
+        "keyEvents": [
+          "Kaza si alza misurato in respiri",
+          "Prelievo misurato con le mani e quantità limitata",
+          "Frutto marcio lasciato come segnale",
+          "Ritorno del leone e silenzio prolungato",
+          "Costo ecologico visibile: acqua ritirata e ghiaia scoperta sulla riva"
+        ],
+        "reveals": [
+          "Il cibo non è solo del leone",
+          "Il fiume sta cambiando corso"
+        ],
+        "status": "planned",
+        "scenes": [],
+        "outlineDigest": "901b6c5d3a02c632"
+      }
+    ],
+    "approved": true,
+    "rounds": 2,
+    "revisionNotes": [],
+    "readerReactions": [
+      {
+        "slug": "standard-general",
+        "name": "Lettore generalista",
+        "interest": 6,
+        "reaction": "La premessa di uno scambio sbilanciato invece del furto mi incuriosisce, e l’idea che l’astuzia sia ascolto e memoria, non forza, è fresca. Il trio Nira-Bomo-Kaza promette una giungla coerente e rispettosa, con un ritmo a tre capitoli molto chiaro. Resta però la sensazione di un progetto più pensato per adulti che per bambini, con un linguaggio di “payoff” e “antidoto al cliché” che filtra la storia.",
+        "concerns": [
+          "Il piano è molto analitico: termini come ‘arco totale’, ‘rivelazioni programmate’ e ‘agency’ rendono la lettura del pitch faticosa e poco scorrevole. Per un lettore generalista rischia di sembrare un manuale, non una storia."
+        ],
+        "wishes": [
+          "Vedere subito la concretezza sensoriale promessa: sete, lingua appiccicosa, zampa che zoppica, eco sulla roccia, in scena invece che in lista."
+        ]
+      },
+      {
+        "slug": "standard-emotional",
+        "name": "Lettore emotivo",
+        "interest": 7,
+        "reaction": "Mi attira la scelta di non umiliare nessuno: Kaza ferito e sovraccarico, Nira che ascolta più che parla. La fame dei piccoli con lingua appiccicosa e respiro corto è concreta, mi fa entrare nel caldo subito. L’idea che l’astuzia sia ascolto e memoria, non forza, lascia un’impressione gentile e coerente.",
+        "concerns": [
+          "La tensione resta molto esterna e descrittiva: vedo indizi e meccanismi, ma temo di non sentire dentro la paura di Nira e la vergogna di Bomo nel non chiedere. Il leone capisce troppo in fretta, rischia di chiudere l’emozione in una soluzione razionale."
+        ],
+        "wishes": [
+          "Vorrei un momento di vera fragilità emotiva per i piccoli e per Kaza, non solo segni fisici, perché l’empatia resti incarnata. Un silenzio finale più lungo dopo il ritorno del leone, per lasciare spazio al sollievo e al peso della scelta."
+        ]
+      },
+      {
+        "slug": "standard-critical",
+        "name": "Lettore critico",
+        "interest": 6,
+        "reaction": "L'idea di scambio sbilanciato e di astuzia come ascolto/ memoria mi interessa, e il rifiuto dell'umiliazione del leone è un buon antidoto ai cliché. Resta però un progetto molto spiegato dall'alto: la premessa è ripetuta in tre forme diverse e i payoff sono annunciati prima di essere mostrati, il che riduce la curiosità.",
+        "concerns": [
+          "La narrazione è soffocata da note d'autore: criteri, antidoti a cliché e rivelazioni programmate sostituiscono la scena e rendono il tono didattico.",
+          "Il pitch ripete la stessa premessa più volte e anticipa le rivelazioni, rendendo il percorso prevedibile.",
+          "Dettagli come 'conta le pile con il naso' e 'lascia un frutto marcio come segnale' sono poco concreti per bambini e rischiano di risultare confusi."
+        ],
+        "wishes": [
+          "Meno esposizione meta e più scena sensoriale: mostrare sete, caldo, eco e zoppia invece di dichiararli.",
+          "Un finale concreto sul 'cibo restituito in forma diversa' e un uso coerente degli indizi seminati, come il corvo che non canta."
+        ]
+      },
+      {
+        "slug": "standard-characters",
+        "name": "Lettore orientato ai personaggi",
+        "interest": 7,
+        "reaction": "Mi attira la coppia Nira-Bomo perché la motivazione è chiara e non morale astratta: fame dei piccoli, non vendetta. Mi piace che Kaza non sia cattivo ma sovraccarico e ferito, e che l’arco vada da conflitto di scarsità a comprensione del sistema. La promessa di astuzia come osservazione, non forza, è coerente con un lettore character-driven.",
+        "concerns": [
+          "I dialoghi minimali annunciati rischiano di appiattire la voce: Nira ascolta, Bomo ricorda, ma nel pitch non sento ancora come suonano in modo differenziato. Senza battute distintive potrei confondere chi pensa e chi agisce."
+        ],
+        "wishes": [
+          "Vorrei vedere più credibilità emotiva interna, soprattutto per Nira che passa da timore del rumore a progettista: un momento di scelta visibile, non solo tecnico."
+        ]
+      },
+      {
+        "slug": "standard-plot",
+        "name": "Lettore orientato alla trama",
+        "interest": 7,
+        "reaction": "Mi attira la giungla come circuito e non come magazzino, e il fatto che Kaza non sia stupido ma sovraccarico. L’idea che l’astuzia sia ascolto e memoria, non forza, è una promessa narrativa chiara. Mi convince la concretezza sensoriale promessa, sete, lingua appiccicosa, zampa che zoppica, roccia lucida.",
+        "concerns": [
+          "La rivelazione che il cibo non è solo del leone perché raccolto da formiche e uccelli è annunciata nel long-term ma non compare nei beat dei tre capitoli, rischio promessa non mantenuta. L’accettazione finale di Kaza è giustificata dal fiume che cambia corso, un evento esterno che rischia di scaricare la tensione causale dall’inganno delle scimmie."
+        ],
+        "wishes": [
+          "Vedere il costo ecologico visibile in scena, non solo dichiarato, per mantenere la coerenza promessa. Dare più spazio al conflitto interno Nira vs Bomo tra agire subito e rispettare, per tenere la tensione emotiva oltre alla meccanica dell’inganno."
+        ]
+      }
+    ],
+    "readersDone": false,
+    "awaitingAuthor": false
+  },
   "review": null,
   "revision": null,
   "finalDone": false,
   "constraints": [],
-  "interventions": [],
-  "directorNotes": [],
+  "interventions": [
+    {
+      "id": "intervention_837d62ba-2b6b-4694-a0f2-675d0217b5d0",
+      "scope": "next_step",
+      "text": "Answer to the director's question «La rivelazione programmata 'Il cibo del leone non è suo solo: è stato raccolto da formiche e uccelli che lui non vede' deve essere mostrata concretamente nel capitolo 3 con segni visibili di formiche/uccelli, oppure resta implicita nell'accettazione del leone e nella restituzione simbolica?»: Lasciarla implicita, senza mostrare formiche e uccelli, solo accennata nell'accettazione",
+      "createdAt": "2026-11-24T22:01:29.337Z",
+      "during": "La rivelazione programmata 'Il cibo del leone non è suo solo: è stato raccolto da formiche e uccelli che lui non vede' deve essere mostrata concretamente nel capitolo 3 con segni visibili di formiche/uccelli, oppure resta implicita nell'accettazione del leone e nella restituzione simbolica?",
+      "status": "applied",
+      "appliedAt": "2026-11-24T22:06:24.067Z",
+      "appliedBy": "activity_942bc9f6-cfee-4142-9b86-e2d968ad5650"
+    }
+  ],
+  "directorNotes": [
+    "Non nominare mai formiche e uccelli prima di Cap3 e non mostrare raccolta del cibo dal leone prima della rivelazione.",
+    "Mantenere dialoghi minimali e differenziati: Nira ascolta e misura con il corpo, Bomo nomina e ricorda. Nessuna spiegazione morale esplicita.",
+    "Ogni azione deve lasciare traccia ecologica visibile: acqua che cala, ombra che si accorcia, peso che si sente.",
+    "Mantenere la topografia stabile Albero Basso / sentiero / radura senza reintroduzioni sinonimiche",
+    "Evitare ripetizioni verbatim tra scena 1 e scena 2: ogni immagine chiave deve variare o evolvere, non tornare identica",
+    "Differenziare ulteriormente la voce: Nira misura con il corpo, Bomo nomina e ricorda, senza spiegazioni morali",
+    "Mantieni i tre beat vincolati per capitolo: ricordo concreto, prova fallita ancorata a percezione fisica di Kaza e verifica tattile di Nira, scoperta amplificatore naturale. Non anticipare segreti oltre soglia.",
+    "Ancora ogni esperimento a una traccia ecologica visibile e a un micro-segnale dei piccoli per mantenere posta emotiva senza commento.",
+    "Varia ritmo e lessico tra scena 1 e scena 2 per evitare ripetizioni verbatim e mantenere progressione drammatica.",
+    "Nei capitoli d’esperimento, fai sì che ogni prova cambi la comprensione o la possibilità d’azione: evita di ripetere lo stesso risultato con variazioni sensoriali che non aggiungono un dato.",
+    "Mantieni sempre stabile la linea di vista e separa con precisione ciò che un personaggio vede da ciò che ascolta o deduce.",
+    "Continua a far emergere l’urgenza tramite tracce corporee dei piccoli e conseguenze ambientali, senza trasformarle in spiegazione emotiva."
+  ],
   "question": null,
   "frozenSince": "2026-11-23T10:41:46.157Z",
-  "runner": null,
+  "runner": {
+    "host": "browser",
+    "label": "Browser · Windows",
+    "hostId": "device-0b0b8e48-dd66-4af3-988b-8cd270998395",
+    "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+    "startedAt": "2026-11-25T21:10:05.540Z",
+    "heartbeatAt": "2026-11-25T21:19:14.963Z"
+  },
   "stats": {
-    "tasks": 0,
-    "aiCalls": 6,
-    "inputTokens": 16104,
-    "outputTokens": 6137,
-    "cost": 0,
+    "tasks": 47,
+    "aiCalls": 107,
+    "inputTokens": 484719,
+    "outputTokens": 245079,
+    "cost": 0.232764195,
     "currency": "USD",
-    "failures": 7,
-    "usageUnknownCalls": 6,
-    "costUnknownCalls": 6
+    "failures": 10,
+    "usageUnknownCalls": 48,
+    "costUnknownCalls": 98,
+    "workedMs": 9652382,
+    "workedMsSince": "2026-11-24T20:21:34.141Z"
   },
   "message": null,
   "lastError": null,
   "createdAt": "2026-11-22T00:49:32.173Z",
-  "updatedAt": "2026-11-23T17:25:29.500Z",
-  "version": 32
+  "updatedAt": "2026-11-25T21:19:14.963Z",
+  "version": 197
 }
