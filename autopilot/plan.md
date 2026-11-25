@@ -19,22 +19,24 @@ Bomo ricorda l’eco dei tamburi restituita dall’acqua e tenta di riprodurla c
 - 1. Il ricordo che vibra — Bomo e Nira sono accovacciati dietro la radice, provano con rami secchi e pietre a riprodurre il suono dei tamburi per distrarre il leone Kaza che è a metà ombra sulla fila di frutti, ma i colpi restano secchi e non viaggiano col vento e non incanalano. L’ombra si assottiglia e arretra fino a toccare la tana di Kaza; alla fine Nira si rialza, fa un passo nel sentiero e Bomo la segue con il ramo in mano, mentre il leone resta immobile nella radura.
 - 2. La roccia che parla — Nira e Bomo scendono lungo il sentiero che si stringe verso il letto basso e la riva ghiaiosa, dove Nira sceglie e allinea pietre in un piccolo canale per provare il suono e l’eco ritardata sulla roccia lucida mentre Bomo nomina i luoghi, “Sentiero di Salsedine” e “Roccia del Ritardo”, e ricorda l’eco dei tamburi sull’acqua. Alla fine la fila di pietre resta sulla riva e i due si allontanano verso l’Albero Basso, con Nira che osserva ancora dalla ghiaia la radura dove Kaza, il leone, vigila sulla pila al sole.
 
-## 003 Capitolo 3 - Il pasto che resta (pianificato)
+## 003 Capitolo 3 - Il pasto che resta (approvato · 6.5/10)
 
-Il leone si alza e il tempo si misura in respiri: petto che si solleva, pausa tra un passo e l'altro, vuoto dell'ombra che si accorcia. Mentre Kaza si sposta verso il fiume, Nira e Bomo entrano nell'ombra e prendono solo il necessario, il peso si sente nelle mani che scelgono e fermano. Lasciano un frutto marcio visibile come segnale. Il ritorno del leone è rallentato; sulla riva l'acqua si è ritirata, la ghiaia è scoperta e il letto mostra il costo ecologico della stagione. Il silenzio finale si allunga, l'accettazione è implicita nel gesto, senza spiegazioni.
+Nira e Bomo colgono l’occasione del temporaneo allontanamento di Kaza per prendere soltanto quattro frutti, lasciandone uno spaccato come segnale e rispettando gli altri animali che si nutrono degli scarti. Al ritorno, Kaza non li affronta: si ritira e si sdraia presso la pila, mentre i due portano il cibo ai piccoli. La riva mostra un mutamento concreto: l’acqua ha deviato il suo corso e la pietra un tempo bagnata è ormai asciutta; il sollievo del pasto non cancella la scarsità né la sete dei piccoli.
 
+- 1. Il passo e il vuoto — Nira e Bomo si nascondono presso la pila di frutti mentre il leone Kaza si abbassa alla riva, beve e poi scende verso il fiume e risale il sentiero; i due raccolgono quattro frutti lasciando uno spaccato come esca sulla sabbia e, quando Kaza torna in salita zoppicando, si ritirano sul margine del sentiero dove Nira mostra i quattro frutti raccolti con le mani vuote di Bomo accanto a lei.
+- 2. La riva che arretra — Kaza si avvicina alla pila di frutta, annusa il frutto spaccato senza toccarlo, scende alla riva dove beve e poi risale per accucciarsi sul fianco della pila lasciando libera una striscia d’ombra; intanto Bomo si stacca da Nira, i due si spostano verso la radice dell’Albero Basso e constatano che la pietra piatta è asciutta mentre l’acqua passa più in là, e risalgono con due frutti a testa per i piccoli accucciati dietro la radice.
 
 ## Indicazioni del direttore
 
-- Non nominare mai formiche e uccelli prima di Cap3 e non mostrare raccolta del cibo dal leone prima della rivelazione.
-- Mantenere dialoghi minimali e differenziati: Nira ascolta e misura con il corpo, Bomo nomina e ricorda. Nessuna spiegazione morale esplicita.
-- Ogni azione deve lasciare traccia ecologica visibile: acqua che cala, ombra che si accorcia, peso che si sente.
-- Mantenere la topografia stabile Albero Basso / sentiero / radura senza reintroduzioni sinonimiche
-- Evitare ripetizioni verbatim tra scena 1 e scena 2: ogni immagine chiave deve variare o evolvere, non tornare identica
-- Differenziare ulteriormente la voce: Nira misura con il corpo, Bomo nomina e ricorda, senza spiegazioni morali
-- Mantieni i tre beat vincolati per capitolo: ricordo concreto, prova fallita ancorata a percezione fisica di Kaza e verifica tattile di Nira, scoperta amplificatore naturale. Non anticipare segreti oltre soglia.
 - Ancora ogni esperimento a una traccia ecologica visibile e a un micro-segnale dei piccoli per mantenere posta emotiva senza commento.
 - Varia ritmo e lessico tra scena 1 e scena 2 per evitare ripetizioni verbatim e mantenere progressione drammatica.
 - Nei capitoli d’esperimento, fai sì che ogni prova cambi la comprensione o la possibilità d’azione: evita di ripetere lo stesso risultato con variazioni sensoriali che non aggiungono un dato.
 - Mantieni sempre stabile la linea di vista e separa con precisione ciò che un personaggio vede da ciò che ascolta o deduce.
 - Continua a far emergere l’urgenza tramite tracce corporee dei piccoli e conseguenze ambientali, senza trasformarle in spiegazione emotiva.
+- Nei capitoli d’azione, mantieni un inventario chiaro degli oggetti che passano di mano e di quelli lasciati sul posto; fai controllare il conteggio al momento della partenza.
+- Ogni attesa deve cambiare rischio, informazione o possibilità d’azione: taglia le misurazioni che ribadiscono una condizione già stabilita.
+- Quando un gesto è destinato a funzionare come segnale, mostra una risposta osservabile del destinatario oppure non presentarlo come prova di accettazione.
+- Continua a rendere fame, sete e urgenza tramite micro-segnali corporei e conseguenze ambientali, senza aggiungere spiegazioni emotive.
+- Nei capitoli di prelievo o scambio, chiudi in scena l’inventario dopo ogni passaggio di mano: la quantità raccolta, quella lasciata e quella effettivamente ricevuta dai destinatari devono combaciare.
+- Mantieni le coordinate spaziali e la distinzione fra vista, udito e deduzione: qui rendono leggibile una scena densa senza sacrificare la precisione sensoriale.
+- Quando un capitolo promette un esito pratico, come il cibo destinato ai piccoli, mostra almeno un riscontro osservabile della consegna senza spiegare l’emozione al lettore.

@@ -8,7 +8,7 @@ title: Grande libro della giungla Plot
 
 - Book: Grande libro della giungla
 - Chapters tracked: 3
-- Chapters approved: 2
+- Chapters approved: 3
 - Secrets tracked: 4
 
 # Chapter Map
@@ -41,15 +41,12 @@ Bomo ricorda l’eco dei tamburi restituita dall’acqua e tenta di riprodurla c
 
 ## Chapter 003 Capitolo 3 - Il pasto che resta
 
-Il leone si alza e il tempo si misura in respiri: petto che si solleva, pausa tra un passo e l'altro, vuoto dell'ombra che si accorcia. Mentre Kaza si sposta verso il fiume, Nira e Bomo entrano nell'ombra e prendono solo il necessario, il peso si sente nelle mani che scelgono e fermano. Lasciano un frutto marcio visibile come segnale. Il ritorno del leone è rallentato; sulla riva l'acqua si è ritirata, la ghiaia è scoperta e il letto mostra il costo ecologico della stagione. Il silenzio finale si allunga, l'accettazione è implicita nel gesto, senza spiegazioni.
+Nira e Bomo colgono l’occasione del temporaneo allontanamento di Kaza per prendere soltanto quattro frutti, lasciandone uno spaccato come segnale e rispettando gli altri animali che si nutrono degli scarti. Al ritorno, Kaza non li affronta: si ritira e si sdraia presso la pila, mentre i due portano il cibo ai piccoli. La riva mostra un mutamento concreto: l’acqua ha deviato il suo corso e la pietra un tempo bagnata è ormai asciutta; il sollievo del pasto non cancella la scarsità né la sete dei piccoli.
 
 ### What Happens
 
-- Kaza si alza misurato in respiri
-- Prelievo misurato con le mani e quantità limitata
-- Frutto marcio lasciato come segnale
-- Ritorno del leone e silenzio prolungato
-- Costo ecologico visibile: acqua ritirata e ghiaia scoperta sulla riva
+- Nira e Bomo si nascondono presso la pila di frutti mentre il leone Kaza si abbassa alla riva, beve e poi scende verso il fiume e risale il sentiero; i due raccolgono quattro frutti lasciando uno spaccato come esca sulla sabbia e, quando Kaza torna in salita zoppicando, si ritirano sul margine del sentiero dove Nira mostra i quattro frutti raccolti con le mani vuote di Bomo accanto a lei.
+- Kaza si avvicina alla pila di frutta, annusa il frutto spaccato senza toccarlo, scende alla riva dove beve e poi risale per accucciarsi sul fianco della pila lasciando libera una striscia d’ombra; intanto Bomo si stacca da Nira, i due si spostano verso la radice dell’Albero Basso e constatano che la pietra piatta è asciutta mentre l’acqua passa più in là, e risalgono con due frutti a testa per i piccoli accucciati dietro la radice.
 
 ### Secrets Revealed
 

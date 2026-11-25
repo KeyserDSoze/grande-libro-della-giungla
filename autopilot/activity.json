@@ -5441,6 +5441,1095 @@
         "cachedInputTokens": 0
       },
       "cost": 0.000582825
+    },
+    {
+      "id": "activity_2b405c72-d252-4ed1-8470-d46919246777",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "scenes",
+      "phase": "write",
+      "title": "Pianificazione delle scene del capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "Ogni scena ha bisogno di un obiettivo e di passaggi perché la prosa resti mirata.",
+      "next": "Scrivere la prima scena.",
+      "chapterNumber": 3,
+      "status": "failed",
+      "startedAt": "2026-11-25T21:19:41.272Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:22:42.231Z",
+      "error": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.4 s left of the total routing time (maxTotalDurationMs). Fallbacks were not tried: the total routing time (maxTotalDurationMs, 180 s) was used up.",
+      "errorKind": "timeout",
+      "errorDetail": {
+        "endpoint": "https://llmproxy.opencode.zone",
+        "model": "muse-glimmer-30b",
+        "provider": "openai",
+        "integration": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+        "timeoutMs": 179350,
+        "timeoutPhase": "total",
+        "transport": {
+          "status": 200,
+          "bytes": 628950,
+          "chunks": 1326,
+          "events": 2206,
+          "lastChunkAfterMs": 179976,
+          "silentMs": 183,
+          "end": "timeout",
+          "usageReceived": false,
+          "usageRequested": true,
+          "tail": "mpletion.chunk\"}\n\ndata: {\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"reasoning_content\":\"…\"}}],\"created\":1795641763,\"id\":\"chatcmpl-mGNYDnZl01ZU7BawohZmig3jS6brXCBm\",\"model\":\"meta-models/Muse-Glimmer-30B-GGUF:Q4_K_M\",\"system_fingerprint\":\"b12375-9d25e0014\",\"object\":\"chat.completion.chunk\"}\n\n",
+          "requestId": "69e8093e-1cda-4963-84c2-fd37daf6cbe3"
+        },
+        "route": [
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 225,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 154,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort",
+              "code": "unsupported_value"
+            },
+            "durationMs": 228,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'. [type: invalid_request_error, param: reasoning_effort, code: un…"
+          },
+          {
+            "position": 1,
+            "integrationId": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+            "integrationName": "LlmProxy",
+            "provider": "openai",
+            "model": "muse-glimmer-30b",
+            "outcome": "timeout",
+            "endpoint": "https://llmproxy.opencode.zone",
+            "durationMs": 180160,
+            "message": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.4 s left of the total routing time (maxTotalDurationMs)",
+            "timeoutPhase": "total",
+            "timeoutMs": 179350,
+            "routing": true
+          },
+          {
+            "position": 2,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6-luna",
+            "outcome": "left-out",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "leftOut": "out-of-time"
+          }
+        ],
+        "attempt": 1,
+        "retries": 3
+      },
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 2624,
+        "outputTokens": 2227,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_37295587-51ee-4684-bf56-e14598ed6b27",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "scenes",
+      "phase": "write",
+      "title": "Pianificazione delle scene del capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "Ogni scena ha bisogno di un obiettivo e di passaggi perché la prosa resti mirata.",
+      "next": "Scrivere la prima scena.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:22:46.364Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:23:20.418Z",
+      "summary": "1. Il passo e il vuoto; 2. La riva che arretra",
+      "changedPaths": [
+        "autopilot/plan.md"
+      ],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2921,
+        "outputTokens": 1178,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00043935
+    },
+    {
+      "id": "activity_e8b06b48-48bb-4534-9e44-a42d6a7470d5",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "write",
+      "phase": "write",
+      "title": "Scrittura della scena 1 del capitolo 3 «Il passo e il vuoto»",
+      "reason": "Trasformare la distrazione di Kaza in una finestra breve e rischiosa: Nira e Bomo possono entrare nell’ombra, ma devono misurare il tempo e la quantità senza confondere il prelievo con un saccheggio.",
+      "next": "Scrivere la scena 2.",
+      "chapterNumber": 3,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:23:20.673Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:24:46.138Z",
+      "summary": "1223 words — Nira e Bomo osservano Kaza scendere al fiume e poi si spostano nell’ombra sotto l’Albero Basso dove esaminano la pila di frutti, le tracce di formiche e uccelli e raccolgono quattro frutti lasciandone uno spaccato come esca sulla sabbia; quando Kaza risale il sentiero verso monte i due si ritirano sul margine e Nira si ferma abbassando le mani, lasciando i quattro frutti in vista.",
+      "changedPaths": [
+        "chapters/003-capitolo-3-il-pasto-che-resta/001-il-passo-e-il-vuoto.md",
+        "autopilot/plan.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 6865,
+        "outputTokens": 3996,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.056553
+    },
+    {
+      "id": "activity_ccdc16e2-b22f-4caa-89c7-44317958894d",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "write",
+      "phase": "write",
+      "title": "Scrittura della scena 2 del capitolo 3 «La riva che arretra»",
+      "reason": "Chiudere il prelievo senza umiliare Kaza e rendere visibile che il segnale non spiega tutto: l’acqua si ritira davvero, restringendo la risorsa condivisa e lasciando l’accettazione nel gesto.",
+      "next": "Lettori, specialisti e direttore revisionano il capitolo.",
+      "chapterNumber": 3,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:24:46.498Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:26:28.771Z",
+      "summary": "1224 words — Kaza si avvicina alla pila di frutta, annusa il frutto spaccato sulla sabbia senza toccarlo e poi scende lungo il sentiero fino alla riva dove beve; risale e torna alla pila, dove si sdraia di fianco lasciando libera una striscia d’ombra mentre il frutto spaccato resta al sole. Nira e Bomo lo osservano, constatano che l’acqua non passa più sulla pietra piatta ma gira più in là asciugandola, si scambiano frutti e risalgono verso l’Albero Basso dove trovano un piccolo accucciato dietro la radice con le labbra asciutte.",
+      "changedPaths": [
+        "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md",
+        "autopilot/plan.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 6596,
+        "outputTokens": 3842,
+        "cachedInputTokens": 403
+      },
+      "cost": 0.05018299999999999
+    },
+    {
+      "id": "activity_a05b9020-3a1b-4efa-8936-c79138d9bff9",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore generalista legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 3,
+      "reader": "Lettore generalista",
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:26:29.105Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:28:15.357Z",
+      "summary": "6/10 — Un capitolo molto immersivo e teso, scritto con attenzione al corpo e ai dettagli sensoriali. Si legge bene per chi ama il ritmo lento e osservativo, ma la densità delle azioni minime e la geografia frammentata…",
+      "changedPaths": [
+        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-general.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4923,
+        "outputTokens": 1243,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_850176a4-1a56-4fb1-a99b-fdd3d625b8f0",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore emotivo legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 3,
+      "reader": "Lettore emotivo",
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:28:15.652Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:30:15.186Z",
+      "summary": "7/10 — Il capitolo mi tiene inchiodata per il calore fisico e per l’attesa che si fa corpo. Non è una storia che spiega le emozioni, è una storia che le fa sentire attraverso polsi, talloni, sabbia che cede. Come lettore…",
+      "changedPaths": [
+        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-emotional.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4921,
+        "outputTokens": 1403,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_1a47a0f8-e9f5-41a9-b66d-7e3633548cc2",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore critico legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 3,
+      "reader": "Lettore critico",
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:30:15.490Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:31:57.562Z",
+      "summary": "6.5/10 — Capitolo immersivo e fisicamente coerente con quanto seminato nei capitoli precedenti. La tensione nasce da un’attesa concreta, non da spiegazioni. Però la densità descrittiva accumulativa appesantisce il ritmo e…",
+      "changedPaths": [
+        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-critical.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4935,
+        "outputTokens": 1174,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_9a1bd5d0-9dcb-49e9-9541-da4ba27c593e",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato ai personaggi legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 3,
+      "reader": "Lettore orientato ai personaggi",
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:31:57.859Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:33:52.642Z",
+      "summary": "7/10 — Il capitolo funziona come studio di personaggi in attesa: si sente la cautela di Nira, l’impazienza controllata di Bomo e la fatica fisica di Kaza. La tensione nasce dal corpo, non dal parlato, e la relazione Nira-Bomo…",
+      "changedPaths": [
+        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-characters.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4924,
+        "outputTokens": 1349,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_b238f016-b1a5-4cca-accf-61fe072fe9d6",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 3,
+      "reader": "Lettore orientato alla trama",
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:33:52.949Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:36:03.012Z",
+      "summary": "7/10 — Il capitolo avanza la situazione concreta: il suono ritardato funziona, Kaza scende alla riva, Nira e Bomo riescono a prendere quattro frutti e a guadagnare un po’ d’ombra. La tensione è mantenuta dal corpo ferito del…",
+      "changedPaths": [
+        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-plot.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4932,
+        "outputTokens": 1527,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_22c3bf15-4947-4962-8fec-6dd0022a3573",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 3",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 3,
+      "status": "failed",
+      "startedAt": "2026-11-25T21:36:03.350Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:39:04.244Z",
+      "error": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.3 s left of the total routing time (maxTotalDurationMs). Fallbacks were not tried: the total routing time (maxTotalDurationMs, 180 s) was used up.",
+      "errorKind": "timeout",
+      "errorDetail": {
+        "endpoint": "https://llmproxy.opencode.zone",
+        "model": "muse-glimmer-30b",
+        "provider": "openai",
+        "integration": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+        "timeoutMs": 179313,
+        "timeoutPhase": "total",
+        "transport": {
+          "status": 200,
+          "bytes": 619240,
+          "chunks": 970,
+          "events": 2069,
+          "lastChunkAfterMs": 179785,
+          "silentMs": 258,
+          "end": "timeout",
+          "usageReceived": false,
+          "usageRequested": true,
+          "tail": "{\"finish_reason\":null,\"index\":0,\"delta\":{\"tool_calls\":[{\"index\":0,\"function\":{\"arguments\":\" batt\"}}]}}],\"created\":1795642745,\"id\":\"chatcmpl-hOv99yq3JVfHd3d7h3Qk5m5c0uEC0k4T\",\"model\":\"meta-models/Muse-Glimmer-30B-GGUF:Q4_K_M\",\"system_fingerprint\":\"b12375-9d25e0014\",\"object\":\"chat.completion.chunk\"}\n\n",
+          "requestId": "854fa601-9979-49c9-b507-34a40e164f8a",
+          "partialCharacters": 3729
+        },
+        "route": [
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 235,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 198,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort",
+              "code": "unsupported_value"
+            },
+            "durationMs": 213,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'. [type: invalid_request_error, param: reasoning_effort, code: un…"
+          },
+          {
+            "position": 1,
+            "integrationId": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+            "integrationName": "LlmProxy",
+            "provider": "openai",
+            "model": "muse-glimmer-30b",
+            "outcome": "timeout",
+            "endpoint": "https://llmproxy.opencode.zone",
+            "durationMs": 180044,
+            "message": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.3 s left of the total routing time (maxTotalDurationMs)",
+            "timeoutPhase": "total",
+            "timeoutMs": 179313,
+            "routing": true
+          },
+          {
+            "position": 2,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6-luna",
+            "outcome": "left-out",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "leftOut": "out-of-time"
+          }
+        ],
+        "attempt": 1,
+        "retries": 3
+      },
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4058,
+        "outputTokens": 2218,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_84efc0f5-7594-49b4-9f38-4cbeb5e4528e",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 3",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:39:08.350Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:39:41.261Z",
+      "summary": "6.7/10 — 6 proposals for the director",
+      "changedPaths": [
+        "evaluations/readers/summaries/chapters/003-capitolo-3-il-pasto-che-resta.md"
+      ],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4253,
+        "outputTokens": 1107,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.000563675
+    },
+    {
+      "id": "activity_b45ec1e2-551a-4755-93a9-cd92f28e90ad",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 3 (giro 1)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:39:41.568Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:39:49.576Z",
+      "summary": "3 findings (0 critical, 2 major) — Il capitolo realizza il prelievo limitato, rivela il contributo di formiche e uccelli e mostra un cambiamento reale del corso dell’acqua. Emergono però due incoerenze concrete nel conteggio dei frutti e una mancata consegna del segnale previsto: il frutto spaccato viene lasciato visibile, ma Kaza non lo tocca né compie un gesto che ne renda leggibile l’accettazione.",
+      "changedPaths": [],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6499,
+        "outputTokens": 583,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.000722775
+    },
+    {
+      "id": "activity_8c5730ef-8a1b-4c53-be66-15dbd547fbbf",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 3 (giro 1)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 3,
+      "status": "failed",
+      "startedAt": "2026-11-25T21:39:49.901Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:42:50.214Z",
+      "error": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.4 s left of the total routing time (maxTotalDurationMs). Fallbacks were not tried: the total routing time (maxTotalDurationMs, 180 s) was used up.",
+      "errorKind": "timeout",
+      "errorDetail": {
+        "endpoint": "https://llmproxy.opencode.zone",
+        "model": "muse-glimmer-30b",
+        "provider": "openai",
+        "integration": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+        "timeoutMs": 179426,
+        "timeoutPhase": "total",
+        "transport": {
+          "status": 200,
+          "bytes": 600389,
+          "chunks": 1054,
+          "events": 2103,
+          "lastChunkAfterMs": 179412,
+          "silentMs": 189,
+          "end": "timeout",
+          "usageReceived": false,
+          "usageRequested": true,
+          "tail": "mpletion.chunk\"}\n\ndata: {\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"reasoning_content\":\"…\"}}],\"created\":1795642971,\"id\":\"chatcmpl-wz97i5tLDXGmmLZji2aRdmWPc1AhPb5s\",\"model\":\"meta-models/Muse-Glimmer-30B-GGUF:Q4_K_M\",\"system_fingerprint\":\"b12375-9d25e0014\",\"object\":\"chat.completion.chunk\"}\n\n",
+          "requestId": "85c66835-d096-42b1-a36f-9ebabe409524"
+        },
+        "route": [
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 243,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 149,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort",
+              "code": "unsupported_value"
+            },
+            "durationMs": 141,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'. [type: invalid_request_error, param: reasoning_effort, code: un…"
+          },
+          {
+            "position": 1,
+            "integrationId": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+            "integrationName": "LlmProxy",
+            "provider": "openai",
+            "model": "muse-glimmer-30b",
+            "outcome": "timeout",
+            "endpoint": "https://llmproxy.opencode.zone",
+            "durationMs": 179602,
+            "message": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.4 s left of the total routing time (maxTotalDurationMs)",
+            "timeoutPhase": "total",
+            "timeoutMs": 179426,
+            "routing": true
+          },
+          {
+            "position": 2,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6-luna",
+            "outcome": "left-out",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "leftOut": "out-of-time"
+          }
+        ],
+        "attempt": 1,
+        "retries": 3
+      },
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 8724,
+        "outputTokens": 2325,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_c936a88e-bc11-4bd4-816e-a2e9fef128fa",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 3 (giro 1)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:42:54.283Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:43:35.735Z",
+      "summary": "revise 6.5/10 — 6 accepted, 3 rejected. ## Verdetto\nIl capitolo ha una buona architettura sensoriale e rispetta i due reveal, ma non supera la soglia di approvazione: la catena del prelievo è numericamente confusa e il segnale lasciato a Kaza non produce una risposta leggibile. Restano inoltre attese ripetute che frenano il passaggio dalla scelta dei frutti alla conseguenza ecologica.\n\n## Punti forti\nLa geografia è per lo più ancorata al sentiero, alla radura e alla riva; la zoppia limita concretamente Kaza senza trasformarsi in spiegazione. La scoperta di formiche e uccelli rende visibile la rete che alimenta la pila, e il corso deviato dell’acqua è dimostrato da tracce osservabili, non dedotto soltanto dal suono. Il gesto finale del piccolo che lecca le labbra lega il bottino a un bisogno presente.\n\n## Rischi e debolezze\nIl conteggio dei frutti non si lascia ricostruire con sicurezza: si parla di quattro raccolti, di un quinto soltanto toccato, poi di un frutto spaccato, e alla fine Bomo riceve due frutti mentre Nira ne ha ancora. La lunga osservazione dei passi e delle attese rallenta la scena senza sempre cambiare la possibilità d’azione. Inoltre il frutto-segnale resta intatto e Kaza era già diretto alla pila: il suo successivo riposo non prova che abbia riconosciuto o accettato il segnale.\n\n## Canone e continuità\nI reveal programmati avvengono in questo capitolo e non sono anticipati: il cibo risulta sostenuto anche da formiche e uccelli, e il fiume ha cambiato percorso. La zampa ferita resta coerente. Il punto critico è la continuità materiale dei frutti; va chiarita senza aumentare il prelievo oltre il limite implicito dei quattro.\n\n## Priorità di riscrittura\nChiarire quali quattro frutti vengono portati e quale ruolo ha il frutto spaccato; rendere leggibile, con un gesto minimo ma non equivoco, la risposta di Kaza al segnale; comprimere le attese duplicate conservando i dettagli che modificano rischio, scelta o costo ecologico. La posta dei piccoli è già presente nel colpo di tosse, nei respiri e nel frutto consegnato: non serve aggiungere interiorità esplicita.",
+      "changedPaths": [
+        "evaluations/director/chapters/003-capitolo-3-il-pasto-che-resta.md"
+      ],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 9336,
+        "outputTokens": 1864,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0011666
+    },
+    {
+      "id": "activity_976d8b3e-6152-463d-bc13-8b34db4ad7d0",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 3",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 3,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:43:35.986Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:44:35.783Z",
+      "summary": "3 fixes applied, 1235 words.",
+      "changedPaths": [
+        "chapters/003-capitolo-3-il-pasto-che-resta/001-il-passo-e-il-vuoto.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 7159,
+        "outputTokens": 3730,
+        "cachedInputTokens": 403
+      },
+      "cost": 0.0542815
+    },
+    {
+      "id": "activity_98c225c3-c7cc-4881-a137-50e2b0a60f15",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 3",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 3,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:44:36.002Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:45:35.558Z",
+      "summary": "3 fixes applied, 1151 words.",
+      "changedPaths": [
+        "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 7002,
+        "outputTokens": 3743,
+        "cachedInputTokens": 403
+      },
+      "cost": 0.054355
+    },
+    {
+      "id": "activity_3b427dc9-ae2a-4df9-876f-6e3b593e6609",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 3 (giro 2)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 3,
+      "status": "failed",
+      "startedAt": "2026-11-25T21:45:35.792Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:48:35.842Z",
+      "error": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.7 s left of the total routing time (maxTotalDurationMs). Fallbacks were not tried: the total routing time (maxTotalDurationMs, 180 s) was used up.",
+      "errorKind": "timeout",
+      "errorDetail": {
+        "endpoint": "https://llmproxy.opencode.zone",
+        "model": "muse-glimmer-30b",
+        "provider": "openai",
+        "integration": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+        "timeoutMs": 179710,
+        "timeoutPhase": "total",
+        "transport": {
+          "status": 200,
+          "bytes": 610339,
+          "chunks": 1554,
+          "events": 2141,
+          "lastChunkAfterMs": 179620,
+          "silentMs": 101,
+          "end": "timeout",
+          "usageReceived": false,
+          "usageRequested": true,
+          "tail": "mpletion.chunk\"}\n\ndata: {\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"reasoning_content\":\"…\"}}],\"created\":1795643317,\"id\":\"chatcmpl-w7u5kdQlizotxoutJnT2rJNjVErm4PoN\",\"model\":\"meta-models/Muse-Glimmer-30B-GGUF:Q4_K_M\",\"system_fingerprint\":\"b12375-9d25e0014\",\"object\":\"chat.completion.chunk\"}\n\n",
+          "requestId": "b615718a-591c-46a2-a75b-90fab81b8d79"
+        },
+        "route": [
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "durationMs": 282,
+            "message": "azure_openai gpt-6.2-sol: Failed to fetch"
+          },
+          {
+            "position": 1,
+            "integrationId": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+            "integrationName": "LlmProxy",
+            "provider": "openai",
+            "model": "muse-glimmer-30b",
+            "outcome": "timeout",
+            "endpoint": "https://llmproxy.opencode.zone",
+            "durationMs": 179721,
+            "message": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.7 s left of the total routing time (maxTotalDurationMs)",
+            "timeoutPhase": "total",
+            "timeoutMs": 179710,
+            "routing": true
+          },
+          {
+            "position": 2,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6-luna",
+            "outcome": "left-out",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "leftOut": "out-of-time"
+          }
+        ],
+        "attempt": 1,
+        "retries": 3
+      },
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 6041,
+        "outputTokens": 2125,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_eed08b87-20c4-4e9a-8615-38de7cf1bab2",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 3 (giro 2)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:48:39.785Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:49:03.961Z",
+      "summary": "1 findings (0 critical, 1 major) — Le correzioni richieste risultano in gran parte integrate: il conteggio del prelievo è coerente, Bomo rinuncia visibilmente al quinto frutto, il riscontro del corso d’acqua resta e il raccordo verso l’Albero Basso è leggibile. Rimane un’incongruenza nel destino dei frutti consegnati a Bomo, oltre a una chiusura che non mostra la distribuzione di quelli ancora in mano a lui.",
+      "changedPaths": [],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6742,
+        "outputTokens": 281,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.000709325
+    },
+    {
+      "id": "activity_6297154c-985e-40a6-8fe3-4fa0735aaab7",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 3 (giro 2)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:49:04.026Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:49:18.555Z",
+      "summary": "revise 6.5/10 — 1 accepted, 0 rejected. ## Verdetto\nIl capitolo è più leggibile e causalmente più saldo dopo gli interventi: la raccolta ha un limite concreto, il quinto frutto viene lasciato, il frutto spaccato è notato da Kaza e il cambiamento del corso è verificato senza confonderlo con l’eco. Tuttavia resta un difetto di chiusura materiale: la frase «Con due frutti a testa per i piccoli» impegna entrambi a una distribuzione che il testo non mostra; subito dopo Nira consegna un solo frutto e chiude con l’altro ancora in mano. È una contraddizione locale ma centrale per il prelievo e per la destinazione del cibo, quindi non approvo in questo ultimo giro.\n\n## Punti forti\n- La geografia è ancorata con coordinate ripetute: sentiero, margine, riva, radice. La linea di vista è dichiarata con precisione e Nira distingue ciò che vede da ciò che non può sentire o osservare.\n- Il conteggio dei quattro frutti è ora coerente durante il prelievo: Bomo ritrae la mano dal quinto senza staccarlo; il frutto spaccato è fuori dal conto e lasciato visibile.\n- La rete ecologica è resa da indizi osservabili — formiche, impronte d’uccello, forellini — anziché da una spiegazione astratta; il ricordo di Bomo è concreto e coerente con la sua voce.\n- Il ritorno di Kaza conserva attrito e dignità. Nota il frutto spaccato ma non lo prende; la sua zampa ferita limita il movimento senza trasformarlo in una soluzione facile.\n- La deviazione del filo d’acqua è una prova indipendente e visibile. Il capitolo realizza entrambi i reveal previsti senza anticipare altri segreti.\n\n## Rischi e debolezze\n- La destinazione dei frutti resta incoerente nella scena finale: «due frutti a testa per i piccoli» implica quattro frutti assegnati ai piccoli, ma Bomo ne porta due e non li consegna; Nira ne consegna uno e conserva l’altro. Non è solo un dettaglio di contabilità: indebolisce l’esito pratico del prelievo e la promessa fatta dalla frase.\n- Rimane una certa densità di micro-azioni e attese, ma qui non la considero motivo sufficiente per imporre un’altra potatura: la maggior parte dei dettagli stabilisce posizione, rischio o prova ecologica, e il capitolo è all’ultimo giro.\n\n## Canone e continuità\nIl capitolo rispetta il canone visibile: Kaza resta ferito alla zampa destra, l’amplificatore naturale è già stato rivelato, e l’acqua che si ritira è mostrata come mutamento reale del corso. Il cibo emerge come risorsa prodotta anche da formiche e uccelli, non come proprietà esclusiva del leone. La sola continuità interna da chiudere è il numero e il destino dei frutti dopo la separazione di due a Bomo.\n\n## Priorità di riscrittura\nNella scena 2, rendere coerenti la frase «due frutti a testa» e la distribuzione effettivamente mostrata: far consegnare anche i due frutti di Bomo ai piccoli, oppure restringere la frase alla quantità che il testo mostra destinata alla consegna e chiarire dove resta l’altro frutto di Nira. Non aggiungere frutti né cambiare il totale prelevato.",
+      "changedPaths": [
+        "evaluations/director/chapters/003-capitolo-3-il-pasto-che-resta.md"
+      ],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 8993,
+        "outputTokens": 1220,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0010518
+    },
+    {
+      "id": "activity_91d54d31-c9f1-4ad0-82e0-413890a1e826",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 3",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 3,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:49:18.611Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:50:21.567Z",
+      "summary": "1 fixes applied, 1165 words.",
+      "changedPaths": [
+        "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md"
+      ],
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 6841,
+        "outputTokens": 2846,
+        "cachedInputTokens": 1665
+      },
+      "cost": 0.0394205
+    },
+    {
+      "id": "activity_1fd707c4-0dab-4725-b125-f74bc59d3ac5",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "consolidate",
+      "phase": "review",
+      "title": "Chiusura del capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "Riassunto, recap, continuità e storia finora mantengono coerenti i capitoli successivi.",
+      "next": "Passare al capitolo successivo.",
+      "chapterNumber": 3,
+      "status": "failed",
+      "startedAt": "2026-11-25T21:50:21.630Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:53:21.648Z",
+      "error": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.5 s left of the total routing time (maxTotalDurationMs). Fallbacks were not tried: the total routing time (maxTotalDurationMs, 180 s) was used up.",
+      "errorKind": "timeout",
+      "errorDetail": {
+        "endpoint": "https://llmproxy.opencode.zone",
+        "model": "muse-glimmer-30b",
+        "provider": "openai",
+        "integration": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+        "timeoutMs": 179543,
+        "timeoutPhase": "total",
+        "transport": {
+          "status": 200,
+          "bytes": 635041,
+          "chunks": 1521,
+          "events": 2101,
+          "lastChunkAfterMs": 179442,
+          "silentMs": 107,
+          "end": "timeout",
+          "usageReceived": false,
+          "usageRequested": true,
+          "tail": ":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"tool_calls\":[{\"index\":0,\"function\":{\"arguments\":\" si\"}}]}}],\"created\":1795643603,\"id\":\"chatcmpl-90CTLsyJRzMD7Q1Y9jtB1NJxIOayDg7h\",\"model\":\"meta-models/Muse-Glimmer-30B-GGUF:Q4_K_M\",\"system_fingerprint\":\"b12375-9d25e0014\",\"object\":\"chat.completion.chunk\"}\n\n",
+          "requestId": "b4f9ffb2-a8b0-43c3-b6cc-0de8efd3cd5c",
+          "partialCharacters": 4161
+        },
+        "route": [
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 194,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort"
+            },
+            "durationMs": 124,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Function tools with reasoning_effort are not supported for gpt-6.2-sol in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'. [type: invalid_request_error, …"
+          },
+          {
+            "position": 0,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6.2-sol",
+            "outcome": "failed",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "apiVersion": "2025-01-01-preview",
+            "status": 400,
+            "body": {
+              "status": 400,
+              "shape": "openai",
+              "message": "Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'.",
+              "type": "invalid_request_error",
+              "param": "reasoning_effort",
+              "code": "unsupported_value"
+            },
+            "durationMs": 128,
+            "message": "azure_openai gpt-6.2-sol: HTTP 400 — Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'. [type: invalid_request_error, param: reasoning_effort, code: un…"
+          },
+          {
+            "position": 1,
+            "integrationId": "9dd7720e-4d47-41cf-94ce-e22b44bf0210",
+            "integrationName": "LlmProxy",
+            "provider": "openai",
+            "model": "muse-glimmer-30b",
+            "outcome": "timeout",
+            "endpoint": "https://llmproxy.opencode.zone",
+            "durationMs": 179549,
+            "message": "openai muse-glimmer-30b: request timed out: the provider did not finish within the 179.5 s left of the total routing time (maxTotalDurationMs)",
+            "timeoutPhase": "total",
+            "timeoutMs": 179543,
+            "routing": true
+          },
+          {
+            "position": 2,
+            "integrationId": "6a16279d-b7d7-4adf-926d-eca3aee88141",
+            "integrationName": "AzureOpenAi-GW",
+            "provider": "azure_openai",
+            "model": "gpt-6-luna",
+            "outcome": "left-out",
+            "endpoint": "https://oai-gw-002.openai.azure.com",
+            "leftOut": "out-of-time"
+          }
+        ],
+        "attempt": 1,
+        "retries": 3
+      },
+      "model": "muse-glimmer-30b",
+      "provider": "openai",
+      "usage": {
+        "inputTokens": 4479,
+        "outputTokens": 2042,
+        "cachedInputTokens": 0
+      }
+    },
+    {
+      "id": "activity_ecbee654-b97c-4138-9162-b745eeb1000f",
+      "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
+      "task": "consolidate",
+      "phase": "review",
+      "title": "Chiusura del capitolo 3 «Capitolo 3 - Il pasto che resta»",
+      "reason": "Riassunto, recap, continuità e storia finora mantengono coerenti i capitoli successivi.",
+      "next": "Passare al capitolo successivo.",
+      "chapterNumber": 3,
+      "status": "succeeded",
+      "startedAt": "2026-11-25T21:53:26.081Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-25T21:54:05.121Z",
+      "summary": "Nira e Bomo colgono l’occasione del temporaneo allontanamento di Kaza per prendere soltanto quattro frutti, lasciandone uno spaccato come segnale e rispettando gli altri animali che si nutrono degli scarti. Al ritorno, Kaza non li affronta: si ritira e si sdraia presso la pila, mentre i due portano il cibo ai piccoli. La riva mostra un mutamento concreto: l’acqua ha deviato il suo corso e la pietra un tempo bagnata è ormai asciutta; il sollievo del pasto non cancella la scarsità né la sete dei piccoli.",
+      "changedPaths": [
+        "chapters/003-capitolo-3-il-pasto-che-resta/chapter.md",
+        "resumes/chapters/003-capitolo-3-il-pasto-che-resta.md",
+        "resumes/total.md",
+        "plot.md",
+        "autopilot/plan.md"
+      ],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 5066,
+        "outputTokens": 1690,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0007178500000000001
     }
   ]
 }

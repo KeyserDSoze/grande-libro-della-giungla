@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "running",
-  "phase": "write",
+  "phase": "final",
   "brief": {
     "idea": "### PREMESSA COSTRUITA\n\nNon è una storia di furto. È una storia di scambio sbilanciato.\nLe due scimmie non vogliono umiliare il leone: hanno bisogno di cibo per la colonia di piccoli che non arrivano ancora all’albero basso. Il leone Kaza controlla l’unico punto d’ombra con acqua e la riserva di frutta secca che ha accumulato per la stagione secca. Non è stupido, è sovraccarico e ferito a una zampa. Le scimmie non sono furbe in assoluto: una osserva i suoni, l’altra ricorda le relazioni.\n\nProtagonisti:\n* **Nira**, giovane scimmia dal manto a macchie, udito fine. Non parla tanto, ascolta.\n* **Bomo**, scimmia più vecchia, memoria del vento. Sa i nomi di ogni sentiero e di chi deve a chi un favore.\n\nAntagonista funzionale: **Kaza**, leone del Terminale di Salsedine. Non cattivo, guardiano territoriale.\n\n### LONG-TERM - Arco totale e rivelazioni\n\n**Arco:** Da conflitto di scarsità a comprensione del sistema.\nCapitolo 1 = Mappatura del problema. Capitolo 2 = Costruzione dell’inganno come esperimento. Capitolo 3 = Conseguenza e riequilibrio.\n\n**Rivelazioni programmate:**\n1. Il cibo del leone non è suo solo: è stato raccolto da formiche e uccelli che lui non vede.\n2. Le scimmie non rubano, spostano l’attenzione del leone su una risorsa abbondante che lui disprezza.\n3. Il vero “furto” è l’informazione: il leone impara che il suo controllo è fragile senza gli occhi degli altri.\n\n**Payoff lungo:** i bambini capiscono che l’astuzia è osservazione, non forza. La giungla è un circuito, non un magazzino.\n\n### MID-TERM - Archi e capitoli\n\n**CAPITOLO 1 - L’ombra che pesa**\nArco: fame dei piccoli vs regola del leone.\nBeat centrale: Nira e Bomo scoprono che Kaza dorme sopra la pila di frutta secca ma non la mangia tutta, la tiene. Scoprono la zampa zoppicante e il rumore dell’acqua che si ritira.\nConflitto interno: Bomo vuole chiedere, Nira vuole capire prima.\nRischio cliché: leone pigro. Antidoto: Kaza è sveglio, conta le pile.\n\n**CAPITOLO 2 - Il suono sbagliato**\nArco: progettazione dell’inganno.\nBeat centrale: le scimmie non entrano nella tana. Usano il fiume e la roccia a specchio per far credere a Kaza che un branco più grande si stia avvicinando al suo cibo.\nAlternative qui:\nA. Inganno acustico: replicare i passi di bufali con pietre e tronchi.\nB. Inganno visivo: riflesso nell’acqua che raddoppia l’ombra del leone.\nC. Inganno sociale: convincere un corvo a portare un messaggio falso.\nScelta consigliata: A+B combinati, concreto e verificabile.\nConseguenza immediata: Kaza si sposta per difendere, lascia scoperta la pila.\n\n**CAPITOLO 3 - Il pasto che resta**\nArco: esecuzione e prezzo.\nBeat centrale: mentre Kaza inseguie l’eco, le scimmie prendono solo ciò che serve per i piccoli e lasciano un segno. Il leone torna, capisce, ma non attacca perché l’eco è reale: il fiume sta cambiando corso.\nRivelazione finale: il cibo preso non sparisce, viene restituito in forma diversa. La colonia aiuta a spostare la frutta secca più in alto prima della piena.\n\n### ALTERNATIVE, CONFLITTI, CONSEGUENZE\n\n* **Alternativa morale:** le scimmie offrono un servizio in cambio di cibo, non ingannano. Più cooperativa, meno rischiosa per cliché.\n* **Conflitto esterno:** la stagione secca avanza, l’acqua cala.\n* **Conflitto interno:** Nira vuole agire subito, Bomo vuole rispettare.\n* **Conseguenze:** la colonia mangia, il leone perde una parte della riserva ma guadagna un alleato di sorveglianza. Nessuno viene umiliato.\n\n### RISCHI DI CLICHÉ E ANTIDOTO\n\n* Scimmie chiacchierone e leone ruggente stupido → Antidoto: dialoghi minimali, descrizioni sensoriali. Il leone ragiona.\n* Furto glorificato → Antidoto: quantità limitata, restituzione simbolica.\n* Trucco magico → Antidoto: tutto spiegato con fisica della giungla: eco, ombra, vento.\n\n### INDIZI E PAYOFF\n\nIndizi seminati Cap 1: il leone che guarda sempre verso nord, il corvo che non canta, la roccia lucida vicino al fiume.\nPayoff Cap 3: il lettore riconosce la roccia lucida come specchio sonoro. Il leone non è sconfitto, è spostato.\n\n### CRITERI DI SELEZIONE\n\n1. Concretezza sensoriale > astrazione morale.\n2. Agency dei bambini: i protagonisti imparano osservando, non per caso.\n3. Coerenza ecologica: ogni azione ha un costo visibile.\n4. Nessuna umiliazione dell’antagonista.\n5. Tre capitoli chiusi ma con porta aperta per espansione del Grande Libro.\n\nValidazione, Critica adversarial e Outline dettagliato da svolgere dopo fissaggio di questa direzione.",
     "synopsis": "",
@@ -219,7 +219,7 @@
         "number": 3,
         "title": "Capitolo 3 - Il pasto che resta",
         "slug": "003-capitolo-3-il-pasto-che-resta",
-        "summary": "Il leone si alza e il tempo si misura in respiri: petto che si solleva, pausa tra un passo e l'altro, vuoto dell'ombra che si accorcia. Mentre Kaza si sposta verso il fiume, Nira e Bomo entrano nell'ombra e prendono solo il necessario, il peso si sente nelle mani che scelgono e fermano. Lasciano un frutto marcio visibile come segnale. Il ritorno del leone è rallentato; sulla riva l'acqua si è ritirata, la ghiaia è scoperta e il letto mostra il costo ecologico della stagione. Il silenzio finale si allunga, l'accettazione è implicita nel gesto, senza spiegazioni.",
+        "summary": "Nira e Bomo colgono l’occasione del temporaneo allontanamento di Kaza per prendere soltanto quattro frutti, lasciandone uno spaccato come segnale e rispettando gli altri animali che si nutrono degli scarti. Al ritorno, Kaza non li affronta: si ritira e si sdraia presso la pila, mentre i due portano il cibo ai piccoli. La riva mostra un mutamento concreto: l’acqua ha deviato il suo corso e la pietra un tempo bagnata è ormai asciutta; il sollievo del pasto non cancella la scarsità né la sete dei piccoli.",
         "goal": "Eseguire il prelievo limitato e mostrare il prezzo ecologico, chiudendo il conflitto con un riequilibrio non umiliante.",
         "pov": [
           "Nira",
@@ -237,8 +237,69 @@
           "Il cibo non è solo del leone",
           "Il fiume sta cambiando corso"
         ],
-        "status": "planned",
-        "scenes": [],
+        "status": "done",
+        "scenes": [
+          {
+            "number": 1,
+            "title": "Il passo e il vuoto",
+            "goal": "Trasformare la distrazione di Kaza in una finestra breve e rischiosa: Nira e Bomo possono entrare nell’ombra, ma devono misurare il tempo e la quantità senza confondere il prelievo con un saccheggio.",
+            "beats": [
+              "Dalla riva del Fiume Secco, Nira e Bomo seguono con lo sguardo la linea di vista verso la radura: Kaza si alza dopo alcuni respiri lenti e si dirige verso il fiume; la zampa destra cede appena nel passo, senza fermarlo.",
+              "Quando Kaza è abbastanza lontano, i due attraversano il sentiero e raggiungono la pila sotto l’ombra. Un piccolo, all’Albero Basso, lascia uscire un colpo di tosse secca; Nira lo sente, ma non perde di vista le mani e la pila.",
+              "Bomo riconosce nella disposizione della frutta tracce di chi l’ha portata: bucce rosicchiate e piccoli accumuli ai margini, segni lasciati da formiche e uccelli. Capisce e nomina ciò che Kaza non può vedere: la riserva si è formata grazie a più presenze, non a un solo guardiano.",
+              "Nira prende pochi frutti, fermandosi quando il peso le tira i polsi; Bomo ne conta il numero sottovoce e trattiene la mano prima che aggiunga altro. La quantità limitata diventa una scelta concreta, non un giudizio pronunciato.",
+              "Lasciano in vista un frutto marcio come segnale. La polpa scura resta sulla sabbia chiara; l’ombra sotto l’Albero Basso si è accorciata mentre erano alla pila.",
+              "Dalla loro posizione vedono Kaza voltarsi verso la radura e riprendere il sentiero. Il ritorno zoppicante è lento ma costante: i due hanno il tempo di arretrare senza correre, ma non di sparire dalla sua vista."
+            ],
+            "pov": "Nira, con brevi percezioni di Bomo",
+            "location": "Dal letto basso del Fiume Secco al sentiero e alla radura, presso la pila sotto l’ombra",
+            "characters": [
+              "Nira",
+              "Bomo",
+              "Kaza",
+              "I Piccoli"
+            ],
+            "summary": "Nira e Bomo si nascondono presso la pila di frutti mentre il leone Kaza si abbassa alla riva, beve e poi scende verso il fiume e risale il sentiero; i due raccolgono quattro frutti lasciando uno spaccato come esca sulla sabbia e, quando Kaza torna in salita zoppicando, si ritirano sul margine del sentiero dove Nira mostra i quattro frutti raccolti con le mani vuote di Bomo accanto a lei.",
+            "status": "reviewed",
+            "slug": "001-il-passo-e-il-vuoto",
+            "path": "chapters/003-capitolo-3-il-pasto-che-resta/001-il-passo-e-il-vuoto.md",
+            "words": 1235,
+            "revisions": 1
+          },
+          {
+            "number": 2,
+            "title": "La riva che arretra",
+            "goal": "Chiudere il prelievo senza umiliare Kaza e rendere visibile che il segnale non spiega tutto: l’acqua si ritira davvero, restringendo la risorsa condivisa e lasciando l’accettazione nel gesto.",
+            "beats": [
+              "Nira e Bomo restano sul margine del sentiero, nella stessa linea di vista della radura. Kaza raggiunge la pila, nota il frutto marcio lasciato sopra la sabbia e si arresta; non scatta né cerca di inseguirli.",
+              "Il silenzio si prolunga. Kaza guarda la pila e poi la riva; Bomo non aggiunge spiegazioni, mentre Nira registra il respiro dei piccoli, ora più quieto ma ancora ruvido.",
+              "Kaza si sposta verso il fiume per bere. La zampa ferita grava sul terreno e il suo passo rallenta; Nira vede la riva, non ciò che accade oltre la piega del letto.",
+              "Dall’Albero Basso, Bomo indica che il bordo dell’acqua è più lontano rispetto a prima. Sulla riva sono rimaste scoperte strisce di ghiaia; l’acqua è arretrata e il canale visibile piega tra le pietre, mostrando che il corso sta cambiando davvero, non soltanto per effetto dell’eco.",
+              "Kaza abbassa il muso al filo d’acqua rimasto. Quando torna alla pila, non copre il frutto marcio né scaccia i due: sposta appena il corpo, lasciando libera una parte dell’ombra. Nira sente il terreno cedere sotto il peso del silenzio, senza tradurlo in parole.",
+              "Bomo prende il segnale per quello che è e non aggiunge altro cibo; i due si ritirano verso l’Albero Basso con la quantità già scelta. Dietro di loro, la ghiaia scoperta resta al sole e l’acqua continua a scorrere più in là."
+            ],
+            "pov": "Nira",
+            "location": "Sentiero tra la radura e l’Albero Basso, con vista sulla pila e sulla Riva del Fiume Secco",
+            "characters": [
+              "Nira",
+              "Bomo",
+              "Kaza",
+              "I Piccoli"
+            ],
+            "summary": "Kaza si avvicina alla pila di frutta, annusa il frutto spaccato senza toccarlo, scende alla riva dove beve e poi risale per accucciarsi sul fianco della pila lasciando libera una striscia d’ombra; intanto Bomo si stacca da Nira, i due si spostano verso la radice dell’Albero Basso e constatano che la pietra piatta è asciutta mentre l’acqua passa più in là, e risalgono con due frutti a testa per i piccoli accucciati dietro la radice.",
+            "status": "reviewed",
+            "slug": "002-la-riva-che-arretra",
+            "path": "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md",
+            "words": 1165,
+            "revisions": 2
+          }
+        ],
+        "score": 6.5,
+        "storySoFarAtClose": "**Grande libro della giungla**\n\nAll’Albero Basso il caldo restringe l’ombra e mette in difficoltà i piccoli. Nira veglia su di loro; Bomo indica il Terminale di Salsedine, dove una pozza e una pila di frutta secca sono sorvegliate da Kaza. Il leone è vigile e zoppica con la zampa destra. Nira trattiene Bomo dal prendere cibo, e i due cercano un modo per agire senza affrontarlo.\n\nBomo ricorda l’eco dei tamburi restituita un tempo dal fiume. I suoi tentativi di ricrearla nella radura falliscono, ma Nira e Bomo trovano nel letto basso un canale e allineano tre pietre presso la Roccia del Ritardo. Un colpo piccolo torna dalla roccia lucida dopo una pausa: scoprono così un possibile richiamo per attirare Kaza lontano dalla pila. Le pietre restano sul posto.\n\n**Capitolo 3 – Il pasto che resta**\n\nNira mette in moto le pietre e Kaza, pur mantenendo il muso sulla pila, si orienta verso il fiume. Si alza con cautela, proteggendo la zampa destra, e scende lungo il sentiero. Nira e Bomo entrano nell’ombra presso la frutta. Si accorgono che formiche e uccelli raccolgono gli avanzi: il cibo non appartiene soltanto al leone. Nira prende tre frutti e poi un quarto, fermandosi quando il peso le tira i polsi; Bomo rinuncia a prenderne un quinto. Lasciano davanti alla pila un frutto spaccato, con il taglio visibile, come segnale.\n\nKaza torna mentre loro sono ancora vicini. Annusa il frutto lasciato e osserva le mani di Nira, ma non li aggredisce né allunga la zampa verso di loro. Va alla riva e beve in un filo d’acqua ormai deviato. Nira e Bomo vedono che la pietra piatta, un tempo attraversata dalla corrente, è asciutta e circondata da ghiaia scoperta: il fiume ha cambiato passaggio. Kaza risale e si sdraia presso la pila, lasciando libera una striscia d’ombra.\n\nNira e Bomo tornano all’Albero Basso con i quattro frutti e ne distribuiscono tre ai piccoli; Nira conserva l’ultimo. Uno dei piccoli, pur avendo ricevuto da mangiare, ha ancora le labbra asciutte. L’ombra continua a diminuire e la scarsità d’acqua resta irrisolta; il corso attuale del fiume e le sue conseguenze sono ancora incerti.",
+        "rounds": [
+          { "director": 6.5, "readers": 6.7, "verdict": "revise", "accepted": 6, "rejected": 3 },
+          { "director": 6.5, "verdict": "revise", "accepted": 1, "rejected": 0 }
+        ],
         "outlineDigest": "901b6c5d3a02c632"
       }
     ],
@@ -330,18 +391,18 @@
     }
   ],
   "directorNotes": [
-    "Non nominare mai formiche e uccelli prima di Cap3 e non mostrare raccolta del cibo dal leone prima della rivelazione.",
-    "Mantenere dialoghi minimali e differenziati: Nira ascolta e misura con il corpo, Bomo nomina e ricorda. Nessuna spiegazione morale esplicita.",
-    "Ogni azione deve lasciare traccia ecologica visibile: acqua che cala, ombra che si accorcia, peso che si sente.",
-    "Mantenere la topografia stabile Albero Basso / sentiero / radura senza reintroduzioni sinonimiche",
-    "Evitare ripetizioni verbatim tra scena 1 e scena 2: ogni immagine chiave deve variare o evolvere, non tornare identica",
-    "Differenziare ulteriormente la voce: Nira misura con il corpo, Bomo nomina e ricorda, senza spiegazioni morali",
-    "Mantieni i tre beat vincolati per capitolo: ricordo concreto, prova fallita ancorata a percezione fisica di Kaza e verifica tattile di Nira, scoperta amplificatore naturale. Non anticipare segreti oltre soglia.",
     "Ancora ogni esperimento a una traccia ecologica visibile e a un micro-segnale dei piccoli per mantenere posta emotiva senza commento.",
     "Varia ritmo e lessico tra scena 1 e scena 2 per evitare ripetizioni verbatim e mantenere progressione drammatica.",
     "Nei capitoli d’esperimento, fai sì che ogni prova cambi la comprensione o la possibilità d’azione: evita di ripetere lo stesso risultato con variazioni sensoriali che non aggiungono un dato.",
     "Mantieni sempre stabile la linea di vista e separa con precisione ciò che un personaggio vede da ciò che ascolta o deduce.",
-    "Continua a far emergere l’urgenza tramite tracce corporee dei piccoli e conseguenze ambientali, senza trasformarle in spiegazione emotiva."
+    "Continua a far emergere l’urgenza tramite tracce corporee dei piccoli e conseguenze ambientali, senza trasformarle in spiegazione emotiva.",
+    "Nei capitoli d’azione, mantieni un inventario chiaro degli oggetti che passano di mano e di quelli lasciati sul posto; fai controllare il conteggio al momento della partenza.",
+    "Ogni attesa deve cambiare rischio, informazione o possibilità d’azione: taglia le misurazioni che ribadiscono una condizione già stabilita.",
+    "Quando un gesto è destinato a funzionare come segnale, mostra una risposta osservabile del destinatario oppure non presentarlo come prova di accettazione.",
+    "Continua a rendere fame, sete e urgenza tramite micro-segnali corporei e conseguenze ambientali, senza aggiungere spiegazioni emotive.",
+    "Nei capitoli di prelievo o scambio, chiudi in scena l’inventario dopo ogni passaggio di mano: la quantità raccolta, quella lasciata e quella effettivamente ricevuta dai destinatari devono combaciare.",
+    "Mantieni le coordinate spaziali e la distinzione fra vista, udito e deduzione: qui rendono leggibile una scena densa senza sacrificare la precisione sensoriale.",
+    "Quando un capitolo promette un esito pratico, come il cibo destinato ai piccoli, mostra almeno un riscontro osservabile della consegna senza spiegare l’emozione al lettore."
   ],
   "question": null,
   "frozenSince": "2026-11-23T10:41:46.157Z",
@@ -351,24 +412,24 @@
     "hostId": "device-0b0b8e48-dd66-4af3-988b-8cd270998395",
     "runId": "run_ab8f9816-ca56-44d7-804d-8474a731e4f1",
     "startedAt": "2026-11-25T21:10:05.540Z",
-    "heartbeatAt": "2026-11-25T21:19:14.963Z"
+    "heartbeatAt": "2026-11-25T21:54:05.121Z"
   },
   "stats": {
-    "tasks": 47,
-    "aiCalls": 107,
-    "inputTokens": 484719,
-    "outputTokens": 245079,
-    "cost": 0.232764195,
+    "tasks": 64,
+    "aiCalls": 134,
+    "inputTokens": 613553,
+    "outputTokens": 288792,
+    "cost": 0.49292857,
     "currency": "USD",
     "failures": 10,
-    "usageUnknownCalls": 48,
-    "costUnknownCalls": 98,
-    "workedMs": 9652382,
+    "usageUnknownCalls": 53,
+    "costUnknownCalls": 113,
+    "workedMs": 10789303,
     "workedMsSince": "2026-11-24T20:21:34.141Z"
   },
   "message": null,
   "lastError": null,
   "createdAt": "2026-11-22T00:49:32.173Z",
-  "updatedAt": "2026-11-25T21:19:14.963Z",
-  "version": 197
+  "updatedAt": "2026-11-25T21:54:05.121Z",
+  "version": 219
 }
