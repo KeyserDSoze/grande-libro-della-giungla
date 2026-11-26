@@ -6530,6 +6530,32 @@
         "cachedInputTokens": 0
       },
       "cost": 0.0007178500000000001
+    },
+    {
+      "id": "activity_fdba8678-6bb0-4a37-99c3-b7065035bc0c",
+      "runId": "run_883e8a77-c0aa-49b4-9481-b1e9038f42ea",
+      "task": "final",
+      "phase": "final",
+      "title": "Il direttore valuta l'intero libro",
+      "reason": "Archi, promesse e fili aperti si verificano quando tutti i capitoli sono approvati.",
+      "next": "L'autopilot è completato.",
+      "status": "succeeded",
+      "startedAt": "2026-11-26T15:30:45.475Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-26T15:31:37.667Z",
+      "summary": "revise 6.4/10 — Il libro ha una premessa nitida e un finale ecologicamente onesto, ma nella forma attuale non mantiene fino in fondo la promessa del suo stesso disegno: la soluzione sonora è annunciata e preparata, però il racconto disponibile non la fa apparire come risultato causale dell’esperimento; soprattutto, lo scambio con Kaza resta unilaterale e la sua «accettazione» non è dimostrata. L’arco è promettente, non ancora compiuto. Valuto severamente secondo chiarezza, ritmo, tensione, coerenza e forza stilistica, ma qui il materiale fornito è soprattutto mappe e sintesi, non la prosa integrale: il giudizio è quindi sul libro progettato e sui fatti narrativi riportati.",
+      "changedPaths": [
+        "evaluations/director/book.md"
+      ],
+      "model": "gpt-6-luna",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4719,
+        "outputTokens": 2241,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.000752025
     }
   ]
 }
