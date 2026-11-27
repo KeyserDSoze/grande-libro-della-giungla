@@ -5,15 +5,16 @@ target_type: chapter
 target_id: chapter:001-capitolo-1-l-ombra-che-pesa
 title: 1. Capitolo 1 - L'ombra che pesa
 director: Il Direttore
-verdict: revise
-score: 6
+verdict: approve
+score: 8
 source: autopilot
-created_at: 2026-11-24T23:43:01.256Z
-source_hash: c91df21da48bc3abf29e2ab275f0be2a66dc68bb2c46104ecae38d6aa0c5d059
-model: muse-glimmer-30b
-provider: openai
-input_tokens: 8804
-output_tokens: 2440
+created_at: 2026-11-26T20:40:08.534Z
+source_hash: 8f3745925d84df645966a8dca244c552ff469448d1a0add26dbeaee6347e4783
+model: gpt-6.2-sol
+provider: azure_openai
+input_tokens: 7922
+output_tokens: 3928
+cost: 0.0688555
 currency: USD
 ---
 
@@ -21,40 +22,58 @@ currency: USD
 
 ## Verdetto
 
-**Da rivedere** — 6/10
+**Approvato** — 8/10
 
-Il capitolo ha un’atmosfera sensoriale coerente e un orologio di tensione funzionante con l’ombra che si accorcia. La relazione non verbale Nira-Bomo è credibile e Kaza è caratterizzato da gesto e vulnerabilità. Restano però ripetizioni lessicali vietate e una tautologia che rompe chiarezza, oltre a un’incoerenza di denominazione della pila e alla mancata applicazione del fix su Bomo-sentiero. La progressione è ancora osservativa e la bussola personaggi/luoghi resta sottile. Con le correzioni puntuali il capitolo può raggiungere la soglia.
+Approvato con ritocchi circoscritti. Il capitolo passa dal bisogno dei piccoli al controllo di Kaza e chiude sulla decisione di non agire, senza promettere una soluzione che non deve ancora dare. La correzione decisiva è rendere inequivocabile che Bomo si ferma da sé. Chiarezza 7,5/10: sete e fame si distinguono al primo passaggio, ma il ritiro della mano si confonde ancora con la pressione di Nira. Ritmo 7,5/10: la partenza e il primo conteggio tengono; dopo il «Non ora» torace e ghiaia ribadiscono dati acquisiti. Tensione 8/10: il fruscio mostra che Kaza resta vigile anche dopo il cedimento della zampa. Coerenza di canone 9/10: la zoppia emerge alla soglia prevista e il ritiro dell’acqua resta un dato locale, senza causa dichiarata; va ripulita la sequenza fisica della zampa. Forza stilistica 8/10: lo schiocco della lingua, la mano vuota e il naso sui frutti rendono la scena concreta; le glosse sul debito e alcuni suoni figurati sono meno precisi.
 
 ## Punti di forza
 
-- Scrittura tattile e termica coerente: lingua, corteccia calda, polvere sospesa, crepitio del caldo
-- Orologio narrativo dell’ombra che si accorcia come pressione concreta
-- Relazione non verbale Nira-Bomo incarnata da polso, respiro e gesti misurati
-- Kaza caratterizzato per azione e fragilità fisica visibile, zampa che zoppica
+- All’Albero Basso, la lingua che si stacca dal palato e la mano che torna vuota danno a sete e fame due segni distinti, leggibili senza spiegazioni.
+- Kaza che conta i frutti uno a uno e torna tra la pila e la radice rende il controllo visibile nello spazio.
+- Il cedimento al passo verso la pozza rende Kaza vulnerabile; lo scatto delle orecchie al fruscio impedisce di scambiare quella vulnerabilità per un via libera.
 
 ## Criticità
 
-- **Importante** — Rimane la ripetizione di ‘caldo stringe’ vietata dal fix di Scena 2; l’immagine chiave del caldo è già variata altrove e qui si ripresenta identica in chiusura di scena. «la radura li aspetta con il caldo che stringe e la pila che aspetta»
-  → Scena 1: Sostituire ‘con il caldo che stringe’ con una variazione sensoriale nuova legata alla radura senza riutilizzare ‘stringe’, es. ‘con l’aria che incide sulla nuca’.
-- **Importante** — Ripetizione dell’immagine ‘appiccicosa’/‘lingua appiccicosa’ nella stessa scena: più avanti ‘la lingua resta appiccicosa al palato, poi si stacca con un piccolo scatto’. Il fix richiedeva variazioni sensoriali e una sola occorrenza per immagine chiave. «la saliva resta appiccicosa, lucida, che trattiene la polvere»
-  → Scena 1: Mantenere una sola occorrenza di ‘appiccicosa’. Riformulare la seconda menzione della lingua al palato con dettaglio sensoriale diverso, es. secchezza o rumore di deglutizione, senza ripetere ‘appiccicosa’.
-- **Critico** — Formulazione non sensata e opaca che compromette chiarezza: ‘Il polso le batte al polso’ è tautologica e non localizza la sensazione. «Il polso le batte al polso»
-  → Scena 1: Correggere in ‘Il polso le batte alla tempia’ mantenendo la misura del battito.
-- **Minore** — Il fix richiedeva che Bomo nomini il sentiero come un debito al primo ingresso; il testo nomina ‘il luogo’, non il sentiero, riducendo la funzionalità richiesta. «Nomina il luogo come un vecchio debito»
-  → Scena 1: Sostituire ‘Nomina il luogo come un vecchio debito’ con ‘Nomina il sentiero come un vecchio debito’.
-- **Minore** — La denominazione della pila non rispetta la prescrizione di identificarla una sola volta come ‘dorso di frutta secca al sole’ e mantenere la denominazione stabile; qui si usa una perifrasi diversa. «un dorso color nocciola che prende il sole»
-  → Scena 2: Sostituire ‘un dorso color nocciola che prende il sole’ con ‘un dorso di frutta secca al sole’ e mantenere questa denominazione nelle occorrenze successive della pila in scena 2.
+- **Importante** — Segnali sensoriali ripetuti senza progressione; funzione dell’ombra poco chiara; vecchio debito evocato ma poco visibile nel comportamento di Bomo.
+  → Scena 2: Dopo l’avanzare dell’ombra verso la pozza, taglia il nuovo riscontro del torace e del riflesso della ghiaia; conserva lo scricchiolio e la reazione di Bomo.
+- **Importante** — Lo sguardo collega il gesto alla vigilanza di Kaza, ma il ritiro minimo e la presa di Nira che resta invariata lasciano incerto se Bomo abbia davvero rinunciato da sé o sia ancora trattenuto mentre tenta di arrivare alla pila. «Lo sguardo di Bomo sale dalla pila a quelle orecchie. Sotto il polso fermo di Nira, ritira la mano di un dito.»
+  → Scena 2: Dopo lo scatto delle orecchie di Kaza, fai ritirare nettamente la mano a Bomo di sua iniziativa; Nira allenti la pressione senza perdere il contatto. Mantieni la mano ritirata fino alla chiusa, anche quando l’avambraccio si tende allo scricchiolio.
+- **Importante** — La seconda zoppicata non è legata a un nuovo passo: la zampa sembra zoppicare da ferma, subito dopo essersi raddrizzata. La sequenza torna inoltre più avanti sulla sabbia sotto l’artiglio, appesantendo l’indizio. «Il torace di Kaza si ferma, il muso si abbassa e la zampa zoppica di nuovo.»
+  → Scena 2: Elimina la seconda zoppicata da fermo e il secondo movimento della sabbia sotto l’artiglio. Conserva il cedimento nel passo verso la pozza e l’appoggio cauto dopo il fruscio.
+- **Minore** — Il commento è collocato subito dopo la battuta sull’acqua e sulla pila, in cui Bomo non pronuncia alcun nome. Il Terminale è stato nominato diverse battute narrative prima. «Nomina il sentiero come un vecchio debito. Non dice di prendere. Dice solo il nome.»
+  → Scena 1: Taglia le tre frasi da «Nomina il sentiero» a «Dice solo il nome».
+- **Minore** — Il richiamo c’è, ma il singolare presuppone un piccolo già individuato all’ascolto. Nella prima scena Nira distingue più respiri senza associare questo ricordo a uno di essi. «Per un istante il respiro di Nira si fa corto come quello del piccolo che ha ascoltato all’Albero Basso.»
+  → Scena 2: Nel respiro di Nira riprendi l’interruzione e la ripresa più lenta già udite all’Albero Basso, senza identificare il piccolo.
+- **Minore** — Il verbo fa immaginare un movimento del capo, mentre il complemento attribuisce il gesto alle spalle. L’assenso è chiaro, il gesto no. «Nira annuisce con un movimento impercettibile delle spalle.»
+  → Scena 2: Conserva l’assenso silenzioso come un piccolo cenno del capo ed elimina il riferimento alle spalle.
+- **Minore** — Il crepitio è presentato insieme come assenza di rumore e come suono. In una scena in cui fruscio e scricchiolio sono segnali che cambiano il comportamento dei personaggi, la formula rende meno netta la distinzione fra percezione e metafora; ricorre già nella prima scena. «Non c’è rumore. Solo il crepitio del caldo.»
+  → Scena 2: Taglia «Solo il crepitio del caldo» dopo il bagliore sulla ghiaia; conserva il silenzio.
+- **Minore** — La correzione di «tempio» è presente, ma «polso» può far immaginare l’articolazione contro la testa anziché la pulsazione. La stessa ambiguità ricompare nella seconda scena. «Il polso le batte alla tempia.»
+  → Scena 1: Alla sosta di Nira sul bordo dell’Albero Basso, sostituisci «polso» con «battito», mantenendo la tempia come sede della sensazione.
+- **Minore** — La ripetizione ravvicinata di «aspetta» sfoca la chiusa: radura e pila ricevono la stessa azione proprio quando lo sguardo dovrebbe stringersi sulla meta. «la radura li aspetta con l’aria che incide sulla nuca e la pila che aspetta.»
+  → Scena 1: Elimina il primo «aspetta» riferito alla radura e chiudi sulla pila già visibile.
+- **Importante** — Distingue la pulsazione dal polso che poco dopo preme davvero contro l’avambraccio.
+  → Scena 2: Nella risposta di Nira a «È lì», sostituisci «polso» con «battito» nella sensazione alla tempia; lascia «polso» nei passaggi di contatto con Bomo.
+- **Importante** — Il testo prima dà per udito un fruscio, poi lo nega. Distinguere l’ascolto dal suono effettivo prepara il vero fruscio della radura.
+  → Scena 1: Dopo il «Sì» di Nira sul sentiero, mostra che tende l’orecchio senza udire alcun fruscio; elimina lì il crepitio figurato.
 
 ## Decisioni
 
-- Accettato S2-1: La ripetizione di ‘caldo che stringe’ è vietata dai fix precedenti e ricompare in chiusura di scena 1, annullando la variazione sensoriale richiesta.
-- Accettato S2-2: Nella stessa scena 1 l’immagine di appiccicoso ricorre due volte, violando la regola di una sola occorrenza per immagine chiave per scena.
-- Accettato S2-3: ‘Il polso le batte al polso’ è tautologica e opaca, compromette chiarezza.
-- Accettato S2-4: Il fix richiedeva esplicitamente che Bomo nomini il sentiero come debito al primo ingresso; il testo usa ‘luogo’, riducendo la funzionalità.
-- Accettato S2-5: La prima identificazione della pila in scena 2 non rispetta la denominazione stabilita ‘dorso di frutta secca al sole’.
+- Respinto R2-1: Come richiesta complessiva, spinge il capitolo oltre il suo compito. Acqua e frutta motivano già la partenza senza che i due debbano stabilire quale prendere per prima. Il «Non ora» è l’esito giusto per una ricognizione: va chiarito che Bomo lo decide, non aggiunta una svolta né costruito un antefatto personale.
+- Accettato R2-2: Accolgo la sola ridondanza verificabile: dopo il «Non ora» il torace e la ghiaia non cambiano ciò che i due sanno. L’ombra può restare un indizio, senza diventare un conto alla rovescia operativo. Il debito non richiede sviluppo qui.
+- Accettato S2-1: Lo sguardo verso le orecchie di Kaza dà la causa giusta, ma il ritiro di un dito sotto una pressione invariata non basta a distinguere una rinuncia volontaria da un tentativo ancora trattenuto.
+- Accettato S2-2: Il cedimento al passo rivela già la zoppia. Far zoppicare la zampa di nuovo senza un nuovo passo confonde il movimento; il secondo dettaglio sulla sabbia non aggiunge nulla all’appoggio cauto.
+- Accettato S2-3: Dopo «E la pila», il commento sul nome non ha più un referente immediato. Il debito evoca un passato che qui non determina la scelta di Bomo; i piccoli bastano a motivarne la partenza.
+- Accettato S2-4: Nira ha distinto un ritmo del respiro, non il piccolo a cui appartiene. Riprendere quel ritmo rende il legame riconoscibile senza attribuirle ciò che non ha individuato.
+- Accettato S2-5: Il gesto è l’unica risposta di Nira al «Non ora»; «annuisce» porta al capo, mentre la frase indica le spalle.
+- Accettato S2-6: Tra il silenzio della pozza e il fruscio che fa scattare Kaza, il crepitio figurato sembra un terzo suono da interpretare. Il calore è già percepibile sulla nuca.
+- Accettato S2-7: Il senso di pulsazione si recupera, ma «polso» può far immaginare l’articolazione. Meglio riservare la parola al contatto fisico che regge il confronto nella scena successiva.
+- Accettato S2-8: Nella chiusa, il doppio «aspetta» divide l’attenzione fra radura e pila proprio quando la meta è finalmente in vista.
+- Accettato D2-1: Distingue la pulsazione dal polso che poco dopo preme davvero contro l’avambraccio.
+- Accettato D2-2: Il testo prima dà per udito un fruscio, poi lo nega. Distinguere l’ascolto dal suono effettivo prepara il vero fruscio della radura.
 
 ## Prossimi passi
 
-- Mantenere la topografia stabile Albero Basso / sentiero / radura senza reintroduzioni sinonimiche
-- Evitare ripetizioni verbatim tra scena 1 e scena 2: ogni immagine chiave deve variare o evolvere, non tornare identica
-- Differenziare ulteriormente la voce: Nira misura con il corpo, Bomo nomina e ricorda, senza spiegazioni morali
+- Quando un personaggio smette di opporsi a chi lo trattiene, distingui il gesto con cui viene frenato da quello con cui decide di fermarsi. Mostra che cosa gli fa cambiare condotta.
+- Non dare a ogni indizio ambientale una funzione tattica. Se invece determina il momento di agire, mostra quale possibilità apre o chiude.
+- Dopo una decisione, non tornare a misurare ciò che il lettore sa già: il segnale successivo deve spostare l’attenzione, il rischio o il gesto.

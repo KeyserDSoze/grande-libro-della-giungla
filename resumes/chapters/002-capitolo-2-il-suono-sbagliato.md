@@ -5,43 +5,51 @@ title: Resume 002-capitolo-2-il-suono-sbagliato
 chapter: chapter:002-capitolo-2-il-suono-sbagliato
 state_changes:
   locations:
-    - Nira e Bomo passano dalla radura presso il Terminale di Salsedine alla
-      riva del letto basso del fiume, poi restano nei pressi della riva, con
-      vista sulla radura.
+    - Nira e Bomo lasciano il riparo della radice nella radura e scendono alla
+      riva, nel letto basso del fiume. Alla fine sono presso le pietre, da dove
+      si vede la radura.
+    - Kaza resta alla pila di frutta; i piccoli sono rimasti all’Albero Basso.
   knowledge_gain:
-    - Bomo ricorda che al Sentiero di Salsedine il fiume restituiva con ritardo
-      il suono dei tamburi.
-    - "La prova di rami e pietre sulla sabbia della radura produce un rumore
-      troppo debole: Kaza lo percepisce ma non si muove, restando vigile."
-    - Nira scopre che un canale tra i sassi del letto basso incanala il rotolio
-      delle pietre e che la roccia lucida restituisce il suono in ritardo
-      sull’acqua bassa.
-    - Bomo nomina la roccia lucida «Roccia del Ritardo»; la possibilità di usare
-      il suono per spostare Kaza senza entrare nella tana è individuata, ma non
-      ancora messa in atto.
+    - Bomo ricorda che l’acqua del fiume restituiva i colpi dei tamburi dopo una
+      breve pausa.
+    - Il tonfo dei rami nella radura non ha eco, ma fa alzare la testa a Kaza
+      senza fargli lasciare la pila. Anche il breve tintinnio delle pietre nella
+      sabbia non ha eco.
+    - Il solco sulla riva guida una pietra contro un sassolino; la roccia
+      lucida, chiamata Roccia del Ritardo da Bomo, rimanda quasi subito un suono
+      più pieno e netto. Una raffica basta a provocare l’urto, e Nira sente il
+      ritorno anche dopo essersi allontanata di qualche passo.
   inventory_add:
-    - Tre pietre allineate nel canale sulla riva, lasciate sul posto.
+    - Sulla riva sono predisposti una pietra mobile dal bordo liscio e un
+      sassolino già sul posto; a fine capitolo la prima è di nuovo a monte nel
+      solco.
   inventory_remove: []
   relationship_updates:
-    - Nira passa dal trattenere Bomo a condividere con lui l’esplorazione della
-      soluzione; collaborano senza discutere.
+    - "Nira e Bomo collaborano alla prova: Bomo propone di verificare la
+      reazione di Kaza e Nira rimette in posizione la pietra e osserva il
+      leone."
   conditions:
-    - I piccoli sono ancora all’Albero Basso, sotto un’ombra ormai molto
-      ridotta; un loro respiro arriva spezzato.
-    - Kaza resta presso la pila, vigile e immobile; la zampa destra continua a
-      cedere appena quando si sposta.
-    - Il caldo e la luce continuano a intensificarsi; l’acqua nel letto è bassa
-      e il vento è debole.
+    - Il livello dell’acqua è basso e la ghiaia davanti alla roccia è scoperta.
+      Fa ancora caldo; l’aria perlopiù ferma è interrotta da una raffica.
+    - Kaza vigila sulla frutta. Durante la prova dei rami posa con cautela la
+      zampa destra; alla fine ha le orecchie puntate verso il lato assolato
+      della radura.
+    - Bomo dice che tornerà dai piccoli e accenna un passo verso la salita, ma
+      si ferma. Nira e Bomo non hanno ancora preso né acqua né frutta.
   open_loops_add:
-    - Nira e Bomo useranno la fila di pietre e l’eco ritardata per attirare Kaza
-      lontano dalla pila o dalla tana?
-    - Riusciranno a intervenire prima che l’ombra abbandoni i piccoli all’Albero
-      Basso?
-  open_loops_resolved: []
+    - "Non è ancora chiaro se Kaza senta il suono dalla riva e come reagisca:
+      Nira ha guardato troppo tardi durante la raffica. La prova successiva è
+      pronta, ma il nuovo urto non avviene nel capitolo."
+    - Resta da vedere se il suono farà allontanare Kaza abbastanza da lasciare
+      scoperta la parte della pila che sorveglia.
+  open_loops_resolved:
+    - Nira e Bomo trovano un punto in cui l’urto fra due pietre produce un
+      ritorno udibile e constatano che anche il vento può provocarlo.
 ---
 
 # Chapter Summary
 
-Il capitolo passa dal tentativo fallito di Bomo alla verifica di Nira sulla riva.
-- **Il ricordo che vibra:** Bomo rievoca il calore, la vibrazione del tamburo e l’eco ritardata sull’acqua. Lui e Nira provano a produrre un rumore con rami e pietre, ma è troppo piccolo; Kaza lo sente e resta immobile, vigile. Nira nota che sulla radura le pietre non sono incanalate e segue il sentiero verso il letto basso.
-- **La roccia che parla:** Sulla riva, Nira dispone tre pietre nel canale scavato dall’acqua. Un soffio le fa urtare: la roccia lucida restituisce il suono dopo un ritardo percepibile. Bomo la chiama «Roccia del Ritardo» e ricorda che lì il fiume faceva eco ai tamburi. I due osservano che Kaza è ancora presso la pila, attento; la fila di pietre rimane sulla riva.
+Il ricordo dell’eco dei tamburi suggerisce a Bomo e Nira un modo per provare a distogliere Kaza dalla frutta.
+
+- **Il ricordo che vibra.** Dietro la radice, Bomo ricorda il breve silenzio prima che l’acqua restituisse il colpo dei tamburi. Lascia cadere insieme due rami: Kaza alza la testa, ma non si sposta e torna ai frutti. Nira prova con due pietre, ma nella sabbia senza solco la prima devia e sfiora l’altra senza produrre eco. I due scendono verso il letto basso del fiume.
+- **La roccia che parla.** Nira allinea due pietre nel canale scavato dall’acqua, vicino alla roccia lucida. L’urto provocato dalla sua spinta e poi quello provocato da una raffica ricevono lo stesso ritorno più pieno e netto. Nira guarda Kaza troppo tardi per cogliere un eventuale movimento delle orecchie. Bomo propone di controllare la reazione del leone; accenna a tornare dai piccoli, ma si ferma mentre Nira rimette la pietra a monte e tiene gli occhi sulle orecchie di Kaza.

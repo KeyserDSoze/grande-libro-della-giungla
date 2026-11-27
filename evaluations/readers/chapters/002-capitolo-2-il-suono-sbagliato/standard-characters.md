@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:002-capitolo-2-il-suono-sbagliato:chapter:standard-characters
 type: readerEvaluation
 createdAt: 2026-11-25T01:11:36.273Z
-updatedAt: 2026-11-25T01:11:36.273Z
+updatedAt: 2026-11-26T21:09:12.840Z
 targetType: chapter
 targetId: chapter:002-capitolo-2-il-suono-sbagliato
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,57 +13,52 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: 4e4cfb5c1a18efda882a674508172f46a0f7048b84c23afcfb9ae0efb2c0f194
-sourceContentVersion: 91f7a4eaf4878cb19c796ca085626b8826c4fe23c41fb9413c260fd4ea416fdf:90970f3a16bc7ec993b273428f98e4aaf85b0f822dd3bccb287aefa973322956
-sourceUpdatedAt: 2026-11-25T01:11:36.273Z
+sourceContentHash: ef94e8bea8a07dfc8eb89e5cef69a7ea05b30edfe2e4db1c3afdc87a4ef8064d
+sourceContentVersion: 964e3ba6af4824716e70fd76a1ed6ecf79a5b308f2fc99e8c159617b3f156b77:92d3fea9cb6f9fd04b7466c4acb4daeaaf4c8fc0fca8f2dc1ff1bf4daad2b2c4
+sourceUpdatedAt: 2026-11-26T21:09:12.840Z
 routerTask: reader-evaluation
-model: muse-glimmer-30b
-provider: openai
-integrationId: 9dd7720e-4d47-41cf-94ce-e22b44bf0210
-inputTokens: 5097
-outputTokens: 1486
+model: gpt-6.2-sol
+provider: azure_openai
+integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
+inputTokens: 2433
+outputTokens: 486
 currency: USD
-score: 7
+score: 7.5
 status: completed
 generatedBy: autopilot
+estimatedCost: 0.011061749999999999
+finalCost: 0.011061749999999999
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Capitolo molto immersivo sul piano sensoriale e corporeo, letto come storia di due persone che si fidano senza parlare. Bomo e Nira hanno una lingua condivisa fatta di pressione, conteggio e nomina; la loro relazione funziona perché è fisica, non dichiarata. L’atmosfera è tesa e coerente, il conflitto con Kaza è costante in sottofondo.
+Da lettore orientato ai personaggi, credo al legame tra Nira e Bomo più di quanto capisca il loro primo vero disaccordo. Il capitolo costruisce bene un’intesa fisica, ma nel finale lascia troppo implicita la scelta che dovrebbe metterla alla prova.
 
 ## Punti di forza
 
-- La caratterizzazione è corporea e differenziata: Bomo parla basso, roco, nomina invece di spiegare; Nira conta respiri, preme con le dita, ascolta con la pianta del piede. La voce resta riconoscibile anche quando non dialogano.
-- La relazione è credibile e non verbale: il polso di Nira che trattiene l’avambraccio di Bomo, la pressione misurata, l’annuire impercettibile. Si sente una storia di fiducia accumulata.
-- Il conflitto interno è ben reso: il desiderio di agire contro la necessità di non farsi notare, la fame dei piccoli vs il controllo del leone. La tensione resta sospesa senza melodramma.
-- I dialoghi sono essenziali e funzionali al personaggio: «Non ora», «Troppo piccolo», «Parla», «Roccia del Ritardo». Non spiegano, nominano, e questo è coerente con Bomo.
+- Il polso di Bomo cambia funzione: nel capitolo precedente Nira lo trattiene dal prendere la frutta; qui lo stringe dopo il tentativo fallito e lo lascia prima di prendere la guida. Il gesto dà continuità al rapporto senza spiegarlo.
+- Bomo ragiona a voce alta, dal ricordo della pelle del tamburo a «Parla»; Nira osserva, prova il solco e controlla le orecchie di Kaza. I due si distinguono per come pensano e agiscono, non solo perché uno parla e l’altra tace.
+- Il respiro irregolare del piccolo è un ricordo preciso che rende personale l’urgenza di Nira.
 
 ## Punti di debolezza
 
-- La motivazione precisa del suono resta implicita: capiamo che vogliono un diversivo per Kaza, ma il perché emotivo - cosa rischierebbero i piccoli ora, in questo istante - è filtrato attraverso conteggi e ombre, non sentito come urgenza personale.
-- I piccoli all’Albero Basso sono un’ombra narrativa: respiri irregolari, «l’ombra è l’unica cosa che hanno». Per un lettore character-driven manca un ancoraggio emotivo a chi stanno proteggendo.
-- La ripetizione del motivo della nomina e del ricordo dell’eco rischia di appiattire Bomo: è coerente, ma a tratti la sua voce diventa un pattern più che un personaggio che evolve nella scena.
-- Alcuni passaggi descrittivi rallentano la percezione del cambiamento interno di Nira: sappiamo che si sposta, misura, ma il suo arco nella scena è più procedurale che emotivo.
+- «Torno dai piccoli» è plausibile data la loro condizione, ma arriva subito dopo che Bomo propone un’altra prova. Non si coglie che cosa gli faccia cambiare priorità proprio allora.
+- Quando Bomo ritira il piede, non si capisce se scelga di restare per fiducia in Nira, se esiti o se stia solo rimandando la partenza. Il gesto ha potenziale relazionale, ma il suo peso resta incerto.
 
 ## Momento più efficace
 
-Il momento sulla riva del Fiume Secco dove Nira sente il ritorno del suono «nello sterno, un piccolo colpo in ritardo» e conta «Uno, due, tre. Il ritorno arriva al terzo battito». Lì la fisicità, la memoria di Bomo e la scoperta diventano esperienza condivisa e si sente la gioia tattile della soluzione.
+Nira lascia il polso di Bomo, imbocca il sentiero verso il letto basso e lui la segue. È un passaggio di iniziativa leggibile senza una battuta esplicativa.
 
 ## Problema principale
 
-I personaggi sono coerenti e la relazione funziona, ma lo stake emotivo resta esterno: proteggiamo dei piccoli che non vediamo sentire, e la decisione di Bomo e Nira di sperimentare il suono appare più come verifica tecnica che come scelta urgente dettata dall’amore/paura per chi è nella macchia.
+La svolta finale è più opaca del resto della comunicazione non verbale: il lettore vede i movimenti di Bomo ma non ha un appiglio per capire perché cambi rotta due volte.
 
 ## Suggerimento prioritario
 
-Ancora le azioni di Nira e Bomo a un segnale concreto dei piccoli - un respiro che si interrompe, un nome, un ricordo personale - così che la scoperta della «Roccia del Ritardo» sia letta come necessità affettiva e non solo come esperimento fisico.
+Dare un solo indizio concreto attorno a «Torno dai piccoli» che renda leggibile almeno uno dei due cambi di direzione di Bomo. Non occorre far parlare di più Nira né spiegare tutta l’esitazione.
 
 ## Punteggio
 
-7/10
-
-## Osservazioni aggiuntive
-
-Come lettore orientato ai personaggi apprezzo la differenziazione dialogica e la coerenza comportamentale. Per alzare l’impatto emotivo basterebbe rendere più presente, anche in un dettaglio, la responsabilità che Nira sente verso i piccoli, oltre al conteggio. La voce di Bomo è affascinante, ma guadagnerebbe se una delle sue nomine venisse messa in tensione con un dubbio.
+7.5/10

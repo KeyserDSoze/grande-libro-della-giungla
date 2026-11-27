@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:003-capitolo-3-il-pasto-che-resta:chapter:standard-emotional
 type: readerEvaluation
 createdAt: 2026-11-25T21:30:15.164Z
-updatedAt: 2026-11-25T21:30:15.164Z
+updatedAt: 2026-11-26T20:56:52.756Z
 targetType: chapter
 targetId: chapter:003-capitolo-3-il-pasto-che-resta
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,51 +13,50 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: a7802b9de8f9f4bcfb23dd6a21b2af7f896135b80da1a777a1867ff428746bb1
-sourceContentVersion: cbf091aae167ea3d4466dae723c8789fe0f779ac02e4ae19f4c80b70bb107765:1c13f48d6a16b9850686e5dba78607485e3d06c6291b9e3aa522f107c80c9380
-sourceUpdatedAt: 2026-11-25T21:30:15.164Z
+sourceContentHash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
+sourceContentVersion: 6f518581cc5dcaa14a45bf0c041352cec07e1aa30d8742e8647b9744ed9dbf65:191df3c501e1ffeef4d44a96eb8412f3f409af960fd90c0bcdabdc1dd687495a
+sourceUpdatedAt: 2026-11-26T20:56:52.756Z
 routerTask: reader-evaluation
-model: muse-glimmer-30b
-provider: openai
-integrationId: 9dd7720e-4d47-41cf-94ce-e22b44bf0210
-inputTokens: 4921
-outputTokens: 1403
+model: gpt-6.2-sol
+provider: azure_openai
+integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
+inputTokens: 3960
+outputTokens: 307
 currency: USD
-score: 7
+score: 8.5
 status: completed
 generatedBy: autopilot
+estimatedCost: 0.011228
+finalCost: 0.011228
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Il capitolo mi tiene inchiodata per il calore fisico e per l’attesa che si fa corpo. Non è una storia che spiega le emozioni, è una storia che le fa sentire attraverso polsi, talloni, sabbia che cede. Come lettore emotivo sento la tensione salire con il respiro dei piccoli sotto l’Albero Basso e con la zampa che cede a Kaza, e resto con la pelle tirata fino alla fine.
+Mi ha tenuto in tensione senza dichiarare la paura e mi ha lasciato con un sollievo incompleto: i piccoli hanno da mangiare, ma la sete resta.
 
 ## Punti di forza
 
-- La tensione è costruita con il corpo: talloni sollevati, dita che trattengono il ramo, peso che tira i polsi verso la sabbia. Si empatizza perché si sente la fatica, non perché viene detta. L’attesa con Kaza è autentica: il leone che si alza a strappi, la criniera che sfiora il terreno, la zampa destra che resta distesa creano un’empatia fisica anche per un animale ferito. La gestione del tempo è magistrale, i ritardi del suono e l’acqua che si ritira danno una sensazione di tempo che stringe, e la scena dei frutti rubati da formiche e uccelli apre una piccola, amara commozione sull’urgenza di mangiare. L’immagine finale dei piccoli con le labbra asciutte lascia un impatto duraturo, un nodo di sete che resta dopo la pagina.
+- Nira mostra a Kaza i quattro frutti anziché scappare; il picciolo che le punge il pollice mentre lui la guarda rende fisico lo sforzo di restare ferma.
+- La zampa che cede e lo sforzo di raggiungere il filo d’acqua mi fanno temere Kaza e insieme preoccuparmi per lui.
 
 ## Punti di debolezza
 
-- L’interiorità di Nira e Bomo resta molto compressa. Le emozioni sono mostrate solo attraverso gesti e percezioni esterne, per cui l’empatia resta fisica ma non sempre arriva al cuore: non sento la paura o la colpa come vissute dentro di loro. La descrizione minuta dei movimenti delle pietre, dei passi e della pila a volte rallenta il battito emotivo e crea una distanza osservativa. Il linguaggio è asciutto e preciso, che è un punto di forza, ma in alcuni passaggi sacrifica la reazione autentica a favore dell’inventario sensoriale.
+- Nell’avvio, tra gli urti delle pietre e la descrizione degli appoggi, seguo più la manovra che l’urgenza dei piccoli. La tosse asciutta riporta di colpo la posta in gioco in primo piano.
 
 ## Momento più efficace
 
-Il momento in cui Nira abbassa i gomiti e stacca le mani dal ventre lasciando i quattro frutti in vista. È una resa controllata, piena di rischio: sento il brivido del lasciare, la pelle che si contrae, e insieme la fiducia tesa verso Kaza. Da lì la tensione si fa quasi insopportabile, e il successivo passaggio del leone che non prende il cibo ma lascia una striscia d’ombra libera è devastante.
+Il piccolo prova due volte a inumidirsi le labbra prima di mordere. Le labbra restano asciutte: il successo non cancella il bisogno più urgente.
 
 ## Problema principale
 
-La tensione è altissima e ben gestita, ma l’arco emotivo resta soprattutto esterno. La sete, la colpa, la paura per i piccoli sono indotte dal contesto, non dal vissuto interno dei personaggi, per cui l’impatto emotivo è forte ma meno personale.
+La precisione dei movimenti all’inizio tiene un po’ a distanza l’urgenza emotiva.
 
 ## Suggerimento prioritario
 
-Concedere a Nira un battito interno minimo in un punto chiave, una frase di desiderio/paura detta a sé o a Bomo, per far passare la tensione fisica nell’emozione vissuta senza rompere il registro asciutto.
+Alleggerire qualche passaggio della manovra iniziale per far sentire prima la pressione del tempo, senza spiegare la paura che i gesti già trasmettono.
 
 ## Punteggio
 
-7/10
-
-## Osservazioni aggiuntive
-
-Per un pubblico adulto esperto la precisione sensoriale funziona, e l’assenza di commento morale aumenta la forza. L’impressione che resta è quella di un’attesa che consuma, con un finale amaro sulla sete dei piccoli che non si spegne.
+8.5/10

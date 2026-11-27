@@ -5,16 +5,16 @@ target_type: chapter
 target_id: chapter:003-capitolo-3-il-pasto-che-resta
 title: 3. Capitolo 3 - Il pasto che resta
 director: Il Direttore
-verdict: revise
-score: 6.5
+verdict: approve
+score: 8
 source: autopilot
-created_at: 2026-11-25T21:49:18.551Z
-source_hash: 9d03eff16b71a22f5fa10755b7350b90722024d57374342f41a6dbd1954cff12
-model: gpt-6-luna
+created_at: 2026-11-26T20:57:56.790Z
+source_hash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
+model: gpt-6.2-sol
 provider: azure_openai
-input_tokens: 8993
-output_tokens: 1220
-cost: 0.0010518
+input_tokens: 8800
+output_tokens: 2693
+cost: 0.053101999999999996
 currency: USD
 ---
 
@@ -22,46 +22,44 @@ currency: USD
 
 ## Verdetto
 
-**Da rivedere** — 6.5/10
+**Approvato** — 8/10
 
-## Verdetto
-Il capitolo è più leggibile e causalmente più saldo dopo gli interventi: la raccolta ha un limite concreto, il quinto frutto viene lasciato, il frutto spaccato è notato da Kaza e il cambiamento del corso è verificato senza confonderlo con l’eco. Tuttavia resta un difetto di chiusura materiale: la frase «Con due frutti a testa per i piccoli» impegna entrambi a una distribuzione che il testo non mostra; subito dopo Nira consegna un solo frutto e chiude con l’altro ancora in mano. È una contraddizione locale ma centrale per il prelievo e per la destinazione del cibo, quindi non approvo in questo ultimo giro.
-
-## Punti forti
-- La geografia è ancorata con coordinate ripetute: sentiero, margine, riva, radice. La linea di vista è dichiarata con precisione e Nira distingue ciò che vede da ciò che non può sentire o osservare.
-- Il conteggio dei quattro frutti è ora coerente durante il prelievo: Bomo ritrae la mano dal quinto senza staccarlo; il frutto spaccato è fuori dal conto e lasciato visibile.
-- La rete ecologica è resa da indizi osservabili — formiche, impronte d’uccello, forellini — anziché da una spiegazione astratta; il ricordo di Bomo è concreto e coerente con la sua voce.
-- Il ritorno di Kaza conserva attrito e dignità. Nota il frutto spaccato ma non lo prende; la sua zampa ferita limita il movimento senza trasformarlo in una soluzione facile.
-- La deviazione del filo d’acqua è una prova indipendente e visibile. Il capitolo realizza entrambi i reveal previsti senza anticipare altri segreti.
-
-## Rischi e debolezze
-- La destinazione dei frutti resta incoerente nella scena finale: «due frutti a testa per i piccoli» implica quattro frutti assegnati ai piccoli, ma Bomo ne porta due e non li consegna; Nira ne consegna uno e conserva l’altro. Non è solo un dettaglio di contabilità: indebolisce l’esito pratico del prelievo e la promessa fatta dalla frase.
-- Rimane una certa densità di micro-azioni e attese, ma qui non la considero motivo sufficiente per imporre un’altra potatura: la maggior parte dei dettagli stabilisce posizione, rischio o prova ecologica, e il capitolo è all’ultimo giro.
-
-## Canone e continuità
-Il capitolo rispetta il canone visibile: Kaza resta ferito alla zampa destra, l’amplificatore naturale è già stato rivelato, e l’acqua che si ritira è mostrata come mutamento reale del corso. Il cibo emerge come risorsa prodotta anche da formiche e uccelli, non come proprietà esclusiva del leone. La sola continuità interna da chiudere è il numero e il destino dei frutti dopo la separazione di due a Bomo.
-
-## Priorità di riscrittura
-Nella scena 2, rendere coerenti la frase «due frutti a testa» e la distribuzione effettivamente mostrata: far consegnare anche i due frutti di Bomo ai piccoli, oppure restringere la frase alla quantità che il testo mostra destinata alla consegna e chiarire dove resta l’altro frutto di Nira. Non aggiungere frutti né cambiare il totale prelevato.
+Approvato con correzioni puntuali. Il capitolo merita 8/10 già in questa stesura: il prelievo si chiude senza umiliare Kaza, mentre il nuovo solco e le labbra asciutte del piccolo impediscono che quattro frutti sembrino risolvere tutto. Chiarezza 7,5/10: si capisce che Nira sceglie di esporsi, ma non è altrettanto leggibile che cosa voglia far capire a Kaza. Ritmo 7,5/10: i tre respiri misurano un’esitazione vera; la risalita dalla ghiaia accumula invece appoggi e sguardi che non cambiano il rischio. Tensione 8,5/10: la criniera che scompare apre la finestra d’azione e le mani aperte la chiudono con una scelta, non con una fuga. Coerenza con il canone 8,5/10: formica e uccello rivelano da dove viene la riserva; pietra asciutta e corrente più lontana mostrano il cambio di corso alla soglia prevista. Forza stilistica 8/10: il picciolo contro il pollice e il sassolino che sfugge sotto la zampa rendono concreti attesa e fatica senza spiegarli. La priorità è chiarire il gesto di Nira, non la risposta di Kaza.
 
 ## Punti di forza
 
-- La prova del corso deviato è concreta, visibile e distinta dall’eco acustica.
-- Il prelievo è finalmente conteggiato con precisione e il limite è dramatizzato attraverso le mani e il peso.
-- Le voci sono differenziate: Nira misura col corpo, Bomo nomina e ricorda.
-- Kaza nota il frutto lasciato senza che il gesto diventi causa artificiale della deviazione o della sua scelta.
+- Bomo posa già la mano sul quinto frutto: lo sguardo a quello portato dall’uccello trasforma la rinuncia in una scelta che il lettore può vedere.
+- Kaza si accosta al frutto spaccato senza toccarlo e poi si corica di fianco alla pila. La striscia d’ombra libera mostra che qualcosa è cambiato senza farne un invito esplicito o una resa.
+- Il bordo rotto della pietra piatta dà un riferimento riconoscibile per confrontare la riva di prima con quella di adesso; le labbra asciutte del piccolo riportano quel cambiamento alla posta iniziale.
 
 ## Criticità
 
-- **Importante** — Subito dopo il testo precisa «Con due frutti a testa per i piccoli», e Nira ne consegna uno al primo piccolo, ma Bomo non restituisce né distribuisce i due che ha ricevuto. Il destino dei suoi frutti resta quindi in sospeso e la formulazione «a testa» suggerisce una distribuzione che la scena non compie. «Lei inclina le proprie e lascia che ci rotolino due frutti. Bomo chiude le dita.»
-  → Scena 2: Nella scena 2, allinea la frase «due frutti a testa» alla distribuzione mostrata: fai consegnare ai piccoli anche i due frutti di Bomo, oppure modifica la frase e chiarisci dove resta l’altro frutto di Nira. Non aumentare il totale prelevato.
+- **Importante** — Chiarire l’intenzione di Nira al culmine.
+  → Scena 1: Quando Nira apre le mani, aggiungi un solo indizio che vuole mostrare a Kaza che il prelievo si è fermato a quei quattro frutti. Non dire che cosa Kaza ne capisca.
+- **Importante** — Snellire e ancorare nello spazio la preparazione senza perdere i dettagli che segnano rischio e urgenza.
+  → Scena 1: Nella risalita taglia l’appoggio del piede e lo sguardo indietro alla ghiaia. Rendi diretto il passaggio dalla riva al sentiero e alla sabbia della radura; conserva la criniera che sparisce come via libera e il dito d’ombra sulla radice come misura del tempo.
+- **Minore** — Il frutto appena deposto dall’uccello è l’ultimo nominato: alla prima lettura sembra che Nira sfili quello, mentre riprende il prelievo del frutto che aveva già sotto il dito. L’equivoco rende meno chiaro il successivo sguardo di Bomo. «Nira sfila il frutto. Il vicino si assesta di traverso, senza cadere.»
+  → Scena 1: Identifica il frutto sfilato come quello sotto cui Nira aveva già infilato il dito.
+- **Minore** — Il ricordo passa dalla pietra piatta alle due pietre della fila senza distinguere bene il punto d’appoggio della mano dal tratto in cui scorreva l’acqua. Il lettore deve ricostruire la geometria proprio nel confronto fra la riva di prima e quella di adesso. «ci aveva appoggiato il palmo. L’acqua le era passata sotto le dita, fredda nello spazio tra l’una e l’altra.»
+  → Scena 2: Nomina la pietra piatta come appoggio del palmo e descrivi l’acqua sotto le dita senza il rinvio «tra l’una e l’altra». Mantieni distinte le due pietre della fila.
+- **Minore** — «Li» riprende i piedi di entrambi: la frase attribuisce a Nira anche la posizione dei piedi di Bomo, senza che lei gli faccia un cenno o lo trattenga. «C’è posto per i loro piedi nella conca lasciata da Kaza, ma Nira li tiene fuori.»
+  → Scena 1: Limita ai piedi di Nira il gesto di restare fuori dalla conca.
+- **Minore** — La ripetizione ravvicinata di «indice» appesantisce due frasi consecutive e la seconda può far leggere l’urto come un contatto del dito con la pietra vicina anziché come l’urto fra le pietre. «Nira la spinge con l’indice. Sente nell’indice il piccolo urto contro quella accanto.»
+  → Scena 1: Nomina l’indice una volta sola e rendi esplicito che la prima pietra urta la seconda.
 
 ## Decisioni
 
-- Accettato S2-1: È ancorato direttamente alla scena e individua una reale incoerenza tra l’assegnazione «due frutti a testa», i due frutti consegnati a Bomo e la consegna effettivamente narrata, che mostra un solo frutto dato a un piccolo e l’altro ancora in mano a Nira. La destinazione del cibo è parte dell’esito del capitolo e va chiusa.
+- Accettato R2-1: Il contrasto fra correre e mostrare i frutti è netto; resta da capire che cosa Nira voglia comunicare scegliendo di farsi vedere.
+- Accettato R2-2: Dopo che la criniera è sparita, l’appoggio del piede e lo sguardo indietro alla ghiaia scura ritardano l’ingresso in radura senza modificare la manovra.
+- Respinto R2-3: Il rallentamento concreto è già trattato in R2-2. Non serve comprimere anche i tre respiri o la discesa della criniera: i primi mostrano l’esitazione di Kaza, la seconda dice a Nira quando può muoversi senza farsi vedere.
+- Respinto R2-4: R2-1 interviene già sulle mani aperte. Il frutto spaccato è posato davanti al vuoto nella pila e indica il punto del prelievo: spiegare anche quel gesto sarebbe ridondante.
+- Accettato S2-1: Il frutto appena portato dall’uccello è il referente più vicino, ma deve restare sulla pila perché lo sguardo di Bomo al quinto frutto abbia senso.
+- Respinto S2-2: «Le» indica Nira come destinataria, non come soggetto. Bomo è già il soggetto della frase precedente e «Lei» rende esplicito il cambio di soggetto nel passaggio dei frutti.
+- Accettato S2-3: «Ci» e «tra l’una e l’altra» costringono a distinguere tre pietre proprio quando il confronto fra prima e adesso dovrebbe essere immediato.
+- Accettato S2-4: «Li» riprende i piedi di entrambi, ma la scena mostra soltanto una scelta di Nira.
+- Accettato S2-5: L’urto deve leggersi subito come il primo passaggio della catena di tre pietre, non come un contatto del dito con la seconda.
 
 ## Prossimi passi
 
-- Nei capitoli di prelievo o scambio, chiudi in scena l’inventario dopo ogni passaggio di mano: la quantità raccolta, quella lasciata e quella effettivamente ricevuta dai destinatari devono combaciare.
-- Mantieni le coordinate spaziali e la distinzione fra vista, udito e deduzione: qui rendono leggibile una scena densa senza sacrificare la precisione sensoriale.
-- Quando un capitolo promette un esito pratico, come il cibo destinato ai piccoli, mostra almeno un riscontro osservabile della consegna senza spiegare l’emozione al lettore.
+- In una manovra a tempo, conserva i gesti che cambiano ciò che i personaggi possono fare o vedere; taglia per primi gli appoggi e gli sguardi che non cambiano nulla.
+- Quando due oggetti simili entrano in scena a poca distanza, identifica quello ripreso dal personaggio attraverso il gesto già compiuto su di esso.

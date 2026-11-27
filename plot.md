@@ -15,12 +15,12 @@ title: Grande libro della giungla Plot
 
 ## Chapter 001 Capitolo 1 - L'ombra che pesa
 
-All’Albero Basso il caldo opprime i piccoli che cercano l’ombra sottile e mostrano sete con lingua appiccicosa e respiri corti. Nira ascolta prima di parlare e si sposta con Bomo verso il Terminale di Salsedine, dove da lontano osservano Kaza sveglio che conta le pile di frutta secca con il naso, vigile e preciso. L’ombra si allunga presto sulla radura e, quando il leone si sposta, si vede la zampa destra che zoppica. Il conflitto tra Bomo e Nira resta un gesto trattenuto: lui tende la mano verso la pila, lei trattiene il polso e il respiro.
+All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia; Nira ascolta i loro respiri prima di avviarsi con Bomo verso il Terminale di Salsedine. Nella radura, dove l’acqua si ritira e l’ombra si allunga presto, i due osservano Kaza, sveglio e vigile, contare la frutta secca con il naso e appoggiare a fatica la zampa destra. Bomo tende la mano verso la frutta, ma Nira lo trattiene; quando il leone alza la testa a un fruscio, Bomo ritira la mano e dice «Non ora».
 
 ### What Happens
 
-- Sotto l’Albero Basso il caldo accorcia l’ombra e i piccoli restano immobili al margine della radura mentre Nira appoggia la guancia alla corteccia calda per ascoltarli e Bomo indica il Terminale di Salsedine. I due riconoscono che i piccoli non reggono, non si voltano indietro e se ne vanno lungo il sentiero verso il terminale, lasciando i cuccioli nella macchia d’ombra che continua a restringersi.
-- Nira e Bomo scendono nella radura bianca del Terminale di Salsedine e, nascosti dietro una radice, osservano Kaza sveglio sotto l’ombra che avanza: il leone zoppo sulla zampa destra conta con il naso i frutti della pila di frutta secca. Bomo è tentato di avvicinarsi alla pila ma Nira lo trattiene con il polso, mentre l’ombra si allunga sulla tana e la pozza si ritira lasciando ghiaia scoperta, fino al piccolo scricchiolio di pietra che si muove sull’acqua bassa in lontananza.
+- Mentre i piccoli respirano a fatica nell’ombra sempre più corta dell’Albero Basso, Bomo dice che non reggeranno e indica il Terminale di Salsedine. Nira lascia i piccoli all’ombra e, seguita da Bomo, si dirige verso la radura, dove l’acqua della pozza si ritira accanto a una pila di frutta secca.
+- Dietro una radice, Nira e Bomo osservano Kaza contare i frutti e muoversi con cautela sulla zampa destra che cede. Nira trattiene Bomo quando allunga la mano verso la frutta secca; al primo fruscio Kaza alza la testa e Bomo ritira la mano, rimandando il tentativo.
 
 ### Secrets Revealed
 
@@ -28,12 +28,12 @@ All’Albero Basso il caldo opprime i piccoli che cercano l’ombra sottile e mo
 
 ## Chapter 002 Capitolo 2 - Il suono sbagliato
 
-Bomo ricorda l’eco dei tamburi restituita dall’acqua e tenta di riprodurla con rami e pietre, ma il rumore è troppo debole: Kaza lo sente, si mette in allerta e resta dov’è. Nira individua nel letto basso del fiume un canale tra le pietre e verifica che il vento può farle rotolare, mentre la roccia lucida rimanda il suono in ritardo; la fila di pietre resta sulla riva come possibile mezzo per attirare Kaza senza entrare nella tana.
+Bomo ricorda che l’acqua del fiume restituiva i colpi dei tamburi dopo una breve pausa. Nella radura né il tonfo dei rami né il tintinnio delle pietre hanno eco: Kaza alza la testa al tonfo, ma non lascia la frutta. Sulla riva, Nira allinea due pietre in un solco e la roccia lucida, che Bomo chiama Roccia del Ritardo, rimanda un suono più pieno e netto sia quando Nira spinge la prima pietra sia quando la muove una raffica. Nira rimette la pietra a monte e fissa le orecchie di Kaza, in attesa di capire se il leone reagirà al prossimo urto.
 
 ### What Happens
 
-- Bomo e Nira sono accovacciati dietro la radice, provano con rami secchi e pietre a riprodurre il suono dei tamburi per distrarre il leone Kaza che è a metà ombra sulla fila di frutti, ma i colpi restano secchi e non viaggiano col vento e non incanalano. L’ombra si assottiglia e arretra fino a toccare la tana di Kaza; alla fine Nira si rialza, fa un passo nel sentiero e Bomo la segue con il ramo in mano, mentre il leone resta immobile nella radura.
-- Nira e Bomo scendono lungo il sentiero che si stringe verso il letto basso e la riva ghiaiosa, dove Nira sceglie e allinea pietre in un piccolo canale per provare il suono e l’eco ritardata sulla roccia lucida mentre Bomo nomina i luoghi, “Sentiero di Salsedine” e “Roccia del Ritardo”, e ricorda l’eco dei tamburi sull’acqua. Alla fine la fila di pietre resta sulla riva e i due si allontanano verso l’Albero Basso, con Nira che osserva ancora dalla ghiaia la radura dove Kaza, il leone, vigila sulla pila al sole.
+- Ricordando il giorno dell’eco, Bomo e Nira provano a distogliere Kaza dalla frutta con il rumore di rami e pietre, ma nessun suono rimbalza e il leone torna ad annusare i frutti. Nira si avvia allora lungo il sentiero verso il letto basso e Bomo la segue, lasciando Kaza immobile nella radura.
+- Sulla riva, dove l’acqua si è abbassata, Nira fa urtare due pietre e sente il suono tornare dalla roccia, che Bomo chiama Roccia del Ritardo; una raffica ripete l’urto e Nira distingue il ritorno anche da più lontano. Non avendo visto se Kaza ha reagito, Nira rimette la pietra nel solco e gli fissa le orecchie, mentre Bomo accenna a tornare dai piccoli ma resta lì.
 
 ### Secrets Revealed
 
@@ -41,12 +41,12 @@ Bomo ricorda l’eco dei tamburi restituita dall’acqua e tenta di riprodurla c
 
 ## Chapter 003 Capitolo 3 - Il pasto che resta
 
-Nira e Bomo colgono l’occasione del temporaneo allontanamento di Kaza per prendere soltanto quattro frutti, lasciandone uno spaccato come segnale e rispettando gli altri animali che si nutrono degli scarti. Al ritorno, Kaza non li affronta: si ritira e si sdraia presso la pila, mentre i due portano il cibo ai piccoli. La riva mostra un mutamento concreto: l’acqua ha deviato il suo corso e la pietra un tempo bagnata è ormai asciutta; il sollievo del pasto non cancella la scarsità né la sete dei piccoli.
+Nira fa urtare tre pietre in fila e il suono di ritorno dalla Roccia del Ritardo attira Kaza verso la riva. Lei e Bomo prelevano quattro frutti, lasciano il quinto al suo posto e depongono sulla sabbia un frutto spaccato come segnale. Kaza guarda il segnale e i frutti nelle mani aperte di Nira senza affrontarli; scende di nuovo alla riva, dove l’acqua ha lasciato asciutta la pietra piatta e scorre in un solco più lontano, poi torna a sdraiarsi di fianco alla pila. All’Albero Basso tre piccoli ricevono un frutto ciascuno, il quarto resta a Nira e il primo piccolo ha ancora le labbra asciutte.
 
 ### What Happens
 
-- Nira e Bomo si nascondono presso la pila di frutti mentre il leone Kaza si abbassa alla riva, beve e poi scende verso il fiume e risale il sentiero; i due raccolgono quattro frutti lasciando uno spaccato come esca sulla sabbia e, quando Kaza torna in salita zoppicando, si ritirano sul margine del sentiero dove Nira mostra i quattro frutti raccolti con le mani vuote di Bomo accanto a lei.
-- Kaza si avvicina alla pila di frutta, annusa il frutto spaccato senza toccarlo, scende alla riva dove beve e poi risale per accucciarsi sul fianco della pila lasciando libera una striscia d’ombra; intanto Bomo si stacca da Nira, i due si spostano verso la radice dell’Albero Basso e constatano che la pietra piatta è asciutta mentre l’acqua passa più in là, e risalgono con due frutti a testa per i piccoli accucciati dietro la radice.
+- Con l’eco di un urto fra le pietre, Nira attira Kaza verso il fiume e, con l’aiuto di Bomo, prende quattro frutti dalla pila, lasciandone uno spaccato davanti al vuoto. Quando il leone risale e alza la testa, Nira si ferma al margine del sentiero e, invece di fuggire, gli mostra tutti e quattro i frutti perché possa contarli.
+- Kaza annusa la frutta senza toccarla, scende alla riva e poi torna a sdraiarsi accanto alla pila, lasciando libera una striscia d’ombra. Bomo mostra a Nira che l’acqua scorre ormai in un nuovo solco e lascia asciutta la pietra piatta; i due portano tre frutti ai piccoli, e il primo ha le labbra ancora secche.
 
 ### Secrets Revealed
 

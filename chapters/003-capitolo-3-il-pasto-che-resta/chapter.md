@@ -3,25 +3,27 @@ type: chapter
 id: chapter:003-capitolo-3-il-pasto-che-resta
 number: 3
 title: Capitolo 3 - Il pasto che resta
-summary: "Nira e Bomo colgono l’occasione del temporaneo allontanamento di Kaza
-  per prendere soltanto quattro frutti, lasciandone uno spaccato come segnale e
-  rispettando gli altri animali che si nutrono degli scarti. Al ritorno, Kaza
-  non li affronta: si ritira e si sdraia presso la pila, mentre i due portano il
-  cibo ai piccoli. La riva mostra un mutamento concreto: l’acqua ha deviato il
-  suo corso e la pietra un tempo bagnata è ormai asciutta; il sollievo del pasto
-  non cancella la scarsità né la sete dei piccoli."
+summary: Nira fa urtare tre pietre in fila e il suono di ritorno dalla Roccia
+  del Ritardo attira Kaza verso la riva. Lei e Bomo prelevano quattro frutti,
+  lasciano il quinto al suo posto e depongono sulla sabbia un frutto spaccato
+  come segnale. Kaza guarda il segnale e i frutti nelle mani aperte di Nira
+  senza affrontarli; scende di nuovo alla riva, dove l’acqua ha lasciato
+  asciutta la pietra piatta e scorre in un solco più lontano, poi torna a
+  sdraiarsi di fianco alla pila. All’Albero Basso tre piccoli ricevono un frutto
+  ciascuno, il quarto resta a Nira e il primo piccolo ha ancora le labbra
+  asciutte.
 pov:
   - Nira
   - Bomo
   - Kaza
 canon: draft
 frozen:
-  at: 2026-11-25T21:54:05.116Z
+  at: 2026-11-26T20:58:43.156Z
   by: autopilot
   digest: 8aba196c14c7b53d
   files:
-    001-il-passo-e-il-vuoto.md: 16bb4aea1349786c
-    002-la-riva-che-arretra.md: b1ef4523c9c4bfd2
+    001-il-passo-e-il-vuoto.md: 487a4cc9ec3b5fae
+    002-la-riva-che-arretra.md: 1dac73c06953b012
 ---
 
 # Capitolo 3 - Il pasto che resta

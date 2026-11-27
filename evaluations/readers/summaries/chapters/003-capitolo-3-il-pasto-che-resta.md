@@ -2,7 +2,7 @@
 id: reader-evaluation-summary:chapter:003-capitolo-3-il-pasto-che-resta:chapter
 type: readerEvaluationSummary
 createdAt: 2026-11-25T21:39:41.219Z
-updatedAt: 2026-11-25T21:39:41.219Z
+updatedAt: 2026-11-26T20:57:17.228Z
 targetType: chapter
 targetId: chapter:003-capitolo-3-il-pasto-che-resta
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -15,17 +15,17 @@ readerIds:
   - reader:standard.plot
 readerCount: 5
 language: it
-sourceContentHash: a7802b9de8f9f4bcfb23dd6a21b2af7f896135b80da1a777a1867ff428746bb1
-sourceContentVersion: cbf091aae167ea3d4466dae723c8789fe0f779ac02e4ae19f4c80b70bb107765:1c13f48d6a16b9850686e5dba78607485e3d06c6291b9e3aa522f107c80c9380
+sourceContentHash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
+sourceContentVersion: 6f518581cc5dcaa14a45bf0c041352cec07e1aa30d8742e8647b9744ed9dbf65:191df3c501e1ffeef4d44a96eb8412f3f409af960fd90c0bcdabdc1dd687495a
 routerTask: reader-evaluation-summary
-model: gpt-6-luna
+model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 4253
-outputTokens: 1107
-finalCost: 0.000563675
+inputTokens: 2321
+outputTokens: 488
+finalCost: 0.01089375
 currency: USD
-score: 6.7
+score: 7.7
 status: completed
 refs:
   - reader-evaluation:chapter:003-capitolo-3-il-pasto-che-resta:chapter:standard-general
@@ -40,53 +40,39 @@ generatedBy: autopilot
 
 ## Convergenze
 
-- I lettori concordano sul fatto che il capitolo costruisce la tensione soprattutto attraverso sensazioni corporee e dettagli materiali, senza affidarsi a spiegazioni o dialoghi estesi.
-- La scena più efficace per quattro valutazioni su cinque è Nira che scopre i quattro frutti mentre Kaza rialza la testa: il gesto rende visibile il rischio e condensa la strategia.
-- La densità descrittiva e l’accumulo di micro-azioni rallentano il ritmo, soprattutto nella parte centrale e nelle sequenze d’attesa.
-- La chiusura con i piccoli assetati ha una forte efficacia visiva ed emotiva, ma la loro fame resta in parte distante o non risolta.
+- Il confronto in cui Nira mostra i quattro frutti è una svolta; tre lettori lo scelgono come momento più efficace.
+- Il finale distingue il successo del recupero dei frutti dal bisogno d’acqua ancora irrisolto.
 
 ## Disaccordi
 
-- Il lettore emotivo apprezza l’attesa come esperienza quasi insopportabile e considera l’impatto finale duraturo; il lettore generalista e quello critico avvertono invece che le ripetizioni finiscono per diluire i picchi.
-- Sul livello di chiarezza, il generalista segnala una geografia difficile da seguire e confusione su chi si trovi dove; il lettore critico trova invece il punto di vista di Nira costante e affidabile.
-- Il lettore orientato ai personaggi vede una relazione Nira-Bomo credibile e leggibile nei gesti, mentre il generalista dice che i personaggi restano funzionali e difficili da distinguere nelle azioni rapide.
-- Il lettore di trama giudica poco chiaro il criterio di successo e percepisce un avanzamento di posizione più che di situazione; gli altri valutano soprattutto la riuscita sensoriale ed emotiva, senza porre al centro questo problema causale.
-- I suggerimenti sull’interiorità divergono: il lettore emotivo chiede un minimo accesso al vissuto interno di Nira, mentre il lettore orientato ai personaggi propone soprattutto di rendere visibile la cura attraverso un gesto rivolto ai piccoli, senza necessariamente spiegare le emozioni.
+- Per il generalista e l’emotivo la tensione regge già prima del confronto, pur con qualche rallentamento; per il critico la scena diventa davvero tesa solo quando Nira si espone.
+- L’emotivo sceglie come momento migliore le labbra asciutte del piccolo, il lettore orientato ai personaggi la rinuncia di Bomo al quinto frutto.
+- Il generalista resta perplesso anche davanti alla striscia d’ombra; il lettore orientato ai personaggi apprezza l’ambiguità della risposta di Kaza, mentre quello orientato alla trama osserva che il secondo ritorno alla pila rallenta la chiusura.
 
 ## Punti di forza ricorrenti
 
-- Scrittura tattile e sonora efficace: sabbia, zampa ferita, respiro, ritardi acustici e ombra rendono concreta la tensione.
-- Buon uso di gesti non verbali e oggetti come leve drammatiche, in particolare il richiamo con la pietra e l’offerta dei frutti.
-- Coerenza fisica e continuità con elementi preparati in precedenza; la scarsità d’acqua e d’ombra diventa una posta percepibile.
-- Finale visivamente incisivo, con la sete dei piccoli resa tramite le labbra asciutte.
+- Tensione e caratterizzazione affidate ai gesti: mani aperte di Nira, vulnerabilità di Kaza e sete dei piccoli.
 
 ## Problemi ricorrenti
 
-- Accumulo di dettagli e ripetizioni di attese, movimenti, sabbia, frutti e impronte che appesantisce la progressione.
-- La fame e la sete dei piccoli, pur decisive nella posta, restano per alcuni lettori sullo sfondo e arrivano tardi.
-- La tensione tattile è più sviluppata della motivazione o della conseguenza narrativa: non sempre è chiaro che cosa Nira debba ottenere, né che cosa cambi per i piccoli.
+- Generalista, emotivo e critico trovano eccessiva la minuzia della preparazione, rispettivamente per orientamento spaziale, urgenza emotiva e ritmo.
+- Quattro lettori trovano poco leggibile l’intenzione di Nira, soprattutto nel gesto del frutto spaccato o nell’esibizione dei quattro frutti.
 
 ## Suggerimenti prioritari
 
-- Snellire le sequenze ripetitive e conservare i dettagli sensoriali che modificano una scelta, un rischio o la percezione della scena.
-- Rafforzare gli ancoraggi spaziali nei passaggi d’azione, con poche coordinate ricorrenti e raccordi chiari tra riva, pila, albero e personaggi.
-- Chiarire il criterio di successo della scena e mostrare in modo concreto se e come i piccoli possano accedere al cibo.
-- Dare più peso alla posta dei piccoli con un gesto o un segnale anticipato; valutare un brevissimo battito interiore di Nira senza abbandonare il registro sobrio.
+- Dare un solo indizio su che cosa Nira speri di ottenere, senza chiarire la motivazione di Kaza.
+- Comprimere i movimenti preparatori e rendere netto il passaggio dalla ghiaia alla radura e il segnale della criniera che scompare.
 
 ## Osservazioni isolate
 
-- Il lettore critico considera alcuni dialoghi minimi («Uno», «Quattro» e i riferimenti a formiche e uccelli) funzionali ma talvolta artificiosi.
-- Il lettore di trama nota che il richiamo sonoro, pur preparato in precedenza, viene usato una sola volta e poi abbandonato.
-- Il lettore orientato ai personaggi chiede un segnale più leggibile delle motivazioni di Kaza e una reazione interna più distinta di Bomo.
-- Il lettore generalista propone di raggruppare i dettagli sensoriali in blocchi più brevi, con brevi pause di raccordo.
+- Il critico non vede il contributo della terza pietra.
+- Il lettore orientato ai personaggi apprezza l’autonomia di Bomo ma trova poco distinta la sua voce.
 
 ## Priorità di revisione
 
-- Prima: ridurre le ripetizioni e accelerare i blocchi centrali d’attesa, mantenendo i dettagli che producono tensione o conseguenze.
-- Seconda: rendere più leggibili geografia e obiettivo pratico della scena, chiarendo cosa significhi ottenere un vantaggio per i piccoli.
-- Terza: avvicinare la posta emotiva dei piccoli alla scena d’azione, con un segnale concreto e tempestivo; aggiungere interiorità solo in misura compatibile con il tono.
-- Quarta: verificare se dialoghi minimi e richiami sonori contribuiscano ancora alla progressione, oppure necessitino di maggiore funzione.
+- Chiarire l’intenzione di Nira al culmine.
+- Snellire e ancorare nello spazio la preparazione senza perdere i dettagli che segnano rischio e urgenza.
 
 ## Punteggio complessivo
 
-6.7/10
+7.7/10

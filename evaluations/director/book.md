@@ -6,15 +6,15 @@ target_id: book
 title: Grande libro della giungla
 director: Il Direttore
 verdict: revise
-score: 6.4
+score: 7.3
 source: autopilot
-created_at: 2026-11-26T15:31:37.601Z
-source_hash: ff125a2970e409016a1156fba7e35d6c9c196a25651624de0bc3555718ce87c3
-model: gpt-6-luna
+created_at: 2026-11-26T21:11:42.947Z
+source_hash: 58a7cb87700dd2880634bcac46cfd406dc21f58995b14aa0e0450bc22f25f627
+model: gpt-6.2-sol
 provider: azure_openai
-input_tokens: 4719
-output_tokens: 2241
-cost: 0.000752025
+input_tokens: 5006
+output_tokens: 2259
+cost: 0.040386500000000006
 currency: USD
 ---
 
@@ -22,51 +22,42 @@ currency: USD
 
 ## Risposta
 
-Non lo considererei ancora pronto come libro compiuto. Se l’autore mi lasciasse decidere, manterrei la struttura in tre capitoli e il finale aperto sulla siccità, ma chiederei una revisione mirata del nesso fra esperimento e prelievo, della risposta di Kaza e della consegna effettiva ai piccoli. Non chiederei di risolvere la scarsità d’acqua né di trasformare il leone in un alleato esplicito.
+Se la decisione spettasse a me, terrei il finale con le labbra ancora asciutte e chiederei una revisione mirata del terzo capitolo. Il pasto può essere una conquista parziale: non deve risolvere la siccità. Deve però essere chiaro che cosa induce Kaza prima a lasciare la pila e poi a tollerare il prelievo, e che cosa quel gesto cambia per i piccoli.
 
 ## Verdetto
 
-**Da rivedere** — 6.4/10
+**Da rivedere** — 7.3/10
 
-Il libro ha una premessa nitida e un finale ecologicamente onesto, ma nella forma attuale non mantiene fino in fondo la promessa del suo stesso disegno: la soluzione sonora è annunciata e preparata, però il racconto disponibile non la fa apparire come risultato causale dell’esperimento; soprattutto, lo scambio con Kaza resta unilaterale e la sua «accettazione» non è dimostrata. L’arco è promettente, non ancora compiuto. Valuto severamente secondo chiarezza, ritmo, tensione, coerenza e forza stilistica, ma qui il materiale fornito è soprattutto mappe e sintesi, non la prosa integrale: il giudizio è quindi sul libro progettato e sui fatti narrativi riportati.
+Non approvo ancora il libro, pur confermando l’impianto dei tre capitoli. La storia mantiene la promessa dell’astuzia come osservazione, ma lo snodo decisivo rende più leggibile il prelievo della frutta che lo scambio con Kaza. Valuto la struttura, gli archi e i dettagli attestati nelle sinossi e nella mappa; non ho il testo integrale per giudicare la tenuta della prosa frase per frase.
 
 ## Punti di forza
 
-- La premessa distingue bene l’astuzia dalla forza e dal furto: Nira trattiene il polso di Bomo invece di lasciarlo precipitarsi sulla pila, un gesto concreto che stabilisce subito il loro attrito e il loro metodo.
-- La posta è fisica e leggibile: ombra che si restringe, pozza che si ritira, zampa destra ferita, ghiaia scoperta. Questo serve la visione sensoriale ed ecologica meglio di una spiegazione morale.
-- I due protagonisti hanno funzioni potenzialmente complementari: Bomo porta memoria dell’eco, Nira osserva e verifica; la sua decisione di fermarsi a quattro frutti può segnare un passaggio da prudenza a progettazione condivisa.
-- Il finale non cancella il costo ambientale né finge che il cibo risolva la sete. Le labbra ancora asciutte e il corso del fiume incerto lasciano una conseguenza concreta e una promessa narrativa legittima.
-- Non emerge, dal materiale fornito, una violazione esplicita delle quattro soglie di segreto tracciate; la zampa zoppa e la roccia che restituisce il suono sono introdotte come indizi o scoperte, non come rivelazioni premature di segreti ulteriori.
+- Chiarezza — 7/10. Il percorso dal primo tentativo fallito alla scoperta del solco e dell’eco si segue bene; nel finale sono meno chiari il motivo per cui Kaza si muove e il conto dei frutti.
+- Ritmo — 7,5/10. Il primo capitolo trattiene il gesto di Bomo, il secondo trasforma un ricordo in una prova, il terzo mette alla prova la scoperta. Lo scarto fra l’allerta e la decisione di Kaza è il punto in cui il racconto accelera troppo.
+- Tensione — 7,5/10. La sete dà un costo all’attesa. Il gesto più forte di Nira non è far urtare le pietre: è fermarsi, invece di fuggire, e mostrare i quattro frutti al leone che li conta.
+- Coerenza con il canone — 7/10. La zampa emerge nel primo capitolo, la funzione della roccia nel secondo e il nuovo corso dell’acqua nel terzo: negli snodi documentati non vedo anticipazioni indebite. Il registro conta quattro segreti, ma la mappa ne etichetta esplicitamente tre: la corrispondenza va verificata, non presunta.
+- Forza stilistica — 7,5/10, giudizio provvisorio sui materiali disponibili. Il naso di Kaza sulla frutta, le mani aperte di Nira e la pietra piatta rimasta all’asciutto rendono visibili controllo, scelta e mutamento ecologico senza enunciarne la morale.
 
 ## Criticità
 
-- **Critico** — Il culmine non rende verificabile il meccanismo preparato nel capitolo 2: il piano è una fila di pietre mossa da vento/acqua e da un’eco ritardata, ma il resoconto del capitolo 3 dice che Nira «mette in moto le pietre» e Kaza si orienta verso il fiume senza specificare quale suono raggiunge il leone, da dove proviene o perché lo distoglie dalla pila. La causalità centrale resta ellittica proprio nel momento decisivo. ««Nira mette in moto le pietre»; nel capitolo 2 «la fila di pietre resta sulla riva come possibile mezzo»»
-  → Rendere osservabili in scena l’innesco, il suono/eco e la risposta precisa di Kaza, mantenendo coordinate coerenti e senza attribuire alle pietre un effetto non preparato. Se l’innesco è vento o acqua, mostrarlo; se è un gesto di Nira, chiarire come lo esegue senza esporsi.
-- **Importante** — L’arco di Kaza e la promessa di scambio sono incompleti. Il disegno dice che riconosce la fragilità del controllo e che il ritorno culmina nell’accettazione; invece Kaza annusa il frutto e guarda le mani, poi si ritira alla pila. È una non-aggressione ambigua, non una prova di consenso, e il frutto spaccato non risulta letto come segnale. ««osserva le mani di Nira»; «non li aggredisce»; «si sdraia presso la pila»»
-  → Decidere con un gesto osservabile che cosa Kaza capisce e che cosa concede, senza umiliarlo né renderlo improvvisamente benevolo. Se non accetta davvero lo scambio, correggere la promessa del disegno e trattare il prelievo come un rischio non risolto, non come accordo.
-- **Importante** — La consegna ai piccoli non pareggia l’inventario: vengono raccolti quattro frutti, tre sono distribuiti e Nira conserva il quarto; inoltre un piccolo resta con le labbra asciutte. È una scelta potenzialmente forte, ma al momento il riepilogo non chiarisce perché si conserva il frutto né come la fame dei piccoli sia stata alleviata in misura significativa. ««ne distribuiscono tre ai piccoli; Nira conserva l’ultimo»»
-  → Mostrare a chi va ciascun frutto, quale riscontro corporeo dà la consegna e perché il quarto viene conservato, oppure rivedere il conteggio. Non occorre guarire la sete: occorre chiudere con precisione il passaggio di mano e il suo effetto limitato.
-- **Importante** — Il salto da capitolo 2 a capitolo 3 attenua il rischio del climax: la fila è lasciata come possibilità, poi il leone si allontana e i due prelevano; non è chiaro se il richiamo abbia funzionato oppure se abbiano semplicemente colto un’occasione indipendente. Così il fallimento iniziale e la scoperta della roccia non pagano pienamente la loro preparazione. ««possibile richiamo» seguito da «colgono l’occasione del temporaneo allontanamento»»
-  → Legare esplicitamente il risultato dell’esperimento alla finestra di tempo per il prelievo, e far sì che ogni prova modifichi davvero possibilità o rischio. Evitare sia una coincidenza sia una ripetizione della medesima prova senza nuova informazione.
-- **Minore** — La struttura in tre capitoli ha una progressione leggibile, ma due scene per capitolo e numerose attese, misure d’ombra e osservazioni rischiano la ripetizione. Le note editoriali già registrate segnalano proprio il pericolo di attese che non cambiano informazione o possibilità.
-  → Nella revisione della prosa integrale controllare ogni attesa con una domanda funzionale: cambia rischio, conoscenza o finestra d’azione? Tagliare le ribaditure, preservando i micro-segnali corporei e la precisione spaziale.
-- **Minore** — Il titolo «Grande libro della giungla» e i toponimi dal tono quasi cartografico («Terminale di Salsedine», «Roccia del Ritardo») possono promettere una scala o un registro più ampio e fantastico di quello della piccola favola ecologica descritta. Non è una contraddizione, ma la scelta di voce non è dimostrabile senza il testo integrale.
-  → Verificare che titoli e toponimi appartengano alla voce effettiva del libro e non introducano un tono da avventura epica che la storia concreta non intende sostenere.
+- **Importante** — La prova prepara l’eco, ma non ancora la decisione di Kaza. Nel secondo capitolo il tonfo lo allerta senza smuoverlo; nel terzo segue il suono pur essendo vigile e ferito. La differenza fra i due stimoli è udibile per Nira, ma non è ancora leggibile come motivo per il leone. ««il suono di ritorno dalla Roccia del Ritardo attira Kaza verso la riva»»
+  → Rendere osservabile, nella prova decisiva, che cosa cambia rispetto al tentativo fallito e perché per Kaza vale la pena controllare la riva. Distinguere ciò che sente, ciò che può vedere e ciò che gli fa lasciare la pila; chiarire anche la funzione della terza pietra rispetto alla prova a due.
+- **Importante** — L’arco di Kaza rischia di chiudersi sulla mancata rappresaglia, non sul riconoscimento che da solo non può sorvegliare tutto. Il segnale e il conteggio a mani aperte salvano la sua dignità, ma la sequenza non rende ancora leggibile che cosa riceva in cambio o quale scelta compia consapevolmente. ««senza affrontarli»; «lasciando libera una striscia d’ombra»»
+  → Dare un nesso leggibile fra i gesti già presenti — segnale, conteggio, sopralluogo alla riva e postura finale. Se la striscia d’ombra è una concessione, distinguerla da un effetto casuale. Non aggiungere una spiegazione morale.
+- **Importante** — L’apertura fa temere soprattutto per la sete; il ritorno distribuisce frutta secca. La sete irrisolta è un buon limite alla vittoria, ma il lettore deve poter distinguere ciò che il pasto risolve da ciò che resta urgente. ««il quarto resta a Nira»; «il primo ha le labbra ancora secche»»
+  → Chiarire che cosa le scimmie possono ottenere ora e perché questo non equivale ad avere accesso all’acqua. Conservare l’ultima immagine senza farle sostenere da sola il senso dell’intero finale.
+- **Minore** — Proprio nel momento in cui il conteggio dovrebbe rendere credibile il limite del prelievo, non è univoco se il quinto frutto e quello spaccato siano lo stesso. Anche il quarto frutto rimasto a Nira lascia incerto il rapporto fra ciò che prendono e il necessario. ««lasciano il quinto al suo posto»; «un frutto spaccato come segnale»»
+  → Verificare la continuità fra pila, segnale e distribuzione. Lo scarto dal frutto marcio del piano non richiede un ripristino se il frutto spaccato svolge chiaramente la stessa funzione.
 
 ## Decisioni
 
-- Conservo il conflitto centrale: fame dei piccoli contro il controllo della risorsa, e l’astuzia fondata su ascolto e memoria.
-- Conservo il finale senza soluzione idrica: la pietra asciutta e le labbra asciutte sono una chiusura più onesta di una riconciliazione o di un fiume che torna opportunamente al suo corso.
-- Non promuovo il frutto spaccato a prova di accordo finché Kaza non dà una risposta osservabile; il silenzio non basta a confermare l’accettazione.
-- Non considero l’arco di Bomo compiuto solo perché rinuncia al quinto frutto: deve risultare in scena che partecipa alla scelta e non è soltanto frenato da Nira.
-- Non dichiaro violati i segreti: i dati disponibili non mostrano le schede dei quattro segreti né soglie ulteriori, quindi la verifica resta limitata a quanto è riportato.
-- Il punteggio è 6,4/10: chiarezza e coerenza del progetto sono buone, ma causalità del climax, completezza dello scambio e chiusura dell’inventario abbassano tensione e forza complessiva. Non assegno un voto alto sulla base di capitoli approvati o di riassunti.
+- Mantengo la struttura in tre capitoli, la soluzione preparata da memoria e prove e il finale senza trionfo. Non riaprirei i primi due capitoli salvo un raccordo indispensabile.
+- Mantengo l’arco di Nira: ascolta, sperimenta e infine si espone. Per Bomo, che già trasforma il ricordo in una proposta di verifica, controllerei che la scelta di restare invece di tornare dai piccoli abbia un effetto riconoscibile nel finale: è il passaggio da custode della memoria a coprogettista.
+- Lascio aperta la crisi dell’acqua, non l’esito immediato dell’incontro. Nessuna spiegazione del cambio di corso prima del terzo capitolo; verifico la quarta voce del registro senza aggiungere una rivelazione per colmare una lacuna di documentazione.
+- Uso i voti dei lettori come riscontro, non come media: il terzo capitolo è il più apprezzato, ma è anche quello su cui ricade la chiusura delle promesse dell’intero libro.
 
 ## Prossimi passi
 
-- Rivedere il capitolo 3 per rendere leggibile la catena: innesco delle pietre → percezione di Kaza → suo spostamento → finestra di prelievo → ritorno e risposta al segnale.
-- Scegliere e rendere inequivocabile la natura dell’esito con Kaza: consenso limitato, tolleranza provvisoria o rischio ancora aperto. Allineare a questa scelta sia il frutto segnale sia la promessa dello Story Design.
-- Chiudere l’inventario dei quattro frutti, mostrando la distribuzione ai piccoli, il destino del quarto e un riscontro osservabile che non esageri l’effetto del pasto.
-- Verificare l’arco di Nira e Bomo lungo tutti e tre i capitoli: ascolto che diventa progetto per lei; memoria che diventa collaborazione per lui; non solo ruoli funzionali al piano.
-- Passare la prosa integrale con i cinque criteri dell’autore e le note editoriali già in vigore, soprattutto ridondanza delle attese, coordinate sensoriali e separazione tra ciò che è visto, udito e dedotto.
-- Prima di valutare la qualità frase per frase o certificare definitivamente il rispetto delle soglie dei quattro segreti, fornire il testo integrale e le regole canoniche complete: i riassunti non consentono un controllo affidabile di voce, rivelazioni o continuità minuta.
+- Prima revisione: verificare in sequenza che cosa Kaza percepisce, perché si sposta e che cosa sceglie al ritorno. Se un passaggio si capisce soltanto consultando il piano, chiarirlo nella scena.
+- Seconda verifica: rileggere apertura e ultima scena una di seguito all’altra. Alla prima lettura devono risultare chiari la conquista dei piccoli, il limite di quella conquista e il conto dei frutti.
+- Ultimo controllo sui capitoli integrali: verificare il contributo finale di Bomo, le quattro voci del registro e gli indizi del piano non attestati nelle sinossi, come il corvo. Non reinserire un indizio se non orienta un gesto o una scoperta.

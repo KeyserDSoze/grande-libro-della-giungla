@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:003-capitolo-3-il-pasto-che-resta:chapter:standard-plot
 type: readerEvaluation
 createdAt: 2026-11-25T21:36:02.989Z
-updatedAt: 2026-11-25T21:36:02.989Z
+updatedAt: 2026-11-26T20:57:12.703Z
 targetType: chapter
 targetId: chapter:003-capitolo-3-il-pasto-che-resta
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,55 +13,52 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: a7802b9de8f9f4bcfb23dd6a21b2af7f896135b80da1a777a1867ff428746bb1
-sourceContentVersion: cbf091aae167ea3d4466dae723c8789fe0f779ac02e4ae19f4c80b70bb107765:1c13f48d6a16b9850686e5dba78607485e3d06c6291b9e3aa522f107c80c9380
-sourceUpdatedAt: 2026-11-25T21:36:02.989Z
+sourceContentHash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
+sourceContentVersion: 6f518581cc5dcaa14a45bf0c041352cec07e1aa30d8742e8647b9744ed9dbf65:191df3c501e1ffeef4d44a96eb8412f3f409af960fd90c0bcdabdc1dd687495a
+sourceUpdatedAt: 2026-11-26T20:57:12.703Z
 routerTask: reader-evaluation
-model: muse-glimmer-30b
-provider: openai
-integrationId: 9dd7720e-4d47-41cf-94ce-e22b44bf0210
-inputTokens: 4932
-outputTokens: 1527
+model: gpt-6.2-sol
+provider: azure_openai
+integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
+inputTokens: 3973
+outputTokens: 427
 currency: USD
-score: 7
+score: 7.5
 status: completed
 generatedBy: autopilot
+estimatedCost: 0.012930750000000001
+finalCost: 0.012930750000000001
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Il capitolo avanza la situazione concreta: il suono ritardato funziona, Kaza scende alla riva, Nira e Bomo riescono a prendere quattro frutti e a guadagnare un po’ d’ombra. La tensione è mantenuta dal corpo ferito del leone e dal restringersi dell’ombra sull’Albero Basso, ma la scena si dilata in osservazioni minuziose che rallentano la percezione del progresso narrativo.
+Il capitolo mantiene la promessa della Roccia del Ritardo: ottiene quattro frutti e trasforma la sete, rimasta irrisolta, nel prossimo obiettivo. La causalità della diversione è più leggibile di quella del confronto con Kaza.
 
 ## Punti di forza
 
-- Causalità fisica credibile: il colpo di pietra, il ritorno ritardato del suono e la reazione di Kaza sono collegati senza forzature. La discesa del leone è resa con una sequenza di piccoli cedimenti della zampa destra, che funziona come metronomo di tensione.
-- L’acqua che si ritira è una posta concreta: la pietra piatta asciutta, la foglia che gira e il solco vuoto mostrano in modo visivo la scarsità che stringe, senza bisogno di spiegazioni.
-- Il pasto è gestito come oggetto drammatico: il frutto spaccato posato al sole come esca, i quattro frutti tenuti a coppa, il passaggio del frutto al piccolo con le labbra asciutte, chiudono il capitolo su una promessa non ancora riscattata.
+- L’orecchio che si orienta verso il fiume e la criniera che sparisce sotto il margine scandiscono il passaggio dalla prova all’azione.
+- La punta della radice che passa dall’ombra al sole e il colpo di tosse danno un costo concreto al tempo speso alla pila.
+- La pietra piatta ormai asciutta prepara il finale: i piccoli ricevono il cibo, ma le labbra del primo restano asciutte.
 
 ## Punti di debolezza
 
-- Obiettivo di scena poco leggibile: si capisce che Nira vuole attirare Kaza via dal cibo, ma il criterio di successo resta ambiguo. Kaza scende, beve, ritorna e si accuccia: il vantaggio per i piccoli è solo una striscia d’ombra, non un cambiamento di accesso al cibo.
-- Sovraccarico descrittivo su sabbia, bucce e impronte. Le formiche, gli uccelli, i forellini a coppie e i mucchietti di polpa rallentano il ritmo e non producono nuova informazione per la trama.
-- La promessa del suono, individuata alla fine del capitolo 2, viene consumata qui in un colpo secco e poi abbandonata: il suono non viene più usato come leva, e la scena resta centrata sull’attesa.
+- La rinuncia al quinto frutto, il frutto spaccato messo in vista e le mani aperte suggeriscono una scelta di misura o trasparenza, ma non si capisce quale effetto Nira speri di ottenere da Kaza.
+- I due ritorni di Kaza alla pila hanno funzioni distinte, ma il secondo rallenta l’arrivo ai piccoli perché la striscia d’ombra lasciata libera non cambia ancora il loro comportamento.
 
 ## Momento più efficace
 
-Il momento in cui Kaza piega le zampe sul fianco della pila e la zampa destra resta distesa, liberando una striscia d’ombra dove ci starebbe Bomo seduto. È l’unico punto in cui il conflitto corpo ferito / ombra che si restringe si traduce in un’immagine misurabile e in una scelta imminente per Nira.
+Quando Kaza rialza la testa, Nira si ferma invece di correre e gli mostra tutti e quattro i frutti: il piano riuscito diventa una scelta rischiosa in piena vista.
 
 ## Problema principale
 
-La scena chiude con un sollievo parziale che non risolve la posta aperta: i piccoli hanno ancora le labbra asciutte, l’ombra sull’Albero Basso è quasi sparita e Kaza è tornato alla pila. Il lettore orientato alla trama percepisce avanzamento di posizione, non avanzamento di situazione.
+Il confronto si risolve senza che sia abbastanza leggibile la posta della decisione di Nira: Kaza nota i frutti, ispeziona la pila e torna all’acqua, ma il lettore fatica a capire che cosa Nira stesse tentando di ottenere.
 
 ## Suggerimento prioritario
 
-Fissa per la scena un criterio di vittoria/sconfitta chiaro e mostralo in scena: cosa deve accadere perché i piccoli possano mangiare ora e non solo tenere i frutti in mano. Riduci i dettagli naturalistici a quelli che modificano la scelta di Nira e rendi esplicito il costo della decisione di lasciare il frutto spaccato al sole.
+Rendere più leggibile l’intenzione di Nira nel mostrare i frutti o nel far deporre quello spaccato. La motivazione di Kaza può restare ambigua.
 
 ## Punteggio
 
-7/10
-
-## Osservazioni aggiuntive
-
-La tensione funziona quando il corpo di Kaza è misurato passo per passo. Le parti più forti sono quelle in cui la percezione è legata a un’azione: il colpo che torna dalla roccia, il piede che cede, il frutto che scivola. Le parti più deboli sono le digressioni sulla pila che descrivono ciò che è già stato: l’eco del danno senza nuova conseguenza narrativa.
+7.5/10

@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:003-capitolo-3-il-pasto-che-resta:chapter:standard-characters
 type: readerEvaluation
 createdAt: 2026-11-25T21:33:52.621Z
-updatedAt: 2026-11-25T21:33:52.621Z
+updatedAt: 2026-11-26T20:57:05.695Z
 targetType: chapter
 targetId: chapter:003-capitolo-3-il-pasto-che-resta
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,56 +13,52 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: a7802b9de8f9f4bcfb23dd6a21b2af7f896135b80da1a777a1867ff428746bb1
-sourceContentVersion: cbf091aae167ea3d4466dae723c8789fe0f779ac02e4ae19f4c80b70bb107765:1c13f48d6a16b9850686e5dba78607485e3d06c6291b9e3aa522f107c80c9380
-sourceUpdatedAt: 2026-11-25T21:33:52.621Z
+sourceContentHash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
+sourceContentVersion: 6f518581cc5dcaa14a45bf0c041352cec07e1aa30d8742e8647b9744ed9dbf65:191df3c501e1ffeef4d44a96eb8412f3f409af960fd90c0bcdabdc1dd687495a
+sourceUpdatedAt: 2026-11-26T20:57:05.695Z
 routerTask: reader-evaluation
-model: muse-glimmer-30b
-provider: openai
-integrationId: 9dd7720e-4d47-41cf-94ce-e22b44bf0210
-inputTokens: 4924
-outputTokens: 1349
+model: gpt-6.2-sol
+provider: azure_openai
+integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
+inputTokens: 3964
+outputTokens: 407
 currency: USD
-score: 7
+score: 8
 status: completed
 generatedBy: autopilot
+estimatedCost: 0.012635
+finalCost: 0.012635
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Il capitolo funziona come studio di personaggi in attesa: si sente la cautela di Nira, l’impazienza controllata di Bomo e la fatica fisica di Kaza. La tensione nasce dal corpo, non dal parlato, e la relazione Nira-Bomo è credibile nella sua economia di gesti. Però l’urgenza emotiva dei piccoli resta sullo sfondo e alcuni passaggi descrittivi appesantiscono la leggibilità del conflitto.
+La relazione fra Nira e Bomo si legge nei gesti e cambia nel corso della scena. Mi convince meno la leggibilità del rischio che Nira sceglie di correre mostrandosi a Kaza.
 
 ## Punti di forza
 
-- Coerenza comportamentale di Nira: trattiene Bomo, conta il ritardo del suono, verifica con il corpo, decide dove appoggiare il piede e quando non alzarsi. La motivazione è mostrata, non detta.
-- Voce differenziata: Nira è tattile e misurata, Bomo nomina e osserva da lontano, Kaza è presenza fisica con zampa che cede, orecchie che si girano, respiro che si vede.
-- Relazione Nira-Bomo credibile: lei guida con il tocco sul polso, sul dorso della mano, sul gomito; lui segue, posa il ramo fuori dalla fila, tiene giù la buccia. È una complicità silenziosa.
-- Conflitto interno esternalizzato: la paura di entrare nella tana si traduce in attesa sulla ghiaia, nel non voltarsi, nel lasciare il frutto spaccato al sole come esca e nel tenere i quattro frutti contro il ventre.
+- Il contatto sul polso richiama il primo capitolo, ma qui Bomo capisce il segnale e posa il ramo da sé. Alla fine è Nira ad affidargli due frutti: la collaborazione avanza senza essere dichiarata.
+- Bomo rinuncia al quinto dopo aver visto l’uccello deporre il suo frutto: una decisione autonoma che lo distingue da Nira, concentrata a estrarre i frutti senza far cadere la pila.
+- Kaza conta e controlla la scorta, ma la zampa e la sete gli danno priorità proprie. La striscia d’ombra che lascia libera non deve per forza essere letta come un invito.
 
 ## Punti di debolezza
 
-- I piccoli sono ancora un rumore lontano: il colpo di tosse, il respiro che non si spezza più, la lingua sulle labbra asciutte arrivano tardi e la loro fame resta più segnalata che sentita.
-- Densità sensoriale a tratti sovraddensa la scena d’azione: la descrizione del pasto che resta, delle formiche, delle impronte e della pila rallenta il momento in cui Kaza decide di scendere e risalire.
-- Kaza è molto osservato dall’esterno; manca un breve segnale che chiarisca perché non prende il frutto spaccato e perché si accuccia lasciando una striscia d’ombra, rendendo il suo arco in questo capitolo più enigmatico che motivato.
+- Il frutto spaccato messo in vista e i palmi aperti sono due gesti deliberati, ma non è chiaro che cosa Nira speri di comunicare a Kaza.
+- Il dialogo è funzionale alla furtività, ma «Aspetta», il conteggio e «La pietra piatta» distinguono Bomo più per ciò che nota che per la sua voce.
 
 ## Momento più efficace
 
-Il momento in cui Nira abbassa i gomiti e stacca le mani dal ventre lasciando i quattro frutti in vista mentre Kaza rialza la testa. È un gesto di fiducia/ sfida che condensa la loro strategia e il rischio, e si legge tutto nel corpo dei tre senza bisogno di spiegazioni.
+Bomo tocca il picciolo del quinto frutto, guarda quello deposto dall’uccello e ritira la mano: un cambiamento leggibile che non richiede spiegazioni.
 
 ## Problema principale
 
-La credibilità emotiva dell’arco resta sbilanciata sul procedimento tattile e sulla gestione del suono, mentre il bisogno dei piccoli e la scelta di Nira di portare solo quattro frutti non trovano un picco emotivo chiaro che leghi la cura a una conseguenza visibile.
+L’ambiguità della risposta di Kaza funziona meglio di quella sull’intenzione di Nira nel momento culminante.
 
 ## Suggerimento prioritario
 
-Ancora la decisione dei frutti a un micro-gesto verso i piccoli prima della salita: un rapido scambio di sguardi o il contatto con il primo piccolo accucciato dietro la radice, in modo che la scelta di lasciare il frutto spaccato e di trattenere quattro sia letta come cura e non solo come calcolo tattico.
+Dare un solo indizio su ciò che Nira vuole ottenere quando espone i frutti, senza spiegare come Kaza interpreti il gesto.
 
 ## Punteggio
 
-7/10
-
-## Osservazioni aggiuntive
-
-Il ritmo funziona bene nella prima parte, dal colpo di pietra alla discesa di Kaza. Nella seconda, la riva che arretra è efficace per mostrare il tempo che stringe, ma la focalizzazione resta su Nira; dare a Bomo una reazione interna più riconoscibile aiuterebbe a differenziare ulteriormente i due punti di vista.
+8/10
