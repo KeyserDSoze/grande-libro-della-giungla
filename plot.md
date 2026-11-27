@@ -28,12 +28,12 @@ All’Albero Basso, i piccoli hanno sete e respirano a fatica mentre l’ombra s
 
 ## Chapter 002 Capitolo 2 - Il suono sbagliato
 
-Bomo ricorda il breve silenzio prima che l’acqua restituisse il colpo del tamburo e propone di usare un’eco per allontanare Kaza dalla frutta e liberare il passaggio alla pozza. Nella radura il tonfo di un ramo fa alzare la testa al leone senza smuoverlo, e neppure il tintinnio di due pietre produce un’eco. Sulla riva, invece, una pietra guidata da un solco urta un sassolino e la parete lucida, che Bomo chiama Roccia del Ritardo, rimanda un suono più forte: una raffica ripete la prova, ma il capitolo si chiude quando il vento rimette in moto la pietra e Nira sta ancora aspettando di vedere la reazione di Kaza.
+Bomo ricorda il silenzio di un battito prima che l’acqua restituisse il colpo del tamburo e propone di usare un’eco per allontanare Kaza dalla frutta e liberare il passaggio alla pozza. Nella radura il tonfo di un ramo fa alzare la testa al leone senza smuoverlo, mentre il tintinnio di due pietre non provoca alcuna reazione; nessuno dei due suoni torna. Sulla riva, invece, una pietra guidata da un solco urta un sassolino e la parete lucida, che Bomo chiama Roccia del Ritardo, rimanda un suono più forte. All’ultima prova, innescata dal vento, Kaza drizza un orecchio solo al ritorno del suono, ma continua a sbarrare l’imbocco: Bomo dà il segnale di rientro e Nira si volta verso il sentiero.
 
 ### What Happens
 
-- Bomo e Nira provano a distrarre Kaza con un’eco per liberare il passaggio verso la pozza, ma i suoni non rimbalzano e il leone non si sposta. Nira imbocca allora il sentiero dal lato della radice nascosto a Kaza, e Bomo la segue.
-- Con Kaza che ingombra il passaggio verso la pozza, Nira scopre che il tintinnio di due sassi nel solco torna più forte e in ritardo dalla roccia, sul lato opposto alla pozza. Lei e Bomo si riparano dietro il ciglio della riva per vedere se Kaza reagisce all’eco anziché al primo tintinnio, ma la scena si chiude mentre il vento rimette in moto il sasso.
+- Bomo e Nira provano a sfruttare un’eco per allontanare Kaza dalla frutta e liberare il passaggio verso la pozza, ma i rumori non producono alcun eco e il leone non si sposta. Bomo indica il tratto di riva da cui ricorda che tornava il suono, e Nira imbocca il sentiero fuori dalla vista di Kaza, seguita da Bomo.
+- Nira e Bomo verificano che Kaza drizza un orecchio al suono di ritorno della Roccia del Ritardo, non al primo tintinnio dei sassi. Kaza però continua a sbarrare l’accesso alla pozza e, al cenno di Bomo, Nira si volta verso il sentiero del ritorno.
 
 ### Secrets Revealed
 

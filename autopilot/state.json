@@ -158,7 +158,7 @@
         "number": 2,
         "title": "Capitolo 2 - Il suono sbagliato",
         "slug": "002-capitolo-2-il-suono-sbagliato",
-        "summary": "Bomo ricorda il breve silenzio prima che l’acqua restituisse il colpo del tamburo e propone di usare un’eco per allontanare Kaza dalla frutta e liberare il passaggio alla pozza. Nella radura il tonfo di un ramo fa alzare la testa al leone senza smuoverlo, e neppure il tintinnio di due pietre produce un’eco. Sulla riva, invece, una pietra guidata da un solco urta un sassolino e la parete lucida, che Bomo chiama Roccia del Ritardo, rimanda un suono più forte: una raffica ripete la prova, ma il capitolo si chiude quando il vento rimette in moto la pietra e Nira sta ancora aspettando di vedere la reazione di Kaza.",
+        "summary": "Bomo ricorda il silenzio di un battito prima che l’acqua restituisse il colpo del tamburo e propone di usare un’eco per allontanare Kaza dalla frutta e liberare il passaggio alla pozza. Nella radura il tonfo di un ramo fa alzare la testa al leone senza smuoverlo, mentre il tintinnio di due pietre non provoca alcuna reazione; nessuno dei due suoni torna. Sulla riva, invece, una pietra guidata da un solco urta un sassolino e la parete lucida, che Bomo chiama Roccia del Ritardo, rimanda un suono più forte. All’ultima prova, innescata dal vento, Kaza drizza un orecchio solo al ritorno del suono, ma continua a sbarrare l’imbocco: Bomo dà il segnale di rientro e Nira si volta verso il sentiero.",
         "goal": "Costruire l'inganno come esperimento verificabile, passando dal ricordo alla prova e alla soluzione concreta.",
         "pov": [
           "Bomo",
@@ -193,12 +193,12 @@
               "Nira",
               "Kaza"
             ],
-            "summary": "Bomo e Nira provano a distrarre Kaza con un’eco per liberare il passaggio verso la pozza, ma i suoni non rimbalzano e il leone non si sposta. Nira imbocca allora il sentiero dal lato della radice nascosto a Kaza, e Bomo la segue.",
+            "summary": "Bomo e Nira provano a sfruttare un’eco per allontanare Kaza dalla frutta e liberare il passaggio verso la pozza, ma i rumori non producono alcun eco e il leone non si sposta. Bomo indica il tratto di riva da cui ricorda che tornava il suono, e Nira imbocca il sentiero fuori dalla vista di Kaza, seguita da Bomo.",
             "status": "reviewed",
             "slug": "001-il-ricordo-che-vibra",
             "path": "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md",
-            "words": 401,
-            "revisions": 28
+            "words": 369,
+            "revisions": 33
           },
           {
             "number": 2,
@@ -217,25 +217,17 @@
               "Bomo",
               "Nira"
             ],
-            "summary": "Con Kaza che ingombra il passaggio verso la pozza, Nira scopre che il tintinnio di due sassi nel solco torna più forte e in ritardo dalla roccia, sul lato opposto alla pozza. Lei e Bomo si riparano dietro il ciglio della riva per vedere se Kaza reagisce all’eco anziché al primo tintinnio, ma la scena si chiude mentre il vento rimette in moto il sasso.",
+            "summary": "Nira e Bomo verificano che Kaza drizza un orecchio al suono di ritorno della Roccia del Ritardo, non al primo tintinnio dei sassi. Kaza però continua a sbarrare l’accesso alla pozza e, al cenno di Bomo, Nira si volta verso il sentiero del ritorno.",
             "status": "reviewed",
             "slug": "002-la-roccia-che-parla",
             "path": "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md",
-            "words": 447,
-            "revisions": 36
+            "words": 434,
+            "revisions": 44
           }
         ],
-        "score": 8.4,
-        "storySoFarAtClose": "### Capitolo 1 — L’ombra che pesa\nIl caldo riduce l’ombra dell’Albero Basso, dove i piccoli hanno sete e respirano a fatica. Nira e Bomo li lasciano al riparo e raggiungono il Terminale di Salsedine, dove una pozza si ritira accanto a una pila di frutta secca. Da dietro una radice vedono Kaza sorvegliare la frutta: il leone si avvicina all’acqua, ma la zampa destra gli cede per un istante e lui torna alla pila. Nira dà la precedenza all’acqua e trattiene Bomo quando allunga la mano verso la frutta. Kaza è vigile e i due restano nascosti senza prendere nulla.\n\n### Capitolo 2 — Il suono sbagliato\nDietro la radice, Bomo ricorda il colpo del tamburo che l’acqua restituiva dopo un breve silenzio. Propone di far arrivare a Kaza un suono da un altro punto, nella speranza che il leone lasci la frutta e Nira possa raggiungere la pozza. Il tonfo di un ramo non produce eco: Kaza alza la testa, ma non si sposta e torna a chinare il muso sui frutti. Anche il tintinnio di due pietre si spegne senza rimbalzo. Nira e Bomo scendono allora alla riva, da cui vedono che Kaza ingombra ancora il passaggio.\n\nNira dispone una pietra e un sassolino in un solco scavato dall’acqua. Quando spinge la prima contro il secondo, dopo il tintinnio e una pausa la roccia lucida restituisce un suono pieno e più forte, che a Kaza arriverebbe dal lato opposto alla pozza. Bomo battezza la parete Roccia del Ritardo. Nira rimette la pietra in bilico e arretra fino alla curva: una raffica ripete l’urto e l’eco, ma lei alza gli occhi troppo tardi per capire se Kaza ha mosso le orecchie. Bomo, guardando il sentiero verso l’Albero Basso, dice che resterà solo per questa prova e le raccomanda di osservare le orecchie al ritorno del suono, non al primo tintinnio. Nira riposiziona la pietra e i due si accovacciano dietro il ciglio. Un orecchio di Kaza punta già verso la roccia; Nira lo osserva mentre il vento rimette in moto la pietra. La reazione del leone non è ancora nota.",
+        "score": 9,
+        "storySoFarAtClose": "### Capitolo 1 — L’ombra che pesa\nIl caldo restringe l’ombra dell’Albero Basso. I piccoli hanno la lingua secca e il fiato corto; Nira nota il respiro irregolare di uno di loro. Lei e Bomo li lasciano al riparo e vanno al Terminale di Salsedine, dove una pozza si ritira accanto a una pila di frutta secca. Dalla radice dietro cui si nascondono vedono Kaza sorvegliare la frutta. Il leone accenna a dirigersi verso l’acqua, ma la zampa destra gli cede per un istante e lui torna alla pila. Nira dà la precedenza all’acqua e trattiene Bomo quando allunga la mano verso la frutta. I due restano nascosti senza prendere nulla.\n\n### Capitolo 2 — Il suono sbagliato\nDietro la radice, Nira ripensa al respiro di uno dei piccoli. Bomo ricorda il colpo del tamburo che l’acqua aveva restituito dopo un battito di silenzio: se il suono sembrasse venire da un altro punto, forse Kaza lascerebbe la frutta e Nira potrebbe raggiungere la pozza. Bomo lascia cadere un ramo. Kaza alza la testa e carica con cautela il peso sulla zampa destra, ma non si sposta. Nira fa sfiorare due pietre: al breve tintinnio Kaza non reagisce. Nessuno dei due suoni torna, così Nira e Bomo scendono al tratto di riva che Bomo ricorda.\n\nDal ciglio vedono che Kaza sbarra l’imbocco verso la pozza. Nira dispone una pietra liscia e un sassolino in un solco scavato dall’acqua. Spinta lungo il solco, la pietra urta il sassolino, e dalla parete lucida torna un suono più forte. Bomo la chiama Roccia del Ritardo. Una raffica fa rotolare di nuovo la pietra, ma Nira alza gli occhi troppo tardi per vedere se Kaza ha reagito. Bomo resta per un’ultima prova e i due concordano un segnale di rientro nel caso in cui l’imbocco resti chiuso.\n\nQuando il vento rimette in moto la pietra, Kaza non muove le orecchie al tintinnio. Dopo un battito, al ritorno del suono, drizza l’orecchio già rivolto alla roccia, ma il suo corpo resta a sbarrare il passaggio. Bomo fa un cenno del mento e Nira si volta verso il sentiero del ritorno. Non hanno preso né acqua né frutta.",
         "rounds": [
-          { "director": 7.2, "readers": 7, "verdict": "revise", "accepted": 8, "rejected": 2 },
-          { "director": 7.8, "readers": 7.1, "verdict": "revise", "accepted": 5, "rejected": 3 },
-          { "director": 7, "readers": 7, "verdict": "revise", "accepted": 8, "rejected": 0 },
-          { "director": 7.8, "readers": 7.2, "verdict": "revise", "accepted": 7, "rejected": 3 },
-          { "director": 7.2, "readers": 6.9, "verdict": "revise", "accepted": 8, "rejected": 1 },
-          { "director": 8, "readers": 6.9, "verdict": "approve", "accepted": 6, "rejected": 2 },
-          { "director": 7.4, "readers": 6.9, "verdict": "revise", "accepted": 10, "rejected": 2 },
-          { "director": 7.6, "readers": 6.8, "verdict": "revise", "accepted": 7, "rejected": 1 },
           { "director": 8, "readers": 7, "verdict": "revise", "accepted": 4, "rejected": 4 },
           { "director": 8.1, "readers": 7.2, "verdict": "revise", "accepted": 7, "rejected": 0 },
           { "director": 8, "readers": 7.2, "verdict": "revise", "accepted": 4, "rejected": 4 },
@@ -257,7 +249,15 @@
           { "director": 8, "readers": 7, "verdict": "revise", "accepted": 5, "rejected": 3 },
           { "director": 8.4, "verdict": "revise", "accepted": 3, "rejected": 0 },
           { "director": 8.4, "verdict": "revise", "accepted": 4, "rejected": 0 },
-          { "director": 8.4, "verdict": "revise", "accepted": 2, "rejected": 0 }
+          { "director": 8.4, "verdict": "revise", "accepted": 2, "rejected": 0 },
+          { "director": 7.4, "readers": 6.8, "verdict": "revise", "accepted": 6, "rejected": 2 },
+          { "director": 7.8, "readers": 7.1, "verdict": "revise", "accepted": 5, "rejected": 2 },
+          { "director": 8, "readers": 7.1, "verdict": "revise", "accepted": 5, "rejected": 2 },
+          { "director": 7.7, "readers": 7, "verdict": "revise", "accepted": 6, "rejected": 0 },
+          { "director": 8.4, "readers": 6.8, "verdict": "revise", "accepted": 4, "rejected": 4 },
+          { "director": 8.5, "verdict": "revise", "accepted": 2, "rejected": 0 },
+          { "director": 8.7, "verdict": "revise", "accepted": 2, "rejected": 0 },
+          { "director": 9, "verdict": "approve", "accepted": 1, "rejected": 0 }
         ],
         "outlineDigest": "47f75e2cbf28b064"
       },
@@ -448,18 +448,18 @@
     }
   ],
   "directorNotes": [
-    "Quando il vento ripete un gesto del personaggio, mostra prima che cosa rende possibile il movimento. La coincidenza può offrire l’occasione di verificare il piano, non risolverlo.",
-    "Se un ricordo suggerisce un esperimento, rendi leggibile l’ordine di causa, effetto e ritorno già nel ricordo.",
-    "Riparti dalla pietra già in moto. Usa l’orecchio già rivolto verso la roccia come riferimento e separa il tintinnio dal ritorno prima di attribuire a Kaza una reazione.",
-    "Tieni distinti ciò che Kaza sente, la direzione in cui si orienta e lo spostamento che libera l’imbocco. Nira può contare solo sull’ultimo; se il corpo del leone resta dov’è, la via alla pozza è chiusa.",
-    "Quando un personaggio concede un’ultima prova, fai cambiare subito un compito o una scelta: il limite deve incidere sull’azione, non soltanto ricordare l’urgenza.",
-    "Quando due personaggi osservano da un riparo, stabilisci la posizione di entrambi prima di passare allo sguardo dell’uno o dell’altra.",
-    "Riparti dalla pietra già in moto. Distingui il tintinnio dal ritorno e usa l’orecchio già rivolto alla roccia come riferimento. Anche una reazione udibile o visibile non basta a Nira: può muoversi verso la pozza solo quando Kaza libera l’imbocco.",
-    "Riparti dalla pietra già in moto. Separa il tintinnio dal ritorno e usa l’orecchio già puntato verso la roccia come riferimento. Nira può avviarsi alla pozza solo quando il corpo di Kaza libera l’imbocco.",
-    "Quando una distrazione dipende dalla direzione di un suono, orienta la scena rispetto a chi lo sente e al varco da liberare, non lungo il percorso dello sguardo di chi osserva.",
-    "Riparti dalla pietra già in moto. Distingui il tintinnio dal ritorno e usa l’orecchio già rivolto alla roccia come riferimento, non come prova di una reazione.",
-    "Nira può avviarsi alla pozza solo quando il corpo di Kaza libera l’imbocco. Un orecchio che scatta o una testa che si volta non bastano.",
-    "Nelle prossime prove, lascia che sia il gesto a fornire il dato nuovo; solo dopo esplicita che cosa quel dato cambia per il piano."
+    "Quando una prova risponde a una domanda ma non raggiunge lo scopo pratico, riparti dalla scelta che il risultato impone. Qui conta il segnale concordato con Bomo: non ripetere la prova e non far avanzare Nira finché Kaza occupa l’imbocco.",
+    "Se salti un preparativo già visto, conserva il minimo indizio che faccia capire che cosa mette in moto la prova successiva.",
+    "Quando i personaggi fissano una condizione per interrompere una prova, mostra il gesto che attua la decisione appena la condizione si verifica. Nel capitolo successivo riparti dal rientro deciso, senza ripetere la prova.",
+    "Se un tentativo intermedio dimostra una sola novità, mostra quella e abbrevia il resto. Qui il vento sostituisce la mano; solo la prova finale deve mettere a confronto tintinnio, ritorno e reazione di Kaza.",
+    "Riparti dalla scelta di rientrare e da ciò che comporta per i piccoli, senza ripetere la prova né far passare Nira da un varco ancora chiuso.",
+    "Quando un diversivo riesce solo a farsi sentire, mostra nello stesso momento che cosa reagisce e che cosa resta materialmente d’ostacolo.",
+    "Nel capitolo successivo riparti da ciò che il rientro senza acqua comporta per i piccoli. Non ripetere la prova sonora e non far avanzare Nira finché Kaza sbarra l’imbocco.",
+    "Quando un personaggio non riesce a osservare l’esito di una prova, indica quale momento gli sfugge; riserva la reazione osservabile alla verifica decisiva.",
+    "Nel capitolo 3 riparti da ciò che il rientro senza acqua impone ai piccoli e a chi li assiste. Dai per acquisito l’esito della prova: l’eco si fa sentire, ma non basta a liberare il varco.",
+    "Nei dialoghi di coordinamento, assegna a ogni battuta un compito distinto: che cosa osservare, quando fermarsi, chi dà il segnale. Non ripetere la consegna tra un passaggio e l’altro.",
+    "Nel capitolo 3 mostra che cosa comporta per i piccoli il rientro senza acqua. Dai per acquisito che Kaza ha sentito l’eco e che il varco è rimasto chiuso.",
+    "Nelle prossime sequenze di prova, dedica spazio a un nuovo tentativo solo se cambia una condizione o permette di osservare qualcosa che prima sfuggiva."
   ],
   "question": null,
   "frozenSince": "2026-11-23T10:41:46.157Z",
@@ -472,7 +472,7 @@
         "number": 2,
         "mode": "follow",
         "status": "working",
-        "startedAt": "2026-11-27T09:17:54.454Z"
+        "startedAt": "2026-11-27T09:29:33.350Z"
       }
     ],
     "review": {
@@ -484,7 +484,7 @@
         2,
         3
       ],
-      "round": 3,
+      "round": 4,
       "windowStart": 2,
       "phase": "chapters",
       "start": {
@@ -515,9 +515,19 @@
           "book": 7.9,
           "below": 1,
           "endedAt": "2026-11-27T09:17:54.454Z"
+        },
+        {
+          "round": 3,
+          "chapters": [
+            2
+          ],
+          "lowest": 8.4,
+          "book": 7.5,
+          "below": 1,
+          "endedAt": "2026-11-27T09:29:33.350Z"
         }
       ],
-      "stalled": 0
+      "stalled": 1
     }
   },
   "reviews": [
@@ -545,24 +555,24 @@
     "hostId": "device-0b0b8e48-dd66-4af3-988b-8cd270998395",
     "runId": "run_3b293bac-779d-4c8c-8b3d-36c4eeba0af6",
     "startedAt": "2026-11-27T09:05:58.985Z",
-    "heartbeatAt": "2026-11-27T09:28:51.878Z"
+    "heartbeatAt": "2026-11-27T09:39:30.556Z"
   },
   "stats": {
-    "tasks": 608,
-    "aiCalls": 799,
-    "inputTokens": 2799214,
-    "outputTokens": 931483,
-    "cost": 13.183866069999974,
+    "tasks": 669,
+    "aiCalls": 873,
+    "inputTokens": 3008774,
+    "outputTokens": 989413,
+    "cost": 14.361616069999974,
     "currency": "USD",
     "failures": 11,
     "usageUnknownCalls": 56,
     "costUnknownCalls": 116,
-    "workedMs": 16958286,
+    "workedMs": 17561953,
     "workedMsSince": "2026-11-24T20:21:34.141Z"
   },
   "message": null,
   "lastError": null,
   "createdAt": "2026-11-22T00:49:32.173Z",
-  "updatedAt": "2026-11-27T09:28:51.878Z",
-  "version": 774
+  "updatedAt": "2026-11-27T09:39:30.556Z",
+  "version": 835
 }

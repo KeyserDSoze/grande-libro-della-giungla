@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:002-capitolo-2-il-suono-sbagliato:chapter:standard-critical
 type: readerEvaluation
 createdAt: 2026-11-25T01:09:30.970Z
-updatedAt: 2026-11-27T09:25:07.698Z
+updatedAt: 2026-11-27T09:36:32.870Z
 targetType: chapter
 targetId: chapter:002-capitolo-2-il-suono-sbagliato
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,17 +13,17 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: 8a15dddd2162dda2f805953dc79854928d7c0ccd707423d8602728add5d3b7b0
-sourceContentVersion: fc6c8a3d76a3fb1bbd6c374c0b313bb8e60101484b8bcace5f1d899272dd07ad:6a2e02b6024bd0386ba55d4c3d5669af2ced0ae15033d0d1a6d7dceadb6e6965
-sourceUpdatedAt: 2026-11-27T09:25:07.698Z
+sourceContentHash: d24050930ab4073edf93ab35f18b6a2e2648f3a4285a0b3330d9bf36a4c0ebab
+sourceContentVersion: a7af06e302260608a1ec7444433c560bfb8d0a67a8f5f69d38e0930ede9a3112:267f864f610a5af25c39f15dd915733b9e8537492a5d23cdd902604c1ca2879e
+sourceUpdatedAt: 2026-11-27T09:36:32.870Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2124
-outputTokens: 492
-estimatedCost: 0.010605
-finalCost: 0.010605
+inputTokens: 2043
+outputTokens: 444
+estimatedCost: 0.009791250000000001
+finalCost: 0.009791250000000001
 currency: USD
 score: 5.5
 status: completed
@@ -34,30 +34,30 @@ generatedBy: autopilot
 
 ## Impressione generale
 
-Capitolo leggibile, ma mette a punto un espediente più di quanto faccia avanzare il conflitto: dopo quattro tentativi di produrre o osservare l’eco, si chiude prima della reazione decisiva.
+Il capitolo ha una domanda tattica chiara, ma dedica più spazio a ripetere il test che a cambiare la situazione: alla fine Kaza blocca ancora la pozza e Nira torna indietro.
 
 ## Punti di forza
 
-- La zampa destra di Kaza dà continuità al capitolo precedente: l’artiglio che sposta un granello rende visibile la cautela con cui carica il peso.
-- La scoperta dell’eco distingue con chiarezza il tintinnio, la pausa e il ritorno dalla roccia; riprende il ricordo del tamburo senza doverlo spiegare di nuovo.
+- Il contrasto fra le orecchie immobili al tintinnio e l’orecchio che si drizza al ritorno del suono rende l’esito leggibile senza spiegarlo a posteriori.
+- Il respiro irregolare del piccolo dà una ragione concreta alla priorità di Nira: raggiungere l’acqua, non prendere la frutta.
 
 ## Punti di debolezza
 
-- Il ramo e il primo urto falliscono allo stesso modo; dopo la scoperta, l’urto innescato dal vento non viene osservato e l’ultimo viene interrotto prima dell’esito. La ripetizione pesa perché i piccoli aspettano acqua.
-- La pietra è in bilico, ma il testo annuncia aria ferma e poi mostra due raffiche al momento utile; il filo d’erba indica la direzione, non rende convincente né la spinta né la sua ripetibilità.
-- «Parla. Roccia del Ritardo» suona come un’etichetta introdotta per il lettore. «Resto solo per questa prova» enuncia una scadenza senza chiarire cosa Bomo farà dopo.
+- Ramo, primo urto fra pietre, prova nel solco, raffica sfuggita allo sguardo e prova finale diluiscono una scoperta semplice.
+- «Resto solo per questa prova» e la successiva spiegazione del segnale somigliano a un protocollo; non emerge perché Bomo imponga proprio quel limite.
+- Il ritorno «più forte del tintinnio» è la proprietà decisiva del luogo ma la scena non offre un indizio che distingua un’acustica particolare da un fenomeno fantastico.
 
 ## Momento più efficace
 
-Dopo il tonfo Kaza solleva il muso, carica con cautela la zampa destra e sposta appena un granello: la minaccia si misura in un movimento minimo e non in una spiegazione.
+L’orecchio di Kaza si drizza soltanto al ritorno del suono, ma il leone non si sposta.
 
 ## Problema principale
 
-Il capitolo rimanda la sola informazione che cambierebbe il piano: se Kaza reagisce al ritorno anziché all’urto. L’orecchio già orientato verso la roccia offre una complicazione concreta, ma il taglio arriva prima che produca una conseguenza.
+L’urgenza dei piccoli perde presa mentre si accumulano tentativi e preparativi con scarso effetto sulla decisione dei personaggi.
 
 ## Suggerimento prioritario
 
-Comprimi i tentativi che confermano soltanto un fallimento o un’eco già accertata e chiudi su una reazione osservabile di Kaza, anche ambigua, che costringa Nira a decidere se muoversi.
+Comprimere soprattutto la prova persa per la raffica e conservare il confronto utile fra il colpo dietro la radice e il ritorno dalla roccia; dare più peso alla ragione per cui, visto che Kaza sente ma non si muove, Nira sceglie di rientrare.
 
 ## Punteggio
 
