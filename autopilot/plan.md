@@ -19,24 +19,24 @@ Bomo ricorda il breve silenzio prima che l’acqua del fiume restituisse i colpi
 - 1. Il ricordo che vibra — Ricordando l’eco dei tamburi, Bomo e Nira provano a distogliere Kaza dalla frutta con il tonfo di un ramo e il tintinnio di due pietre, così che Nira possa raggiungere la pozza. Nessun suono fa eco: Kaza resta nella radura, mentre Nira imbocca il sentiero verso il letto basso e Bomo la segue.
 - 2. La roccia che parla — Nira fa urtare due pietre nel solco e scopre che l’eco della Roccia del Ritardo si distingue anche dalla curva del sentiero. Bomo accenna a tornare dai piccoli ma resta, mentre Nira osserva le orecchie di Kaza per capire se l’eco possa attirarlo lontano dal passaggio verso la pozza.
 
-## 003 Capitolo 3 - Il pasto che resta (approvato · 8/10)
+## 003 Capitolo 3 - Il pasto che resta (approvato · 9/10)
 
-Nira fa urtare tre pietre in fila e il suono di ritorno dalla Roccia del Ritardo attira Kaza verso la riva. Lei e Bomo prelevano quattro frutti, lasciano il quinto al suo posto e depongono sulla sabbia un frutto spaccato come segnale. Kaza guarda il segnale e i frutti nelle mani aperte di Nira senza affrontarli; scende di nuovo alla riva, dove l’acqua ha lasciato asciutta la pietra piatta e scorre in un solco più lontano, poi torna a sdraiarsi di fianco alla pila. All’Albero Basso tre piccoli ricevono un frutto ciascuno, il quarto resta a Nira e il primo piccolo ha ancora le labbra asciutte.
+Nira fa urtare una pietra contro un sassolino nel solco: l’eco della Roccia del Ritardo attira Kaza verso la riva. Non potendo attingere dal bordo asciutto della pozza, Nira prende quattro frutti dalla pila; Bomo lascia il quinto dov’è e posa sulla sabbia un frutto spaccato come segnale. Kaza osserva il segnale e le mani aperte di Nira senza affrontarli, poi ridiscende alla riva, dove la pietra piatta è ormai asciutta e l’acqua scorre in un solco più lontano; infine torna a sdraiarsi di fianco alla pila. All’Albero Basso tre piccoli ricevono un frutto ciascuno, il quarto rimane a Nira e il primo piccolo ha ancora le labbra asciutte.
 
-- 1. Il passo e il vuoto — Con l’eco di un urto fra le pietre, Nira attira Kaza verso il fiume e, con l’aiuto di Bomo, prende quattro frutti dalla pila, lasciandone uno spaccato davanti al vuoto. Quando il leone risale e alza la testa, Nira si ferma al margine del sentiero e, invece di fuggire, gli mostra tutti e quattro i frutti perché possa contarli.
-- 2. La riva che arretra — Kaza annusa la frutta senza toccarla, scende alla riva e poi torna a sdraiarsi accanto alla pila, lasciando libera una striscia d’ombra. Bomo mostra a Nira che l’acqua scorre ormai in un nuovo solco e lascia asciutta la pietra piatta; i due portano tre frutti ai piccoli, e il primo ha le labbra ancora secche.
+- 1. Il passo e il vuoto — Il colpo provocato da Nira attira Kaza verso il fiume, liberando il passaggio alla radura, dove lei e Bomo raggiungono la pila e Nira prende quattro frutti. Quando il leone risale, Nira si ferma al margine del sentiero e, anziché fuggire, tiene i frutti bene in vista.
+- 2. La riva che arretra — Kaza annusa il frutto spaccato senza toccarlo, scende al filo d’acqua e torna a sdraiarsi di fianco alla pila, lasciando libero uno spazio all’ombra. Bomo mostra a Nira che la pietra prima sommersa è ora asciutta e che l’acqua scorre più in là; poi i due portano frutta a tre piccoli, il primo dei quali ha le labbra secche.
 
 ## Indicazioni del direttore
 
-- Se il lettore deve distinguere due istanti, fagli percepire la pausa prima di affidarle il senso di una battuta o di una scelta.
-- Se un personaggio annuncia che se ne va e poi resta, mostra che cosa gli fa cambiare direzione; non spiegare il motivo quando lo sguardo e il gesto lo rendono già leggibile.
-- Dopo una chiusa che lascia una prova in sospeso, riparti dall’assetto già pronto. Se Kaza muove le orecchie al ritorno, hai mostrato che lo ha sentito: il varco resta chiuso finché la sua posizione non cambia.
-- Se due prove usano lo stesso gesto, mostra per esteso solo ciò che cambia il risultato: prima la sabbia fa deviare la pietra, poi il solco la guida.
-- Quando una prova dipende da un ritardo percepibile, fissa prima la posizione della sorgente, della superficie che rimanda il suono e di chi ascolta. Basta un riferimento spaziale concreto.
-- Dai seguito al ritorno rimandato: fai pesare il tempo speso alla riva sulla prossima scelta, senza ribadire l’urgenza con un altro ricordo del respiro.
-- Se un urto e il suo ritorno sembrano venire da punti diversi, indica quale dei due dovrebbe attirare il personaggio e quale passaggio il suo spostamento potrebbe liberare.
-- Riparti dalla pietra già a monte e dallo sguardo sulle orecchie di Kaza. Un movimento delle orecchie al ritorno dimostra che lo ha sentito, non che la via sia libera; fai pesare il tempo speso alla riva sulla scelta successiva.
-- Riparti dalla pietra già a monte e dallo sguardo di Nira sulle orecchie di Kaza. Se le orecchie scattano al ritorno, hai mostrato che lo ha sentito; per capire se il passaggio è libero, mostra dove si mette il leone.
-- Fai pesare il ritorno rimandato nella prossima scelta concreta di Bomo, senza richiamare ancora il respiro del piccolo.
-- Alla ripresa, non riallestire la prova: la pietra è già a monte e Nira guarda Kaza. Un movimento delle orecchie al ritorno dimostra che l’ha sentito; è la posizione del corpo rispetto all’imbocco a dire se il passaggio si libera.
-- Fai pesare il tempo speso alla riva sulla prossima scelta concreta di Bomo, senza richiamare ancora il respiro del piccolo.
+- Mostra la scorta condivisa attraverso chi la alimenta e chi sceglie di non prenderne altro. Non trasformare la rinuncia di Bomo al quinto frutto in una spiegazione a posteriori.
+- Nel prossimo tentativo la radice serve a ritrovare il solco con gli occhi, non a garantirne l’accesso. Fa’ cambiare la prima mossa di Nira in base alla maggiore distanza dell’acqua, senza ripetere il dettaglio delle labbra.
+- Nei confronti senza parole, chiarisci che cosa rende rischiosa l’alternativa scartata e lascia al lettore la reazione dell’altro. Se la striscia d’ombra torna utile, trattala come spazio libero, non come permesso di Kaza.
+- Quando un conteggio definisce il limite di un’azione, mostra subito quali oggetti ne restano fuori e chi ha le mani libere per prenderli.
+- Nel prossimo tentativo, usa la radice per ritrovare il solco con gli occhi, non come via d’accesso garantita. La maggiore distanza dell’acqua deve cambiare la prima mossa di Nira; non ripetere il dettaglio delle labbra.
+- Se torna utile la striscia d’ombra, mostra che cosa permette di fare senza trasformarla in un assenso di Kaza.
+- Nel prossimo tentativo, usa la radice per ritrovare il solco con gli occhi, non come accesso garantito. Fai cambiare la prima mossa di Nira per la maggiore distanza dell’acqua, senza ripetere le labbra asciutte.
+- Continua a mostrare la scorta condivisa attraverso chi vi porta cibo e chi sceglie di lasciarne. Quando le quantità contano, distingui ciò che viene portato via, ciò che resta al suo posto e ciò che viene soltanto spostato.
+- Se torna utile la striscia d’ombra, mostra che cosa permette materialmente di fare senza trasformare lo spostamento di Kaza in un assenso.
+- Alla prossima ricerca d’acqua, usa la radice per ritrovare il solco con gli occhi. Fai cambiare la prima mossa di Nira per la maggiore distanza tra il bordo e la corrente, anziché ripetere il dettaglio delle labbra.
+- Quando una risorsa torna raggiungibile, distingui ciò che i personaggi riescono a vedere, ciò che possono raggiungere e ciò che Kaza ha effettivamente concesso. Una striscia d’ombra libera non è un permesso.
+- Nei confronti senza parole, rendi concreto il rischio dell’alternativa scartata e lascia che il gesto mostri la scelta. Non spiegare a posteriori che cosa l’altro personaggio ne abbia capito.

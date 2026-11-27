@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:003-capitolo-3-il-pasto-che-resta:chapter:standard-emotional
 type: readerEvaluation
 createdAt: 2026-11-25T21:30:15.164Z
-updatedAt: 2026-11-26T20:56:52.756Z
+updatedAt: 2026-11-27T08:26:35.108Z
 targetType: chapter
 targetId: chapter:003-capitolo-3-il-pasto-che-resta
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,49 +13,49 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
-sourceContentVersion: 6f518581cc5dcaa14a45bf0c041352cec07e1aa30d8742e8647b9744ed9dbf65:191df3c501e1ffeef4d44a96eb8412f3f409af960fd90c0bcdabdc1dd687495a
-sourceUpdatedAt: 2026-11-26T20:56:52.756Z
+sourceContentHash: f829becd7114cd73dc430a8dcf38e8f400ee55383c387da1bb73093a7ea6b3cf
+sourceContentVersion: 23bc4868605944bf385b924c8a3c90111c5d82a6c2c2d2041791c5d50f09eb5d:8e49e215b06bcdfa8c603bd7fe7d5b6c38b26e7d9c1bfc0bcc1df8834507c032
+sourceUpdatedAt: 2026-11-27T08:26:35.108Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 3960
-outputTokens: 307
+inputTokens: 3865
+outputTokens: 278
 currency: USD
 score: 8.5
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.011228
-finalCost: 0.011228
+estimatedCost: 0.010655749999999999
+finalCost: 0.010655749999999999
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Mi ha tenuto in tensione senza dichiarare la paura e mi ha lasciato con un sollievo incompleto: i piccoli hanno da mangiare, ma la sete resta.
+La tensione nasce dall’attesa e dai gesti trattenuti; il sollievo per i quattro frutti dura appena, perché il bisogno più urgente resta intatto.
 
 ## Punti di forza
 
-- Nira mostra a Kaza i quattro frutti anziché scappare; il picciolo che le punge il pollice mentre lui la guarda rende fisico lo sforzo di restare ferma.
-- La zampa che cede e lo sforzo di raggiungere il filo d’acqua mi fanno temere Kaza e insieme preoccuparmi per lui.
+- Le mani aperte di Nira davanti a Kaza rendono la paura concreta: perfino il picciolo che punge è qualcosa che non osa sistemare.
+- La zampa ferita e lo sforzo per bere mi fanno provare empatia per Kaza senza cancellare il pericolo che rappresenta.
 
 ## Punti di debolezza
 
-- Nell’avvio, tra gli urti delle pietre e la descrizione degli appoggi, seguo più la manovra che l’urgenza dei piccoli. La tosse asciutta riporta di colpo la posta in gioco in primo piano.
+- Nel passaggio del frutto spaccato, la spiegazione della sua funzione e la descrizione del vuoto nella pila mi fanno seguire la disposizione degli oggetti più che il rischio di essere scoperti.
 
 ## Momento più efficace
 
-Il piccolo prova due volte a inumidirsi le labbra prima di mordere. Le labbra restano asciutte: il successo non cancella il bisogno più urgente.
+Il piccolo si passa la lingua sulle labbra due volte e le labbra restano asciutte: il frutto ottenuto non risolve ciò che più conta.
 
 ## Problema principale
 
-La precisione dei movimenti all’inizio tiene un po’ a distanza l’urgenza emotiva.
+In alcuni punti la precisione spaziale rallenta la tensione anziché alimentarla, soprattutto attorno al frutto spaccato.
 
 ## Suggerimento prioritario
 
-Alleggerire qualche passaggio della manovra iniziale per far sentire prima la pressione del tempo, senza spiegare la paura che i gesti già trasmettono.
+Alleggerire la spiegazione e la geometria del segnale, lasciando più spazio all’attesa della reazione di Kaza.
 
 ## Punteggio
 

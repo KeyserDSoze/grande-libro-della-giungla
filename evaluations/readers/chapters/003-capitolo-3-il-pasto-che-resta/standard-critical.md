@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:003-capitolo-3-il-pasto-che-resta:chapter:standard-critical
 type: readerEvaluation
 createdAt: 2026-11-25T21:31:57.546Z
-updatedAt: 2026-11-26T20:56:59.671Z
+updatedAt: 2026-11-27T08:26:42.700Z
 targetType: chapter
 targetId: chapter:003-capitolo-3-il-pasto-che-resta
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,52 +13,52 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
-sourceContentVersion: 6f518581cc5dcaa14a45bf0c041352cec07e1aa30d8742e8647b9744ed9dbf65:191df3c501e1ffeef4d44a96eb8412f3f409af960fd90c0bcdabdc1dd687495a
-sourceUpdatedAt: 2026-11-26T20:56:59.671Z
+sourceContentHash: f829becd7114cd73dc430a8dcf38e8f400ee55383c387da1bb73093a7ea6b3cf
+sourceContentVersion: 23bc4868605944bf385b924c8a3c90111c5d82a6c2c2d2041791c5d50f09eb5d:8e49e215b06bcdfa8c603bd7fe7d5b6c38b26e7d9c1bfc0bcc1df8834507c032
+sourceUpdatedAt: 2026-11-27T08:26:42.700Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 3974
-outputTokens: 520
+inputTokens: 3879
+outputTokens: 538
 currency: USD
-score: 6.5
+score: 7
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.0142345
-finalCost: 0.0142345
+estimatedCost: 0.01432025
+finalCost: 0.01432025
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-La diversione riesce, ma il capitolo diventa davvero teso solo quando Nira smette di nascondersi e mostra i quattro frutti a Kaza. Prima di quel gesto, la minuzia dei movimenti rallenta una sequenza il cui obiettivo è già chiaro dal capitolo precedente.
+Il capitolo fa avanzare la storia senza risolvere il bisogno più urgente: Nira conquista il cibo, ma non l’acqua. La tensione è concreta; la regia, però, insiste sui movimenti minuti e rende meno leggibile proprio la scelta che dovrebbe contare di più.
 
 ## Punti di forza
 
-- Le mani aperte sul sentiero rovesciano la logica della sottrazione furtiva senza una battuta esplicativa.
-- Il piccolo che si passa due volte la lingua sulle labbra prima di mordere distingue concretamente il successo del furto dal bisogno ancora irrisolto: l’acqua.
+- La pietra piatta, prima bagnata e ora asciutta, misura il ritiro dell’acqua senza ricorrere a spiegazioni astratte.
+- La zampa di Kaza non è un dettaglio decorativo: condiziona la discesa e gli impone di allungare il collo per bere.
 
 ## Punti di debolezza
 
-- Il ramo viene abbassato, trattenuto, ritirato e infine posato; nello stesso tratto si contano tre respiri e si segue più volte il cedimento della zampa. Non tutti questi dettagli cambiano il momento in cui i due possono muoversi.
-- La terza pietra apre il capitolo come una modifica importante, ma il ritorno del suono era già «più pieno e netto» con due: non si capisce che cosa aggiunga alla prova.
-- Il passaggio dall’uccello che depone il frutto a Bomo che rinuncia al quinto è leggibile, ma non basta a orientare il gesto successivo di Nira: il frutto spaccato davanti al vuoto può essere un segnale, un’offerta o un diversivo.
+- Tra pozza, riva, discesa e letto del fiume, il lettore deve ricostruire troppo tardi perché il varco aperto da Kaza non consenta a Nira di attingere.
+- Il frutto spaccato «a segnare il punto» e le mani aperte chiariscono l’intenzione di Nira, ma non su quale indizio lei conti perché mostrare il bottino sia più prudente che allontanarsi. Il successivo sguardo di Kaza alla riva lascia aperta, produttivamente, la possibilità che per lui conti solo l’acqua.
+- La sparizione scandita in orecchie, criniera e groppa costruisce attesa; quando lo stesso grado di dettaglio passa alle dita, al picciolo e all’assestamento dei frutti, la scena perde urgenza subito dopo la tosse.
 
 ## Momento più efficace
 
-Nira si ferma invece di correre e tiene in vista tutti e quattro i frutti. La scelta fa cambiare natura alla scena proprio quando la fuga sembra l’unica mossa disponibile.
+Il piccolo passa due volte la lingua sulle labbra prima di mordere: «Le labbra restano asciutte». Il gesto ridimensiona il successo senza commentarlo.
 
 ## Problema principale
 
-Il testo scandisce con grande precisione i movimenti preparatori, ma lascia meno nitido il nesso tra i gesti che decidono l’incontro con Kaza.
+La coreografia è più precisa della logica della decisione: si segue dove Nira mette mani e piedi meglio di quanto si capisca che cosa la induca a esporsi davanti a Kaza.
 
 ## Suggerimento prioritario
 
-Comprimere l’attesa fino alla scomparsa della criniera sotto il margine, che è il vero via libera, e usare quello spazio per rendere più leggibile che cosa Nira tenta col frutto spaccato, senza spiegare la reazione di Kaza.
+Usare meno spazio per la raccolta e rendere più leggibili le alternative di Nira: prima il rapporto tra il bordo asciutto e l’acqua raggiungibile, poi l’osservazione concreta su cui fonda la scelta di fermarsi. Non serve chiarire che cosa pensi Kaza.
 
 ## Punteggio
 
-6.5/10
+7/10

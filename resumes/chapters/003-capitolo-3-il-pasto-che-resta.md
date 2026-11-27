@@ -5,56 +5,49 @@ title: Resume 003-capitolo-3-il-pasto-che-resta
 chapter: chapter:003-capitolo-3-il-pasto-che-resta
 state_changes:
   locations:
-    - Nira, Bomo e i piccoli sono all’Albero Basso; oltre la curva, presso il
-      tronco, la riva non è più visibile.
-    - Kaza è sdraiato di fianco alla pila nella radura del Terminale di
-      Salsedine.
-    - Il ramo è stato posato tra le pietre, fuori dalla fila; il frutto spaccato
-      è sulla sabbia dal lato del sentiero, con il taglio in alto.
+    - Nira, Bomo e i piccoli sono all’Albero Basso; dalla parte del tronco,
+      dietro la curva del sentiero, la riva non è visibile.
+    - Kaza è sdraiato di fianco alla pila di frutta nella radura del Terminale
+      di Salsedine; una striscia d’ombra resta libera.
   knowledge_gain:
-    - Il suono di ritorno dei tre urti in fila attira l’attenzione di Kaza verso
-      il punto della riva in cui aveva già cercato acqua.
-    - "Bomo vede una formica deporre un pezzetto di polpa alla base della pila e
-      un uccello aggiungervi un frutto: Kaza non è il solo animale a entrarvi in
-      contatto."
-    - "Bomo e Nira constatano che l’acqua non passa più sopra la pietra piatta:
-      scorre in un solco più lontano dalla riva, oltre la ghiaia scoperta."
+    - Nira e Bomo verificano che Kaza reagisce al ritorno del suono dalla Roccia
+      del Ritardo e si sposta verso la riva.
+    - "Nira vede un uccello aggiungere un frutto alla pila e le formiche portare
+      pezzi di polpa alla base: la pila non riguarda soltanto Kaza."
+    - La pietra piatta, prima coperta dall’acqua, è asciutta; la ghiaia è
+      scoperta e il filo d’acqua scorre ora in un solco più lontano.
   inventory_add:
-    - Nira aggiunge una terza pietra alla fila nel solco.
-    - Dei quattro frutti prelevati, tre passano ai piccoli (uno da Nira e due da
-      Bomo); il quarto rimane in mano a Nira.
+    - Nira preleva quattro frutti dalla pila e ne passa due a Bomo per il
+      ritorno; dopo la distribuzione, un frutto resta in mano a Nira.
   inventory_remove:
-    - Dalla pila vengono tolti quattro frutti da portare via e, a parte, il
-      frutto spaccato usato come segnale. Il quinto frutto considerato da Bomo
-      resta al suo posto.
+    - "Tre dei quattro frutti prelevati passano ai piccoli, uno ciascuno: uno da
+      Nira e due da Bomo."
+    - Bomo lascia il ramo tra le pietre, fuori dalla fila, prima di attraversare
+      il sentiero.
+    - Nessun quinto frutto viene staccato; il frutto spaccato, già a terra,
+      viene spostato sulla sabbia davanti al vuoto nella pila e rimane lì.
   relationship_updates:
-    - Nira e Bomo si coordinano con tocchi e cenni durante il prelievo, poi si
-      dividono i frutti da distribuire.
-    - Nira mostra apertamente a Kaza quanto hanno preso. Kaza osserva senza
-      affrontarli; più tardi Nira gli lascia libera la curva e lui passa a
-      distanza.
+    - Nira e Bomo si coordinano a gesti; Bomo si trattiene dal prendere il
+      quinto frutto e poi aiuta a portare e distribuire quelli raccolti.
+    - Kaza vede il segnale e i frutti nelle mani aperte di Nira senza affrontare
+      lei e Bomo; non viene stabilito alcun accordo esplicito.
   conditions:
-    - La zampa destra ferita di Kaza cede ancora sotto il peso; quando si sdraia
-      la tiene distesa e libera.
-    - Il sole raggiunge la punta della radice dell’Albero Basso e ai piccoli
-      resta poco fresco.
-    - Nira e Bomo non portano acqua ai piccoli; le labbra del primo restano
-      asciutte.
+    - La zampa destra di Kaza cede ancora un poco in discesa; quando si sdraia,
+      la lascia distesa senza caricarla.
+    - All’Albero Basso rimane poco fresco; il primo piccolo ha ancora le labbra
+      asciutte e nessuno ha riportato acqua.
   open_loops_add:
-    - "Il nuovo solco porta l’acqua più lontano dalla riva: resta da vedere come
-      il gruppo riuscirà a raggiungerla."
-    - Il frutto non ha ancora alleviato la sete del primo piccolo; il quarto
-      frutto resta in mano a Nira.
+    - Il ritiro dell’acqua e lo spostamento del suo corso rendono più difficile
+      raggiungerla; la sete dei piccoli resta irrisolta.
   open_loops_resolved:
-    - Il suono di ritorno induce Kaza a lasciare la pila e a scendere verso la
-      riva.
-    - Nira e Bomo portano via quattro frutti e tornano dai piccoli senza
-      scontrarsi con Kaza.
+    - L’eco riesce a far allontanare Kaza dalla pila, come Nira e Bomo speravano.
+    - Nira e Bomo riescono a prendere e riportare quattro frutti senza uno
+      scontro con Kaza.
 ---
 
 # Chapter Summary
 
-Il prelievo riesce senza scontro, ma al ritorno all’Albero Basso il bisogno d’acqua resta evidente.
+L’eco permette un prelievo limitato senza scontro, ma Nira e Bomo tornano dai piccoli senza acqua.
 
-- **Il passo e il vuoto.** Nira aggiunge una terza pietra alla fila e trattiene Bomo perché non usi il ramo. Al suono di ritorno Kaza si alza dopo tre respiri e scende verso la riva, appoggiandosi con fatica sulla zampa destra. Alla pila Bomo vede una formica deporre della polpa e un uccello lasciare un frutto. Nira raccoglie quattro frutti; Bomo rinuncia al quinto e posa sulla sabbia, davanti al vuoto lasciato nella pila, il frutto spaccato che Nira gli ha passato. Quando Kaza risale, Nira si ferma sul margine del sentiero e gli mostra tutti e quattro i frutti nelle mani aperte.
-- **La riva che arretra.** Kaza annusa il frutto spaccato senza toccarlo, guarda le mani di Nira e torna alla riva senza affrontare i due. Dalla radice dell’Albero Basso, Bomo e Nira vedono la pietra piatta asciutta, la ghiaia scoperta e l’acqua che scorre in un solco più lontano. Kaza raggiunge il filo d’acqua, poi risale e si sdraia di fianco alla pila, lasciando libera una striscia d’ombra. Nira passa due frutti a Bomo; al tronco tre piccoli ricevono un frutto ciascuno. Il quarto resta a Nira e il primo piccolo ha ancora le labbra asciutte.
+- **Il passo e il vuoto.** Quando torna l’eco, Kaza orienta un orecchio verso il fiume, si alza dopo tre respiri e scende alla riva, appoggiandosi con cautela sulla zampa destra. Nira e Bomo aspettano che scompaia prima di attraversare il sentiero. Il bordo vicino della pozza è asciutto e per cercare acqua Nira dovrebbe seguire il leone: sceglie invece la pila, dove vede le formiche portare pezzi di polpa alla base e un uccello deporre un frutto. Nira prende quattro frutti; Bomo lascia il quinto e posa sulla sabbia, sotto il vuoto nella pila, un frutto spaccato dalla polpa annerita. Al ritorno di Kaza, Nira si ferma al margine del sentiero con i quattro frutti in vista nelle mani aperte.
+- **La riva che arretra.** Kaza annusa il frutto spaccato senza toccarlo, guarda le mani di Nira e ridiscende senza avvicinarsi ai due. Dalla radice dell’Albero Basso, Nira e Bomo vedono la pietra piatta asciutta, la ghiaia scoperta e l’acqua in un solco più lontano. Kaza abbassa il muso fino all’acqua, ma da lassù Nira non lo sente bere. Il leone torna a sdraiarsi di fianco alla pila, lasciando libera una striscia d’ombra. Nira passa due frutti a Bomo; all’Albero Basso ne porgono uno ciascuno a tre piccoli. Nira conserva il quarto e il primo piccolo ha ancora le labbra asciutte.

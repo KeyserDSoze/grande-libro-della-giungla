@@ -41,12 +41,12 @@ Bomo ricorda il breve silenzio prima che l’acqua del fiume restituisse i colpi
 
 ## Chapter 003 Capitolo 3 - Il pasto che resta
 
-Nira fa urtare tre pietre in fila e il suono di ritorno dalla Roccia del Ritardo attira Kaza verso la riva. Lei e Bomo prelevano quattro frutti, lasciano il quinto al suo posto e depongono sulla sabbia un frutto spaccato come segnale. Kaza guarda il segnale e i frutti nelle mani aperte di Nira senza affrontarli; scende di nuovo alla riva, dove l’acqua ha lasciato asciutta la pietra piatta e scorre in un solco più lontano, poi torna a sdraiarsi di fianco alla pila. All’Albero Basso tre piccoli ricevono un frutto ciascuno, il quarto resta a Nira e il primo piccolo ha ancora le labbra asciutte.
+Nira fa urtare una pietra contro un sassolino nel solco: l’eco della Roccia del Ritardo attira Kaza verso la riva. Non potendo attingere dal bordo asciutto della pozza, Nira prende quattro frutti dalla pila; Bomo lascia il quinto dov’è e posa sulla sabbia un frutto spaccato come segnale. Kaza osserva il segnale e le mani aperte di Nira senza affrontarli, poi ridiscende alla riva, dove la pietra piatta è ormai asciutta e l’acqua scorre in un solco più lontano; infine torna a sdraiarsi di fianco alla pila. All’Albero Basso tre piccoli ricevono un frutto ciascuno, il quarto rimane a Nira e il primo piccolo ha ancora le labbra asciutte.
 
 ### What Happens
 
-- Con l’eco di un urto fra le pietre, Nira attira Kaza verso il fiume e, con l’aiuto di Bomo, prende quattro frutti dalla pila, lasciandone uno spaccato davanti al vuoto. Quando il leone risale e alza la testa, Nira si ferma al margine del sentiero e, invece di fuggire, gli mostra tutti e quattro i frutti perché possa contarli.
-- Kaza annusa la frutta senza toccarla, scende alla riva e poi torna a sdraiarsi accanto alla pila, lasciando libera una striscia d’ombra. Bomo mostra a Nira che l’acqua scorre ormai in un nuovo solco e lascia asciutta la pietra piatta; i due portano tre frutti ai piccoli, e il primo ha le labbra ancora secche.
+- Il colpo provocato da Nira attira Kaza verso il fiume, liberando il passaggio alla radura, dove lei e Bomo raggiungono la pila e Nira prende quattro frutti. Quando il leone risale, Nira si ferma al margine del sentiero e, anziché fuggire, tiene i frutti bene in vista.
+- Kaza annusa il frutto spaccato senza toccarlo, scende al filo d’acqua e torna a sdraiarsi di fianco alla pila, lasciando libero uno spazio all’ombra. Bomo mostra a Nira che la pietra prima sommersa è ora asciutta e che l’acqua scorre più in là; poi i due portano frutta a tre piccoli, il primo dei quali ha le labbra secche.
 
 ### Secrets Revealed
 

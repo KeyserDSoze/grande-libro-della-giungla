@@ -6,15 +6,15 @@ target_id: chapter:003-capitolo-3-il-pasto-che-resta
 title: 3. Capitolo 3 - Il pasto che resta
 director: Il Direttore
 verdict: approve
-score: 8
+score: 9
 source: autopilot
-created_at: 2026-11-26T20:57:56.790Z
-source_hash: e7a4795022ad0dbd19c183b079e3dff360d77fff02c883597a01a864fab7f20e
+created_at: 2026-11-27T08:30:39.388Z
+source_hash: d3b0eee69e547e9300053507f8838052d96e856cb20332604c66f4608f862c6f
 model: gpt-6.2-sol
 provider: azure_openai
-input_tokens: 8800
-output_tokens: 2693
-cost: 0.053101999999999996
+input_tokens: 8088
+output_tokens: 1759
+cost: 0.038779999999999995
 currency: USD
 ---
 
@@ -22,44 +22,33 @@ currency: USD
 
 ## Verdetto
 
-**Approvato** — 8/10
+**Approvato** — 9/10
 
-Approvato con correzioni puntuali. Il capitolo merita 8/10 già in questa stesura: il prelievo si chiude senza umiliare Kaza, mentre il nuovo solco e le labbra asciutte del piccolo impediscono che quattro frutti sembrino risolvere tutto. Chiarezza 7,5/10: si capisce che Nira sceglie di esporsi, ma non è altrettanto leggibile che cosa voglia far capire a Kaza. Ritmo 7,5/10: i tre respiri misurano un’esitazione vera; la risalita dalla ghiaia accumula invece appoggi e sguardi che non cambiano il rischio. Tensione 8,5/10: la criniera che scompare apre la finestra d’azione e le mani aperte la chiudono con una scelta, non con una fuga. Coerenza con il canone 8,5/10: formica e uccello rivelano da dove viene la riserva; pietra asciutta e corrente più lontana mostrano il cambio di corso alla soglia prevista. Forza stilistica 8/10: il picciolo contro il pollice e il sassolino che sfugge sotto la zampa rendono concreti attesa e fatica senza spiegarli. La priorità è chiarire il gesto di Nira, non la risposta di Kaza.
+Il capitolo chiude il prelievo, non la sete. Non resta nulla di critico: bastano tre ritocchi puntuali. Chiarezza 8,7: si capisce perché Nira rinuncia alla discesa, ma i due tratti di riva si distinguono meno bene al primo passaggio. Ritmo 8,8: i tre respiri misurano l’attesa; qualche dettaglio d’appoggio rallenta la coda senza cambiare la posta. Tensione 9,4: il rischio passa dal tempo contato al momento in cui Nira si ferma e mostra i frutti. Coerenza con il canone 9: la scena riprende le due pietre, dà conseguenze alla zampa ferita e rende visibili entrambe le rivelazioni; il riepilogo conserva un conteggio errato. Forza stilistica 9,1: le mani aperte e le labbra ancora asciutte dicono più di una spiegazione. Chiudere il capitolo senza altri interventi.
 
 ## Punti di forza
 
-- Bomo posa già la mano sul quinto frutto: lo sguardo a quello portato dall’uccello trasforma la rinuncia in una scelta che il lettore può vedere.
-- Kaza si accosta al frutto spaccato senza toccarlo e poi si corica di fianco alla pila. La striscia d’ombra libera mostra che qualcosa è cambiato senza farne un invito esplicito o una resa.
-- Il bordo rotto della pietra piatta dà un riferimento riconoscibile per confrontare la riva di prima con quella di adesso; le labbra asciutte del piccolo riportano quel cambiamento alla posta iniziale.
+- La tosse dall’Albero Basso tiene presente il motivo del prelievo mentre Bomo conta. Il suo sguardo al frutto appena deposto e la mano che si ritrae dal quinto mostrano che la scorta è condivisa, senza dichiararlo.
+- Nira ha una ragione leggibile per non correre: Kaza la vedrebbe in fuga prima della curva. Le mani aperte rendono visibile la sua scelta; il leone non deve né concedere il passaggio né essere sconfitto.
+- La pietra asciutta e la foglia presa dalla corrente mostrano dove si è spostata l’acqua; le labbra del piccolo mostrano che cosa costa quello spostamento.
 
 ## Criticità
 
-- **Importante** — Chiarire l’intenzione di Nira al culmine.
-  → Scena 1: Quando Nira apre le mani, aggiungi un solo indizio che vuole mostrare a Kaza che il prelievo si è fermato a quei quattro frutti. Non dire che cosa Kaza ne capisca.
-- **Importante** — Snellire e ancorare nello spazio la preparazione senza perdere i dettagli che segnano rischio e urgenza.
-  → Scena 1: Nella risalita taglia l’appoggio del piede e lo sguardo indietro alla ghiaia. Rendi diretto il passaggio dalla riva al sentiero e alla sabbia della radura; conserva la criniera che sparisce come via libera e il dito d’ombra sulla radice come misura del tempo.
-- **Minore** — Il frutto appena deposto dall’uccello è l’ultimo nominato: alla prima lettura sembra che Nira sfili quello, mentre riprende il prelievo del frutto che aveva già sotto il dito. L’equivoco rende meno chiaro il successivo sguardo di Bomo. «Nira sfila il frutto. Il vicino si assesta di traverso, senza cadere.»
-  → Scena 1: Identifica il frutto sfilato come quello sotto cui Nira aveva già infilato il dito.
-- **Minore** — Il ricordo passa dalla pietra piatta alle due pietre della fila senza distinguere bene il punto d’appoggio della mano dal tratto in cui scorreva l’acqua. Il lettore deve ricostruire la geometria proprio nel confronto fra la riva di prima e quella di adesso. «ci aveva appoggiato il palmo. L’acqua le era passata sotto le dita, fredda nello spazio tra l’una e l’altra.»
-  → Scena 2: Nomina la pietra piatta come appoggio del palmo e descrivi l’acqua sotto le dita senza il rinvio «tra l’una e l’altra». Mantieni distinte le due pietre della fila.
-- **Minore** — «Li» riprende i piedi di entrambi: la frase attribuisce a Nira anche la posizione dei piedi di Bomo, senza che lei gli faccia un cenno o lo trattenga. «C’è posto per i loro piedi nella conca lasciata da Kaza, ma Nira li tiene fuori.»
-  → Scena 1: Limita ai piedi di Nira il gesto di restare fuori dalla conca.
-- **Minore** — La ripetizione ravvicinata di «indice» appesantisce due frasi consecutive e la seconda può far leggere l’urto come un contatto del dito con la pietra vicina anziché come l’urto fra le pietre. «Nira la spinge con l’indice. Sente nell’indice il piccolo urto contro quella accanto.»
-  → Scena 1: Nomina l’indice una volta sola e rendi esplicito che la prima pietra urta la seconda.
+- **Minore** — Il riepilogo dice ancora «tre pietre in fila», mentre nella scena ne urtano due, come già stabilito nel capitolo 2. «Nel solco la pietra a monte, spinta da Nira, batte contro il sassolino allineato più in basso.»
+  → Scena 1: Sostituisci «tre pietre in fila» con «due pietre in fila» nel solo riepilogo. Non modificare la scena.
+- **Minore** — La riva indica sia il punto da cui Nira risale sia quello verso cui Kaza è appena sceso e sparito alla vista. Senza distinguere i due tratti, è difficile capire quale margine nasconda Kaza e perché il passaggio sia ora libero. «Nira risale dalla riva al margine del sentiero.»
+  → Scena 1: Nella frase in cui Nira risale, identifica il suo tratto di riva con il solco delle pietre. Non aggiungere altre indicazioni di percorso.
+- **Minore** — «L’ultimo piede» fa pensare a un piede distinto, mentre la frase descrive l’ultimo passo di Bomo sulle orme di Nira. «Bomo le viene dietro e posa l’ultimo piede dove lei ha posato il suo.»
+  → Scena 1: Riferisci «ultimo» al passo di Bomo, conservando il fatto che posa il piede dove l’ha posato Nira.
 
 ## Decisioni
 
-- Accettato R2-1: Il contrasto fra correre e mostrare i frutti è netto; resta da capire che cosa Nira voglia comunicare scegliendo di farsi vedere.
-- Accettato R2-2: Dopo che la criniera è sparita, l’appoggio del piede e lo sguardo indietro alla ghiaia scura ritardano l’ingresso in radura senza modificare la manovra.
-- Respinto R2-3: Il rallentamento concreto è già trattato in R2-2. Non serve comprimere anche i tre respiri o la discesa della criniera: i primi mostrano l’esitazione di Kaza, la seconda dice a Nira quando può muoversi senza farsi vedere.
-- Respinto R2-4: R2-1 interviene già sulle mani aperte. Il frutto spaccato è posato davanti al vuoto nella pila e indica il punto del prelievo: spiegare anche quel gesto sarebbe ridondante.
-- Accettato S2-1: Il frutto appena portato dall’uccello è il referente più vicino, ma deve restare sulla pila perché lo sguardo di Bomo al quinto frutto abbia senso.
-- Respinto S2-2: «Le» indica Nira come destinataria, non come soggetto. Bomo è già il soggetto della frase precedente e «Lei» rende esplicito il cambio di soggetto nel passaggio dei frutti.
-- Accettato S2-3: «Ci» e «tra l’una e l’altra» costringono a distinguere tre pietre proprio quando il confronto fra prima e adesso dovrebbe essere immediato.
-- Accettato S2-4: «Li» riprende i piedi di entrambi, ma la scena mostra soltanto una scelta di Nira.
-- Accettato S2-5: L’urto deve leggersi subito come il primo passaggio della catena di tre pietre, non come un contatto del dito con la seconda.
+- Accettato S8-1: Il riepilogo fornito dice ancora «tre», ma il testo e il capitolo 2 concordano: la pietra a monte urta un solo sassolino.
+- Accettato S8-2: Lo stesso nome designa il punto da cui Nira risale e il tratto in cui Kaza è appena scomparso. Distinguerli chiarisce come il sentiero per la radura possa essere libero mentre la discesa verso l’acqua resta rischiosa.
+- Accettato S8-3: «L’ultimo piede» fa inciampare la lettura proprio quando il passaggio dovrebbe essere rapido; è il passo a concludere l’attraversamento.
 
 ## Prossimi passi
 
-- In una manovra a tempo, conserva i gesti che cambiano ciò che i personaggi possono fare o vedere; taglia per primi gli appoggi e gli sguardi che non cambiano nulla.
-- Quando due oggetti simili entrano in scena a poca distanza, identifica quello ripreso dal personaggio attraverso il gesto già compiuto su di esso.
+- Alla prossima ricerca d’acqua, usa la radice per ritrovare il solco con gli occhi. Fai cambiare la prima mossa di Nira per la maggiore distanza tra il bordo e la corrente, anziché ripetere il dettaglio delle labbra.
+- Quando una risorsa torna raggiungibile, distingui ciò che i personaggi riescono a vedere, ciò che possono raggiungere e ciò che Kaza ha effettivamente concesso. Una striscia d’ombra libera non è un permesso.
+- Nei confronti senza parole, rendi concreto il rischio dell’alternativa scartata e lascia che il gesto mostri la scelta. Non spiegare a posteriori che cosa l’altro personaggio ne abbia capito.

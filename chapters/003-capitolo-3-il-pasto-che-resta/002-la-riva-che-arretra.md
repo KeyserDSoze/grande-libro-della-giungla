@@ -4,28 +4,26 @@ id: paragraph:003-capitolo-3-il-pasto-che-resta:002-la-riva-che-arretra
 chapter: chapter:003-capitolo-3-il-pasto-che-resta
 number: 2
 title: La riva che arretra
-summary: Kaza annusa la frutta senza toccarla, scende alla riva e poi torna a
-  sdraiarsi accanto alla pila, lasciando libera una striscia d’ombra. Bomo
-  mostra a Nira che l’acqua scorre ormai in un nuovo solco e lascia asciutta la
-  pietra piatta; i due portano tre frutti ai piccoli, e il primo ha le labbra
-  ancora secche.
+summary: Kaza annusa il frutto spaccato senza toccarlo, scende al filo d’acqua e
+  torna a sdraiarsi di fianco alla pila, lasciando libero uno spazio all’ombra.
+  Bomo mostra a Nira che la pietra prima sommersa è ora asciutta e che l’acqua
+  scorre più in là; poi i due portano frutta a tre piccoli, il primo dei quali
+  ha le labbra secche.
 viewpoint: Nira
 canon: draft
 ---
 
 Kaza mette la zampa sinistra sulla sabbia della radura e si tira dietro la destra. A Nira scivola un frutto verso la punta delle dita. Lo riprende col mignolo, senza alzare le mani. Accanto a lei, Bomo ha un piede sul sentiero e l’altro di traverso, sul margine.
 
-Il leone va diritto alla pila. A due passi dalla frutta abbassa il muso. Il naso gli si muove prima da una parte, poi dall’altra, finché trova sulla sabbia il frutto spaccato. Da dove sta Nira, il taglio sembra una riga nera. Kaza accosta il muso abbastanza da far tremare un granello sul bordo della spaccatura, poi lo ritrae senza toccare il frutto. Resta con una zampa più avanti dell’altra.
+Il leone va diritto alla pila. A due passi dalla frutta abbassa il muso. Il naso gli si muove prima da una parte, poi dall’altra, finché trova sulla sabbia il frutto spaccato. Da dove sta Nira, il taglio sembra una riga nera. Kaza accosta il muso abbastanza da far tremare un granello sul bordo della spaccatura, poi lo ritrae senza toccare il frutto. Ha una zampa più avanti dell’altra. Passa col muso davanti al vuoto nella pila. Il frutto è sulla sabbia, proprio sotto.
 
-Kaza alza gli occhi. Li tiene per un momento sulle mani di lei. Nira sente il picciolo di un frutto contro il pollice e resiste alla voglia di girarlo dalla parte che punge meno. Il leone riabbassa il muso verso la pila. Segue col naso il fianco dove i frutti più piccoli si sono assestati negli incavi lasciati dagli altri. Non allunga una zampa verso il sentiero. Quando solleva di nuovo la testa, guarda giù, alla riva.
+Kaza alza gli occhi. Li tiene per un momento sulle mani aperte di Nira. Lei sente il picciolo di un frutto contro il pollice e resiste alla voglia di girarlo dalla parte che punge meno. Il leone non allunga una zampa verso il sentiero. Poi guarda giù, alla riva.
 
 Bomo stacca le dita dal gomito di Nira.
 
 Il petto di Kaza si solleva. Ricade. Nella pausa Nira sposta il peso verso la curva, ma non alza il piede.
 
-Bomo gira appena un orecchio. Tiene gli occhi sulla radura.
-
-Kaza si volta verso la discesa. La destra gli cede un poco sotto il peso, poi la sinistra lo riprende. Scende piano.
+Kaza si volta verso la discesa. Scende piano.
 
 Nira segue il leone con gli occhi fin dove il sentiero sbocca sulla riva. Più in là il letto ha una piega che le chiude la vista.
 
@@ -33,17 +31,13 @@ Dal margine della radura Bomo risale il sentiero fino alla punta della radice de
 
 «La pietra piatta», dice Bomo. «Prima l’acqua le passava sopra.»
 
-Nira la riconosce dal bordo rotto. Quando si erano chinati sul canale per mettere in fila le due pietre, aveva appoggiato il palmo sulla pietra piatta. L’acqua le era passata sotto le dita, fredda. Adesso la pietra è asciutta. Intorno, la ghiaia scoperta è chiara contro i sassi scuri più in basso.
+Nira la riconosce dal bordo rotto. Quando si erano chinati sul canale per mettere in fila le due pietre, l’aveva vista coperta dall’acqua. Intorno, la ghiaia scoperta è chiara contro i sassi scuri più in basso. Adesso la pietra è asciutta. Nira cerca il filo d’acqua dove ricorda di averlo visto passare e lo trova più in là: una foglia stretta, presa di punta dalla corrente, gira nel solco tra le pietre.
 
-Cerca il filo d’acqua dove ricorda di averlo visto passare e lo trova più in là. Una foglia stretta, presa di punta dalla corrente, gira prima di toccare la pietra piatta.
+Kaza attraversa la ghiaia che lo separa dall’acqua. Quando cerca appoggio, un sassolino gli sfugge da sotto la zampa ferita; il leone la ritira e la posa più in alto, sul bordo ancora umido. Da quella posizione deve allungare il collo. Abbassa il muso fin dove Nira riesce ancora a vederlo. Nel filo d’acqua compaiono tanti piccoli cerchi, subito tirati di lato. Da lassù Nira non sente bere. Sente invece un’unghia di Bomo grattare piano la radice, poi fermarsi.
 
-Anche quando la foglia è passata, l’acqua continua a scorrere nel nuovo solco.
+Kaza rialza il muso. Nira si scosta un poco dal bordo del sentiero. Il leone devia più in basso, sotto la radice, e risale senza fretta fino alla pila.
 
-Kaza attraversa la ghiaia che lo separa dall’acqua. Un sassolino fugge da sotto la zampa ferita; il leone la ritira e la posa più in alto, sul bordo ancora umido. Da quella posizione deve allungare il collo. Abbassa il muso fin dove Nira riesce ancora a vederlo. Nel filo d’acqua compaiono tanti piccoli cerchi, subito tirati di lato. Da lassù Nira non sente bere. Sente invece un’unghia di Bomo grattare piano la radice, poi fermarsi.
-
-Kaza rialza il muso e prende la salita senza fretta. A metà si arresta, con le zampe anteriori sul tratto duro e le altre ancora nella sabbia. Nira scosta un poco il piede dal sentiero, quanto basta per lasciargli tutta la larghezza della curva. Kaza riparte. Le passa sotto, a distanza, e torna alla pila.
-
-Il frutto spaccato è ancora davanti a lui. Kaza gli gira attorno dalla parte della sabbia chiara. Nira pensa che si stenderà tra il frutto e il sentiero, dove può tenere sott’occhio anche le loro mani. Il leone piega invece le zampe sul fianco della pila. Prima che il petto tocchi terra si sposta ancora di poco. La zampa destra gli rimane distesa, senza niente sopra. Dove prima c’era la sua spalla, resta libera una striscia d’ombra. Ci starebbe Bomo seduto, con le mani sulle ginocchia. Il frutto spaccato rimane fuori, col taglio al sole.
+Il frutto spaccato è ancora davanti a lui. Nira pensa che si stenderà tra il frutto e il sentiero, dove può tenere sott’occhio anche le loro mani. Il leone piega invece le zampe sul fianco della pila. Prima che il petto tocchi terra si sposta ancora di poco. La zampa destra gli rimane distesa, senza sostenere il peso del corpo. Dove prima c’era la sua spalla, resta libera una striscia d’ombra. Ci starebbe Bomo seduto, con le mani sulle ginocchia. Il frutto spaccato rimane fuori, col taglio al sole.
 
 Nira si accorge di avere ancora il peso sulle punte. Sotto le dita del piede il margine cede e un velo di sabbia le scorre sul tallone. Rimette giù il piede intero. Kaza non gira la testa.
 
