@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:002-capitolo-2-il-suono-sbagliato:chapter:standard-emotional
 type: readerEvaluation
 createdAt: 2026-11-25T01:09:12.648Z
-updatedAt: 2026-11-27T09:13:01.074Z
+updatedAt: 2026-11-27T09:24:59.852Z
 targetType: chapter
 targetId: chapter:002-capitolo-2-il-suono-sbagliato
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,17 +13,17 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: 06133813c0b3832ae1202b3f4ec5d8acc302f4b2aeecc15d27dba700e69c8e96
-sourceContentVersion: 87f018d53aef29259b2054c73ca7c1fa1ccf6ce5539bf0d04f385d5dfa9a9caa:ecf8146f6365c1e7b8a945d11b4106fda0535762ee6f9a93787277036352e954
-sourceUpdatedAt: 2026-11-27T09:13:01.074Z
+sourceContentHash: 8a15dddd2162dda2f805953dc79854928d7c0ccd707423d8602728add5d3b7b0
+sourceContentVersion: fc6c8a3d76a3fb1bbd6c374c0b313bb8e60101484b8bcace5f1d899272dd07ad:6a2e02b6024bd0386ba55d4c3d5669af2ced0ae15033d0d1a6d7dceadb6e6965
+sourceUpdatedAt: 2026-11-27T09:24:59.852Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2220
-outputTokens: 302
-estimatedCost: 0.008113
-finalCost: 0.008113
+inputTokens: 2110
+outputTokens: 431
+estimatedCost: 0.009726499999999999
+finalCost: 0.009726499999999999
 currency: USD
 score: 7.5
 status: completed
@@ -34,30 +34,30 @@ generatedBy: autopilot
 
 ## Impressione generale
 
-La tensione è trattenuta: sento la sete e l’urgenza dei piccoli più nei gesti di Nira che nelle prove con le pietre.
+Mi coinvolge per la paura trattenuta di Nira: l’urgenza dei piccoli si sente nei corpi e nei gesti, più che nelle parole. A metà, però, mi ritrovo a seguire il funzionamento dell’eco più che a temere per loro.
 
 ## Punti di forza
 
-- Il petto del piccolo che resta sollevato e poi ricade di colpo rende la posta concreta senza dichiararla.
-- La pressione del polso di Bomo che Nira sente ancora dopo averlo lasciato rende credibile la paura condivisa.
-- Il passo di Bomo verso i piccoli, interrotto mentre Nira rimette a monte la pietra, mette in scena un conflitto senza spiegarlo.
+- Il petto del piccolo che resta sollevato e poi ricade di colpo rende la sete concreta; subito dopo, le due dita di Nira sul polso di Bomo danno alla paura un gesto intimo e credibile.
+- Lo sguardo di Bomo verso l’Albero Basso prima di «Resto solo per questa prova» dà peso al tempo speso lontano dai piccoli, senza bisogno di spiegazioni.
+- L’orecchio di Kaza già rivolto alla roccia rende incerto il segnale che Nira aspetta e tiene viva la tensione sulla chiusa.
 
 ## Punti di debolezza
 
-- La descrizione della posizione di Kaza, della pila e della roccia mi fa ricostruire la mappa proprio quando vorrei sentire il rischio.
-- La sequenza di prove sposta a tratti la mia curiosità dai piccoli al funzionamento dell’eco.
+- La successione di prove con il ramo e i sassolini, poi dei riposizionamenti nel solco, sposta a tratti l’attenzione dalla posta in gioco alla meccanica.
+- La chiusa mi lascia soprattutto la curiosità di vedere se Kaza reagirà; a restarmi emotivamente è più il respiro del piccolo che la pietra in movimento.
 
 ## Momento più efficace
 
-Il ricordo del respiro irregolare del piccolo, subito prima che Nira stringa il polso di Bomo.
+Il ricordo del petto del piccolo che tarda a ricadere, seguito dalla presa sul polso: in quel passaggio sento insieme la fragilità del cucciolo e lo sforzo di Nira di trattenersi.
 
 ## Problema principale
 
-Nella parte centrale il meccanismo del diversivo occupa più attenzione del costo di aspettare ancora.
+L’urgenza è forte all’inizio e torna con la battuta di Bomo, ma si attenua durante la sequenza delle prove.
 
 ## Suggerimento prioritario
 
-Dare più peso al passo interrotto di Bomo, così l’ultima prova si carica del costo di rimandare il ritorno dai piccoli.
+Alleggerire un passaggio ripetuto delle prove, oppure far sentire lì il costo dell’attesa con una reazione concreta, sul modello dello sguardo di Bomo verso l’Albero Basso.
 
 ## Punteggio
 

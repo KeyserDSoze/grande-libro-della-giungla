@@ -12,12 +12,12 @@ All’Albero Basso, i piccoli hanno sete e respirano a fatica mentre l’ombra s
 - 1. Scena 1 - Lingua appiccicosa all'Albero Basso — Mentre l’ombra dell’Albero Basso si accorcia e i piccoli respirano a fatica per il caldo, Bomo indica a Nira il Terminale di Salsedine, dove ci sono acqua che si ritira e frutta secca. I due lasciano i piccoli immobili sotto l’albero ed entrano senza voltarsi nella radura del Terminale, con Nira davanti.
 - 2. Scena 2 - Naso che conta all'ombra — Nascosti dietro una radice, Nira e Bomo osservano Kaza, che conta la frutta secca sfiorandola col naso e accenna a dirigersi verso la pozza, ma torna indietro quando la zampa destra cede per un istante. Nira trattiene Bomo quando allunga la mano verso la pila; quando il leone guarda la sabbia scoperta, anche lei si ferma prima di uscire allo scoperto e Bomo dice «Non ora» e si ritrae.
 
-## 002 Capitolo 2 - Il suono sbagliato (approvato · 8.7/10)
+## 002 Capitolo 2 - Il suono sbagliato (approvato · 8.4/10)
 
-Bomo ricorda il breve silenzio prima che l’acqua restituisse il colpo del tamburo e propone di trovare un suono che induca Kaza a lasciare la frutta, così Nira potrà raggiungere la pozza. Nella radura né il tonfo di un ramo né il tintinnio di due pietre producono un’eco: al tonfo il leone alza la testa, ma non lascia il suo posto. Sulla riva, la roccia lucida rimanda un suono più pieno e netto quando Nira spinge una pietra contro un sassolino lungo un solco; una raffica ripete la prova e Bomo chiama la parete Roccia del Ritardo. Il capitolo si chiude mentre il vento rimette in moto la pietra e Nira fissa le orecchie di Kaza: non si sa ancora se il leone reagirà all’eco.
+Bomo ricorda il breve silenzio prima che l’acqua restituisse il colpo del tamburo e propone di usare un’eco per allontanare Kaza dalla frutta e liberare il passaggio alla pozza. Nella radura il tonfo di un ramo fa alzare la testa al leone senza smuoverlo, e neppure il tintinnio di due pietre produce un’eco. Sulla riva, invece, una pietra guidata da un solco urta un sassolino e la parete lucida, che Bomo chiama Roccia del Ritardo, rimanda un suono più forte: una raffica ripete la prova, ma il capitolo si chiude quando il vento rimette in moto la pietra e Nira sta ancora aspettando di vedere la reazione di Kaza.
 
-- 1. Il ricordo che vibra — Ricordando il giorno dell’eco, Bomo e Nira provano a produrre un suono che allontani Kaza dai frutti e permetta a Nira di raggiungere la pozza, ma né il ramo né le pietre producono un’eco e il leone non si sposta. Nira imbocca il sentiero in discesa e Bomo la segue, lasciando Kaza immobile nella radura.
-- 2. La roccia che parla — Nira fa urtare due pietre e scopre che la Roccia del Ritardo rimanda il tintinnio con un’eco distinta, udibile anche dalla curva del sentiero. Bomo decide di restare per un’ultima prova: quando il vento rimette in moto la pietra, entrambi osservano Kaza per capire se reagirà all’eco anziché al primo tintinnio.
+- 1. Il ricordo che vibra — Bomo e Nira provano a distrarre Kaza con un’eco per liberare il passaggio verso la pozza, ma i suoni non rimbalzano e il leone non si sposta. Nira imbocca allora il sentiero dal lato della radice nascosto a Kaza, e Bomo la segue.
+- 2. La roccia che parla — Con Kaza che ingombra il passaggio verso la pozza, Nira scopre che il tintinnio di due sassi nel solco torna più forte e in ritardo dalla roccia, sul lato opposto alla pozza. Lei e Bomo si riparano dietro il ciglio della riva per vedere se Kaza reagisce all’eco anziché al primo tintinnio, ma la scena si chiude mentre il vento rimette in moto il sasso.
 
 ## 003 Capitolo 3 - Il pasto che resta (approvato · 9/10)
 
@@ -28,15 +28,15 @@ Nira fa urtare una pietra contro un sassolino nel solco: l’eco della Roccia de
 
 ## Indicazioni del direttore
 
-- Quando una seconda prova verifica una condizione nuova, porta in primo piano quella condizione e abbrevia i passaggi che il lettore ha già visto.
-- Se un personaggio rimanda un compito urgente per concedere un’ultima prova, rendi visibile il segnale che decide di aspettare. Il compito rimandato non ha bisogno di un secondo richiamo.
-- Alla ripresa della prova, parti dal rotolare già avviato, senza rimettere in scena il dispositivo. Se Kaza reagisce, rendi inequivocabile se ha sentito l’urto o il ritorno; anche allora, un orecchio che scatta non libera il passaggio.
-- Se una forza naturale innesca un meccanismo più di una volta, associa il primo innesco a un segnale visibile che il personaggio possa riconoscere al secondo.
-- Quando un personaggio cambia idea mentre un altro sta agendo, colloca il ripensamento dentro il gesto che lo provoca, non dopo averlo raccontato come concluso.
-- In una prova, tieni contigui lo stimolo e il controllo del suo effetto. Sposta altrove i dettagli d’ambiente che non cambiano ciò che il personaggio osserva o decide.
-- Quando un personaggio affida una verifica a un altro e poi decide di restare, rendi percepibile il limite dell’attesa che si concede, senza ripetere il motivo per cui dovrebbe partire.
-- Quando la posizione dei personaggi e dei luoghi è decisiva per un piano, falla leggere seguendo uno sguardo prima di spiegarla a parole.
-- Alla ripresa, parti dalla pietra già in moto: distingui il tintinnio dal ritorno prima di attribuire a uno dei due un eventuale scatto d’orecchio. Il passaggio resta chiuso finché Kaza lo occupa.
-- Quando uno sguardo traccia una mappa, distingui sempre il punto in cui si trova il personaggio dal primo punto che osserva.
-- Riparti dalla pietra già in moto, senza rimontare il solco. Se Kaza reagisce, fai capire se a raggiungerlo è il tintinnio o il ritorno; finché il corpo resta all’imbocco, la via alla pozza resta chiusa.
-- Quando due compiti urgenti si contendono un personaggio, mostra a quale condizione smetterà di aspettare. Un limite concreto rende la scelta più leggibile di una partenza subito revocata.
+- Quando il vento ripete un gesto del personaggio, mostra prima che cosa rende possibile il movimento. La coincidenza può offrire l’occasione di verificare il piano, non risolverlo.
+- Se un ricordo suggerisce un esperimento, rendi leggibile l’ordine di causa, effetto e ritorno già nel ricordo.
+- Riparti dalla pietra già in moto. Usa l’orecchio già rivolto verso la roccia come riferimento e separa il tintinnio dal ritorno prima di attribuire a Kaza una reazione.
+- Tieni distinti ciò che Kaza sente, la direzione in cui si orienta e lo spostamento che libera l’imbocco. Nira può contare solo sull’ultimo; se il corpo del leone resta dov’è, la via alla pozza è chiusa.
+- Quando un personaggio concede un’ultima prova, fai cambiare subito un compito o una scelta: il limite deve incidere sull’azione, non soltanto ricordare l’urgenza.
+- Quando due personaggi osservano da un riparo, stabilisci la posizione di entrambi prima di passare allo sguardo dell’uno o dell’altra.
+- Riparti dalla pietra già in moto. Distingui il tintinnio dal ritorno e usa l’orecchio già rivolto alla roccia come riferimento. Anche una reazione udibile o visibile non basta a Nira: può muoversi verso la pozza solo quando Kaza libera l’imbocco.
+- Riparti dalla pietra già in moto. Separa il tintinnio dal ritorno e usa l’orecchio già puntato verso la roccia come riferimento. Nira può avviarsi alla pozza solo quando il corpo di Kaza libera l’imbocco.
+- Quando una distrazione dipende dalla direzione di un suono, orienta la scena rispetto a chi lo sente e al varco da liberare, non lungo il percorso dello sguardo di chi osserva.
+- Riparti dalla pietra già in moto. Distingui il tintinnio dal ritorno e usa l’orecchio già rivolto alla roccia come riferimento, non come prova di una reazione.
+- Nira può avviarsi alla pozza solo quando il corpo di Kaza libera l’imbocco. Un orecchio che scatta o una testa che si volta non bastano.
+- Nelle prossime prove, lascia che sia il gesto a fornire il dato nuovo; solo dopo esplicita che cosa quel dato cambia per il piano.
