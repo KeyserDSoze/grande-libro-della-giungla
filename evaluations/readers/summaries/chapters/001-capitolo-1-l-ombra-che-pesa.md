@@ -2,7 +2,7 @@
 id: reader-evaluation-summary:chapter:001-capitolo-1-l-ombra-che-pesa:chapter
 type: readerEvaluationSummary
 createdAt: 2026-11-24T22:40:59.254Z
-updatedAt: 2026-11-26T20:39:17.514Z
+updatedAt: 2026-11-27T08:03:05.703Z
 targetType: chapter
 targetId: chapter:001-capitolo-1-l-ombra-che-pesa
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -15,16 +15,16 @@ readerIds:
   - reader:standard.plot
 readerCount: 5
 language: it
-sourceContentHash: 8f3745925d84df645966a8dca244c552ff469448d1a0add26dbeaee6347e4783
-sourceContentVersion: d034e951da2a135a1f1777ac6be27c0001bd412d82c81eb4ef8dee4334377c1a:9769b058e269e260eb497ce81b38bb68b87b5373f2fb1a660b86c1f8b642279c
+sourceContentHash: c29e7ccf39ef77bc31692db907a75df3e91caba9dc05435ab805257ccb3444a4
+sourceContentVersion: 63c14eedd69c643117d58f89693453fb436381a8efba071f1cd2b8d7ea2045c6:ee43f94f0bd193e87d05021937ae9b4ab6cdcbc8f018a87119ab0346a08b2548
 routerTask: reader-evaluation-summary
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2356
-outputTokens: 401
+inputTokens: 2232
+outputTokens: 562
 currency: USD
-score: 6.9
+score: 7.1
 status: completed
 refs:
   - reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-general
@@ -33,42 +33,51 @@ refs:
   - reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-characters
   - reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-plot
 generatedBy: autopilot
-finalCost: 0.009736999999999999
+finalCost: 0.011774
 ---
 
 # Sintesi dei lettori simulati
 
 ## Convergenze
 
-- La sete dei piccoli dà una posta concreta; il gesto con cui Nira trattiene Bomo è il momento più efficace per tutti.
+- La sete e l’urgenza sono concrete; i gesti rendono la tensione più efficacemente delle spiegazioni.
+- L’attesa perde forza quando ripete informazioni senza cambiare il rischio o le decisioni.
 
 ## Disaccordi
 
-- Lo scricchiolio finale riaccende la tensione per il lettore emotivo; per il critico e il lettore di trama rinnova l’allerta senza cambiare rischio o scelta.
-- Il generalista e l’emotivo apprezzano la tensione trattenuta pur trovandola a tratti statica; il critico giudica più grave la mancata svolta, mentre il lettore orientato ai personaggi privilegia la posta personale.
+- Per l’emotivo l’attesa è il cuore del capitolo e va resa più fisica; per il lettore di trama il finale deve invece produrre una scelta o conseguenza esterna.
+- Il critico non capisce perché Nira assecondi l’attesa per la frutta dopo aver dato priorità all’acqua; il lettore dei personaggi chiede soprattutto un movente personale per Bomo; il generalista segnala un problema locale di orientamento.
+- Emotivo e generalista prediligono il polso di Nira e il respiro del cucciolo; critico e lettore dei personaggi preferiscono il gesto finale di Bomo; il lettore di trama preferisce la reazione di Kaza al fruscio.
 
 ## Punti di forza ricorrenti
 
-- Sete resa fisicamente; caratterizzazione attraverso i gesti; Kaza vigile e, per tre lettori, anche vulnerabile.
+- Sete resa attraverso dettagli corporei, legame con i piccoli mantenuto dal respiro
+- Arco non verbale di Bomo: prima trattenuto da Nira, poi capace di trattenersi
+- Kaza è un ostacolo concreto; l’ombra rende più difficile interpretarne i movimenti
 
 ## Problemi ricorrenti
 
-- Segnali sensoriali ripetuti senza progressione; funzione dell’ombra poco chiara; vecchio debito evocato ma poco visibile nel comportamento di Bomo.
+- Ridondanze di caldo, respiri, silenzi e appoggi
+- Spiegazioni sul varco o sulle condizioni dell’attesa che duplicano i gesti
+- Tensione tra priorità dell’acqua e attesa orientata alla frutta, interpretata diversamente
 
 ## Suggerimenti prioritari
 
-- Sfoltire i segnali ripetuti e privilegiare i gesti che cambiano la situazione.
-- Chiarire l’effetto dell’ombra e il rapporto fra acqua e frutta; dare al finale una conseguenza concreta.
-- Far incidere il vecchio debito su una scelta osservabile di Bomo.
+- Snellire soprattutto la seconda scena, conservando cedimento della zampa e perdita di visibilità nell’ombra
+- Chiarire prima risorsa e movimento atteso senza aggiungere spiegazioni superflue
+- Valutare un indizio personale per Bomo o una conseguenza concreta in chiusura, a seconda dell’obiettivo
 
 ## Osservazioni isolate
 
-- Il critico segnala glosse esplicative e precisione artificiosa; il lettore dei personaggi trova poco riconoscibile la voce di Nira; solo il lettore di trama pone esplicitamente il problema della priorità tra acqua e frutta.
+- Il lettore dei personaggi trova le voci meno riconoscibili dei gesti e apprezza la vulnerabilità di Kaza.
+- Il critico giudica superfluo lo scambio «È lì» / «Sì».
 
 ## Priorità di revisione
 
-- Rendere progressiva l’attesa e darle un esito narrativo; chiarire la logica della missione; rendere visibile la posta personale senza spiegoni.
+- Rendere leggibile la scelta tra acqua e frutta e il ruolo del varco.
+- Eliminare ripetizioni e spiegazioni ridondanti, tutelando i gesti chiave.
+- Decidere se rafforzare la motivazione di Bomo, il cambiamento esterno finale o entrambi.
 
 ## Punteggio complessivo
 
-6.9/10
+7.1/10

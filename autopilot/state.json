@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "status": "completed",
-  "phase": "completed",
+  "status": "running",
+  "phase": "final",
   "brief": {
     "idea": "### PREMESSA COSTRUITA\n\nNon è una storia di furto. È una storia di scambio sbilanciato.\nLe due scimmie non vogliono umiliare il leone: hanno bisogno di cibo per la colonia di piccoli che non arrivano ancora all’albero basso. Il leone Kaza controlla l’unico punto d’ombra con acqua e la riserva di frutta secca che ha accumulato per la stagione secca. Non è stupido, è sovraccarico e ferito a una zampa. Le scimmie non sono furbe in assoluto: una osserva i suoni, l’altra ricorda le relazioni.\n\nProtagonisti:\n* **Nira**, giovane scimmia dal manto a macchie, udito fine. Non parla tanto, ascolta.\n* **Bomo**, scimmia più vecchia, memoria del vento. Sa i nomi di ogni sentiero e di chi deve a chi un favore.\n\nAntagonista funzionale: **Kaza**, leone del Terminale di Salsedine. Non cattivo, guardiano territoriale.\n\n### LONG-TERM - Arco totale e rivelazioni\n\n**Arco:** Da conflitto di scarsità a comprensione del sistema.\nCapitolo 1 = Mappatura del problema. Capitolo 2 = Costruzione dell’inganno come esperimento. Capitolo 3 = Conseguenza e riequilibrio.\n\n**Rivelazioni programmate:**\n1. Il cibo del leone non è suo solo: è stato raccolto da formiche e uccelli che lui non vede.\n2. Le scimmie non rubano, spostano l’attenzione del leone su una risorsa abbondante che lui disprezza.\n3. Il vero “furto” è l’informazione: il leone impara che il suo controllo è fragile senza gli occhi degli altri.\n\n**Payoff lungo:** i bambini capiscono che l’astuzia è osservazione, non forza. La giungla è un circuito, non un magazzino.\n\n### MID-TERM - Archi e capitoli\n\n**CAPITOLO 1 - L’ombra che pesa**\nArco: fame dei piccoli vs regola del leone.\nBeat centrale: Nira e Bomo scoprono che Kaza dorme sopra la pila di frutta secca ma non la mangia tutta, la tiene. Scoprono la zampa zoppicante e il rumore dell’acqua che si ritira.\nConflitto interno: Bomo vuole chiedere, Nira vuole capire prima.\nRischio cliché: leone pigro. Antidoto: Kaza è sveglio, conta le pile.\n\n**CAPITOLO 2 - Il suono sbagliato**\nArco: progettazione dell’inganno.\nBeat centrale: le scimmie non entrano nella tana. Usano il fiume e la roccia a specchio per far credere a Kaza che un branco più grande si stia avvicinando al suo cibo.\nAlternative qui:\nA. Inganno acustico: replicare i passi di bufali con pietre e tronchi.\nB. Inganno visivo: riflesso nell’acqua che raddoppia l’ombra del leone.\nC. Inganno sociale: convincere un corvo a portare un messaggio falso.\nScelta consigliata: A+B combinati, concreto e verificabile.\nConseguenza immediata: Kaza si sposta per difendere, lascia scoperta la pila.\n\n**CAPITOLO 3 - Il pasto che resta**\nArco: esecuzione e prezzo.\nBeat centrale: mentre Kaza inseguie l’eco, le scimmie prendono solo ciò che serve per i piccoli e lasciano un segno. Il leone torna, capisce, ma non attacca perché l’eco è reale: il fiume sta cambiando corso.\nRivelazione finale: il cibo preso non sparisce, viene restituito in forma diversa. La colonia aiuta a spostare la frutta secca più in alto prima della piena.\n\n### ALTERNATIVE, CONFLITTI, CONSEGUENZE\n\n* **Alternativa morale:** le scimmie offrono un servizio in cambio di cibo, non ingannano. Più cooperativa, meno rischiosa per cliché.\n* **Conflitto esterno:** la stagione secca avanza, l’acqua cala.\n* **Conflitto interno:** Nira vuole agire subito, Bomo vuole rispettare.\n* **Conseguenze:** la colonia mangia, il leone perde una parte della riserva ma guadagna un alleato di sorveglianza. Nessuno viene umiliato.\n\n### RISCHI DI CLICHÉ E ANTIDOTO\n\n* Scimmie chiacchierone e leone ruggente stupido → Antidoto: dialoghi minimali, descrizioni sensoriali. Il leone ragiona.\n* Furto glorificato → Antidoto: quantità limitata, restituzione simbolica.\n* Trucco magico → Antidoto: tutto spiegato con fisica della giungla: eco, ombra, vento.\n\n### INDIZI E PAYOFF\n\nIndizi seminati Cap 1: il leone che guarda sempre verso nord, il corvo che non canta, la roccia lucida vicino al fiume.\nPayoff Cap 3: il lettore riconosce la roccia lucida come specchio sonoro. Il leone non è sconfitto, è spostato.\n\n### CRITERI DI SELEZIONE\n\n1. Concretezza sensoriale > astrazione morale.\n2. Agency dei bambini: i protagonisti imparano osservando, non per caso.\n3. Coerenza ecologica: ogni azione ha un costo visibile.\n4. Nessuna umiliazione dell’antagonista.\n5. Tre capitoli chiusi ma con porta aperta per espansione del Grande Libro.\n\nValidazione, Critica adversarial e Outline dettagliato da svolgere dopo fissaggio di questa direzione.",
     "synopsis": "",
@@ -61,7 +61,7 @@
         "number": 1,
         "title": "Capitolo 1 - L'ombra che pesa",
         "slug": "001-capitolo-1-l-ombra-che-pesa",
-        "summary": "All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia; Nira ascolta i loro respiri prima di avviarsi con Bomo verso il Terminale di Salsedine. Nella radura, dove l’acqua si ritira e l’ombra si allunga presto, i due osservano Kaza, sveglio e vigile, contare la frutta secca con il naso e appoggiare a fatica la zampa destra. Bomo tende la mano verso la frutta, ma Nira lo trattiene; quando il leone alza la testa a un fruscio, Bomo ritira la mano e dice «Non ora».",
+        "summary": "All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia. Dopo aver ascoltato i loro respiri, Nira segue l’indicazione di Bomo e si avvia con lui verso il Terminale di Salsedine, dove la pozza si ritira e Kaza, sveglio e vigile, conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora», e i due restano al riparo.",
         "goal": "Mappare la scarsità e il controllo: fame dei piccoli contro la regola del leone, fissando il problema senza soluzioni.",
         "pov": [
           "Nira",
@@ -96,12 +96,12 @@
               "Bomo",
               "I Piccoli"
             ],
-            "summary": "Mentre i piccoli respirano a fatica nell’ombra sempre più corta dell’Albero Basso, Bomo dice che non reggeranno e indica il Terminale di Salsedine. Nira lascia i piccoli all’ombra e, seguita da Bomo, si dirige verso la radura, dove l’acqua della pozza si ritira accanto a una pila di frutta secca.",
+            "summary": "Mentre i piccoli respirano a fatica nell’ombra sempre più stretta dell’Albero Basso, Bomo indica a Nira il Terminale di Salsedine, dove restano una pozza che si ritira e una pila di frutta secca. I due lasciano i piccoli sotto l’albero e si avviano verso la radura, con Nira davanti.",
             "status": "reviewed",
             "slug": "001-scena-1-lingua-appiccicosa-all-albero-basso",
             "path": "chapters/001-capitolo-1-l-ombra-che-pesa/001-scena-1-lingua-appiccicosa-all-albero-basso.md",
-            "words": 747,
-            "revisions": 4
+            "words": 626,
+            "revisions": 12
           },
           {
             "number": 2,
@@ -120,21 +120,29 @@
               "Bomo",
               "Kaza"
             ],
-            "summary": "Dietro una radice, Nira e Bomo osservano Kaza contare i frutti e muoversi con cautela sulla zampa destra che cede. Nira trattiene Bomo quando allunga la mano verso la frutta secca; al primo fruscio Kaza alza la testa e Bomo ritira la mano, rimandando il tentativo.",
+            "summary": "Nira e Bomo restano nascosti dietro una radice mentre Kaza, incerto sulla zampa destra, rinuncia a raggiungere la pozza e torna a presidiare la pila, lasciando scoperto il tragitto verso l’acqua. Nira trattiene Bomo quando allunga la mano verso la frutta secca, ma al successivo scricchiolio è lui stesso a tenere indietro la mano.",
             "status": "reviewed",
             "slug": "002-scena-2-naso-che-conta-all-ombra",
             "path": "chapters/001-capitolo-1-l-ombra-che-pesa/002-scena-2-naso-che-conta-all-ombra.md",
-            "words": 584,
-            "revisions": 4
+            "words": 524,
+            "revisions": 12
           }
         ],
-        "score": 8,
-        "storySoFarAtClose": "### Capitolo 1 — L’ombra che pesa\n\nAll’Albero Basso il caldo stringe i piccoli in una chiazza d’ombra sempre più sottile. Hanno il fiato corto e la lingua si attacca al palato; uno fruga tra le radici in cerca di un seme e non trova nulla. Nira appoggia la guancia alla corteccia calda per ascoltare i loro respiri. Bomo dice che non reggono e indica il Terminale di Salsedine, dove l’acqua si ritira e c’è una pila di frutta secca. I due lasciano i piccoli all’albero e si avviano verso la radura, dove l’ombra si allunga presto.\n\nDa dietro una radice, Nira e Bomo osservano Kaza. Il leone è sveglio e conta i frutti sfiorandoli uno a uno con il naso. Fa un breve passo verso la pozza e la zampa destra gli cede per un istante; torna poi vicino alla pila. Sul bordo dell’acqua il ritiro della pozza ha scoperto fango screpolato e ghiaia.\n\nBomo tende la mano verso la frutta, ma Nira preme il polso contro il suo avambraccio e lo trattiene. Un fruscio fa alzare la testa a Kaza; Bomo ritira la mano e, poco dopo, dice «Non ora». Nira annuisce senza staccare il polso dal suo braccio. Non hanno preso né acqua né frutta. L’ombra della tana si allunga verso la pozza; da lontano arriva uno scricchiolio e l’avambraccio di Bomo si tende, ma la mano non si muove.",
+        "score": 8.6,
+        "storySoFarAtClose": "## Capitolo 1 — L’ombra che pesa\n\nIl caldo stringe i piccoli nella poca ombra rimasta ai piedi dell’Albero Basso. Hanno la lingua appiccicosa e il fiato corto; uno fruga invano tra le radici in cerca di un seme. Con la guancia contro la corteccia, Nira ascolta e conta i respiri di un cucciolo, che dopo una pausa riprende a respirare più lentamente. Bomo dice che i piccoli non reggono e indica il Terminale di Salsedine, dove ci sono una pozza che si ritira e una pila di frutta secca. I due lasciano i piccoli all’Albero Basso e si avviano verso la radura, dove l’ombra avanza presto.\n\nDa dietro una radice sporgente osservano Kaza. Il leone è sveglio e conta la frutta secca toccando la pila con il naso. Fa qualche passo verso la pozza, ma la zampa destra gli cede per un istante; prima di raggiungere l’acqua torna indietro e si rimette tra la pila e il loro riparo. Nira vede il fango screpolato lasciato dall’acqua e pensa che la pozza abbia la precedenza, ma per raggiungerla dovrebbe passare allo scoperto.\n\nBomo tende la mano verso la frutta. Nira lo trattiene con il polso e, dopo un istante, riprende a respirare al ritmo del cucciolo. Quando un fruscio lontano fa alzare la testa a Kaza, Bomo ritira la mano. L’ombra raggiunge la zampa del leone e Nira non riesce più a distinguere con sicurezza un cambio di peso dall’inizio di un passo. Aspetta al riparo che Kaza si sposti. «Non ora», dice Bomo. Nira annuisce e stacca il polso dal suo avambraccio. A un ultimo scricchiolio Bomo si tende, ma questa volta tiene indietro la mano da sé. I due non hanno ancora raggiunto né l’acqua né la frutta.",
         "rounds": [
           { "director": 5, "readers": 5.8, "verdict": "revise", "accepted": 12, "rejected": 2 },
           { "director": 6, "verdict": "revise", "accepted": 5, "rejected": 0 },
           { "director": 6.4, "readers": 6.3, "verdict": "revise", "accepted": 17, "rejected": 0 },
-          { "director": 8, "readers": 6.9, "verdict": "approve", "accepted": 11, "rejected": 1 }
+          { "director": 8, "readers": 6.9, "verdict": "approve", "accepted": 11, "rejected": 1 },
+          { "director": 7, "readers": 7, "verdict": "revise", "accepted": 15, "rejected": 0 },
+          { "director": 7.6, "readers": 7, "verdict": "revise", "accepted": 9, "rejected": 2 },
+          { "director": 7.6, "readers": 7.1, "verdict": "revise", "accepted": 11, "rejected": 0 },
+          { "director": 7.6, "readers": 7.1, "verdict": "revise", "accepted": 6, "rejected": 1 },
+          { "director": 7.8, "readers": 7.1, "verdict": "revise", "accepted": 9, "rejected": 2 },
+          { "director": 8.2, "verdict": "revise", "accepted": 5, "rejected": 1 },
+          { "director": 8.1, "verdict": "revise", "accepted": 7, "rejected": 2 },
+          { "director": 8.6, "verdict": "revise", "accepted": 6, "rejected": 1 }
         ],
         "outlineDigest": "45187c1722cdcdc1"
       },
@@ -210,7 +218,6 @@
           }
         ],
         "score": 8,
-        "storySoFarAtClose": "### Capitolo 1 — L’ombra che pesa\n\nAll’Albero Basso i piccoli soffrono il caldo e hanno il fiato corto, stretti in un’ombra sempre più sottile. Nira e Bomo li lasciano all’albero e vanno verso il Terminale di Salsedine, dove l’acqua si ritira e c’è una pila di frutta secca. Da dietro una radice vedono Kaza contare i frutti con il naso. Quando il leone fa un passo verso la pozza, la zampa destra gli cede per un istante; poi torna alla pila. Nira trattiene Bomo mentre tende la mano verso la frutta. Un fruscio fa alzare la testa a Kaza e Bomo ritira la mano: non prendono né acqua né frutta.\n\n### Capitolo 2 — Il suono sbagliato\n\nAncora dietro la radice, Nira ripensa al respiro irregolare di uno dei piccoli. Bomo ricorda come l’acqua del fiume restituisse i colpi dei tamburi dopo un breve silenzio e propone di cercare un suono che induca Kaza a lasciare la pila. Fa cadere due rami insieme: il tonfo non ha eco e il leone alza la testa senza spostarsi, poi torna a sfiorare i frutti col naso. Nira spinge una pietra verso un’altra, ma nella sabbia senza solco la prima devia e il tintinnio si spegne senza rimbalzare.\n\nI due scendono al letto basso del fiume, da dove si vede la radura. Vicino a una roccia lucida, Nira allinea due pietre in un canale scavato dall’acqua. Spinta da Nira, la prima rotola lungo il solco e urta il sassolino fermo; quasi subito la roccia rimanda un suono più pieno e netto. Bomo la chiama Roccia del Ritardo. Nira rimette a posto la pietra e si allontana di qualche passo. Una raffica provoca un altro urto, e Nira distingue il ritorno anche da lì. Kaza è ancora alla pila quando lei alza lo sguardo, troppo tardi per capire se ha mosso le orecchie.\n\nBomo propone di verificare la reazione del leone: se Kaza venisse a cercare il suono, lascerebbe scoperta la parte della pila che ha sotto il muso. Dice che tornerà dai piccoli e accenna un passo verso la salita, ma si ferma. Nira rimette la pietra a monte nel solco e fissa le orecchie di Kaza in attesa del prossimo urto.",
         "rounds": [
           { "director": 6, "readers": 6.4, "verdict": "revise", "accepted": 13, "rejected": 1 },
           { "director": 6.5, "verdict": "revise", "accepted": 4, "rejected": 1 },
@@ -391,13 +398,7 @@
   },
   "review": null,
   "revision": null,
-  "finalDone": true,
-  "finalReview": {
-    "verdict": "revise",
-    "score": 7.3,
-    "text": "Non approvo ancora il libro, pur confermando l’impianto dei tre capitoli. La storia mantiene la promessa dell’astuzia come osservazione, ma lo snodo decisivo rende più leggibile il prelievo della frutta che lo scambio con Kaza. Valuto la struttura, gli archi e i dettagli attestati nelle sinossi e nella mappa; non ho il testo integrale per giudicare la tenuta della prosa frase per frase.",
-    "at": "2026-11-26T21:11:42.947Z"
-  },
+  "finalDone": false,
   "constraints": [],
   "interventions": [
     {
@@ -412,40 +413,64 @@
     }
   ],
   "directorNotes": [
-    "Quando un ricordo dà origine a una prova, fallo tornare durante l’azione solo se aggiunge un indizio che cambia il gesto successivo.",
-    "Quando nomini un sentiero durante uno spostamento, rendi chiaro se è quello appena percorso o un’altra via; se il nome non orienta la manovra, omettilo.",
-    "Nella prova successiva, se Kaza lascia la pila, mostra che cosa rende il suono della riva degno di essere seguito nonostante la sua vigilanza e la zampa ferita. Fino alla soglia prevista, non spiegare il ritiro dell’acqua come cambio di corso.",
-    "Nelle prove acustiche, separa ciò che si ripete senza intervento, ciò che Kaza mostra di aver sentito e ciò che gli dà un motivo per muoversi. Prima dell’urto, rendi leggibile dove puntano le orecchie: conta il cambiamento, non la direzione da sola.",
-    "Quando una prova impone di aspettare, fai sentire il costo nel momento della scelta con un gesto o un dettaglio già noto al lettore, senza ripetere l’intera posta in gioco.",
-    "Prima del primo tentativo, rendi leggibile l’obiettivo pratico del personaggio. Non confonderlo con il risultato più ristretto che quel singolo tentativo può dimostrare.",
-    "Se due stimoli arrivano quasi insieme, non attribuire la reazione a uno solo senza un indizio che li distingua. Nel caso di Kaza, il movimento delle orecchie può mostrare che il suono lo ha allertato; non dimostra che abbia riconosciuto l’eco o deciso di seguirla.",
-    "Quando ripeti una prova, metti in primo piano la condizione cambiata e il nuovo dato che ne ricavi; non raccontare di nuovo il meccanismo già mostrato.",
-    "Se vuoi che la reazione di Kaza valga come indizio acustico, rendi chiaro anche che cosa il leone può vedere: chi legge deve poter distinguere un rumore da un gesto che lo accompagna.",
-    "Quando un personaggio interrompe un passo per aspettare, rendi leggibile a che cosa rinuncia; per far pesare la scelta, privilegia quella rinuncia a un nuovo riepilogo dell’urgenza.",
-    "Dopo un’osservazione mancata, descrivi ciò che il personaggio vede al momento di guardare di nuovo; non lasciar intendere che sia rimasto così per tutto il tempo.",
-    "Quando un esperimento va rimesso in assetto, fai capire da dove torna il pezzo che si è mosso e dove lo rimetti. Non serve ripetere la prova."
+    "Se un segnale diventa illeggibile durante l’attesa, mostra a quale segnale più sicuro si affida il personaggio prima di muoversi.",
+    "In un’attesa a due, conserva i gesti che cambiano chi frena l’azione; taglia quelli che si limitano a ribadire che entrambi sono in allarme.",
+    "Quando un diversivo offre una falsa occasione, chiarisci perché non basta anche al personaggio che non si è mosso: altrimenti la sua priorità sembra sparire dietro l’impulso dell’altro.",
+    "Nelle attese, conserva il primo segnale fisico e il momento in cui cambia ciò che il personaggio può dedurne. Taglia gli appoggi intermedi se non cambiano né il rischio né la scelta.",
+    "Quando due personaggi si fermano per ragioni diverse, tieni distinti i loro punti d’attenzione: la pila per Bomo, la possibilità di arrivare alla pozza per Nira. Una decisione comune non richiede una motivazione comune.",
+    "Se un segnale viene meno, calibra ciò che il personaggio sa: Nira non perde di vista Kaza, perde la capacità di distinguere un cambio di peso dall’inizio di un passo. Fai dipendere l’attesa da quella differenza concreta.",
+    "Se un gesto verso una risorsa lontana può tradire un nascondiglio, mostra quale bordo sta per superare: basta un dettaglio fisico, senza anticipare la reazione di chi sorveglia.",
+    "Quando un personaggio indica una risorsa che il lettore non ha ancora visto, nomina la cosa concreta prima di affidarti a una parola come «pila». Lascia che siano i gesti a spiegare perché serve.",
+    "Un finale può lasciare intatto l’ostacolo esterno se mostra un cambiamento verificabile nel personaggio: qui Bomo passa dall’essere trattenuto al trattenersi da sé.",
+    "Nei dettagli corporei ravvicinati, identifica subito il personaggio quando il periodo successivo deve distinguerlo da un altro. Se passi dal confronto al conteggio, rendi chiaro che cosa stai contando.",
+    "Prima di scrivere che un personaggio non guarda «più» qualcosa, verifica dove il testo ha collocato il suo ultimo sguardo. Metti il cambio di attenzione nel momento in cui modifica il gesto.",
+    "Tra due scene, non ribadire l’avvistamento di una meta già visibile: torna a nominarla quando cambia il modo di raggiungerla o il rischio di farlo."
   ],
   "question": null,
   "frozenSince": "2026-11-23T10:41:46.157Z",
-  "runner": null,
-  "stats": {
-    "tasks": 238,
-    "aiCalls": 341,
-    "inputTokens": 1347090,
-    "outputTokens": 509228,
-    "cost": 4.734342469999998,
-    "currency": "USD",
-    "failures": 10,
-    "usageUnknownCalls": 56,
-    "costUnknownCalls": 116,
-    "workedMs": 12923057,
-    "workedMsSince": "2026-11-24T20:21:34.141Z"
+  "campaign": {
+    "id": "review_fce7ac8e-272c-4adb-938a-7b999ab5269d",
+    "reason": "review-target",
+    "createdAt": "2026-11-27T07:55:07.744Z",
+    "chapters": [
+      {
+        "number": 1,
+        "mode": "follow",
+        "status": "working",
+        "startedAt": "2026-11-27T07:55:07.953Z"
+      },
+      {
+        "number": 2,
+        "mode": "follow",
+        "status": "waiting"
+      },
+      {
+        "number": 3,
+        "mode": "follow",
+        "status": "waiting"
+      }
+    ],
+    "review": {
+      "targetScore": 9,
+      "maxRounds": 8,
+      "readerRounds": 5,
+      "scope": [
+        1,
+        2,
+        3
+      ],
+      "round": 1,
+      "windowStart": 1,
+      "phase": "chapters",
+      "start": {
+        "lowest": 8,
+        "book": 7.3,
+        "below": 3
+      },
+      "history": [],
+      "stalled": 0
+    }
   },
-  "message": "Il libro è completo.",
-  "lastError": null,
-  "createdAt": "2026-11-22T00:49:32.173Z",
-  "updatedAt": "2026-11-26T21:11:43.548Z",
-  "version": 399,
   "reviews": [
     {
       "targetScore": 8,
@@ -464,5 +489,31 @@
       "startedAt": "2026-11-26T20:25:23.433Z",
       "endedAt": "2026-11-26T21:11:43.483Z"
     }
-  ]
+  ],
+  "runner": {
+    "host": "browser",
+    "label": "Browser · Windows",
+    "hostId": "device-0b0b8e48-dd66-4af3-988b-8cd270998395",
+    "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+    "startedAt": "2026-11-27T07:55:07.837Z",
+    "heartbeatAt": "2026-11-27T08:07:23.944Z"
+  },
+  "stats": {
+    "tasks": 301,
+    "aiCalls": 420,
+    "inputTokens": 1600448,
+    "outputTokens": 584457,
+    "cost": 6.230924969999999,
+    "currency": "USD",
+    "failures": 10,
+    "usageUnknownCalls": 56,
+    "costUnknownCalls": 116,
+    "workedMs": 13643300,
+    "workedMsSince": "2026-11-24T20:21:34.141Z"
+  },
+  "message": null,
+  "lastError": null,
+  "createdAt": "2026-11-22T00:49:32.173Z",
+  "updatedAt": "2026-11-27T08:07:23.944Z",
+  "version": 464
 }

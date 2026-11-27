@@ -5,12 +5,12 @@ File generato dall'autopilot: lo stato completo è in `autopilot/state.json`.
 - Approvato dal direttore: sì
 - Capitoli: 3
 
-## 001 Capitolo 1 - L'ombra che pesa (approvato · 8/10)
+## 001 Capitolo 1 - L'ombra che pesa (approvato · 8.6/10)
 
-All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia; Nira ascolta i loro respiri prima di avviarsi con Bomo verso il Terminale di Salsedine. Nella radura, dove l’acqua si ritira e l’ombra si allunga presto, i due osservano Kaza, sveglio e vigile, contare la frutta secca con il naso e appoggiare a fatica la zampa destra. Bomo tende la mano verso la frutta, ma Nira lo trattiene; quando il leone alza la testa a un fruscio, Bomo ritira la mano e dice «Non ora».
+All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia. Dopo aver ascoltato i loro respiri, Nira segue l’indicazione di Bomo e si avvia con lui verso il Terminale di Salsedine, dove la pozza si ritira e Kaza, sveglio e vigile, conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora», e i due restano al riparo.
 
-- 1. Scena 1 - Lingua appiccicosa all'Albero Basso — Mentre i piccoli respirano a fatica nell’ombra sempre più corta dell’Albero Basso, Bomo dice che non reggeranno e indica il Terminale di Salsedine. Nira lascia i piccoli all’ombra e, seguita da Bomo, si dirige verso la radura, dove l’acqua della pozza si ritira accanto a una pila di frutta secca.
-- 2. Scena 2 - Naso che conta all'ombra — Dietro una radice, Nira e Bomo osservano Kaza contare i frutti e muoversi con cautela sulla zampa destra che cede. Nira trattiene Bomo quando allunga la mano verso la frutta secca; al primo fruscio Kaza alza la testa e Bomo ritira la mano, rimandando il tentativo.
+- 1. Scena 1 - Lingua appiccicosa all'Albero Basso — Mentre i piccoli respirano a fatica nell’ombra sempre più stretta dell’Albero Basso, Bomo indica a Nira il Terminale di Salsedine, dove restano una pozza che si ritira e una pila di frutta secca. I due lasciano i piccoli sotto l’albero e si avviano verso la radura, con Nira davanti.
+- 2. Scena 2 - Naso che conta all'ombra — Nira e Bomo restano nascosti dietro una radice mentre Kaza, incerto sulla zampa destra, rinuncia a raggiungere la pozza e torna a presidiare la pila, lasciando scoperto il tragitto verso l’acqua. Nira trattiene Bomo quando allunga la mano verso la frutta secca, ma al successivo scricchiolio è lui stesso a tenere indietro la mano.
 
 ## 002 Capitolo 2 - Il suono sbagliato (approvato · 8/10)
 
@@ -28,15 +28,15 @@ Nira fa urtare tre pietre in fila e il suono di ritorno dalla Roccia del Ritardo
 
 ## Indicazioni del direttore
 
-- Quando un ricordo dà origine a una prova, fallo tornare durante l’azione solo se aggiunge un indizio che cambia il gesto successivo.
-- Quando nomini un sentiero durante uno spostamento, rendi chiaro se è quello appena percorso o un’altra via; se il nome non orienta la manovra, omettilo.
-- Nella prova successiva, se Kaza lascia la pila, mostra che cosa rende il suono della riva degno di essere seguito nonostante la sua vigilanza e la zampa ferita. Fino alla soglia prevista, non spiegare il ritiro dell’acqua come cambio di corso.
-- Nelle prove acustiche, separa ciò che si ripete senza intervento, ciò che Kaza mostra di aver sentito e ciò che gli dà un motivo per muoversi. Prima dell’urto, rendi leggibile dove puntano le orecchie: conta il cambiamento, non la direzione da sola.
-- Quando una prova impone di aspettare, fai sentire il costo nel momento della scelta con un gesto o un dettaglio già noto al lettore, senza ripetere l’intera posta in gioco.
-- Prima del primo tentativo, rendi leggibile l’obiettivo pratico del personaggio. Non confonderlo con il risultato più ristretto che quel singolo tentativo può dimostrare.
-- Se due stimoli arrivano quasi insieme, non attribuire la reazione a uno solo senza un indizio che li distingua. Nel caso di Kaza, il movimento delle orecchie può mostrare che il suono lo ha allertato; non dimostra che abbia riconosciuto l’eco o deciso di seguirla.
-- Quando ripeti una prova, metti in primo piano la condizione cambiata e il nuovo dato che ne ricavi; non raccontare di nuovo il meccanismo già mostrato.
-- Se vuoi che la reazione di Kaza valga come indizio acustico, rendi chiaro anche che cosa il leone può vedere: chi legge deve poter distinguere un rumore da un gesto che lo accompagna.
-- Quando un personaggio interrompe un passo per aspettare, rendi leggibile a che cosa rinuncia; per far pesare la scelta, privilegia quella rinuncia a un nuovo riepilogo dell’urgenza.
-- Dopo un’osservazione mancata, descrivi ciò che il personaggio vede al momento di guardare di nuovo; non lasciar intendere che sia rimasto così per tutto il tempo.
-- Quando un esperimento va rimesso in assetto, fai capire da dove torna il pezzo che si è mosso e dove lo rimetti. Non serve ripetere la prova.
+- Se un segnale diventa illeggibile durante l’attesa, mostra a quale segnale più sicuro si affida il personaggio prima di muoversi.
+- In un’attesa a due, conserva i gesti che cambiano chi frena l’azione; taglia quelli che si limitano a ribadire che entrambi sono in allarme.
+- Quando un diversivo offre una falsa occasione, chiarisci perché non basta anche al personaggio che non si è mosso: altrimenti la sua priorità sembra sparire dietro l’impulso dell’altro.
+- Nelle attese, conserva il primo segnale fisico e il momento in cui cambia ciò che il personaggio può dedurne. Taglia gli appoggi intermedi se non cambiano né il rischio né la scelta.
+- Quando due personaggi si fermano per ragioni diverse, tieni distinti i loro punti d’attenzione: la pila per Bomo, la possibilità di arrivare alla pozza per Nira. Una decisione comune non richiede una motivazione comune.
+- Se un segnale viene meno, calibra ciò che il personaggio sa: Nira non perde di vista Kaza, perde la capacità di distinguere un cambio di peso dall’inizio di un passo. Fai dipendere l’attesa da quella differenza concreta.
+- Se un gesto verso una risorsa lontana può tradire un nascondiglio, mostra quale bordo sta per superare: basta un dettaglio fisico, senza anticipare la reazione di chi sorveglia.
+- Quando un personaggio indica una risorsa che il lettore non ha ancora visto, nomina la cosa concreta prima di affidarti a una parola come «pila». Lascia che siano i gesti a spiegare perché serve.
+- Un finale può lasciare intatto l’ostacolo esterno se mostra un cambiamento verificabile nel personaggio: qui Bomo passa dall’essere trattenuto al trattenersi da sé.
+- Nei dettagli corporei ravvicinati, identifica subito il personaggio quando il periodo successivo deve distinguerlo da un altro. Se passi dal confronto al conteggio, rendi chiaro che cosa stai contando.
+- Prima di scrivere che un personaggio non guarda «più» qualcosa, verifica dove il testo ha collocato il suo ultimo sguardo. Metti il cambio di attenzione nel momento in cui modifica il gesto.
+- Tra due scene, non ribadire l’avvistamento di una meta già visibile: torna a nominarla quando cambia il modo di raggiungerla o il rischio di farlo.

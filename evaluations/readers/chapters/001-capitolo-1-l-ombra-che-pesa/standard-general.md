@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-general
 type: readerEvaluation
 createdAt: 2026-11-24T22:30:58.219Z
-updatedAt: 2026-11-26T20:38:51.219Z
+updatedAt: 2026-11-27T08:02:37.786Z
 targetType: chapter
 targetId: chapter:001-capitolo-1-l-ombra-che-pesa
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,51 +13,51 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: 8f3745925d84df645966a8dca244c552ff469448d1a0add26dbeaee6347e4783
-sourceContentVersion: d034e951da2a135a1f1777ac6be27c0001bd412d82c81eb4ef8dee4334377c1a:9769b058e269e260eb497ce81b38bb68b87b5373f2fb1a660b86c1f8b642279c
-sourceUpdatedAt: 2026-11-26T20:38:51.219Z
+sourceContentHash: c29e7ccf39ef77bc31692db907a75df3e91caba9dc05435ab805257ccb3444a4
+sourceContentVersion: 63c14eedd69c643117d58f89693453fb436381a8efba071f1cd2b8d7ea2045c6:ee43f94f0bd193e87d05021937ae9b4ab6cdcbc8f018a87119ab0346a08b2548
+sourceUpdatedAt: 2026-11-27T08:02:37.786Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2666
-outputTokens: 379
+inputTokens: 2519
+outputTokens: 415
 currency: USD
 score: 7.5
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.0099715
-finalCost: 0.0099715
+estimatedCost: 0.01021825
+finalCost: 0.01021825
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Un’apertura immersiva: sento subito la sete dei piccoli e voglio sapere se Nira e Bomo riusciranno a tornare con qualcosa. La tensione è fisica e trattenuta, ma nella seconda scena a tratti ristagna.
+Ho sentito subito il caldo e capito perché Nira e Bomo non possono restare con i piccoli. Mi ha incuriosito vedere come avrebbero raggiunto le provviste, anche se il capitolo mi ha fatto aspettare un po’ troppo prima che la situazione cambiasse.
 
 ## Punti di forza
 
-- Lo schiocco della lingua che si stacca dal palato rende la sete concreta senza bisogno di spiegarla.
-- Nira e Bomo si distinguono attraverso i gesti: lei conta e osserva, lui tende la mano verso la pila.
-- Kaza che conta i frutti col naso e poi barcolla sulla zampa destra è insieme minaccioso e vulnerabile.
+- La lingua che si stacca dal palato con un rumore secco fa sentire l’urgenza della sete senza bisogno di spiegarla.
+- Il respiro di Nira, che nella seconda scena riprende al ritmo del cucciolo, tiene presenti i piccoli anche quando sono fuori vista.
+- Il gesto finale distingue i due personaggi senza dialogo: all’inizio Nira trattiene Bomo, alla fine lui si trattiene da solo.
 
 ## Punti di debolezza
 
-- I ritorni su respiri, orecchie tese e silenzio ribadiscono spesso la stessa attesa senza che la situazione cambi.
-- Capisco che Nira e Bomo non vogliono farsi notare da Kaza, ma l’insistenza sull’ombra che si allunga mi fa pensare a un piano di cui non colgo ancora la logica.
+- Caldo, aria immobile, orecchie tese e appoggio incerto di Kaza tornano più volte: alcuni richiami aggiungono tensione, altri confermano ciò che avevo già capito.
+- Ho capito che la pozza è allo scoperto e Kaza blocca la via alla frutta, ma ho dovuto rileggere «a lato del varco per la pila» per orientarmi.
 
 ## Momento più efficace
 
-Nira trattiene l’avambraccio di Bomo e per un istante respira come il piccolo sotto l’Albero Basso: il gesto tiene insieme l’urgenza di agire e la necessità di aspettare.
+Quando Nira trattiene Bomo con il polso e riprende a respirare al ritmo del cucciolo: in un gesto si sentono sia l’urgenza sia la necessità di non cedere alla fretta.
 
 ## Problema principale
 
-La seconda scena prolunga l’attesa con più microgesti simili di quanti ne servano a mantenere la tensione.
+Il ritmo rallenta quando l’attesa non porta una nuova informazione o una scelta, soprattutto nei ripetuti cambi d’appoggio di Kaza.
 
 ## Suggerimento prioritario
 
-Sfoltire le riprese sensoriali che non cambiano la situazione e, se l’ombra determina il momento di agire, dare un indizio concreto su ciò che cambierà quando raggiungerà la pozza.
+Snellire prima la seconda scena, tenendo i dettagli che cambiano la decisione dei due: la zampa cede, poi l’ombra impedisce a Nira di capire se Kaza stia per muoversi.
 
 ## Punteggio
 

@@ -15,12 +15,12 @@ title: Grande libro della giungla Plot
 
 ## Chapter 001 Capitolo 1 - L'ombra che pesa
 
-All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia; Nira ascolta i loro respiri prima di avviarsi con Bomo verso il Terminale di Salsedine. Nella radura, dove l’acqua si ritira e l’ombra si allunga presto, i due osservano Kaza, sveglio e vigile, contare la frutta secca con il naso e appoggiare a fatica la zampa destra. Bomo tende la mano verso la frutta, ma Nira lo trattiene; quando il leone alza la testa a un fruscio, Bomo ritira la mano e dice «Non ora».
+All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia. Dopo aver ascoltato i loro respiri, Nira segue l’indicazione di Bomo e si avvia con lui verso il Terminale di Salsedine, dove la pozza si ritira e Kaza, sveglio e vigile, conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora», e i due restano al riparo.
 
 ### What Happens
 
-- Mentre i piccoli respirano a fatica nell’ombra sempre più corta dell’Albero Basso, Bomo dice che non reggeranno e indica il Terminale di Salsedine. Nira lascia i piccoli all’ombra e, seguita da Bomo, si dirige verso la radura, dove l’acqua della pozza si ritira accanto a una pila di frutta secca.
-- Dietro una radice, Nira e Bomo osservano Kaza contare i frutti e muoversi con cautela sulla zampa destra che cede. Nira trattiene Bomo quando allunga la mano verso la frutta secca; al primo fruscio Kaza alza la testa e Bomo ritira la mano, rimandando il tentativo.
+- Mentre i piccoli respirano a fatica nell’ombra sempre più stretta dell’Albero Basso, Bomo indica a Nira il Terminale di Salsedine, dove restano una pozza che si ritira e una pila di frutta secca. I due lasciano i piccoli sotto l’albero e si avviano verso la radura, con Nira davanti.
+- Nira e Bomo restano nascosti dietro una radice mentre Kaza, incerto sulla zampa destra, rinuncia a raggiungere la pozza e torna a presidiare la pila, lasciando scoperto il tragitto verso l’acqua. Nira trattiene Bomo quando allunga la mano verso la frutta secca, ma al successivo scricchiolio è lui stesso a tenere indietro la mano.
 
 ### Secrets Revealed
 
