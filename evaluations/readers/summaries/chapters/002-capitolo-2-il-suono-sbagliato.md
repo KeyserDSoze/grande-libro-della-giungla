@@ -2,7 +2,7 @@
 id: reader-evaluation-summary:chapter:002-capitolo-2-il-suono-sbagliato:chapter
 type: readerEvaluationSummary
 createdAt: 2026-11-25T01:14:20.526Z
-updatedAt: 2026-11-27T08:15:03.091Z
+updatedAt: 2026-11-27T09:13:31.223Z
 targetType: chapter
 targetId: chapter:002-capitolo-2-il-suono-sbagliato
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -15,17 +15,17 @@ readerIds:
   - reader:standard.plot
 readerCount: 5
 language: it
-sourceContentHash: b512039f20c83f83273d5c31aa29b4d81cb274b8d9b4d1858979597f846ba471
-sourceContentVersion: e1a671e0c285f8ea29a3e3441f654b7bbd7df9efb201cdfe1230912f5a7a8d8a:66e9a74b225022964b88d5de80caa5af7f54ee221afd02c96f9e59ad65b32822
+sourceContentHash: 06133813c0b3832ae1202b3f4ec5d8acc302f4b2aeecc15d27dba700e69c8e96
+sourceContentVersion: 87f018d53aef29259b2054c73ca7c1fa1ccf6ce5539bf0d04f385d5dfa9a9caa:ecf8146f6365c1e7b8a945d11b4106fda0535762ee6f9a93787277036352e954
 routerTask: reader-evaluation-summary
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2385
-outputTokens: 554
-finalCost: 0.011929750000000001
+inputTokens: 2405
+outputTokens: 559
+finalCost: 0.01203475
 currency: USD
-score: 7.2
+score: 7
 status: completed
 refs:
   - reader-evaluation:chapter:002-capitolo-2-il-suono-sbagliato:chapter:standard-general
@@ -40,44 +40,43 @@ generatedBy: autopilot
 
 ## Convergenze
 
-- L’eco è una scoperta chiara e un progresso tattico, ma non è ancora dimostrato che liberi il passaggio alla pozza.
-- Quattro lettori su cinque segnalano un problema di ritmo o avanzamento legato alle prove; non tutti lo collocano nello stesso punto.
+- Il bisogno d’acqua dei piccoli dà senso al diversivo; i gesti rendono concreta la posta in gioco.
+- La preparazione può guadagnare ritmo e chiarezza, ma i lettori individuano ostacoli diversi.
 
 ## Disaccordi
 
-- Per l’emotivo il piede ritirato di Bomo comunica un’esitazione credibile; per il lettore dei personaggi il gesto mostra il conflitto ma non spiega la scelta, riserva condivisa dal critico.
-- Per il lettore di trama la raffica è il momento migliore perché scoperta e incertezza coincidono; per il critico è una coincidenza conveniente che non produce la verifica decisiva.
-- Generalista ed emotivo privilegiano uno snellimento che conservi la tensione; critico e lettore di trama vogliono anche una reazione osservabile di Kaza in chiusura.
+- Il generalista (8) trova il finale il momento più efficace; il critico (5,5) lo considera il problema principale e, come il lettore di trama (7), chiede una prima reazione di Kaza all’eco.
+- La geografia rallenta generalista ed emotivo (7,5), ma per il lettore di trama chiarisce lo scopo del piano.
+- Il passo interrotto di Bomo funziona come conflitto per l’emotivo e rinnova l’urgenza per il lettore di trama; per il lettore dei personaggi (7) e il critico il ripensamento è poco motivato.
 
 ## Punti di forza ricorrenti
 
-- La pausa e il ritorno più netto rendono l’eco riconoscibile senza spiegazioni tecniche.
-- Il respiro irregolare del piccolo dà urgenza fisica alla ricerca.
-- La prova del ramo distingue l’attenzione di Kaza dalla sua disponibilità a spostarsi.
+- Il ricordo dei tamburi rende intuitiva e riproducibile la scoperta dell’eco.
+- La zampa ferita di Kaza distingue il semplice accorgersi di un rumore dallo spostarsi.
+- Il respiro del piccolo e il contatto al polso di Bomo comunicano paura e vicinanza senza spiegazioni.
 
 ## Problemi ricorrenti
 
-- La preparazione con pietre, solco e curva rallenta la scena o attenua l’urgenza.
-- La chiusa verifica che Nira sente l’eco, non come Kaza reagisce al ritorno del suono.
+- Le prove preparatorie possono attenuare l’urgenza dei piccoli o rinviare troppo l’informazione attesa.
+- La disposizione di roccia, Kaza e pozza richiede una rilettura per alcuni.
+- La decisione di Bomo di restare per l’ultima prova non fa sentire a tutti il costo dell’attesa.
 
 ## Suggerimenti prioritari
 
-- Comprimere i gesti ripetuti senza confondere tintinnio ed eco né perdere la pausa.
-- Valutare un primo segnale di Kaza, anche minimo o deludente, senza risolvere l’accesso alla pozza.
-- Chiarire con un gesto o uno sguardo che cosa induce Bomo a restare, conservando il silenzio.
+- Comprimere le prove dopo il primo eco e valutare una reazione leggibile di Kaza, senza rivelare se la via si apra.
+- Chiarire subito che la roccia e l’accesso alla pozza sono su lati opposti rispetto a Kaza.
+- Dare al ripensamento di Bomo un gesto o una breve battuta che ne faccia sentire il costo.
 
 ## Osservazioni isolate
 
-- Il generalista fatica a visualizzare Kaza rispetto al tratto scoperto.
-- Il lettore di trama comprende solo a posteriori il passaggio al letto basso.
-- Il lettore dei personaggi apprezza la complementarità tra la memoria sensoriale di Bomo e l’orientamento all’obiettivo di Nira.
+- Solo il critico trova poco convincente la raffica che mette in moto la pietra al momento utile.
 
 ## Priorità di revisione
 
-- Snellire i preparativi.
-- Decidere se chiudere la verifica acustica con una conseguenza osservabile su Kaza.
-- Rendere leggibile la motivazione di Bomo senza esplicitarla a parole.
+- Scegliere quale domanda lasciare aperta nel finale: se Kaza reagirà o se la sua reazione basterà a far passare Nira.
+- Snellire le prove mantenendo il legame con la sete dei piccoli.
+- Rendere leggibili con pochi dettagli la geografia e la scelta di Bomo.
 
 ## Punteggio complessivo
 
-7.2/10
+7/10

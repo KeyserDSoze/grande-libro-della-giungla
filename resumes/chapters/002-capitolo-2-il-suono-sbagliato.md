@@ -5,45 +5,51 @@ title: Resume 002-capitolo-2-il-suono-sbagliato
 chapter: chapter:002-capitolo-2-il-suono-sbagliato
 state_changes:
   locations:
-    - Nira e Bomo lasciano il riparo della radice nella radura e scendono alla
-      riva del letto basso, da cui la radura è visibile. La faccia lucida della
-      roccia si trova all’estremità opposta del letto.
-    - Kaza resta presso la pila di frutta; i piccoli sono rimasti all’Albero
-      Basso.
+    - Nira e Bomo lasciano il riparo della radice nella radura e scendono verso
+      il letto basso. Alla chiusura sono sulla ghiaia della riva, accanto al
+      solco e sotto la curva del sentiero, con Kaza in vista.
+    - Kaza resta nella radura presso la fila della frutta, accanto all’imbocco
+      del tratto scoperto che conduce alla pozza.
+    - L’ultima posizione nota dei piccoli resta l’ombra dell’Albero Basso.
   knowledge_gain:
-    - Nella radura il ramo e le pietre sulla sabbia non producono eco. Kaza
-      sente il tonfo del ramo, ma non lascia la frutta.
-    - Sulla riva il solco guida la prima pietra contro il sassolino. La Roccia
-      del Ritardo restituisce il tintinnio più pieno e netto dopo una breve
-      pausa; una raffica riesce a provocare lo stesso urto e l’eco si distingue
-      anche dalla curva del sentiero.
-    - Per verificare se Kaza avverte l’eco occorre osservare le sue orecchie al
-      ritorno del suono, non al primo tintinnio.
+    - Nelle prove sulla sabbia della radura, il tonfo del ramo e il tintinnio
+      delle pietre non producono eco. Kaza alza la testa al tonfo, ma non lascia
+      la frutta.
+    - Il solco della riva guida una pietra contro un sassolino. Dopo una breve
+      pausa, la faccia lucida della roccia rimanda un suono più pieno e netto,
+      sia con una spinta di Nira sia con una raffica; il ritorno si sente anche
+      dalla curva.
+    - Bomo dà alla roccia il nome di Roccia del Ritardo e distingue il primo
+      tintinnio dal ritorno del suono come momento in cui osservare Kaza.
   inventory_add:
-    - "Due pietre sono predisposte nel solco sulla riva: quella raccolta da Nira
-      è rimessa a monte, davanti al sassolino già presente."
+    - Per la prova sulla riva vengono disposte nel solco una pietra liscia
+      raccolta da Nira e un sassolino già sul posto; non sono portati via.
   inventory_remove: []
   relationship_updates:
-    - "Nira e Bomo collaborano alla prova: lei dispone e riposiziona le pietre,
-      lui le indica quando osservare Kaza. Bomo dice che tornerà dai piccoli e
-      accenna un passo verso la salita, ma alla fine resta con Nira."
+    - Bomo propone di far allontanare Kaza dalla frutta; Nira intende
+      raggiungere la pozza se il leone si sposta.
+    - Bomo dice che resterà solo per questa prova e raggiunge Nira sulla ghiaia
+      per osservare Kaza con lei.
   conditions:
-    - Kaza carica con cautela il peso sulla zampa destra durante la prova del
-      ramo, senza spostarsi dalla frutta.
-    - Nira e Bomo non hanno ancora raggiunto né la pozza né la frutta. Le
-      condizioni dei piccoli non vengono verificate in questo capitolo.
+    - Al tonfo Kaza carica con cautela il peso sulla zampa destra, poi torna a
+      sfiorare la frutta con il naso senza spostarsi.
+    - Non vengono recuperate né acqua né frutta; in questo capitolo i piccoli
+      compaiono solo nel ricordo di Nira.
+    - "Alla chiusura la pietra a monte ha appena cominciato a rotolare: il nuovo
+      urto, l’eco e l’eventuale reazione di Kaza non sono ancora narrati."
   open_loops_add:
-    - Kaza muoverà le orecchie al suono di ritorno? Se lo seguirà verso la
-      roccia, lascerà libero il tratto scoperto che porta alla pozza?
+    - Kaza muoverà le orecchie al ritorno del suono, anziché al primo tintinnio?
+      Anche se lo sentirà, lascerà la frutta abbastanza a lungo da permettere a
+      Nira di raggiungere la pozza?
   open_loops_resolved:
-    - È stato trovato un punto in cui il tintinnio torna con un ritardo
-      percepibile, ed è stato osservato che una raffica può provocare l’urto
-      senza che Nira spinga la pietra.
+    - "Nira e Bomo trovano sulla riva un modo ripetibile di ottenere un’eco:
+      l’urto delle pietre nel solco produce un suono che la roccia lucida
+      restituisce."
 ---
 
 # Chapter Summary
 
-Il ricordo dei tamburi guida due prove nella radura e una sulla riva: l’eco si sente, ma il suo effetto su Kaza resta da verificare.
+Bomo e Nira passano dal ricordo dei tamburi alle prove nella radura e sulla riva. Trovano un’eco, ma non sanno ancora se servirà a distrarre Kaza.
 
-- **Il ricordo che vibra.** Dietro la radice, Bomo ricorda come il fiume restituisse i colpi dei tamburi dopo un battito di silenzio. Lascia cadere un ramo: Kaza alza la testa, carica con cautela il peso sulla zampa destra e torna ad abbassare il muso sulla frutta senza fare un passo. Nira prova con due pietre, ma sulla sabbia la prima devia e sfiora appena la seconda. Nessuno dei due suoni torna; Nira imbocca il sentiero verso il letto basso e Bomo la segue.
-- **La roccia che parla.** Sulla riva Nira allinea due pietre in un solco e spinge la prima contro la seconda. La roccia lucida restituisce il tintinnio più pieno e netto dopo una pausa; Bomo la battezza Roccia del Ritardo. Nira riposiziona la pietra e arretra alla curva: una raffica ripete l’urto e l’eco, ma lei guarda verso Kaza troppo tardi per vedere se ha mosso le orecchie. Bomo accenna a tornare dai piccoli, poi rimane; Nira rimette la pietra a monte e fissa le orecchie del leone, pronta a distinguere un’eventuale reazione all’eco da una al primo tintinnio.
+- **Il ricordo che vibra.** Dietro la radice, Bomo ricorda il colpo del tamburo e il silenzio prima che l’acqua lo restituisse. Propone di attirare Kaza lontano dalla frutta con un suono; Nira vuole approfittarne per arrivare alla pozza. Bomo lascia cadere un ramo: il tonfo non torna e Kaza alza la testa senza spostarsi. Nira fa urtare di striscio due pietre sulla sabbia, ma anche il tintinnio si spegne senza eco. Lei imbocca il sentiero verso il letto basso, seguita da Bomo.
+- **La roccia che parla.** Sulla riva Nira allinea due pietre in un solco in lieve discesa e spinge la prima contro la seconda. Dopo una pausa, la roccia lucida restituisce un suono più pieno e netto; Bomo la chiama Roccia del Ritardo. Dalla curva Nira sente lo stesso ritorno quando una raffica muove la pietra, ma alza gli occhi troppo tardi per vedere le orecchie di Kaza. Bomo dice che resta solo per un’altra prova e le suggerisce di osservare il leone al ritorno del suono, non al primo tintinnio. Nira rimette la pietra a monte e fissa le orecchie di Kaza mentre il vento la fa rotolare; Bomo è accovacciato al suo fianco.

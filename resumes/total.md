@@ -12,7 +12,7 @@ All’Albero Basso, i piccoli hanno sete e respirano a fatica mentre l’ombra s
 
 ## Chapter 002 Capitolo 2 - Il suono sbagliato
 
-Bomo ricorda il breve silenzio prima che l’acqua del fiume restituisse i colpi dei tamburi e propone di cercare un suono che allontani Kaza dalla frutta. Nella radura né il tonfo di un ramo né il tintinnio delle pietre producono un’eco: il leone alza la testa al tonfo, ma non si sposta. Sulla riva, due pietre allineate in un solco producono un suono che la roccia lucida rimanda più pieno e netto, sia quando Nira spinge la prima sia quando la muove una raffica; Bomo la chiama Roccia del Ritardo. Nira rimette la pietra a monte e fissa le orecchie di Kaza, senza sapere ancora se reagirà all’eco.
+Bomo ricorda il breve silenzio prima che l’acqua restituisse il colpo del tamburo e propone di trovare un suono che induca Kaza a lasciare la frutta, così Nira potrà raggiungere la pozza. Nella radura né il tonfo di un ramo né il tintinnio di due pietre producono un’eco: al tonfo il leone alza la testa, ma non lascia il suo posto. Sulla riva, la roccia lucida rimanda un suono più pieno e netto quando Nira spinge una pietra contro un sassolino lungo un solco; una raffica ripete la prova e Bomo chiama la parete Roccia del Ritardo. Il capitolo si chiude mentre il vento rimette in moto la pietra e Nira fissa le orecchie di Kaza: non si sa ancora se il leone reagirà all’eco.
 
 ## Chapter 003 Capitolo 3 - Il pasto che resta
 
