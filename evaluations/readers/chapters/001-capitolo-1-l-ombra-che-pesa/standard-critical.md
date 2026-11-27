@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-critical
 type: readerEvaluation
 createdAt: 2026-11-24T22:34:50.237Z
-updatedAt: 2026-11-27T08:02:49.000Z
+updatedAt: 2026-11-27T08:38:39.257Z
 targetType: chapter
 targetId: chapter:001-capitolo-1-l-ombra-che-pesa
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,52 +13,53 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: c29e7ccf39ef77bc31692db907a75df3e91caba9dc05435ab805257ccb3444a4
-sourceContentVersion: 63c14eedd69c643117d58f89693453fb436381a8efba071f1cd2b8d7ea2045c6:ee43f94f0bd193e87d05021937ae9b4ab6cdcbc8f018a87119ab0346a08b2548
-sourceUpdatedAt: 2026-11-27T08:02:49.000Z
+sourceContentHash: 78e9ad420a6256988aa955e145ee9e047bbcfc47d93933d6ab9e7b14852f7b4a
+sourceContentVersion: a24883936186e5b6484e84545b17965e13fbcdfdf5dfb7aed2de7bf286bf3970:f766843036ea419db4e26c2bff8cfd382459602bb32d3fb0160aceb507039703
+sourceUpdatedAt: 2026-11-27T08:38:39.257Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2533
-outputTokens: 475
+inputTokens: 2152
+outputTokens: 466
 currency: USD
-score: 5.5
+score: 6
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.011082749999999999
-finalCost: 0.011082749999999999
+estimatedCost: 0.01029
+finalCost: 0.01029
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-La sete è concreta e il conflitto per le risorse è leggibile, ma il capitolo dedica più spazio a ribadire l’urgenza che a farla incidere sulle decisioni.
+L’emergenza si sente nel corpo prima di essere spiegata, ma il capitolo spende più tempo a ribadirla che a farla evolvere.
 
 ## Punti di forza
 
-- La lingua che si stacca dal palato con un rumore secco rende la sete più convincente delle dichiarazioni sul caldo.
-- Nella seconda scena, l’ombra che raggiunge la zampa di Kaza non fa solo atmosfera: impedisce a Nira di distinguere un cambio di peso dall’inizio di un passo.
+- La lingua che si stacca dal palato «con un rumore secco» rende la sete più concreta della battuta «Non reggono».
+- La seconda scena distingue le priorità senza dichiararle in dialogo: Nira guarda l’acqua, Bomo allunga la mano verso la frutta.
 
 ## Punti di debolezza
 
-- L’apertura accumula respiri, deglutizioni, calore e richiami all’ombra che si accorcia; diversi dettagli ribadiscono il pericolo senza cambiarne la percezione.
-- «L’acqua viene prima» stabilisce una priorità, ma l’attesa si organizza intorno al varco per la frutta. Si capisce l’impulso di Bomo, non perché Nira finisca per aspettare secondo quella logica anziché preparare l’accesso alla pozza.
-- Lo scambio «È lì» / «Sì» verbalizza ciò che entrambi vedono già, senza aggiungere informazione o attrito.
+- Nella prima scena il bordo dell’ombra, le palpebre e il fiato corto tornano più volte dopo che il pericolo è chiaro; l’urgenza dichiarata non trova riscontro nel ritmo.
+- «Terminale di Salsedine» e «Lì c’è l’acqua che si ritira» suonano come informazioni predisposte per il lettore, soprattutto perché Nira sembra già conoscere il luogo.
+- La mano di Bomo si protende verso una pila esplicitamente oltre la sabbia scoperta: non è chiaro se stia per uscire dal riparo o se il gesto serva soltanto a farsi trattenere.
+- L’ombra si accorcia all’Albero Basso e avanza nella radura: non è necessariamente incoerente, ma manca un riferimento spaziale che renda leggibile il cambio d’appoggio di Kaza.
 
 ## Momento più efficace
 
-Bomo trattiene da sé la mano dopo che Nira ha staccato il polso dal suo avambraccio: il gesto ripetuto cambia significato e mostra un cambiamento senza spiegarlo.
+Bomo ritira la mano appena vede scattare le orecchie di Kaza: per un attimo un dettaglio fisico cambia davvero la condotta dei personaggi.
 
 ## Problema principale
 
-L’urgenza fisica e l’obiettivo pratico non restano allineati: il capitolo apre sulla sete dei piccoli e sospende l’azione sull’accesso alla frutta senza rendere leggibile il passaggio.
+La seconda scena termina con i due ancora al riparo, e il «Non ora» ribadisce un impedimento già leggibile; il passaggio dalle condizioni dei piccoli all’ostacolo di Kaza aggiunge tensione, ma il finale non ne cambia abbastanza i termini.
 
 ## Suggerimento prioritario
 
-Chiarire quale risorsa i due vogliono raggiungere per prima e quale movimento di Kaza stanno aspettando; poi sfoltire i segnali di caldo e sete che non cambiano la situazione.
+Ridurre i richiami a sete e ombra una volta stabilita l’emergenza; usare quello spazio per chiarire che cosa Bomo sta per fare e far sì che il «Non ora» abbia una conseguenza concreta.
 
 ## Punteggio
 
-5.5/10
+6/10

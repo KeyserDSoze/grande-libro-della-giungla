@@ -5,12 +5,12 @@ File generato dall'autopilot: lo stato completo è in `autopilot/state.json`.
 - Approvato dal direttore: sì
 - Capitoli: 3
 
-## 001 Capitolo 1 - L'ombra che pesa (approvato · 8.6/10)
+## 001 Capitolo 1 - L'ombra che pesa (approvato · 9/10)
 
-All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia. Dopo aver ascoltato i loro respiri, Nira segue l’indicazione di Bomo e si avvia con lui verso il Terminale di Salsedine, dove la pozza si ritira e Kaza, sveglio e vigile, conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora», e i due restano al riparo.
+All’Albero Basso, i piccoli hanno sete e respirano a fatica mentre l’ombra si accorcia. Bomo indica a Nira il Terminale di Salsedine, dove i due, riparati dietro una radice, vedono la pozza ritirata e Kaza che conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora». I due restano al riparo senza prendere acqua né frutta.
 
-- 1. Scena 1 - Lingua appiccicosa all'Albero Basso — Mentre i piccoli respirano a fatica nell’ombra sempre più stretta dell’Albero Basso, Bomo indica a Nira il Terminale di Salsedine, dove restano una pozza che si ritira e una pila di frutta secca. I due lasciano i piccoli sotto l’albero e si avviano verso la radura, con Nira davanti.
-- 2. Scena 2 - Naso che conta all'ombra — Nira e Bomo restano nascosti dietro una radice mentre Kaza, incerto sulla zampa destra, rinuncia a raggiungere la pozza e torna a presidiare la pila, lasciando scoperto il tragitto verso l’acqua. Nira trattiene Bomo quando allunga la mano verso la frutta secca, ma al successivo scricchiolio è lui stesso a tenere indietro la mano.
+- 1. Scena 1 - Lingua appiccicosa all'Albero Basso — Mentre l’ombra dell’Albero Basso si accorcia e i piccoli respirano a fatica per il caldo, Bomo indica a Nira il Terminale di Salsedine, dove ci sono acqua che si ritira e frutta secca. I due lasciano i piccoli immobili sotto l’albero ed entrano senza voltarsi nella radura del Terminale, con Nira davanti.
+- 2. Scena 2 - Naso che conta all'ombra — Nascosti dietro una radice, Nira e Bomo osservano Kaza, che conta la frutta secca sfiorandola col naso e accenna a dirigersi verso la pozza, ma torna indietro quando la zampa destra cede per un istante. Nira trattiene Bomo quando allunga la mano verso la pila; quando il leone guarda la sabbia scoperta, anche lei si ferma prima di uscire allo scoperto e Bomo dice «Non ora» e si ritrae.
 
 ## 002 Capitolo 2 - Il suono sbagliato (approvato · 8.8/10)
 
@@ -28,15 +28,15 @@ Nira fa urtare una pietra contro un sassolino nel solco: l’eco della Roccia de
 
 ## Indicazioni del direttore
 
-- Mostra la scorta condivisa attraverso chi la alimenta e chi sceglie di non prenderne altro. Non trasformare la rinuncia di Bomo al quinto frutto in una spiegazione a posteriori.
-- Nel prossimo tentativo la radice serve a ritrovare il solco con gli occhi, non a garantirne l’accesso. Fa’ cambiare la prima mossa di Nira in base alla maggiore distanza dell’acqua, senza ripetere il dettaglio delle labbra.
-- Nei confronti senza parole, chiarisci che cosa rende rischiosa l’alternativa scartata e lascia al lettore la reazione dell’altro. Se la striscia d’ombra torna utile, trattala come spazio libero, non come permesso di Kaza.
-- Quando un conteggio definisce il limite di un’azione, mostra subito quali oggetti ne restano fuori e chi ha le mani libere per prenderli.
-- Nel prossimo tentativo, usa la radice per ritrovare il solco con gli occhi, non come via d’accesso garantita. La maggiore distanza dell’acqua deve cambiare la prima mossa di Nira; non ripetere il dettaglio delle labbra.
-- Se torna utile la striscia d’ombra, mostra che cosa permette di fare senza trasformarla in un assenso di Kaza.
-- Nel prossimo tentativo, usa la radice per ritrovare il solco con gli occhi, non come accesso garantito. Fai cambiare la prima mossa di Nira per la maggiore distanza dell’acqua, senza ripetere le labbra asciutte.
-- Continua a mostrare la scorta condivisa attraverso chi vi porta cibo e chi sceglie di lasciarne. Quando le quantità contano, distingui ciò che viene portato via, ciò che resta al suo posto e ciò che viene soltanto spostato.
-- Se torna utile la striscia d’ombra, mostra che cosa permette materialmente di fare senza trasformare lo spostamento di Kaza in un assenso.
-- Alla prossima ricerca d’acqua, usa la radice per ritrovare il solco con gli occhi. Fai cambiare la prima mossa di Nira per la maggiore distanza tra il bordo e la corrente, anziché ripetere il dettaglio delle labbra.
-- Quando una risorsa torna raggiungibile, distingui ciò che i personaggi riescono a vedere, ciò che possono raggiungere e ciò che Kaza ha effettivamente concesso. Una striscia d’ombra libera non è un permesso.
-- Nei confronti senza parole, rendi concreto il rischio dell’alternativa scartata e lascia che il gesto mostri la scelta. Non spiegare a posteriori che cosa l’altro personaggio ne abbia capito.
+- Quando un gesto prepara una scelta nella scena successiva, lascia che sia l’azione a raccoglierlo: la mano vuota del piccolo basta a dare peso alla mano di Bomo che cerca la frutta.
+- Descrivi un percorso nell’ordine in cui i personaggi lo percorrerebbero. Se poi cambia il rischio, mostra che cosa ora è sorvegliato, senza ridisegnare il tragitto.
+- Fra due scene consecutive, colloca il primo riparo rispetto all’ultimo punto raggiunto. Basta il movimento che porta i personaggi al coperto; non serve ridisegnare la radura.
+- Quando una scena è ancorata a un personaggio, mostra l’impulso dell’altro attraverso un gesto osservabile, senza dichiarare quando ne diventa consapevole.
+- Se un respiro o un altro dettaglio corporeo ritorna da una scena all’altra, ancora il richiamo allo stesso personaggio con un tratto già visto, senza ricapitolare la scena precedente.
+- In una chiusa d’attesa, non aggiungere un ostacolo solo per far sentire il costo: mostra a quale possibilità il personaggio rinuncia quando cambia il rischio.
+- Se una meta è già stata nominata, usa il primo scorcio per segnare l’arrivo; riserva il quadro completo al punto da cui si capisce che cosa ostacola i personaggi.
+- Nei richiami corporei, distingui un altro respiro da una ripresa del fiato: la seconda implica un’interruzione che il lettore deve poter riconoscere.
+- Quando due personaggi restano a contatto durante un movimento, chiarisci nel gesto stesso che cosa si sposta e che cosa resta a contatto. Non lasciare che sia il distacco successivo a spiegarlo.
+- Una volta stabilita l’urgenza fisica, tieni i dettagli successivi che aggiungono un bisogno o cambiano una scelta: la mano vuota aggiunge la fame, un’altra deglutizione ribadisce la sete.
+- Quando mostri la fragilità di chi sorveglia una risorsa, mostra anche che cosa riesce ancora a controllare: un limite visibile non equivale a un varco.
+- Se un personaggio nomina una meta prima di raggiungerla, ancora il dettaglio visivo successivo al luogo in cui si trova, soprattutto se lo stesso dettaglio ricomparirà all’arrivo.

@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-general
 type: readerEvaluation
 createdAt: 2026-11-24T22:30:58.219Z
-updatedAt: 2026-11-27T08:02:37.786Z
+updatedAt: 2026-11-27T08:38:28.186Z
 targetType: chapter
 targetId: chapter:001-capitolo-1-l-ombra-che-pesa
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,52 +13,52 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: c29e7ccf39ef77bc31692db907a75df3e91caba9dc05435ab805257ccb3444a4
-sourceContentVersion: 63c14eedd69c643117d58f89693453fb436381a8efba071f1cd2b8d7ea2045c6:ee43f94f0bd193e87d05021937ae9b4ab6cdcbc8f018a87119ab0346a08b2548
-sourceUpdatedAt: 2026-11-27T08:02:37.786Z
+sourceContentHash: 78e9ad420a6256988aa955e145ee9e047bbcfc47d93933d6ab9e7b14852f7b4a
+sourceContentVersion: a24883936186e5b6484e84545b17965e13fbcdfdf5dfb7aed2de7bf286bf3970:f766843036ea419db4e26c2bff8cfd382459602bb32d3fb0160aceb507039703
+sourceUpdatedAt: 2026-11-27T08:38:28.186Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2519
-outputTokens: 415
+inputTokens: 2138
+outputTokens: 353
 currency: USD
-score: 7.5
+score: 8
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.01021825
-finalCost: 0.01021825
+estimatedCost: 0.0086835
+finalCost: 0.0086835
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Ho sentito subito il caldo e capito perché Nira e Bomo non possono restare con i piccoli. Mi ha incuriosito vedere come avrebbero raggiunto le provviste, anche se il capitolo mi ha fatto aspettare un po’ troppo prima che la situazione cambiasse.
+Un’apertura immersiva: la sete dei piccoli rende subito importante la spedizione, e Kaza trasforma una meta a portata di vista in un ostacolo concreto.
 
 ## Punti di forza
 
-- La lingua che si stacca dal palato con un rumore secco fa sentire l’urgenza della sete senza bisogno di spiegarla.
-- Il respiro di Nira, che nella seconda scena riprende al ritmo del cucciolo, tiene presenti i piccoli anche quando sono fuori vista.
-- Il gesto finale distingue i due personaggi senza dialogo: all’inizio Nira trattiene Bomo, alla fine lui si trattiene da solo.
+- La lingua che si stacca dal palato con un rumore secco rende la sete più tangibile di qualsiasi spiegazione.
+- Il respiro di Nira dietro la radice riprende il ritmo del cucciolo: la seconda scena conserva così l’urgenza della prima senza ripeterla a parole.
+- Il gesto con cui Nira trattiene Bomo e il «Non ora» di lui fanno emergere il loro rapporto senza spiegarlo.
 
 ## Punti di debolezza
 
-- Caldo, aria immobile, orecchie tese e appoggio incerto di Kaza tornano più volte: alcuni richiami aggiungono tensione, altri confermano ciò che avevo già capito.
-- Ho capito che la pozza è allo scoperto e Kaza blocca la via alla frutta, ma ho dovuto rileggere «a lato del varco per la pila» per orientarmi.
+- Nella seconda scena, i ripetuti spostamenti di sguardo, zampa, mano e polso rallentano l’attesa proprio quando la minaccia è ormai chiara.
+- Al primo passaggio ho dovuto ricostruire la posizione di Kaza rispetto alla radice, alla pozza e alla pila, mentre la striscia d’ombra avanza.
 
 ## Momento più efficace
 
-Quando Nira trattiene Bomo con il polso e riprende a respirare al ritmo del cucciolo: in un gesto si sentono sia l’urgenza sia la necessità di non cedere alla fretta.
+Nira lascia i piccoli e uno di loro guarda il punto della corteccia dove lei teneva la guancia: il distacco si sente in un dettaglio, senza bisogno di commento.
 
 ## Problema principale
 
-Il ritmo rallenta quando l’attesa non porta una nuova informazione o una scelta, soprattutto nei ripetuti cambi d’appoggio di Kaza.
+Nella seconda scena seguire la disposizione dei corpi e i microgesti richiede a tratti più attenzione che seguire il pericolo.
 
 ## Suggerimento prioritario
 
-Snellire prima la seconda scena, tenendo i dettagli che cambiano la decisione dei due: la zampa cede, poi l’ombra impedisce a Nira di capire se Kaza stia per muoversi.
+Dare subito un riferimento spaziale netto nella radura, poi conservare soprattutto i movimenti che cambiano la possibilità di raggiungere l’acqua.
 
 ## Punteggio
 
-7.5/10
+8/10

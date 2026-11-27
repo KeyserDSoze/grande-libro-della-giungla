@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-characters
 type: readerEvaluation
 createdAt: 2026-11-24T22:36:38.253Z
-updatedAt: 2026-11-27T08:02:54.514Z
+updatedAt: 2026-11-27T08:38:44.511Z
 targetType: chapter
 targetId: chapter:001-capitolo-1-l-ombra-che-pesa
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,51 +13,50 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: c29e7ccf39ef77bc31692db907a75df3e91caba9dc05435ab805257ccb3444a4
-sourceContentVersion: 63c14eedd69c643117d58f89693453fb436381a8efba071f1cd2b8d7ea2045c6:ee43f94f0bd193e87d05021937ae9b4ab6cdcbc8f018a87119ab0346a08b2548
-sourceUpdatedAt: 2026-11-27T08:02:54.514Z
+sourceContentHash: 78e9ad420a6256988aa955e145ee9e047bbcfc47d93933d6ab9e7b14852f7b4a
+sourceContentVersion: a24883936186e5b6484e84545b17965e13fbcdfdf5dfb7aed2de7bf286bf3970:f766843036ea419db4e26c2bff8cfd382459602bb32d3fb0160aceb507039703
+sourceUpdatedAt: 2026-11-27T08:38:44.511Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2523
-outputTokens: 396
+inputTokens: 2142
+outputTokens: 388
 currency: USD
 score: 7.5
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.00995925
-finalCost: 0.00995925
+estimatedCost: 0.0091805
+finalCost: 0.0091805
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Credo all’urgenza e al modo in cui Nira e Bomo si regolano a vicenda. Mi manca però un indizio su che cosa renda la frutta così irresistibile proprio per Bomo, quando l’acqua viene prima.
+Mi ha convinto più la relazione fra Nira e Bomo che la loro caratterizzazione individuale. La cura di lei passa attraverso il corpo; di lui vedo l’impulso e la capacità di frenarsi, ma non capisco ancora che cosa renda la frutta così urgente ai suoi occhi.
 
 ## Punti di forza
 
-- Nira conta i respiri del cucciolo e ne riprende il ritmo mentre trattiene Bomo: la cura diventa un modo concreto di governare la propria paura.
-- Bomo individua la meta, poi rischia di cedere all’impulso e infine si trattiene da solo: la scena gli dà un piccolo arco senza ridurlo a spalla di Nira.
-- Kaza, tra il conteggio dei frutti e la zampa che cede, appare vigile e vulnerabile, non un semplice ostacolo.
+- Nira riprende dietro la radice il ritmo del respiro del cucciolo: la preoccupazione resta attiva anche quando i piccoli escono di scena.
+- Kaza torna a contare la scorta nonostante la zampa ceda: è una presenza vulnerabile, non solo un ostacolo.
 
 ## Punti di debolezza
 
-- Il piccolo che cerca un seme rende comprensibile l’urgenza della frutta per il gruppo, ma non distingue il movente di Bomo dall’urgenza comune.
-- I due «Sì» di Nira e le battute ellittiche di Bomo reggono la tensione, ma le loro voci sono meno riconoscibili dei loro gesti.
+- «L’acqua viene prima» chiarisce la gerarchia di Nira; la mano di Bomo tesa verso la frutta mostra una priorità diversa senza renderne leggibile la ragione.
+- Le battute sono credibilmente brevi nell’emergenza, ma distinguono i due meno dei gesti: Bomo segnala e decide, Nira risponde solo «Sì».
 
 ## Momento più efficace
 
-All’ultimo scricchiolio, Bomo tende l’avambraccio ma trattiene da sé la mano: il gesto ripete quello precedente cambiando chi lo controlla.
+«Non ora»: dopo essere stato trattenuto da Nira, è Bomo a trattenersi proprio quando lei si inclina verso la pozza. Il rovesciamento suggerisce una coppia capace di correggersi a vicenda.
 
 ## Problema principale
 
-Il passaggio di Bomo dall’impulso al controllo è leggibile; l’origine personale dell’impulso resta meno definita.
+Il contrasto tra acqua e frutta è leggibile come azione, meno come conflitto tra due valutazioni della stessa urgenza.
 
 ## Suggerimento prioritario
 
-Aggiungere un solo indizio, prima che Bomo tenda la mano, che leghi la pila a una sua preoccupazione specifica. Non serve sciogliere il silenzio con una spiegazione.
+Dare a Bomo un solo indizio, prima che allunghi la mano, che leghi la frutta alla sua lettura dei bisogni dei piccoli o del rischio immediato. Può bastare un gesto o una battuta breve.
 
 ## Punteggio
 

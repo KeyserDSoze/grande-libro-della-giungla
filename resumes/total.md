@@ -8,7 +8,7 @@ title: Total Resume
 
 ## Chapter 001 Capitolo 1 - L'ombra che pesa
 
-All’Albero Basso, i piccoli hanno sete e respirano a fatica sotto un’ombra che si accorcia. Dopo aver ascoltato i loro respiri, Nira segue l’indicazione di Bomo e si avvia con lui verso il Terminale di Salsedine, dove la pozza si ritira e Kaza, sveglio e vigile, conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora», e i due restano al riparo.
+All’Albero Basso, i piccoli hanno sete e respirano a fatica mentre l’ombra si accorcia. Bomo indica a Nira il Terminale di Salsedine, dove i due, riparati dietro una radice, vedono la pozza ritirata e Kaza che conta la frutta secca con il naso e appoggia a fatica la zampa destra. Nira trattiene Bomo quando tende la mano verso la pila; a un fruscio Kaza alza la testa, Bomo ritira la mano e dice «Non ora». I due restano al riparo senza prendere acqua né frutta.
 
 ## Chapter 002 Capitolo 2 - Il suono sbagliato
 

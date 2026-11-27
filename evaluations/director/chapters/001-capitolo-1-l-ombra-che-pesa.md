@@ -5,16 +5,16 @@ target_type: chapter
 target_id: chapter:001-capitolo-1-l-ombra-che-pesa
 title: 1. Capitolo 1 - L'ombra che pesa
 director: Il Direttore
-verdict: revise
-score: 8.6
+verdict: approve
+score: 9
 source: autopilot
-created_at: 2026-11-27T08:06:48.964Z
-source_hash: 243c2515933b924d3dc0404d196b0459a9c400369fd0bfdf98a454cb25b800c2
+created_at: 2026-11-27T08:41:51.814Z
+source_hash: 8ddf4be12ae16d4d5d376693fea110a612d0709a86abb2ff744f97b6d3a4128a
 model: gpt-6.2-sol
 provider: azure_openai
-input_tokens: 6768
-output_tokens: 2956
-cost: 0.053228
+input_tokens: 6238
+output_tokens: 1804
+cost: 0.036172499999999996
 currency: USD
 ---
 
@@ -22,43 +22,30 @@ currency: USD
 
 ## Verdetto
 
-**Da rivedere** — 8.6/10
+**Approvato** — 9/10
 
-Da rivedere con interventi mirati. Chiarezza 8,5/10: l’acqua viene prima per Nira e la frutta tenta Bomo; restano un riferimento vago al varco e un conteggio ambiguo. Ritmo 8/10: la partenza verso la radura ribadisce immagini già fissate e, nell’appostamento, uno sguardo ripete l’appoggio della zampa proprio prima che l’ombra cambi ciò che Nira può capire. Tensione 9/10: il fruscio fa alzare la testa a Kaza e trasforma l’impulso di Bomo in una rinuncia visibile. Coerenza con il canone 9/10: la zoppia emerge dal passo interrotto; il ritiro dell’acqua e il riflesso della roccia non svelano i segreti futuri. Resta una piccola discontinuità nello sguardo di Bomo. Forza stilistica 8,5/10: il fiato del cucciolo che ritorna nel respiro di Nira lega le due scene meglio di qualsiasi spiegazione; qualche immagine perde precisione perché non è subito chiaro a chi appartenga. Le priorità sono chiarire i riferimenti e togliere le ripetizioni che frenano l’azione, senza cambiare il finale.
+Approvato con due ritocchi locali nella scena 1. Chiarezza 8,5/10: quando Bomo nomina il Terminale, il bianco della sabbia può sembrare già un’immagine della meta; dalla radice, invece, si capisce quale tratto scoperto Kaza sorveglia. Ritmo 8,5/10: l’attesa avanza per cambi di rischio, ma all’arrivo tre richiami ravvicinati alla radura rallentano lo sguardo. Tensione 9/10: il «Non ora» non ripete il freno di Nira; ora Kaza guarda il passaggio verso l’acqua, Nira si ferma e Bomo arretra fino a perdere di vista la frutta. Canone e continuità 10/10: la zampa cede sotto il peso, ma non offre una via libera; il livello dell’acqua e il bagliore della pietra restano osservazioni, non spiegazioni, e l’origine della scorta non è svelata. Forza stilistica 9/10: il rumore secco della lingua e la mano vuota rendono sete e fame riconoscibili senza spiegarle. Le sole priorità sono ancorare la prima immagine della sabbia all’Albero Basso e snellire l’arrivo al Terminale.
 
 ## Punti di forza
 
-- La sete si sente prima di essere nominata: il rumore della lingua che si stacca dal palato e la deglutizione faticosa danno una ragione concreta alla partenza.
-- La zampa cede mentre Kaza va verso la pozza: mostra una debolezza senza farne una via di fuga. Quando l’ombra la raggiunge, Nira non perde di vista il leone; perde un indizio utile per capire se sta per muoversi.
-- Il finale compie una svolta senza risolvere la scarsità: al primo fruscio Nira ha ancora il polso sull’avambraccio di Bomo; all’ultimo scricchiolio è lui a tenere indietro la mano.
+- La mano vuota del piccolo prepara la scelta di Bomo: prima di nominare la frutta guarda quella mano. Nella radura, «L’acqua viene prima» basta a rendere leggibile la diversa priorità di Nira.
+- Il respiro del cucciolo torna quando Nira trattiene Bomo: il bisogno dei piccoli resta presente proprio mentre il rischio impone di fermarsi.
+- Kaza fa paura senza essere invulnerabile: la zampa gli cede per un istante, ma il naso riprende il conto e le orecchie scattano al fruscio.
 
 ## Criticità
 
-- **Minore** — Il «più» presuppone che Bomo stesse guardando Kaza, ma l’ultimo sguardo attribuito a Bomo era già fisso sulla pila. Il cambio di attenzione non è messo in scena. «Bomo non guarda più Kaza. Guarda la pila.»
-  → Scena 2: Elimina «Bomo non guarda più Kaza» e conserva lo sguardo sulla pila prima del gesto della mano.
-- **Minore** — Il referente immediato sono i singoli respiri, ma Nira sembra confrontare il ritmo di più cuccioli. Non è chiaro se «uno» e «due» contino respiri o piccoli. «Uno è più veloce, due sono uguali.»
-  → Scena 1: Nomina i cuccioli nel confronto e attribuisci al loro fiato i diversi ritmi; lascia invariato il conteggio successivo.
-- **Minore** — La frase ripropone l’appoggio appena mostrato senza aggiungere alcun movimento. Il dato nuovo, l’ombra che raggiunge la zampa, arriva solo nella frase successiva. «Nira guarda ancora come poggia la zampa sulla sabbia chiara.»
-  → Scena 2: Taglia la frase «Nira guarda ancora come poggia la zampa sulla sabbia chiara» e passa dal corpo di Kaza sul passaggio al margine dell’ombra che raggiunge la zampa.
-- **Minore** — Il dettaglio che rende concreta la sete parte da una lingua isolata; «da una bocca» arriva tardi e ribadisce un dato ovvio senza identificare il cucciolo. «Una lingua rosa si attacca al palato, poi si stacca con un rumore secco e spunta da una bocca.»
-  → Scena 1: Attribuisci subito la lingua a un cucciolo, conserva il distacco col rumore secco ed elimina «da una bocca».
-- **Importante** — La sosta davanti alla prima vista della pozza merita di restare; dopo la sosta, il capitolo deve arrivare al riparo senza ribadire la partenza.
-  → Scena 1: Dopo «Non si voltano indietro», chiudi con un solo movimento verso la radura, Nira davanti e Bomo dietro. Non ripetere il caldo sulla nuca né la pila già in vista.
-- **Importante** — Il varco non è ancora identificato nella radura. I due rischi sono invece leggibili: per arrivare alla pozza bisogna esporsi allo sguardo di Kaza; verso la pila il leone sbarra fisicamente il passaggio.
-  → Scena 2: Nel pensiero di Nira sull’accesso all’acqua, taglia «a lato del varco per la pila». Conserva la sabbia da attraversare allo scoperto sotto gli occhi di Kaza e, più avanti, il suo corpo sul passaggio verso la frutta.
+- **Minore** — Subito dopo il nome della meta e il cenno di Bomo, la frase sulla sabbia non chiarisce se siamo ancora all’Albero Basso o se stiamo già guardando il Terminale. La lettura si ferma proprio mentre Bomo indica dove andare. ««Terminale di Salsedine», dice. Indica con il mento, senza alzare la testa. Dove al mattino arrivava l’ombra, la sabbia scoperta è bianca di sole.»
+  → Scena 1: Nella frase subito dopo il cenno di Bomo, colloca la sabbia scoperta ai piedi dell’Albero Basso con un breve complemento di luogo.
+- **Minore** — Tre frasi consecutive rinominano lo stesso luogo invece di far avanzare lo sguardo dal sentiero all’ombra e alla sabbia. La ripetizione rallenta l’arrivo senza aggiungere orientamento. «Arrivano dove il sentiero si apre sulla radura del Terminale. Al margine della radura avanza lenta una striscia scura. Nel Terminale di Salsedine la sabbia scoperta è di un bianco abbagliante.»
+  → Scena 1: Mantieni il riferimento al Terminale nella frase sullo sbocco del sentiero; togli soltanto «Nel Terminale di Salsedine» dalla frase sulla sabbia abbagliante.
 
 ## Decisioni
 
-- Accettato S8-1: All’inizio della scena Bomo ha già gli occhi fissi sulla pila. Il «più» gli attribuisce uno sguardo verso Kaza che il testo non ha mostrato; il passaggio effettivo alle orecchie del leone arriva dopo il fruscio.
-- Accettato S8-2: Il referente più vicino è «i respiri», ma qui Nira distingue il ritmo di più piccoli prima di contarne i singoli respiri. Il lettore non deve fermarsi per capire che cosa contano «uno» e «due».
-- Accettato S8-3: L’appoggio cauto è già visibile. Il dato che cambia la scelta di Nira è l’arrivo dell’ombra, non il fatto che lei guardi ancora la zampa.
-- Accettato S8-4: Il rumore rende concreta la sete, ma «da una bocca» non chiarisce a chi appartenga la lingua e lascia senza un primo cucciolo esplicito il successivo «Un altro piccolo».
-- Respinto S8-5: L’eco è udibile, ma il nome dell’albero, le foglie e il tratto nudo del tronco restano distinti alla prima lettura. In quest’ultimo giro non è una correzione necessaria.
-- Accettato D8-1: La sosta davanti alla prima vista della pozza merita di restare; dopo la sosta, il capitolo deve arrivare al riparo senza ribadire la partenza.
-- Accettato D8-2: Il varco non è ancora identificato nella radura. I due rischi sono invece leggibili: per arrivare alla pozza bisogna esporsi allo sguardo di Kaza; verso la pila il leone sbarra fisicamente il passaggio.
+- Accettato S8-1: Il nome della meta sposta già l’attenzione in avanti. Senza un riferimento locale, il lettore può scambiare la sabbia sotto l’Albero Basso per il primo scorcio del Terminale.
+- Accettato S8-2: La prima frase ha già identificato la radura. Dopo la striscia d’ombra, ripetere il toponimo ritarda l’immagine della sabbia senza aggiungere orientamento.
+- Respinto S8-3: Il terzo «conta» non deve misurare una pausa precisa: prolunga l’abitudine di Nira a scandire ciò che ascolta, dai passi e dal fiato fino all’assenza di altri suoni. Precisare gli intervalli o variare il verbo indebolirebbe la cadenza senza risolvere un problema di lettura.
 
 ## Prossimi passi
 
-- Nei dettagli corporei ravvicinati, identifica subito il personaggio quando il periodo successivo deve distinguerlo da un altro. Se passi dal confronto al conteggio, rendi chiaro che cosa stai contando.
-- Prima di scrivere che un personaggio non guarda «più» qualcosa, verifica dove il testo ha collocato il suo ultimo sguardo. Metti il cambio di attenzione nel momento in cui modifica il gesto.
-- Tra due scene, non ribadire l’avvistamento di una meta già visibile: torna a nominarla quando cambia il modo di raggiungerla o il rischio di farlo.
+- Quando mostri la fragilità di chi sorveglia una risorsa, mostra anche che cosa riesce ancora a controllare: un limite visibile non equivale a un varco.
+- Se un personaggio nomina una meta prima di raggiungerla, ancora il dettaglio visivo successivo al luogo in cui si trova, soprattutto se lo stesso dettaglio ricomparirà all’arrivo.

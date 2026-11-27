@@ -2,7 +2,7 @@
 id: reader-evaluation-summary:chapter:001-capitolo-1-l-ombra-che-pesa:chapter
 type: readerEvaluationSummary
 createdAt: 2026-11-24T22:40:59.254Z
-updatedAt: 2026-11-27T08:03:05.703Z
+updatedAt: 2026-11-27T08:38:57.441Z
 targetType: chapter
 targetId: chapter:001-capitolo-1-l-ombra-che-pesa
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -15,16 +15,16 @@ readerIds:
   - reader:standard.plot
 readerCount: 5
 language: it
-sourceContentHash: c29e7ccf39ef77bc31692db907a75df3e91caba9dc05435ab805257ccb3444a4
-sourceContentVersion: 63c14eedd69c643117d58f89693453fb436381a8efba071f1cd2b8d7ea2045c6:ee43f94f0bd193e87d05021937ae9b4ab6cdcbc8f018a87119ab0346a08b2548
+sourceContentHash: 78e9ad420a6256988aa955e145ee9e047bbcfc47d93933d6ab9e7b14852f7b4a
+sourceContentVersion: a24883936186e5b6484e84545b17965e13fbcdfdf5dfb7aed2de7bf286bf3970:f766843036ea419db4e26c2bff8cfd382459602bb32d3fb0160aceb507039703
 routerTask: reader-evaluation-summary
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2232
-outputTokens: 562
+inputTokens: 2262
+outputTokens: 668
 currency: USD
-score: 7.1
+score: 7.3
 status: completed
 refs:
   - reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-general
@@ -33,51 +33,51 @@ refs:
   - reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-characters
   - reader-evaluation:chapter:001-capitolo-1-l-ombra-che-pesa:chapter:standard-plot
 generatedBy: autopilot
-finalCost: 0.011774
+finalCost: 0.0133105
 ---
 
 # Sintesi dei lettori simulati
 
 ## Convergenze
 
-- La sete e l’urgenza sono concrete; i gesti rendono la tensione più efficacemente delle spiegazioni.
-- L’attesa perde forza quando ripete informazioni senza cambiare il rischio o le decisioni.
+- La sete dei piccoli è resa concreta da dettagli fisici e motiva la partenza; Kaza trasforma la meta vicina in un ostacolo.
+- I gesti comunicano pericolo, priorità e rapporto fra Nira e Bomo senza bisogno di spiegazioni.
 
 ## Disaccordi
 
-- Per l’emotivo l’attesa è il cuore del capitolo e va resa più fisica; per il lettore di trama il finale deve invece produrre una scelta o conseguenza esterna.
-- Il critico non capisce perché Nira assecondi l’attesa per la frutta dopo aver dato priorità all’acqua; il lettore dei personaggi chiede soprattutto un movente personale per Bomo; il generalista segnala un problema locale di orientamento.
-- Emotivo e generalista prediligono il polso di Nira e il respiro del cucciolo; critico e lettore dei personaggi preferiscono il gesto finale di Bomo; il lettore di trama preferisce la reazione di Kaza al fruscio.
+- Per il lettore dei personaggi il «Non ora» è il momento più riuscito: Bomo passa dall’essere trattenuto al frenare Nira. Critico e lettore della trama riconoscono l’autocontrollo ma trovano che la chiusa non cambi abbastanza la situazione.
+- Per il lettore della trama il rischio di esporsi sulla sabbia è chiaro; generalista e critico faticano a ricostruire alcuni rapporti spaziali, mentre l’emotivo trova che seguirli sottragga attenzione ai piccoli.
+- La mano verso la frutta distingue bene le priorità per critico e lettore della trama; per il lettore dei personaggi resta oscuro il motivo di Bomo e per il critico resta incerto anche il suo intento pratico.
 
 ## Punti di forza ricorrenti
 
-- Sete resa attraverso dettagli corporei, legame con i piccoli mantenuto dal respiro
-- Arco non verbale di Bomo: prima trattenuto da Nira, poi capace di trattenersi
-- Kaza è un ostacolo concreto; l’ombra rende più difficile interpretarne i movimenti
+- La sete raccontata attraverso il corpo, soprattutto il rumore secco della lingua che si stacca dal palato.
+- Il respiro del cucciolo ripreso da Nira nella radura mantiene vivo il legame con i piccoli.
+- Il gesto trattenuto di Bomo e la sua reazione alle orecchie di Kaza mostrano come il pericolo cambi la condotta.
 
 ## Problemi ricorrenti
 
-- Ridondanze di caldo, respiri, silenzi e appoggi
-- Spiegazioni sul varco o sulle condizioni dell’attesa che duplicano i gesti
-- Tensione tra priorità dell’acqua e attesa orientata alla frutta, interpretata diversamente
+- Nella radura microgesti e posizionamenti rallentano l’attesa o indeboliscono il legame emotivo.
+- Per critico e lettore della trama, la prima scena insiste sull’arsura oltre il necessario e lo stallo finale non ha un costo evidente.
 
 ## Suggerimenti prioritari
 
-- Snellire soprattutto la seconda scena, conservando cedimento della zampa e perdita di visibilità nell’ombra
-- Chiarire prima risorsa e movimento atteso senza aggiungere spiegazioni superflue
-- Valutare un indizio personale per Bomo o una conseguenza concreta in chiusura, a seconda dell’obiettivo
+- Dare subito un riferimento netto per radice, pozza, pila e posizione di Kaza; conservare i movimenti che cambiano il rischio o le possibilità dei personaggi.
+- Chiarire con un gesto o una battuta perché Bomo punta alla frutta e che cosa sta per fare.
+- Dare al «Non ora» un costo osservabile o una conseguenza per la mossa successiva, senza perdere il rovesciamento fra Nira e Bomo.
 
 ## Osservazioni isolate
 
-- Il lettore dei personaggi trova le voci meno riconoscibili dei gesti e apprezza la vulnerabilità di Kaza.
-- Il critico giudica superfluo lo scambio «È lì» / «Sì».
+- Il critico trova espositive le battute sul Terminale di Salsedine e poco leggibile il cambio dell’ombra, senza giudicarlo necessariamente incoerente.
+- Il lettore dei personaggi apprezza la vulnerabilità di Kaza e trova le voci meno distinte dei gesti.
+- Il generalista indica come momento più efficace il piccolo che guarda il punto della corteccia dove Nira teneva la guancia.
 
 ## Priorità di revisione
 
-- Rendere leggibile la scelta tra acqua e frutta e il ruolo del varco.
-- Eliminare ripetizioni e spiegazioni ridondanti, tutelando i gesti chiave.
-- Decidere se rafforzare la motivazione di Bomo, il cambiamento esterno finale o entrambi.
+- Sfoltire le ripetizioni della sete dopo aver stabilito l’emergenza, preservando il richiamo del respiro.
+- Rendere la mappa della radura leggibile al primo passaggio.
+- Far sì che la chiusa mantenga il valore relazionale e cambi anche le opzioni dei personaggi.
 
 ## Punteggio complessivo
 
-7.1/10
+7.3/10

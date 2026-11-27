@@ -6,43 +6,36 @@ chapter: chapter:001-capitolo-1-l-ombra-che-pesa
 state_changes:
   locations:
     - I piccoli restano ai piedi dell’Albero Basso.
-    - Nira e Bomo si spostano dall’Albero Basso al Terminale di Salsedine e alla
-      fine sono riparati dietro una radice sporgente nella radura.
-    - Kaza è ancora sul passaggio verso la pila di frutta secca.
+    - Nira e Bomo passano dall’Albero Basso alla radura del Terminale di
+      Salsedine e terminano la scena al riparo dietro una radice.
+    - Kaza è nella radura presso la pila di frutta secca; alla fine guarda verso
+      la sabbia scoperta.
   knowledge_gain:
-    - Nira rileva i respiri irregolari dei piccoli e conta quelli di un
-      cucciolo, che riprende a respirare più lentamente dopo una pausa.
-    - Kaza è sveglio, conta la frutta secca con il naso e alza la testa a un
-      fruscio lontano.
-    - "La zampa destra di Kaza non regge bene: si piega per un istante e più
-      tardi il leone la appoggia con cautela."
-    - Per raggiungere la pozza dal riparo occorre attraversare un tratto di
-      sabbia scoperta. Quando l’ombra raggiunge la zampa di Kaza, Nira non
-      distingue più con sicurezza uno spostamento del peso dall’inizio di un
-      passo.
+    - Bomo indica a Nira che al Terminale di Salsedine si trovano una pozza che
+      si ritira e una pila di frutta secca.
+    - Dal riparo i due vedono Kaza sveglio mentre conta la frutta secca con il
+      naso; la sua zampa destra cede per un istante sotto il peso.
+    - Nira vede che l’acqua bassa ha lasciato scoperti fango screpolato e ghiaia.
   inventory_add: []
   inventory_remove: []
   relationship_updates:
-    - Nira trattiene Bomo premendo il polso sul suo avambraccio. Bomo ritira la
-      mano quando Kaza alza la testa e poi dice «Non ora»; Nira annuisce e
-      stacca il polso. Allo scricchiolio finale Bomo si trattiene da solo.
+    - Bomo indica la meta e accompagna Nira; davanti alle provviste, lui tende
+      la mano verso la frutta mentre lei dà la precedenza all’acqua e lo
+      trattiene senza spingerlo. È Bomo a dire «Non ora».
   conditions:
-    - All’Albero Basso l’ombra si accorcia; i piccoli hanno la bocca secca e il
-      fiato corto, e uno non trova il seme che cerca fra le radici.
-    - Al Terminale di Salsedine la pozza è bassa e si è ritirata lasciando fango
-      screpolato e ghiaia scoperta; nella radura l’ombra avanza presto.
-    - Nira e Bomo restano al riparo senza aver raggiunto la pozza né preso
-      frutta.
+    - I piccoli sono assetati e respirano a fatica; l’ombra dell’Albero Basso si
+      accorcia.
+    - Al Terminale la pozza è bassa e l’ombra avanza nella radura.
+    - Kaza è vigile e appoggia a fatica la zampa destra.
   open_loops_add:
-    - I piccoli non hanno ancora ricevuto acqua o cibo da Nira e Bomo.
-    - Nira aspetta uno spostamento netto di Kaza che le permetta di raggiungere
-      la pozza senza essere vista.
+    - Come procurare acqua e cibo ai piccoli, rimasti all’Albero Basso, con Kaza
+      vigile nella radura?
   open_loops_resolved: []
 ---
 
 # Chapter Summary
 
-La sete dei piccoli spinge Nira e Bomo verso la pozza, ma Kaza è vigile e per raggiungere l’acqua bisogna uscire allo scoperto.
+Il caldo e la sete spingono Nira e Bomo verso il Terminale di Salsedine, ma al loro arrivo Kaza è sveglio e vigile.
 
-- **Scena 1 — Lingua appiccicosa all’Albero Basso.** Nira ascolta i respiri corti dei piccoli e conta quelli di un cucciolo, che dopo una pausa riprende a respirare più lentamente. Un piccolo cerca invano un seme fra le radici. Bomo indica il Terminale di Salsedine, dove ci sono la pozza che si ritira e una pila di frutta secca. I due lasciano i piccoli sotto l’ombra che si accorcia e raggiungono il margine della radura, dove invece avanza una striscia d’ombra.
-- **Scena 2 — Naso che conta all’ombra.** Dietro una radice sporgente, Nira e Bomo osservano Kaza contare la frutta con il naso. La zampa destra gli cede per un istante mentre si dirige verso la pozza; il leone torna indietro senza raggiungerla. Nira dà la precedenza all’acqua, ma per arrivarci dovrebbe attraversare la sabbia allo scoperto. Bomo tende la mano verso la pila e Nira lo trattiene con il polso. A un fruscio Kaza alza la testa e Bomo ritira la mano. Quando l’ombra rende più difficile leggere i movimenti del leone, Nira aspetta al riparo e Bomo dice «Non ora». A un successivo scricchiolio è lui stesso a tenere indietro la mano.
+- **Scena 1 — Lingua appiccicosa all’Albero Basso.** Mentre l’ombra sotto l’albero si restringe, Nira conta i respiri irregolari di un cucciolo e un altro piccolo gesto mostra la scarsità: una mano fruga tra le radici in cerca di un seme e torna vuota. Bomo indica la pozza e la pila di frutta secca al Terminale di Salsedine. I due lasciano i piccoli all’Albero Basso e raggiungono la radura, dove una striscia d’ombra avanza sulla sabbia.
+- **Scena 2 — Naso che conta all’ombra.** Dietro una radice, Nira e Bomo osservano Kaza contare la frutta secca con il naso e appoggiare a fatica la zampa destra. Nira dà la precedenza all’acqua e trattiene Bomo quando lui allunga la mano verso la pila. Un fruscio fa alzare la testa a Kaza; Bomo ritira la mano e Nira, che si inclina verso la pozza, si ferma prima di sporgersi. Bomo dice «Non ora» e arretra quanto basta per non vedere più la pila.
