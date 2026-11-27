@@ -28,26 +28,27 @@ By default the reader uses a spoiler-safe public mode. If you want a private ful
 
 ## Password protection
 
-Set `NARRARIUM_READER_PASSWORD` to encrypt all prose content at build time using AES-256-GCM.
-Visitors must enter the correct password before any text is revealed.
+The published reader can be public or protected by one or several passwords. A protected build encrypts the whole book once with a
+key drawn for that build (AES-256-GCM) and publishes one key slot per password (PBKDF2-SHA256, 600,000 iterations): the browser tries
+the typed password against the slots, and only the reader's shell, `version.json` and encrypted files are published.
 
-For local development, add the variable to your `.env` file:
+On GitHub the passwords are repository secrets, and the repository variable `READER_PASSWORD_SECRETS` lists their names
+(for example `READER_PASSWORD_001,READER_PASSWORD_002`). The Pages workflow gives the build step the secrets as JSON and the build
+reads only the listed names; a password removed from the list stops opening the book at the next publication. With no name listed the
+book is public. Narrarium manages the list and the secrets for you.
+
+For a local build, either set the older single password:
 
 ```bash
 NARRARIUM_READER_PASSWORD=your-secret-password
 ```
 
-For GitHub Pages deployment, add it to the `Build site` step in `.github/workflows/deploy-pages.yml`:
+or the same two variables the workflow passes:
 
-```yaml
-- name: Build site
-  env:
-    SITE_BASE: /${{ github.event.repository.name }}/
-    NARRARIUM_READER_PASSWORD: ${{ secrets.NARRARIUM_READER_PASSWORD }}
-  run: npm run build
+```bash
+READER_PASSWORD_SECRETS=READER_PASSWORD_001,READER_PASSWORD_002
+NARRARIUM_READER_SECRETS={"READER_PASSWORD_001":"first password","READER_PASSWORD_002":"second password"}
 ```
-
-Store the actual password as a repository secret: **Settings → Secrets and variables → Actions → New repository secret**.
 
 ## Doctor
 
