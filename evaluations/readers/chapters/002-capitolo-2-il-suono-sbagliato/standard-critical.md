@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:002-capitolo-2-il-suono-sbagliato:chapter:standard-critical
 type: readerEvaluation
 createdAt: 2026-11-25T01:09:30.970Z
-updatedAt: 2026-11-26T21:09:05.908Z
+updatedAt: 2026-11-27T08:14:43.432Z
 targetType: chapter
 targetId: chapter:002-capitolo-2-il-suono-sbagliato
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,19 +13,19 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: ef94e8bea8a07dfc8eb89e5cef69a7ea05b30edfe2e4db1c3afdc87a4ef8064d
-sourceContentVersion: 964e3ba6af4824716e70fd76a1ed6ecf79a5b308f2fc99e8c159617b3f156b77:92d3fea9cb6f9fd04b7466c4acb4daeaaf4c8fc0fca8f2dc1ff1bf4daad2b2c4
-sourceUpdatedAt: 2026-11-26T21:09:05.908Z
+sourceContentHash: b512039f20c83f83273d5c31aa29b4d81cb274b8d9b4d1858979597f846ba471
+sourceContentVersion: e1a671e0c285f8ea29a3e3441f654b7bbd7df9efb201cdfe1230912f5a7a8d8a:66e9a74b225022964b88d5de80caa5af7f54ee221afd02c96f9e59ad65b32822
+sourceUpdatedAt: 2026-11-27T08:14:43.432Z
 routerTask: reader-evaluation
 model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 2443
-outputTokens: 480
-estimatedCost: 0.01099525
-finalCost: 0.01099525
+inputTokens: 2316
+outputTokens: 513
+estimatedCost: 0.011235
+finalCost: 0.011235
 currency: USD
-score: 5.5
+score: 6
 status: completed
 generatedBy: autopilot
 ---
@@ -34,31 +34,31 @@ generatedBy: autopilot
 
 ## Impressione generale
 
-Il capitolo rende leggibili le prove acustiche, ma investe più tensione nel far urtare due pietre che nell’alternativa urgente fra recuperare provviste e tornare dai piccoli.
+Il capitolo trova un metodo per distrarre Kaza, ma dedica più spazio a preparare e ripetere la prova che a far avanzare il conflitto. Da lettore, alla fine so che Nira sente l’eco dalla curva, non se il suono può davvero liberarle il passaggio alla pozza.
 
 ## Punti di forza
 
-- Il contrasto fra la pietra che devia nella sabbia e quella guidata dal solco fa avanzare la scoperta con un dettaglio concreto.
-- Alla caduta del ramo, Kaza orienta le orecchie senza spostarsi: il capitolo distingue bene fra attirare l’attenzione e smuovere il leone.
+- Il ramo fa alzare la testa a Kaza senza smuoverlo: la zampa destra caricata con cautela riprende il cedimento del primo capitolo e distingue bene l’attenzione dalla disponibilità a muoversi.
+- Il tintinnio seguito da una pausa e da un ritorno «più pieno e netto» rende riconoscibile la scoperta senza bisogno di una spiegazione tecnica.
 
 ## Punti di debolezza
 
-- La raffica fa urtare le pietre poco dopo che un filo d’aria non le smuove. Non è una contraddizione, ma non si capisce quale pietra si muova né come; la coincidenza procura proprio il colpo che Nira può sentire a distanza.
-- Le prese e i rilasci del polso, i richiami al calore e i ripetuti controlli del muso e delle orecchie rallentano la scena; non tutti registrano un cambiamento.
-- «L’aria di sentiero che si alza quando passano i tamburi» è suggestivo ma poco naturale come battuta sussurrata durante un appostamento. «Torno dai piccoli» apre invece un conflitto concreto, subito sospeso quando Bomo ritira il piede senza che ne sia leggibile il motivo.
+- La raffica che fa rotolare la pietra arriva subito dopo che un filo d’aria non smuove nulla. Non è una contraddizione, ma il caso concede a Nira esattamente la prova dalla curva e il testo ne rinvia l’unico esito decisivo: la reazione di Kaza.
+- «Guarda se gli scattano le orecchie quando il suono torna» annuncia il criterio della prossima prova invece di farlo emergere dall’azione; la chiusa ribadisce che Nira guarda le orecchie senza aggiungere un risultato.
+- «Torno dai piccoli» è seguito dal piede che rientra, ma lo sguardo alla mano di Nira non chiarisce abbastanza perché Bomo cambi priorità; il respiro irregolare torna alla memoria di Nira, non a quella di Bomo.
 
 ## Momento più efficace
 
-Kaza alza la testa al tonfo, posa con cautela la zampa destra e torna alla frutta: la reazione dà un risultato parziale e riprende il cedimento della zampa del capitolo precedente.
+Kaza alza la testa al tonfo, carica con cautela la zampa destra e torna alla frutta. È un fallimento leggibile che precisa l’ostacolo: non basta farsi sentire.
 
 ## Problema principale
 
-Il capitolo dimostra che il suono torna, ma rinvia la prova decisiva su Kaza dopo averla già annunciata e dopo aver mancato l’occasione di osservarla con la raffica. Il finale rimette i personaggi in posizione anziché cambiare la situazione.
+L’eco è verificata per Nira, ma non messa alla prova in modo leggibile contro Kaza; la chiusa mette in sospeso la verifica annunciata anziché produrre una conseguenza.
 
 ## Suggerimento prioritario
 
-Comprimere i preparativi ripetuti e dare al finale un esito osservabile: una reazione di Kaza o una scelta leggibile di Bomo rispetto ai piccoli.
+Farei culminare l’ultima prova in una reazione osservabile di Kaza, anche minima o deludente, e comprimerei i riposizionamenti delle pietre che non cambiano né il piano né il rischio.
 
 ## Punteggio
 
-5.5/10
+6/10

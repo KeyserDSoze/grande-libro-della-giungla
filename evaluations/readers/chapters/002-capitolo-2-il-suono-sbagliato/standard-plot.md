@@ -2,7 +2,7 @@
 id: reader-evaluation:chapter:002-capitolo-2-il-suono-sbagliato:chapter:standard-plot
 type: readerEvaluation
 createdAt: 2026-11-25T01:13:32.353Z
-updatedAt: 2026-11-26T21:09:52.595Z
+updatedAt: 2026-11-27T08:14:56.341Z
 targetType: chapter
 targetId: chapter:002-capitolo-2-il-suono-sbagliato
 bookId: 9b5bcb08-de36-4a22-9590-1b41017f0ed9
@@ -13,54 +13,52 @@ readerType: standard
 readerVersion: 1
 language: it
 evaluationDepth: normal
-sourceContentHash: ef94e8bea8a07dfc8eb89e5cef69a7ea05b30edfe2e4db1c3afdc87a4ef8064d
-sourceContentVersion: 964e3ba6af4824716e70fd76a1ed6ecf79a5b308f2fc99e8c159617b3f156b77:92d3fea9cb6f9fd04b7466c4acb4daeaaf4c8fc0fca8f2dc1ff1bf4daad2b2c4
-sourceUpdatedAt: 2026-11-26T21:09:52.595Z
+sourceContentHash: b512039f20c83f83273d5c31aa29b4d81cb274b8d9b4d1858979597f846ba471
+sourceContentVersion: e1a671e0c285f8ea29a3e3441f654b7bbd7df9efb201cdfe1230912f5a7a8d8a:66e9a74b225022964b88d5de80caa5af7f54ee221afd02c96f9e59ad65b32822
+sourceUpdatedAt: 2026-11-27T08:14:56.341Z
 routerTask: reader-evaluation
-model: gpt-6-luna
+model: gpt-6.2-sol
 provider: azure_openai
 integrationId: 6a16279d-b7d7-4adf-926d-eca3aee88141
-inputTokens: 4705
-outputTokens: 877
+inputTokens: 2315
+outputTokens: 546
 currency: USD
-score: 7.2
+score: 7
 status: completed
 generatedBy: autopilot
-estimatedCost: 0.00032145000000000003
-finalCost: 0.00032145000000000003
+estimatedCost: 0.01169525
+finalCost: 0.01169525
 ---
 
 # Valutazione
 
 ## Impressione generale
 
-Capitolo funzionale e coerente: la scarsità del capitolo precedente genera un tentativo concreto di distrarre Kaza, e i fallimenti portano i personaggi a cercare un suono più efficace. La tensione però resta soprattutto sperimentale e non produce ancora una decisione risolutiva.
+Il capitolo trasforma l’attesa del primo in un piano verificabile: usare l’eco per allontanare Kaza e raggiungere la pozza. L’avanzamento è tattico, non materiale: hanno trovato il suono, ma non sanno ancora se il leone lo seguirà e i piccoli restano senz’acqua.
 
 ## Punti di forza
 
-- Obiettivo leggibile: ottenere frutta attirando Kaza lontano dalla pila; la posta è stabilita dai piccoli assetati e affamati lasciati all’Albero Basso.
-- Buona causalità materiale: il primo tonfo non torna, le pietre sulla sabbia non risuonano, mentre il solco presso la roccia restituisce un’eco più piena. Il cambio di luogo deriva da un esperimento fallito, non da uno spostamento arbitrario.
-- Il rischio è mantenuto attraverso dettagli osservabili: Kaza alza la testa ma non si allontana, e Nira nota che attirarlo potrebbe lasciare scoperta proprio la parte di pila su cui è posato il muso.
-- La chiusura sospende una scelta significativa: Bomo propone di tornare dai piccoli, ma Nira rimette la pietra al suo posto e continua a fissare Kaza.
+- Il ramo stabilisce un dato utile: un rumore secco fa alzare la testa a Kaza, ma non lo smuove. Il sassolino che devia nella sabbia e quello guidato dal solco rendono concreta la differenza tra i due luoghi.
+- La raffica dimostra che il ritorno è udibile dalla curva, ma coglie Nira impreparata: il successo acustico apre una domanda più precisa, cioè a quale dei due suoni reagisca Kaza.
+- Nira mira alla pozza mentre Bomo guarda la frutta; quando lui accenna a tornare dai piccoli e poi resta, il piano entra in conflitto con l’urgenza che lo ha fatto nascere.
 
 ## Punti di debolezza
 
-- La scena promette un test dell’eco su Kaza, ma si interrompe prima che venga eseguito: per ora l’avanzamento consiste quasi tutto nel trovare il suono, senza cambiare la situazione della frutta o dei piccoli.
-- Il conflitto tra urgenza dei piccoli e tentativo di sottrarre il cibo al leone è forte nel contesto, ma nel capitolo resta poco verbalizzato e non costringe Bomo e Nira a uno scontro netto.
-- Alcuni passaggi ripetono l’osservazione di Kaza e la disposizione delle pietre; l’attesa si allunga senza aggiungere ogni volta una nuova informazione o un aumento proporzionato del pericolo.
+- Il nesso tra le prove fallite e la scelta del letto basso si capisce soprattutto a posteriori, quando Bomo dice che lì l’acqua faceva eco. Al momento della svolta, lo sguardo di Nira verso il sentiero non fa ancora leggere bene che cosa si aspetti di trovare.
+- Dopo la raffica la scena definisce il test decisivo, riposiziona la pietra e si ferma prima di eseguirlo. Lo stacco promette una verifica precisa, ma lascia la svolta drammatica al capitolo dopo, dopo che anche il primo si era chiuso in attesa.
 
 ## Momento più efficace
 
-Nira capisce che un suono riuscito potrebbe lasciare scoperto il bordo della pila proprio dove Kaza ha il muso: il possibile successo dell’idea contiene già un rischio, quindi il piano non è una soluzione facile.
+La raffica fa partire la prova senza preavviso: Nira sente l’eco dalla curva ma alza gli occhi troppo tardi. La scoperta del meccanismo e il dubbio sulla sua utilità arrivano nello stesso momento.
 
 ## Problema principale
 
-Il capitolo si chiude sulla soglia dell’azione promessa. Dopo aver individuato una fonte d’eco migliore, non vediamo né il tentativo né una scelta definitiva tra continuare e tornare dai piccoli.
+La chiusura conferma l’esistenza di uno strumento, ma non cambia ancora il rapporto di forze con Kaza: lo scarto tra il risultato tecnico e quello narrativo si sente.
 
 ## Suggerimento prioritario
 
-Dare alla chiusura un esito causale più incisivo: eseguire il test con una reazione osservabile di Kaza, oppure far prevalere l’urgenza dei piccoli e chiudere su una rinuncia concreta. In entrambi i casi la scena trasformerebbe la scoperta in avanzamento, mantenendo aperta la tensione.
+Portare in chiusura un primo riscontro leggibile di Kaza al suono di ritorno, anche se non lascia la frutta. Si chiuderebbe la domanda sulle orecchie senza sciogliere quella, più importante, sull’accesso alla pozza.
 
 ## Punteggio
 
-7.2/10
+7/10

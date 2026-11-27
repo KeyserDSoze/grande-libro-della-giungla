@@ -2,1747 +2,6 @@
   "schemaVersion": 1,
   "activities": [
     {
-      "id": "activity_802299c1-b10a-487b-a931-67a39247d2c5",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "readers-summary",
-      "phase": "review",
-      "title": "Confronto dei lettori del capitolo 2",
-      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
-      "next": "Gli specialisti controllano continuità, canone e stile.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:43:32.886Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:43:38.264Z",
-      "summary": "7/10 — 6 proposals for the director",
-      "changedPaths": [
-        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2281,
-        "outputTokens": 601,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01240575
-    },
-    {
-      "id": "activity_1eec74c1-50d7-42a5-bc30-b7e4a1e5342c",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "specialists",
-      "phase": "review",
-      "title": "Gli specialisti revisionano il capitolo 2 (giro 2)",
-      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
-      "next": "Il direttore decide su ogni rilievo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:43:38.469Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:44:03.939Z",
-      "summary": "8 findings (0 critical, 2 major) — Restano due problemi nella verifica dell’eco: il ritardo non è compatibile con la vicinanza della roccia e l’ultima attesa non ripristina la prova. Gli altri rilievi riguardano la chiarezza dei nessi fisici e alcune ripetizioni.",
-      "changedPaths": [],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5469,
-        "outputTokens": 2135,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.03946075
-    },
-    {
-      "id": "activity_afcea47c-d6c8-4a18-a37b-d2b4dc3a117e",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "director-review",
-      "phase": "review",
-      "title": "Il direttore giudica il capitolo 2 (giro 2)",
-      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
-      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:44:04.124Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:44:54.103Z",
-      "summary": "revise 7.5/10 — 14 accepted, 1 rejected. Revisione mirata. Il capitolo compie il passaggio dal ricordo alla prova e dalla prova a un possibile diversivo. Non supera la soglia perché la scoperta decisiva poggia su un ritardo poco credibile e la seconda prova ripete più di quanto serva. Chiarezza 7/10: si segue l’esperimento, ma la prima spinta e la direzione delle orecchie di Kaza restano ambigue. Ritmo 7/10: i richiami al ramo, al caldo e ai tamburi rallentano il passaggio dalla scoperta alla scelta. Tensione 7,5/10: Kaza sente il tonfo senza lasciare la pila; alla riva, l’attesa della seconda eco attenua l’urgenza dei piccoli. Coerenza con il canone 8/10: la roccia si rivela al momento previsto e i segreti del capitolo 3 restano coperti; va ripristinata la posizione della pietra prima dell’attesa finale. Forza stilistica 8/10: la pelle del tamburo, il ritorno nello sterno e la presa sul polso danno corpo alla scena; la diagnosi «Non incanalano» è meno precisa dei gesti. Priorità: rendere credibile il ritorno, distinguere le due prove e mantenere aperta la verifica su Kaza.",
-      "changedPaths": [
-        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 8544,
-        "outputTokens": 5354,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.08990800000000002
-    },
-    {
-      "id": "activity_3ca92391-31a2-4b0a-b9a2-92e866390396",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 2,
-      "sceneNumber": 1,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:44:54.485Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:02.814Z",
-      "summary": "4 fixes applied, 627 words.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5009,
-        "outputTokens": 1414,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.02856175
-    },
-    {
-      "id": "activity_668301bb-705b-4d93-9dc9-e5d90f29aab9",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 2,
-      "sceneNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:03.171Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:19.835Z",
-      "summary": "10 fixes applied, 742 words.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5752,
-        "outputTokens": 2481,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0448
-    },
-    {
-      "id": "activity_1405f7a5-bbbf-4657-8058-b6afa9249bad",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "consolidate",
-      "phase": "review",
-      "title": "Chiusura del capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "Riassunto, recap, continuità e storia finora mantengono coerenti i capitoli successivi.",
-      "next": "Passare al capitolo successivo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:20.210Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:35.034Z",
-      "summary": "Bomo ricorda come l’acqua restituiva in ritardo il colpo dei tamburi e prova a imitarlo con rami e pietre. Solo il ramo più grosso fa alzare la testa a Kaza, che non lascia la frutta. Nel letto basso del fiume Nira dispone tre pietre in un solco: prima una sua spinta, poi una raffica fanno rotolare la prima contro la seconda, e la roccia lucida rimanda il tintinnio più pieno e netto. Bomo propone di usare quel suono per richiamare Kaza senza entrare nella tana; Nira rimette a posto la prima pietra e aspetta di poter osservare le orecchie del leone al prossimo urto.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/chapter.md",
-        "resumes/chapters/002-capitolo-2-il-suono-sbagliato.md",
-        "resumes/total.md",
-        "plot.md",
-        "autopilot/plan.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3256,
-        "outputTokens": 1869,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.031864
-    },
-    {
-      "id": "activity_e26d3782-60d1-46bb-9c7e-819e14eee8eb",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore generalista legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore generalista",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:37.632Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:42.337Z",
-      "summary": "8/10 — La sottrazione dei frutti mi ha tenuto in tensione e il finale riapre con naturalezza il problema dell’acqua. Nella seconda metà ho perso un po’ lo slancio.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-general.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4771,
-        "outputTokens": 345,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01317925
-    },
-    {
-      "id": "activity_570ea771-dbb7-4b60-a4ed-fbeb5f02151a",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore emotivo legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore emotivo",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:42.591Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:47.180Z",
-      "summary": "8.5/10 — La tensione mi arriva attraverso i gesti trattenuti. Ho paura che Kaza raggiunga Nira e Bomo, ma quando la zampa gli cede mi sorprendo a temere anche per lui.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-emotional.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4771,
-        "outputTokens": 344,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01316525
-    },
-    {
-      "id": "activity_429f650a-ed7f-4b87-89d9-d49d62650fcc",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore critico legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore critico",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:47.432Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:52.232Z",
-      "summary": "6.5/10 — La scena funziona meglio quando il gesto cambia il rischio; rallenta quando registra altri dettagli senza cambiare le possibilità dei personaggi.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-critical.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4785,
-        "outputTokens": 370,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01355375
-    },
-    {
-      "id": "activity_aef3d5fc-9ef0-4681-935e-9dbb90892f91",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato ai personaggi legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato ai personaggi",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:52.514Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:45:58.084Z",
-      "summary": "8/10 — Il capitolo mi convince quando fa evolvere i rapporti attraverso i gesti: la vittoria sui quattro frutti non risolve la sete e l’incontro con Kaza incrina la divisione iniziale fra chi prende e chi custodisce.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-characters.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4775,
-        "outputTokens": 463,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.014838249999999999
-    },
-    {
-      "id": "activity_95fa44e3-773d-453c-b57f-e3fecbe6e0fb",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato alla trama legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato alla trama",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:45:58.333Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:46:03.383Z",
-      "summary": "8/10 — Il capitolo ripaga la preparazione dei primi due: l’eco sposta Kaza, Nira e Bomo portano quattro frutti ai piccoli, ma il bisogno d’acqua resta e diventa il prossimo problema concreto.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-plot.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4784,
-        "outputTokens": 426,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.014336000000000002
-    },
-    {
-      "id": "activity_57350105-ef8d-4a44-8e1b-f3f82cd984cb",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "readers-summary",
-      "phase": "review",
-      "title": "Confronto dei lettori del capitolo 3",
-      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
-      "next": "Gli specialisti controllano continuità, canone e stile.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:46:03.615Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:46:09.079Z",
-      "summary": "7.8/10 — 4 proposals for the director",
-      "changedPaths": [
-        "evaluations/readers/summaries/chapters/003-capitolo-3-il-pasto-che-resta.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2252,
-        "outputTokens": 609,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.012466999999999999
-    },
-    {
-      "id": "activity_519d4c63-7143-448e-b2ce-19e68c88be91",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "specialists",
-      "phase": "review",
-      "title": "Gli specialisti revisionano il capitolo 3 (giro 1)",
-      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
-      "next": "Il direttore decide su ogni rilievo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:46:09.298Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:46:23.850Z",
-      "summary": "6 findings (0 critical, 2 major) — La deviazione del fiume è mostrata con riscontri concreti. La priorità è rendere altrettanto chiara l’origine condivisa della riserva; seguono un raccordo spaziale e quattro interventi puntuali su tensione, logica e chiarezza.",
-      "changedPaths": [],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6392,
-        "outputTokens": 1580,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.033306
-    },
-    {
-      "id": "activity_f8b04aa5-7953-4650-8e32-e1d953e6e290",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "director-review",
-      "phase": "review",
-      "title": "Il direttore giudica il capitolo 3 (giro 1)",
-      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
-      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:46:24.246Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:47:02.503Z",
-      "summary": "revise 7.5/10 — 11 accepted, 0 rejected. Da rivedere con interventi mirati. Chiarezza 7,5/10: si capisce quando si apre il varco, meno perché Bomo lasci il quinto frutto e che cosa Nira voglia segnalare a Kaza. Ritmo 7/10: la tosse stringe il tempo, ma l’esame delle tracce lo dilata; sulla riva il cambio di corso viene mostrato più volte. Tensione 8/10: dai tre respiri di Kaza ai quattro frutti esposti, il rischio si legge nei gesti, senza bisogno di una rincorsa. Coerenza con il canone 7/10: la pietra asciutta e la foglia rendono visibile la deviazione; alla pila, invece, le tracce non dimostrano che formiche e uccelli abbiano contribuito alla riserva, e il passo di Bomo verso il sentiero non torna con la sua posizione. Forza stilistica 8/10: il peso dei frutti, la zampa che cede e le labbra asciutte fanno sentire il costo dell’azione senza spiegarlo. Priorità: far avanzare insieme la rivelazione e il prelievo; poi chiarire la rinuncia al quinto e il segnale, senza interpretare al posto del lettore la risposta di Kaza.",
-      "changedPaths": [
-        "evaluations/director/chapters/003-capitolo-3-il-pasto-che-resta.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 9376,
-        "outputTokens": 4050,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.073108
-    },
-    {
-      "id": "activity_0b45969e-bb26-48c2-988a-8faa8b94fd3f",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 3",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 3,
-      "sceneNumber": 1,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:47:02.850Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:47:37.083Z",
-      "summary": "8 fixes applied, 1053 words.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/001-il-passo-e-il-vuoto.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6955,
-        "outputTokens": 4440,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.07433125
-    },
-    {
-      "id": "activity_39ede093-bd48-49da-a54b-73b901f3c013",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 3",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 3,
-      "sceneNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:47:37.435Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:47:52.561Z",
-      "summary": "3 fixes applied, 1086 words.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6616,
-        "outputTokens": 2542,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.047166
-    },
-    {
-      "id": "activity_9c86c5c6-fdd5-4ed1-949b-436f524f5350",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore generalista legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore generalista",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:47:52.968Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:47:57.568Z",
-      "summary": "8/10 — Mi sono lasciato coinvolgere dal furto dei quattro frutti e dalla reazione inattesa di Kaza. La scena è leggibile nelle intenzioni, meno immediata quando devo ricostruire la posizione dei personaggi fra riva, sentiero…",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-general.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4322,
-        "outputTokens": 357,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0125615
-    },
-    {
-      "id": "activity_66389766-ff68-480e-b508-1fab079252ca",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore emotivo legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore emotivo",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:47:57.877Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:48:01.849Z",
-      "summary": "8.5/10 — La tensione nasce da gesti trattenuti e lascia spazio a un’empatia inattesa per Kaza: voglio che Nira riesca a portare via il cibo, ma quando la zampa del leone cede non riesco più a vederlo soltanto come un ostacolo.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-emotional.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4322,
-        "outputTokens": 323,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0120855
-    },
-    {
-      "id": "activity_3410b102-2585-43be-bab9-d68281df23fc",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore critico legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore critico",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:48:02.064Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:48:09.760Z",
-      "summary": "6.5/10 — Il capitolo rende credibile il rischio fisico del furto, ma è meno preciso sui motivi che guidano le scelte. Il finale, in cui il cibo arriva ma la sete resta, dà alla scena una direzione più netta di quella che ha…",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-critical.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4336,
-        "outputTokens": 634,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.016464
-    },
-    {
-      "id": "activity_874d102b-f937-433f-ad82-bbf72ba005be",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato ai personaggi legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato ai personaggi",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:48:10.066Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:48:16.348Z",
-      "summary": "7.5/10 — Mi convince la relazione fra Nira e Bomo, raccontata attraverso gesti che cambiano significato. Resto meno convinto dal passaggio in cui il furto di necessità diventa una scelta su quanto prendere e su cosa mostrare a…",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-characters.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4326,
-        "outputTokens": 493,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0144725
-    },
-    {
-      "id": "activity_7b970376-48ee-4b3f-bde6-de629b369706",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato alla trama legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato alla trama",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:48:16.603Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:48:21.900Z",
-      "summary": "8/10 — Il capitolo trasforma due capitoli di preparazione in un risultato concreto: l’eco sposta Kaza, quattro frutti arrivano ai piccoli, ma le labbra asciutte mostrano che il bisogno decisivo resta irrisolto.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-plot.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4335,
-        "outputTokens": 413,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.013368250000000002
-    },
-    {
-      "id": "activity_864b58bd-c1b3-49ae-9960-2e0942002623",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "readers-summary",
-      "phase": "review",
-      "title": "Confronto dei lettori del capitolo 3",
-      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
-      "next": "Gli specialisti controllano continuità, canone e stile.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:48:22.087Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:48:28.869Z",
-      "summary": "7.7/10 — 4 proposals for the director",
-      "changedPaths": [
-        "evaluations/readers/summaries/chapters/003-capitolo-3-il-pasto-che-resta.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2474,
-        "outputTokens": 632,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0131775
-    },
-    {
-      "id": "activity_5c7540c0-02ee-4714-b075-f1a3677b8513",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "specialists",
-      "phase": "review",
-      "title": "Gli specialisti revisionano il capitolo 3 (giro 2)",
-      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
-      "next": "Il direttore decide su ogni rilievo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:48:29.193Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:48:44.646Z",
-      "summary": "3 findings (0 critical, 1 major) — Restano tre problemi: la scena 1 anticipa la scoperta del nuovo corso, la sequenza degli urti perde continuità e un inciso rende meno chiara la scelta di fermarsi davanti a Kaza.",
-      "changedPaths": [],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6554,
-        "outputTokens": 1503,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0325115
-    },
-    {
-      "id": "activity_6a1552d3-e99e-47d3-8fa9-91e807600d51",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "director-review",
-      "phase": "review",
-      "title": "Il direttore giudica il capitolo 3 (giro 2)",
-      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
-      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:48:45.032Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:49:11.358Z",
-      "summary": "revise 7.8/10 — 5 accepted, 2 rejected. Da rivedere con ritocchi mirati prima della chiusura. Chiarezza 7,5/10: si capisce come Nira arrivi alla frutta, non perché in quella finestra non possa prendere l’acqua. Ritmo 7,5/10: il conto dei frutti tiene il passo, ma dopo il confronto alcuni appoggi e cambi di visuale ritardano il ritorno ai piccoli. Tensione 8,5/10: le mani aperte davanti a Kaza e le labbra ancora asciutte fanno sentire il rischio e il limite del successo. Coerenza con il canone 7,5/10: formica e uccello contribuiscono davvero alla riserva; la deviazione del fiume è rivelata nel capitolo previsto, ma la prima scena la esplicita già e indebolisce la scoperta della seconda. Forza stilistica 8/10: il peso dei frutti, la pietra asciutta e i cerchi nell’acqua rendono la scena concreta senza spiegare il silenzio di Kaza. Priorità: rendere leggibile la scelta della frutta, lasciare alla seconda scena la scoperta del nuovo corso e accorciare il tragitto fra confronto e consegna.",
-      "changedPaths": [
-        "evaluations/director/chapters/003-capitolo-3-il-pasto-che-resta.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 9144,
-        "outputTokens": 2895,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.056532
-    },
-    {
-      "id": "activity_833a63e9-ec16-4be5-87fc-24947ee4ae97",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 3",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 3,
-      "sceneNumber": 1,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:49:11.665Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:49:23.037Z",
-      "summary": "4 fixes applied, 1035 words.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/001-il-passo-e-il-vuoto.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6314,
-        "outputTokens": 2003,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0390915
-    },
-    {
-      "id": "activity_aab14ff7-dd48-4da0-93e2-b090d77a829f",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 3",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 3,
-      "sceneNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:49:23.412Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:49:33.991Z",
-      "summary": "1 fixes applied, 1012 words.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6252,
-        "outputTokens": 1903,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.037583
-    },
-    {
-      "id": "activity_2163c74b-4086-431b-82c4-f861e879e9fa",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "consolidate",
-      "phase": "review",
-      "title": "Chiusura del capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "Riassunto, recap, continuità e storia finora mantengono coerenti i capitoli successivi.",
-      "next": "Passare al capitolo successivo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:49:34.275Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:49:51.735Z",
-      "summary": "Nira fa risuonare le tre pietre e, quando Kaza scende verso il fiume, lei e Bomo prendono soltanto quattro frutti dalla pila; lasciano il quinto al suo posto e depongono un frutto spaccato sulla sabbia come segnale. Al ritorno Kaza osserva il segnale e i quattro frutti nelle mani aperte di Nira, ma non li affronta: scende di nuovo alla riva e poi si sdraia di fianco alla pila. Bomo e Nira scoprono che la corrente ha lasciato asciutta la pietra piatta e scorre in un solco più lontano dalla riva. All’Albero Basso tre piccoli ricevono un frutto ciascuno, il quarto resta a Nira e il primo piccolo ha ancora le labbra asciutte.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/chapter.md",
-        "resumes/chapters/003-capitolo-3-il-pasto-che-resta.md",
-        "resumes/total.md",
-        "plot.md",
-        "autopilot/plan.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4500,
-        "outputTokens": 2166,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.038199
-    },
-    {
-      "id": "activity_c53201f1-8787-4c71-8cb3-b223564b0541",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "final",
-      "phase": "final",
-      "title": "Il direttore valuta l'intero libro",
-      "reason": "Archi, promesse e fili aperti si verificano quando tutti i capitoli sono approvati.",
-      "next": "L'autopilot è completato.",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:49:56.078Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:23.956Z",
-      "summary": "revise 7.5/10 — 7,5/10. Non approverei ancora il libro: l’astuzia come osservazione è dimostrata dai gesti, ma il finale chiude meglio la presa del cibo che il conflitto per l’acqua e la trasformazione di Kaza. Valuto l’insieme dei tre capitoli approvati sulla base delle mappe e dei resoconti disponibili, non della prosa integrale. Chiarezza 7/10: il piano si segue, la scelta del cibo a fronte della sete no. Ritmo 8/10: il primo tentativo fallito cambia il metodo e i tre respiri fanno pesare l’attesa. Tensione 7,5/10: le mani aperte espongono Nira a una risposta, ma la decisione di Kaza resta troppo ambigua. Coerenza di canone 7,5/10: le rivelazioni documentabili sono ben ordinate; resta poco leggibile la continuità tra il ritirarsi dell’acqua e il suo accesso. Forza stilistica 7,5/10: pietra asciutta, mani aperte e labbra secche sostengono il senso senza spiegarlo; il voto è limitato a quanto documentato.",
-      "changedPaths": [
-        "evaluations/director/book.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4889,
-        "outputTokens": 2151,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.03866975
-    },
-    {
-      "id": "activity_3f901fe8-3384-4049-850a-4b4bc273d2ac",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore generalista",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:24.381Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:28.983Z",
-      "summary": "7.5/10 — Capitolo sensoriale e teso a bassa voce. Il piano diventa chiaro, ma per un tratto seguo più la disposizione delle pietre che l’urgenza dei piccoli.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2988,
-        "outputTokens": 359,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.010255
-    },
-    {
-      "id": "activity_a4391bd2-95be-4630-9256-35aff6fecc74",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore emotivo",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:29.317Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:33.918Z",
-      "summary": "7.5/10 — Ho sentito una tensione trattenuta: mentre Bomo cerca di far viaggiare un suono, Nira continua a misurare il tempo sui respiri dei piccoli.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2988,
-        "outputTokens": 285,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.009219
-    },
-    {
-      "id": "activity_5a70684c-a38d-471b-b7b3-a3fb251cd22e",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore critico",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:34.186Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:39.658Z",
-      "summary": "5.5/10 — Buona svolta dal rumore all’eco, ma la minuzia dei gesti e la geografia acustica opaca rallentano una scena che dovrebbe essere urgente.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3002,
-        "outputTokens": 405,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0109235
-    },
-    {
-      "id": "activity_8f419611-9cd8-4bbb-a91b-0688bb314422",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore orientato ai personaggi",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:39.947Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:46.663Z",
-      "summary": "7.5/10 — Il capitolo fa avanzare la coppia soprattutto attraverso i gesti: Bomo recupera il ricordo del tamburo, Nira lo mette alla prova. Ho creduto alla loro intesa più che all’urgenza emotiva della discesa.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2992,
-        "outputTokens": 539,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.012781999999999998
-    },
-    {
-      "id": "activity_e635f718-027a-4d3c-b5f7-bbaaf33667f5",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore orientato alla trama",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:46.890Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:51.563Z",
-      "summary": "7/10 — Capitolo di preparazione con un progresso tattico reale: dall’impossibilità di avvicinarsi alla pila si passa a un diversivo plausibile, ma ancora non verificato su Kaza.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3001,
-        "outputTokens": 355,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.010221750000000002
-    },
-    {
-      "id": "activity_66009021-57db-4019-a085-5025f4743a8c",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "readers-summary",
-      "phase": "review",
-      "title": "Confronto dei lettori del capitolo 2",
-      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
-      "next": "Gli specialisti controllano continuità, canone e stile.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:51.840Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:50:57.395Z",
-      "summary": "7/10 — 6 proposals for the director",
-      "changedPaths": [
-        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2285,
-        "outputTokens": 620,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01267875
-    },
-    {
-      "id": "activity_2399e0d3-da88-4ea0-85d1-ab99ca71a973",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "specialists",
-      "phase": "review",
-      "title": "Gli specialisti revisionano il capitolo 2 (giro 1)",
-      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
-      "next": "Il direttore decide su ogni rilievo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:50:57.612Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:51:11.082Z",
-      "summary": "6 findings (0 critical, 1 major) — La revisione individua un problema di chiarezza nella posta in gioco del diversivo e alcuni inciampi locali nella descrizione delle prove e dei movimenti. Non emergono anticipazioni indebite dei segreti.",
-      "changedPaths": [],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4663,
-        "outputTokens": 1282,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.02610825
-    },
-    {
-      "id": "activity_605a7656-52ca-4afe-b281-1cab8c407330",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "director-review",
-      "phase": "review",
-      "title": "Il direttore giudica il capitolo 2 (giro 1)",
-      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
-      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:51:11.499Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:51:55.470Z",
-      "summary": "revise 7/10 — 14 accepted, 1 rejected. 7/10 — Da rivedere con interventi mirati. Il capitolo ha una svolta concreta: nella radura Bomo riesce a farsi sentire ma non a smuovere Kaza; alla riva Nira scopre un ritorno sonoro che vale la pena provare. La revisione deve accorciare la strada fra queste due scoperte, non anticipare il successo del diversivo. Chiarezza 6,5/10: si distinguono l’urto e il ritorno, ma la terza pietra, i riferimenti alla riva e il richiamo alla tana confondono il meccanismo e l’obiettivo. Ritmo 6,5/10: i tentativi sulla sabbia e gli allineamenti alla riva ripetono informazioni. Tensione 7/10: Kaza che alza la testa senza lasciare i frutti è un buon ostacolo; nella parte centrale l’urgenza dei piccoli pesa poco sulle azioni. Coerenza del canone 7,5/10: la roccia si rivela alla soglia prevista, la zampa resta coerente e né la provenienza del cibo né il cambio di corso sono svelati; inciampano invece postura e posizione delle pietre. Forza stilistica 7,5/10: l’eco nello sterno e la presa sul polso rendono fisiche scoperta e intesa; alcune frasi vaghe indeboliscono una prosa altrimenti concreta.",
-      "changedPaths": [
-        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 7474,
-        "outputTokens": 4787,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.08009749999999999
-    },
-    {
-      "id": "activity_97abee4b-24f4-457b-91e2-500fee5696f1",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 2,
-      "sceneNumber": 1,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:51:55.824Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:08.513Z",
-      "summary": "3 fixes applied, 543 words.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4869,
-        "outputTokens": 1873,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.03474275
-    },
-    {
-      "id": "activity_80e7a68b-4aa3-4c5d-9d15-e9be6fb8730e",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 2,
-      "sceneNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:08.990Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:31.362Z",
-      "summary": "11 fixes applied, 681 words.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5627,
-        "outputTokens": 3185,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.054437250000000006
-    },
-    {
-      "id": "activity_713330ee-d0c4-40fb-9674-034954bca493",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore generalista",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:31.804Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:36.596Z",
-      "summary": "7.5/10 — Capitolo sensoriale e teso: seguo volentieri Nira e Bomo mentre un ricordo diventa un possibile diversivo. Il piano è chiaro alla fine, ma nella prima metà impiego un po’ a capire che cosa stiano cercando nei rumori.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2753,
-        "outputTokens": 386,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01022175
-    },
-    {
-      "id": "activity_785eaca3-8a22-4d3f-bc72-b1d4761acb6c",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore emotivo",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:36.997Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:41.042Z",
-      "summary": "8/10 — Ho sentito un’ansia trattenuta: Nira e Bomo devono fermarsi ad ascoltare proprio mentre, per i piccoli, aspettare ha un costo.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2753,
-        "outputTokens": 310,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.00915775
-    },
-    {
-      "id": "activity_e1568810-8e4e-4d90-8743-0fedf85b8678",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore critico",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:41.391Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:47.567Z",
-      "summary": "6/10 — Capitolo sensorialmente preciso, ma il passaggio dalla scoperta dell’eco al piano per distrarre Kaza resta poco fondato. Le prove occupano più spazio di quanto producano in avanzamento.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2767,
-        "outputTokens": 468,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01139425
-    },
-    {
-      "id": "activity_34c50db1-68ed-46ab-b8d6-42e78d33f6b2",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore orientato ai personaggi",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:47.871Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:53.453Z",
-      "summary": "7.5/10 — Il capitolo mi convince di più quando il modo di cercare una soluzione rivela chi sono Nira e Bomo; nella seconda metà, invece, la verifica dell’eco prende il sopravvento sulla loro relazione.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2757,
-        "outputTokens": 426,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01078875
-    },
-    {
-      "id": "activity_47a76fa0-a4d4-444d-9a03-691216e91e14",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 2,
-      "reader": "Lettore orientato alla trama",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:53.734Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:52:58.824Z",
-      "summary": "7/10 — Il capitolo trasforma il «Non ora» del primo in un piano verificabile: l’obiettivo resta soccorrere i piccoli, ma il nuovo obiettivo di scena è capire se l’eco possa allontanare Kaza dalla frutta.",
-      "changedPaths": [
-        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2766,
-        "outputTokens": 398,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0104125
-    },
-    {
-      "id": "activity_712e4a50-9513-42db-a534-01513a423eb8",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "readers-summary",
-      "phase": "review",
-      "title": "Confronto dei lettori del capitolo 2",
-      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
-      "next": "Gli specialisti controllano continuità, canone e stile.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:52:59.088Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:53:05.084Z",
-      "summary": "7.2/10 — 5 proposals for the director",
-      "changedPaths": [
-        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2321,
-        "outputTokens": 524,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.011397750000000002
-    },
-    {
-      "id": "activity_f4658750-cdba-491d-858b-0eb93efa6665",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "specialists",
-      "phase": "review",
-      "title": "Gli specialisti revisionano il capitolo 2 (giro 2)",
-      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
-      "next": "Il direttore decide su ogni rilievo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:53:05.398Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:53:18.420Z",
-      "summary": "5 findings (0 critical, 2 major) — Le prove seguono la sequenza richiesta e la chiusa lascia aperta la verifica su Kaza. Resta il richiamo al ramo in mano nel passaggio alla riva; nella seconda scena, va chiarito anche che cosa Nira percepisce al tatto durante la prima prova.",
-      "changedPaths": [],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5204,
-        "outputTokens": 1211,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.026061
-    },
-    {
-      "id": "activity_b1117a1d-78cd-4149-bd88-c71eb3a2783f",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "director-review",
-      "phase": "review",
-      "title": "Il direttore giudica il capitolo 2 (giro 2)",
-      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
-      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:53:18.788Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:53:52.804Z",
-      "summary": "revise 7.7/10 — 8 accepted, 3 rejected. 7,7/10. Il capitolo compie la scoperta promessa: il vento ripete la prova di Nira e la roccia restituisce il colpo. Non serve far muovere Kaza in questo capitolo. Servono però ritocchi mirati perché il lettore capisca prima perché il tonfo non basta e veda quale verifica Nira ha scelto di fare. Chiarezza 8/10: il solco e l’urto si seguono bene, ma «Troppo piccolo» confonde volume ed efficacia. Ritmo 7,5/10: i tentativi hanno funzioni distinte; il ramo grosso riceve due battute narrative dove ne basta una. Tensione 7,5/10: il ricordo dei piccoli dà un costo all’attesa, ma la chiusa insiste sull’ascolto quando la prossima prova dipende dallo sguardo. Coerenza con il canone 7,5/10: la roccia si rivela alla soglia prevista e gli altri segreti restano coperti; il ramo e la presa al polso creano inciampi di continuità. Forza stilistica 8/10: il petto del piccolo, il tintinnio e il ritorno più pieno rendono l’urgenza e la scoperta concrete.",
-      "changedPaths": [
-        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 7773,
-        "outputTokens": 3695,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.06533275
-    },
-    {
-      "id": "activity_b9b9bd93-c3c1-4afc-bb14-4f035d0d7c5b",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 2,
-      "sceneNumber": 1,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:53:53.252Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:54:01.651Z",
-      "summary": "3 fixes applied, 550 words.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4736,
-        "outputTokens": 1233,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.025550000000000003
-    },
-    {
-      "id": "activity_d96d1030-668d-4a65-9d39-4f7a1b444f06",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 2,
-      "sceneNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:54:02.107Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:54:12.156Z",
-      "summary": "5 fixes applied, 668 words.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5227,
-        "outputTokens": 1649,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.03223325
-    },
-    {
-      "id": "activity_671ff804-3cf4-46e8-b2ab-df6d04889875",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "consolidate",
-      "phase": "review",
-      "title": "Chiusura del capitolo 2 «Capitolo 2 - Il suono sbagliato»",
-      "reason": "Riassunto, recap, continuità e storia finora mantengono coerenti i capitoli successivi.",
-      "next": "Passare al capitolo successivo.",
-      "chapterNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:54:12.502Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:54:26.314Z",
-      "summary": "Bomo ricorda come l’acqua restituisse in ritardo i colpi dei tamburi e cerca di riprodurre quel suono: solo il ramo più grosso fa alzare la testa a Kaza, che resta presso la frutta. Nel letto basso del fiume, Nira dispone due pietre in fila in un solco: prima una sua spinta, poi una raffica fanno rotolare la prima contro la seconda, e la Roccia del Ritardo rimanda un suono più pieno e netto. Bomo propone di attirare Kaza verso la riva; Nira rimette a posto la prima pietra e tiene d’occhio le orecchie del leone per capire se al prossimo urto si volgeranno verso il suono.",
-      "changedPaths": [
-        "chapters/002-capitolo-2-il-suono-sbagliato/chapter.md",
-        "resumes/chapters/002-capitolo-2-il-suono-sbagliato.md",
-        "resumes/total.md",
-        "plot.md",
-        "autopilot/plan.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3052,
-        "outputTokens": 1762,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.030009
-    },
-    {
-      "id": "activity_dc6f5b72-60e8-48cb-a93a-390d8a2be2e2",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore generalista legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore generalista",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:54:29.695Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:54:44.297Z",
-      "summary": "8/10 — La sottrazione dei frutti mi tiene in tensione e il finale chiarisce, con un gesto semplice, che il cibo non risolve la sete dei piccoli.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-general.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4115,
-        "outputTokens": 344,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01201725
-    },
-    {
-      "id": "activity_21d99e7b-aa55-483a-8728-1cdcb7a73268",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore emotivo legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore emotivo",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:54:44.730Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:54:50.404Z",
-      "summary": "8.5/10 — Mi ha tenuto in un’apprensione quieta: volevo che Nira portasse la frutta ai piccoli, ma la zampa di Kaza mi impediva di desiderare che fosse semplicemente sconfitto.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-emotional.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4115,
-        "outputTokens": 426,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01316525
-    },
-    {
-      "id": "activity_9565c901-b8e2-4b82-825c-d317be8dfe85",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore critico legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore critico",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:54:50.666Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:54:58.622Z",
-      "summary": "6.5/10 — Il capitolo costruisce una tensione fisica credibile, ma insiste su molti gesti di uguale peso proprio dove dovrebbe rendere più leggibili le scelte. Il finale distingue con precisione il successo del furto dal…",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-critical.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4129,
-        "outputTokens": 620,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01590575
-    },
-    {
-      "id": "activity_9d11919f-1e79-4ef2-bb6a-3bf222c1ee76",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato ai personaggi legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato ai personaggi",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:54:58.980Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:55:04.923Z",
-      "summary": "8/10 — Capitolo convincente quando fa emergere i rapporti dai gesti: Nira passa dal nascondersi al mostrare ciò che ha preso, Bomo collabora senza limitarsi a eseguire, Kaza smette di apparire soltanto come il guardiano della…",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-characters.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4119,
-        "outputTokens": 472,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.013816249999999999
-    },
-    {
-      "id": "activity_a2f4116e-0b6c-40ee-8aed-7ad4dc9d6282",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato alla trama legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato alla trama",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:55:05.327Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:55:09.451Z",
-      "summary": "8/10 — Il capitolo mantiene la promessa del diversivo sonoro, porta il cibo ai piccoli e trasforma l'acqua nel prossimo obiettivo urgente.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-plot.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 4128,
-        "outputTokens": 290,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.011283999999999999
-    },
-    {
-      "id": "activity_775b2a81-caa7-4aea-bb57-d64a7bbf6822",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "readers-summary",
-      "phase": "review",
-      "title": "Confronto dei lettori del capitolo 3",
-      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
-      "next": "Gli specialisti controllano continuità, canone e stile.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:55:09.765Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:55:16.104Z",
-      "summary": "7.8/10 — 6 proposals for the director",
-      "changedPaths": [
-        "evaluations/readers/summaries/chapters/003-capitolo-3-il-pasto-che-resta.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2437,
-        "outputTokens": 494,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01118075
-    },
-    {
-      "id": "activity_a6deb4fa-9ec7-4173-a9d4-2faba88c19d8",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "specialists",
-      "phase": "review",
-      "title": "Gli specialisti revisionano il capitolo 3 (giro 1)",
-      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
-      "next": "Il direttore decide su ogni rilievo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:55:16.456Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:55:26.390Z",
-      "summary": "3 findings (0 critical, 1 major) — Il cambio di corso del fiume emerge da indizi concreti e la chiusura lascia irrisolta la sete dei piccoli. La correzione prioritaria è raccordare il numero delle pietre al capitolo precedente; restano due inciampi locali di chiarezza e ritmo.",
-      "changedPaths": [],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 5831,
-        "outputTokens": 951,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.023518249999999997
-    },
-    {
-      "id": "activity_b0ffa0b3-80cb-4ab9-baf0-5062f769ad9e",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "director-review",
-      "phase": "review",
-      "title": "Il direttore giudica il capitolo 3 (giro 1)",
-      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
-      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
-      "chapterNumber": 3,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:55:26.850Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:56:04.523Z",
-      "summary": "revise 7.4/10 — 11 accepted, 1 rejected. Revisione mirata. Il capitolo compie il prelievo, lascia a Kaza la scelta di non intervenire e chiude sul bisogno che i frutti non risolvono. Il punto più debole è la partenza di Kaza: il testo mostra che sente l’eco, ma non ancora perché stavolta lasci la pila. Chiarezza 7/10: i quattro frutti si contano senza fatica, meno chiaro è il rapporto fra il frutto spaccato e le mani aperte. Ritmo 7/10: il conto e il ritorno del leone reggono la prima scena; nella seconda, appoggi e riferimenti spaziali ritardano la scoperta dell’acqua. Tensione 8/10: Nira rinuncia a correre e si espone, senza che il silenzio di Kaza diventi un assenso dichiarato. Coerenza con il canone 7/10: le due rivelazioni arrivano alla soglia prevista e sono mostrate, ma la terza pietra compare senza raccordo e il ricordo ne altera la preparazione. Forza stilistica 8/10: la buccia che cede sotto il pollice, la striscia d’ombra e le labbra asciutte fanno sentire la posta senza spiegarla.",
-      "changedPaths": [
-        "evaluations/director/chapters/003-capitolo-3-il-pasto-che-resta.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 8142,
-        "outputTokens": 4083,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0714105
-    },
-    {
-      "id": "activity_36e5ac9c-19ba-4559-bbd3-6088ad7b9864",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 3",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 3,
-      "sceneNumber": 1,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:56:04.970Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:56:23.234Z",
-      "summary": "5 fixes applied, 1070 words.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/001-il-passo-e-il-vuoto.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6407,
-        "outputTokens": 2826,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.05077625
-    },
-    {
-      "id": "activity_a6ac3882-a982-419d-8487-f8e1750cd4c2",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "repair",
-      "phase": "review",
-      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 3",
-      "reason": "Si applicano solo le correzioni approvate dal direttore.",
-      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
-      "chapterNumber": 3,
-      "sceneNumber": 2,
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:56:23.573Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:56:39.180Z",
-      "summary": "6 fixes applied, 881 words.",
-      "changedPaths": [
-        "chapters/003-capitolo-3-il-pasto-che-resta/002-la-riva-che-arretra.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 6139,
-        "outputTokens": 2385,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.04413325
-    },
-    {
-      "id": "activity_077580eb-9a8c-4413-ba6c-3e99de083ed9",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore generalista legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore generalista",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:56:39.645Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:56:47.918Z",
-      "summary": "8/10 — Un capitolo teso e concreto: mi ha coinvolto il rischio di prendere i frutti sotto gli occhi di Kaza, e il finale fa sentire che il successo è solo parziale.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-general.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3960,
-        "outputTokens": 370,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.01211
-    },
-    {
-      "id": "activity_2bffebf4-29fe-41ef-b449-b99d2594515e",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore emotivo legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore emotivo",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:56:48.275Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:56:52.809Z",
-      "summary": "8.5/10 — Mi ha tenuto in tensione senza dichiarare la paura e mi ha lasciato con un sollievo incompleto: i piccoli hanno da mangiare, ma la sete resta.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-emotional.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3960,
-        "outputTokens": 307,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.011228
-    },
-    {
-      "id": "activity_25e6f9ae-63a1-4477-8e64-829a8df0ec7d",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore critico legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore critico",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:56:53.160Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:56:59.709Z",
-      "summary": "6.5/10 — La diversione riesce, ma il capitolo diventa davvero teso solo quando Nira smette di nascondersi e mostra i quattro frutti a Kaza. Prima di quel gesto, la minuzia dei movimenti rallenta una sequenza il cui obiettivo è…",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-critical.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3974,
-        "outputTokens": 520,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.0142345
-    },
-    {
-      "id": "activity_6c1ba6a0-7e2c-4d6b-a270-bc25ef85dfa7",
-      "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato ai personaggi legge il capitolo 3 «Capitolo 3 - Il pasto che resta»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 3,
-      "reader": "Lettore orientato ai personaggi",
-      "status": "succeeded",
-      "startedAt": "2026-11-26T20:57:00.007Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-26T20:57:05.732Z",
-      "summary": "8/10 — La relazione fra Nira e Bomo si legge nei gesti e cambia nel corso della scena. Mi convince meno la leggibilità del rischio che Nira sceglie di correre mostrandosi a Kaza.",
-      "changedPaths": [
-        "evaluations/readers/chapters/003-capitolo-3-il-pasto-che-resta/standard-characters.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 3964,
-        "outputTokens": 407,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.012635
-    },
-    {
       "id": "activity_45358c09-8979-4d1f-b3dc-07e078e3c845",
       "runId": "run_f13be865-d25e-4c01-867b-d1719d434fce",
       "task": "reader",
@@ -5512,6 +3771,1738 @@
         "cachedInputTokens": 0
       },
       "cost": 0.02709175
+    },
+    {
+      "id": "activity_36a2552e-efd3-499a-986b-453d45af6c3c",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore generalista",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:07:37.504Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:07:43.058Z",
+      "summary": "7.5/10 — L’idea di usare l’eco per distrarre Kaza mi incuriosisce, e il contrasto fra il tonfo senza ritorno e il suono più pieno alla riva dà al capitolo una progressione chiara. A metà, però, la precisione dei piccoli gesti…",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2471,
+        "outputTokens": 412,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.01009225
+    },
+    {
+      "id": "activity_1c395bd9-2186-419d-a61d-bce739afb0de",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore emotivo",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:07:43.304Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:07:47.838Z",
+      "summary": "7.5/10 — Sento l’urgenza soprattutto nel corpo di Nira; la tensione si fa più intermittente quando l’attenzione passa ai dettagli delle prove acustiche.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2471,
+        "outputTokens": 324,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00886025
+    },
+    {
+      "id": "activity_3cfbd016-d6cb-49d9-9778-edc8fb5e5474",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore critico",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:07:48.086Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:07:55.751Z",
+      "summary": "5.5/10 — Il capitolo ha una buona idea di suspense — sfruttare l’eco per spostare Kaza — ma la tratta come una serie di prove acustiche proprio quando la sete dei piccoli richiederebbe una scelta.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2485,
+        "outputTokens": 563,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.012230749999999999
+    },
+    {
+      "id": "activity_a448b36b-f674-42c1-b334-8a7cd01edb45",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato ai personaggi",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:07:56.018Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:08:02.055Z",
+      "summary": "7.5/10 — Nira e Bomo si distinguono nel modo di affrontare il rischio: lui recupera a voce un ricordo e ne ricava un’idea, lei la mette alla prova e corregge il tiro. Il capitolo mi convince più nella loro intesa fisica che nel…",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2475,
+        "outputTokens": 463,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.01081325
+    },
+    {
+      "id": "activity_c36af7a0-5ad0-457f-90ff-d4e9a115cd75",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato alla trama",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:08:02.248Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:08:07.644Z",
+      "summary": "6.5/10 — La storia passa dall’attesa a un piano verificabile: trovare un suono che faccia allontanare Kaza dalla pila. L’avanzamento è reale ma circoscritto: alla fine è provato l’eco, non la sua utilità.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2484,
+        "outputTokens": 382,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.009695
+    },
+    {
+      "id": "activity_f6c75a51-ee62-442e-8fd5-ba323d24603d",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 2",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:08:07.933Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:08:12.601Z",
+      "summary": "6.9/10 — 5 proposals for the director",
+      "changedPaths": [
+        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2439,
+        "outputTokens": 405,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00993825
+    },
+    {
+      "id": "activity_c665b48b-cc89-4eb7-a2a3-ab3a72ef97a9",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 1)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:08:12.822Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:08:29.219Z",
+      "summary": "7 findings (0 critical, 2 major) — Il passaggio dal ricordo alla prova è leggibile e non anticipa i segreti del capitolo 3. Le priorità sono rendere verificabile l’effetto della roccia e distinguere un semplice segno d’ascolto dalla distrazione che serve a Nira e Bomo.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4058,
+        "outputTokens": 1542,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0286895
+    },
+    {
+      "id": "activity_1cd87bd0-6cf5-4a2b-8cd7-24c63a2afe29",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 1)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:08:29.571Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:11.105Z",
+      "summary": "revise 7.4/10 — 10 accepted, 2 rejected. Il capitolo porta a una scoperta concreta: il colpo alla radice fa alzare la testa a Kaza ma non lo smuove, mentre alla riva la roccia restituisce un secondo suono. È più chiaro come nasce l’eco che cosa i due vogliano ottenere restando a provarla. Chiarezza 7/10: le prove si seguono, ma il passaggio dalla priorità dell’acqua alla frutta non è motivato. Ritmo 7/10: la preparazione della prima prova serve; i movimenti prima della raffica dilatano una conferma semplice. Tensione 7/10: la reazione di Kaza può restare sospesa, ma deve essere leggibile il costo della scelta di Bomo di restare. Coerenza con il canone 8,5/10: la roccia si rivela alla soglia prevista e gli altri segreti restano coperti; va chiarito il gesto della zampa già ferita. Forza stilistica 7,5/10: il tremito sotto le dita e il ritorno nello sterno rendono fisica la scoperta, mentre alcuni dettagli di posizione intralciano la lettura. Priorità: chiarire la meta di Nira prima della discesa, stringere la prova della raffica e motivare il passo ritirato di Bomo.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 7114,
+        "outputTokens": 4082,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.06959749999999999
+    },
+    {
+      "id": "activity_b43249f0-2cf4-42b9-b603-20ad40368bca",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:11.415Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:21.097Z",
+      "summary": "2 fixes applied, 535 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4665,
+        "outputTokens": 1301,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.02637775
+    },
+    {
+      "id": "activity_0d2924b1-63ab-4646-a0df-211e877f3052",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:21.361Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:36.344Z",
+      "summary": "8 fixes applied, 457 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4746,
+        "outputTokens": 2006,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0363895
+    },
+    {
+      "id": "activity_0890ad8f-c732-494e-994b-3a9e3af8aa1d",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore generalista",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:36.740Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:40.541Z",
+      "summary": "7/10 — Capitolo sensoriale e leggibile, con una trovata che incuriosisce, ma l’urgenza dei piccoli si attenua durante le prove.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2455,
+        "outputTokens": 285,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00828625
+    },
+    {
+      "id": "activity_43b1d10d-7318-4175-b19b-da181f2cb788",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore emotivo",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:40.788Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:45.895Z",
+      "summary": "7.5/10 — Ho sentito una tensione trattenuta: a preoccuparmi non è tanto il leone quanto il fatto che ogni tentativo trattiene Nira e Bomo lontano dai piccoli.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2455,
+        "outputTokens": 347,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00915425
+    },
+    {
+      "id": "activity_64d7441c-6d86-4e8c-b808-716958d2abc5",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore critico",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:46.194Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:51.603Z",
+      "summary": "5.5/10 — La scoperta acustica è leggibile, ma il capitolo dedica più spazio a predisporre il diversivo che a metterlo alla prova, nonostante l’urgenza dei piccoli.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2469,
+        "outputTokens": 408,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.01003275
+    },
+    {
+      "id": "activity_c2dd73c5-3fc7-407f-8f9e-da60c35c09d5",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato ai personaggi",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:51.818Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:09:57.589Z",
+      "summary": "7/10 — Da lettore orientato ai personaggi, trovo convincente l’intesa fisica fra Nira e Bomo, meno leggibile il momento in cui le loro priorità divergono e poi sembrano ricomporsi.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2459,
+        "outputTokens": 447,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.010561250000000001
+    },
+    {
+      "id": "activity_7aec7228-c427-4b31-957f-5b01f3f68860",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato alla trama",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:09:57.799Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:10:02.737Z",
+      "summary": "7/10 — Il capitolo passa dall’attesa dietro la radice a un piano verificabile: usare l’eco per liberare l’accesso alla pozza. L’avanzamento è concreto sul mezzo, non ancora sul conflitto con Kaza.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2468,
+        "outputTokens": 375,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.009569000000000001
+    },
+    {
+      "id": "activity_6ea70f8b-5760-4f6e-b761-2306ffff2c6c",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 2",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:10:02.958Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:10:09.130Z",
+      "summary": "6.8/10 — 4 proposals for the director",
+      "changedPaths": [
+        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2194,
+        "outputTokens": 593,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.012141500000000001
+    },
+    {
+      "id": "activity_d3f1adf4-e047-4d60-b3cc-a1d0fb760727",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 2)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:10:09.416Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:10:23.498Z",
+      "summary": "3 findings (0 critical, 1 major) — I raccordi richiesti sono presenti e i segreti restano protetti. Il problema principale è il criterio della prossima prova: così formulato, non distingue la risposta al colpo dalla risposta al suono restituito dalla roccia.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4526,
+        "outputTokens": 1372,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0271285
+    },
+    {
+      "id": "activity_19ccfaa4-3f15-49c0-aff5-ec3aa9cb2fc6",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 2)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:10:23.725Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:10:49.893Z",
+      "summary": "revise 7.6/10 — 7 accepted, 1 rejected. Revisione mirata. Chiarezza 7/10: il solco e l’urto si capiscono alla prima lettura, ma il varco per la pozza è poco localizzato e «al prossimo colpo» non distingue il tintinnio dal ritorno. Ritmo 7/10: i rami e le pietre danno due risultati diversi, ma alcuni gesti e dettagli rallentano la prova. Tensione 7,5/10: il respiro del piccolo dà urgenza all’attesa; il passo ritirato di Bomo ne mostra il costo, ma passa troppo in fretta. Canone e continuità 9/10: la roccia rivela la sua funzione al momento previsto, la cautela sulla zampa destra riprende il capitolo 1 e nessun segreto del capitolo 3 è anticipato. Forza stilistica 7,5/10: la pausa dei tamburi e il ritorno del tintinnio sono concreti; il colpo allo sterno confonde invece suono e vibrazione. La priorità è rendere verificabile la prossima prova, non far riuscire il diversivo in anticipo.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 7144,
+        "outputTokens": 2840,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.052262
+    },
+    {
+      "id": "activity_1f834afc-7be1-44b9-8c7e-29321cf3be14",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:10:50.262Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:10:57.255Z",
+      "summary": "2 fixes applied, 501 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4606,
+        "outputTokens": 996,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0220045
+    },
+    {
+      "id": "activity_941aaef6-75e7-45ce-a6c0-7d1cc551f4f5",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:10:57.466Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:09.734Z",
+      "summary": "5 fixes applied, 435 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4487,
+        "outputTokens": 1702,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.03168025
+    },
+    {
+      "id": "activity_8c3eb432-3f02-41f7-9430-4dc44f2d1dcb",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore generalista",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:10.119Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:14.291Z",
+      "summary": "8/10 — Capitolo sensoriale e teso, che trasforma l’attesa del primo capitolo in un tentativo concreto di liberare la via alla pozza.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2369,
+        "outputTokens": 308,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00845775
+    },
+    {
+      "id": "activity_abd8487c-ca7b-4fd3-bd97-f982910e6236",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore emotivo",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:14.483Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:19.934Z",
+      "summary": "7.5/10 — Mi prende con una tensione sommessa e fisica: il respiro del piccolo accompagna Nira anche lontano dall’Albero Basso. Nella prova dell’eco, però, la curiosità per il meccanismo finisce per superare per un tratto…",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2369,
+        "outputTokens": 375,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.009395750000000001
+    },
+    {
+      "id": "activity_33635566-5775-47aa-b961-8567ca1e84f7",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore critico",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:20.167Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:26.238Z",
+      "summary": "5.5/10 — Il capitolo rende tangibile la ricerca di un suono, ma mi chiede di seguire più prove di quante ne servano prima di arrivare alla sola verifica che conta: la reazione di Kaza al rimbalzo.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2383,
+        "outputTokens": 507,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.01126825
+    },
+    {
+      "id": "activity_13b16f72-f67d-4ed2-83d2-3a72b2213456",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato ai personaggi",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:26.402Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:31.766Z",
+      "summary": "7/10 — Mi convince la fiducia pratica fra Nira e Bomo, ma il capitolo mi fa seguire più facilmente la prova dell’eco che il cambiamento nel loro rapporto.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2373,
+        "outputTokens": 400,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.009752750000000001
+    },
+    {
+      "id": "activity_0cf9770e-33da-4495-b31b-a57edb39b082",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato alla trama",
+      "status": "failed",
+      "startedAt": "2026-11-27T08:11:32.041Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:38.289Z",
+      "error": "The reader evaluation was rejected: the field \"score\" is missing.",
+      "errorKind": "provider",
+      "errorDetail": {
+        "attempt": 1,
+        "retries": 1
+      },
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2382,
+        "outputTokens": 438,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0103005
+    },
+    {
+      "id": "activity_7745a602-aafa-4832-8816-4689680cfbac",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato alla trama",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:43.254Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:48.729Z",
+      "summary": "7/10 — Il capitolo fa avanzare il piano, non ancora il salvataggio: Nira e Bomo passano dall’attesa a una distrazione verificabile, ma i piccoli restano senza acqua e Kaza non ha ancora lasciato la frutta.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2430,
+        "outputTokens": 425,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0102025
+    },
+    {
+      "id": "activity_be97c805-dd0d-4e4a-b22e-0224868e17e1",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 2",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:49.064Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:11:54.957Z",
+      "summary": "7/10 — 5 proposals for the director",
+      "changedPaths": [
+        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2348,
+        "outputTokens": 536,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.011613
+    },
+    {
+      "id": "activity_388cd10e-f283-4a7a-ab36-72ed97294c71",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 3)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:11:55.256Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:12:06.158Z",
+      "summary": "2 findings (0 critical, 0 major) — Le modifiche del giro precedente sono recepite. Restano due problemi circoscritti di chiarezza; non emergono contraddizioni con il canone né anticipazioni dei segreti.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4292,
+        "outputTokens": 1006,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.021595
+    },
+    {
+      "id": "activity_5eaa04ca-0537-4b85-8e20-a01674bea8c1",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 3)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:12:06.530Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:12:38.068Z",
+      "summary": "revise 8/10 — 4 accepted, 4 rejected. Revisione mirata. Chiarezza 7,5/10: le prove si seguono, ma il tratto scoperto è collocato in modo ambiguo e il «quasi subito» rende poco leggibile il momento in cui osservare Kaza. Ritmo 7/10: il tonfo porta subito a un esito; alla riva, invece, il testo anticipa un rotolio che subito dopo mette in scena. Tensione 8/10: la sete dei piccoli dà peso al piede che Bomo ritira, ma passa in secondo piano proprio durante la prova. Coerenza con il canone 9,5/10: la roccia si rivela alla soglia prevista, la zampa destra resta coerente e l’acqua bassa non svela il cambio di corso del fiume. Forza stilistica 8/10: il respiro del piccolo e il contrasto fra sabbia e roccia danno corpo alla scena; qualche spiegazione ripete ciò che i gesti mostrano già. Priorità: rendere percepibile l’intervallo fra i due suoni, asciugare la preparazione e tenere la chiusa in sospeso.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6690,
+        "outputTokens": 3135,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.05559750000000001
+    },
+    {
+      "id": "activity_6b09810d-0772-4b1a-bab8-a7a496936e04",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:12:38.237Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:12:46.431Z",
+      "summary": "1 fixes applied, 485 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4475,
+        "outputTokens": 1048,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.02250325
+    },
+    {
+      "id": "activity_b1047409-a2a9-4b9c-8135-d3b8b3dd5f90",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:12:46.785Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:12:55.475Z",
+      "summary": "3 fixes applied, 431 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4361,
+        "outputTokens": 1251,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.025145749999999998
+    },
+    {
+      "id": "activity_d2cdb414-cd27-425f-ab69-15bb1b41ea7c",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore generalista",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:12:55.794Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:00.609Z",
+      "summary": "7.5/10 — Ho seguito con interesse il passaggio dall’attesa dietro la radice alla prova dell’eco. L’urgenza dell’acqua resta chiara, anche se si sente meno durante i preparativi.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2337,
+        "outputTokens": 320,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.008569750000000001
+    },
+    {
+      "id": "activity_0d06eda6-9ec9-4eb1-9921-d9c084cc5116",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore emotivo",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:00.968Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:05.338Z",
+      "summary": "8/10 — Ho sentito una tensione trattenuta, più forte quando il tentativo di distrarre Kaza torna a misurarsi con il respiro del piccolo.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2337,
+        "outputTokens": 313,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00847175
+    },
+    {
+      "id": "activity_644f39a8-83aa-44b4-902e-5bc8ace36053",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore critico",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:05.569Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:10.847Z",
+      "summary": "6/10 — Il capitolo trasforma l’attesa in un esperimento leggibile, ma dedica più spazio a dimostrare che l’eco esiste che a mettere alla prova la decisione da cui dipende l’acqua.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2351,
+        "outputTokens": 416,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00993825
+    },
+    {
+      "id": "activity_0e973115-5ded-4e93-95a8-b9c9179be8dc",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato ai personaggi",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:11.111Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:17.033Z",
+      "summary": "7.5/10 — Nira e Bomo sono credibili soprattutto quando si rispondono con i gesti. Il capitolo distingue bene le loro priorità, ma rende più leggibile la prova dell’eco che la decisione di restare a tentarla.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2341,
+        "outputTokens": 421,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.00999075
+    },
+    {
+      "id": "activity_6dfe8a27-faf8-4345-917a-1c96644ca68b",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato alla trama",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:17.291Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:21.305Z",
+      "summary": "7/10 — Il capitolo passa dall’attesa a un piano verificabile, ma si ferma subito prima della verifica decisiva.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2350,
+        "outputTokens": 306,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.008396500000000001
+    },
+    {
+      "id": "activity_3d2c61cf-40fd-423c-8268-f8a0237bc9fb",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 2",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:21.593Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:27.005Z",
+      "summary": "7.2/10 — 4 proposals for the director",
+      "changedPaths": [
+        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2108,
+        "outputTokens": 481,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.010423
+    },
+    {
+      "id": "activity_b92e0571-0100-4382-bbf4-32ec5127b270",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 4)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:27.261Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:13:39.435Z",
+      "summary": "3 findings (0 critical, 0 major) — Restano due interventi puntuali sulle correzioni del giro precedente e un’ambiguità nella descrizione della prova con la raffica.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4167,
+        "outputTokens": 1161,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.023546249999999998
+    },
+    {
+      "id": "activity_56c1f56c-b0c7-42cf-b34c-184311061c94",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 4)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:13:39.810Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:09.803Z",
+      "summary": "revise 8.1/10 — 7 accepted, 0 rejected. Revisione mirata. Chiarezza 8/10: il tonfo fa alzare la testa a Kaza senza smuoverlo, ma «sull’acqua bassa» rende meno nitida la verifica dalla curva. Ritmo 7/10: i preparativi e i due capoversi d’avvicinamento alla riva rallentano il passaggio dal fallimento alla scoperta. Tensione 8/10: la pausa prima dell’eco regge l’attesa; il rientro rimandato le dà un costo, ma il gesto finale di Bomo va legato più direttamente a quello di Nira. Coerenza con il canone 9,5/10: la roccia rivela la sua funzione al momento previsto, la cautela di Kaza sulla zampa destra prosegue dal capitolo 1 e nessuno dei due segreti del capitolo 3 viene anticipato. Forza stilistica 8/10: il tamburo sotto le dita e il secco «Parla» fanno sentire la scoperta; la battuta sulle orecchie suona invece come una consegna. Priorità: asciugare i preparativi e chiudere sulla scelta di Bomo, senza anticipare la risposta di Kaza.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6493,
+        "outputTokens": 3119,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.055028749999999994
+    },
+    {
+      "id": "activity_758719d4-f351-4bcb-8836-e9c4a4c70dc3",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:10.255Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:17.380Z",
+      "summary": "2 fixes applied, 476 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4500,
+        "outputTokens": 982,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.021623000000000003
+    },
+    {
+      "id": "activity_a8626336-c143-4156-95c9-5703d302026d",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:17.770Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:27.342Z",
+      "summary": "5 fixes applied, 419 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4408,
+        "outputTokens": 1323,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.026236000000000002
+    },
+    {
+      "id": "activity_1267c0db-9a94-4d98-a702-4434f58890ca",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore generalista legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore generalista",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:27.729Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:32.720Z",
+      "summary": "7.5/10 — La posta in gioco è chiara e il passaggio dai rumori senza ritorno all’eco tiene viva la curiosità. La lettura rallenta un po’ nella preparazione dell’ultima prova.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-general.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2302,
+        "outputTokens": 328,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0086205
+    },
+    {
+      "id": "activity_7f9383c6-25bd-4c7a-bcd4-954aca857d0a",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore emotivo legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore emotivo",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:33.037Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:37.340Z",
+      "summary": "8/10 — Tensione sommessa e fisica: partecipo soprattutto quando la ricerca dell’eco torna a misurarsi con il respiro del piccolo.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-emotional.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2302,
+        "outputTokens": 292,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.008116499999999999
+    },
+    {
+      "id": "activity_af308e97-64ff-4d13-b69a-a00f7a2aecb5",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore critico legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore critico",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:37.651Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:43.473Z",
+      "summary": "6/10 — Il capitolo trova un metodo per distrarre Kaza, ma dedica più spazio a preparare e ripetere la prova che a far avanzare il conflitto. Da lettore, alla fine so che Nira sente l’eco dalla curva, non se il suono può…",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-critical.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2316,
+        "outputTokens": 513,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.011235
+    },
+    {
+      "id": "activity_e3c63730-4139-49cf-a246-26a5a0533d97",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato ai personaggi legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato ai personaggi",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:43.736Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:48.982Z",
+      "summary": "7.5/10 — Credo a Nira e Bomo come coppia abituata a capirsi senza parlare; mi manca però un passaggio per capire perché Bomo cambi idea nel finale.",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-characters.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2306,
+        "outputTokens": 374,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.009271499999999998
+    },
+    {
+      "id": "activity_2b58d758-0434-4d1e-aa49-ed0121180c02",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "reader",
+      "phase": "review",
+      "title": "Lettore orientato alla trama legge il capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
+      "next": "Confrontare le opinioni dei lettori.",
+      "chapterNumber": 2,
+      "reader": "Lettore orientato alla trama",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:49.208Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:14:56.384Z",
+      "summary": "7/10 — Il capitolo trasforma l’attesa del primo in un piano verificabile: usare l’eco per allontanare Kaza e raggiungere la pozza. L’avanzamento è tattico, non materiale: hanno trovato il suono, ma non sanno ancora se il…",
+      "changedPaths": [
+        "evaluations/readers/chapters/002-capitolo-2-il-suono-sbagliato/standard-plot.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2315,
+        "outputTokens": 546,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.01169525
+    },
+    {
+      "id": "activity_95c38453-53ac-4327-98d1-381a7d6466f9",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "readers-summary",
+      "phase": "review",
+      "title": "Confronto dei lettori del capitolo 2",
+      "reason": "Convergenze e disaccordi diventano proposte per il direttore.",
+      "next": "Gli specialisti controllano continuità, canone e stile.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:14:56.623Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:15:03.134Z",
+      "summary": "7.2/10 — 5 proposals for the director",
+      "changedPaths": [
+        "evaluations/readers/summaries/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2385,
+        "outputTokens": 554,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.011929750000000001
+    },
+    {
+      "id": "activity_9374834b-64a3-4ce9-b09b-3a937e361fa3",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 5)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:15:03.425Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:15:16.972Z",
+      "summary": "3 findings (0 critical, 1 major) — Le sette correzioni richieste risultano applicate. Restano un problema nella resa del ritardo dell’eco e due ambiguità locali nella prima scena.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4257,
+        "outputTokens": 1233,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.02471175
+    },
+    {
+      "id": "activity_6b56cc43-8bd4-4eaa-b44e-998f61f5f6a8",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 5)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:15:17.320Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:15:46.922Z",
+      "summary": "revise 8/10 — 4 accepted, 4 rejected. Da rivedere. Il capitolo trasforma il ricordo di Bomo in una prova concreta e si ferma al punto giusto: la roccia restituisce il suono, ma il passaggio alla pozza resta conteso. La priorità è rendere credibile la pausa su cui si fonda la prossima prova, non anticipare la risposta di Kaza.\nChiarezza: 8/10. I due obiettivi e i due suoni si distinguono alla prima lettura; il passaggio da un solco assente al solco del sentiero crea un inciampo.\nRitmo: 7,5/10. Le prove aggiungono dati diversi, ma l’ultimo riassetto rallenta proprio quando l’attenzione dovrebbe tornare alle orecchie di Kaza.\nTensione: 8/10. Il tonfo fa alzare la testa al leone senza smuoverlo; il piede ritirato di Bomo rende concreto il costo dell’attesa.\nCoerenza con il canone: 8/10. La rivelazione della roccia è in soglia e i segreti del capitolo 3 restano coperti; la vicinanza fra solco e roccia non sostiene il ritardo descritto.\nForza stilistica: 8,5/10. La pelle del tamburo, il respiro del piccolo e l’artiglio nella sabbia raccontano ciò che conta attraverso i sensi; il segno sulla guancia perde precisione quando cambia causa.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6744,
+        "outputTokens": 3001,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.053816
+    },
+    {
+      "id": "activity_6d6eae15-0675-42ef-88cb-53a7dee7ec8c",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:15:47.080Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:15:53.398Z",
+      "summary": "2 fixes applied, 462 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4429,
+        "outputTokens": 884,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.020126750000000002
+    },
+    {
+      "id": "activity_1250e107-ab49-4b99-9531-5438856df2b0",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:15:53.777Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:16:05.856Z",
+      "summary": "2 fixes applied, 432 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4300,
+        "outputTokens": 1561,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.029379000000000002
+    },
+    {
+      "id": "activity_ffc7bcc1-b445-48b8-9212-2100eaec35f7",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 6)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:16:06.224Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:16:22.007Z",
+      "summary": "3 findings (0 critical, 1 major) — Le quattro correzioni del giro precedente risultano applicate. Resta da chiarire la direzione del diversivo; gli altri rilievi riguardano la leggibilità di un gesto e la precisione della prosa.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4113,
+        "outputTokens": 1420,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.027077750000000005
+    },
+    {
+      "id": "activity_346f5081-ab65-43f5-9aaa-8a93cb1d6474",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 6)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:16:22.393Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:16:46.011Z",
+      "summary": "revise 8.2/10 — 4 accepted, 0 rejected. Revisione mirata. La scoperta della Roccia del Ritardo funziona; va chiarito quale spostamento di Kaza potrebbe aprire il passaggio alla pozza. Chiarezza 7,5/10: si distinguono il tintinnio e il ritorno, ma «venisse» orienta il movimento verso la riva e il passaggio al letto basso è poco motivato. Ritmo 8/10: ogni prova aggiunge un dato; l’inquadratura ripetitiva della riva rallenta l’avvio della seconda scena. Tensione 8,5/10: Kaza sente il ramo ma non cede il posto, e il piede ritirato di Bomo dà un costo immediato all’attesa. Coerenza con il canone 9/10: la roccia rivela la sua funzione al momento previsto, la zampa resta coerente con il primo capitolo e i due segreti del terzo non vengono anticipati. Forza stilistica 8/10: il tremito sotto le dita e il battito di silenzio fanno percepire la prova senza spiegarla; qualche raccordo è meno preciso. Non serve aggiungere una reazione di Kaza in chiusura: il capitolo ha già dimostrato che il ritorno si sente dalla curva e si chiude sulla scelta di rimandare il ritorno dai piccoli.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6495,
+        "outputTokens": 2367,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.04450425
+    },
+    {
+      "id": "activity_a5b8b9fb-bfbd-434d-8a9a-b60e6f9bb5ab",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:16:46.366Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:16:55.682Z",
+      "summary": "2 fixes applied, 472 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4459,
+        "outputTokens": 1142,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.02379125
+    },
+    {
+      "id": "activity_c2f8dd74-1d91-4be6-bc90-fe4ee7bc89e8",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:16:56.009Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:17:02.797Z",
+      "summary": "2 fixes applied, 436 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4328,
+        "outputTokens": 1018,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.021825999999999998
+    },
+    {
+      "id": "activity_bc4f1d55-f82e-4320-b182-8dc37bf10ab7",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 7)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:17:03.032Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:17:14.717Z",
+      "summary": "2 findings (0 critical, 0 major) — Le quattro correzioni richieste risultano applicate. Restano due problemi circoscritti di chiarezza: la posizione della roccia rispetto al passaggio per la pozza e il ricordo tattile di Nira.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4123,
+        "outputTokens": 996,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.021159249999999998
+    },
+    {
+      "id": "activity_9f3c91f0-2bd5-4dc7-bc6f-c3970861d463",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 7)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:17:15.061Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:17:35.227Z",
+      "summary": "revise 8.4/10 — 3 accepted, 0 rejected. Revisione mirata. Il capitolo dimostra che la roccia rimanda il suono, non che l’eco faccia spostare Kaza. È giusto lasciare aperta la seconda prova: la chiusa mostra già una scelta, perché Bomo ritira il piede e rimanda il ritorno dai piccoli. Prima di approvare, serve rendere visibile il nesso fra la direzione dell’eco e il passaggio alla pozza.\nChiarezza — 8/10: il battito di silenzio distingue i due suoni alla prima lettura; non è altrettanto chiaro perché un passo verso la roccia dovrebbe liberare il tratto scoperto.\nRitmo — 8/10: ogni prova aggiunge un dato, ma il ritorno alle pietre occupa un passaggio a sé subito prima che Nira rimetta la pietra a monte.\nTensione — 8,5/10: Kaza alza la testa senza lasciare la frutta, e il gesto finale di Bomo fa sentire il costo dell’attesa senza anticiparne il risultato.\nCoerenza con il canone — 9/10: la funzione acustica della roccia emerge alla soglia prevista, la zampa resta un limite visibile e gli altri segreti non vengono anticipati.\nForza stilistica — 8,5/10: il tremito sotto le dita, la pausa e il ritorno più pieno fanno capire la scoperta senza spiegarla; il ricordo della presa sul polso è meno preciso.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6360,
+        "outputTokens": 1974,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.038766
+    },
+    {
+      "id": "activity_c176a82d-8fb4-442c-b591-d6ba816e83ff",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:17:35.585Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:17:46.207Z",
+      "summary": "3 fixes applied, 438 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4360,
+        "outputTokens": 1402,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.027258
+    },
+    {
+      "id": "activity_12a1aecc-85a2-4d6f-8fbf-e8a1ff8f6b15",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "specialists",
+      "phase": "review",
+      "title": "Gli specialisti revisionano il capitolo 2 (giro 8)",
+      "reason": "Continuità, canone, segreti, timeline, voce e stile richiedono un controllo indipendente.",
+      "next": "Il direttore decide su ogni rilievo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:17:46.508Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:17:57.678Z",
+      "summary": "2 findings (0 critical, 0 major) — Le tre correzioni della scena 2 risultano applicate: l’ipotesi conserva il «forse» e indica che Kaza si allontanerebbe dall’imbocco, il contatto è ricordato attraverso le dita di Nira e il ritorno alle pietre è implicito nel gesto di rimettere la pietra nel solco. Restano due rilievi di chiarezza nella scena 1.",
+      "changedPaths": [],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4066,
+        "outputTokens": 1035,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0216055
+    },
+    {
+      "id": "activity_84d2c71c-cbbd-42f6-92cf-9b1423b47a66",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "director-review",
+      "phase": "review",
+      "title": "Il direttore giudica il capitolo 2 (giro 8)",
+      "reason": "Il direttore accetta o respinge ogni rilievo come farebbe l'autore.",
+      "next": "Applicare le correzioni accettate, oppure chiudere il capitolo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:17:58.008Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:18:20.879Z",
+      "summary": "revise 8.8/10 — 3 accepted, 0 rejected. Tre ritocchi locali, senza cambiare la chiusa. Chiarezza 8,5/10: il percorso verso la pozza e la differenza fra urto e ritorno si capiscono; l’immagine sulle labbra e il passaggio al pensiero di Bomo costringono a rileggere. Ritmo 8,5/10: ogni prova aggiunge un dato, ma l’ultimo richiamo al respiro spezza il gesto con cui Bomo decide di restare. Tensione 9/10: Kaza alza la testa senza cedere terreno; alla fine la domanda non è più se il suono torni, ma se il leone lo segua. Coerenza del canone 9,5/10: la roccia rivela la sua funzione alla soglia prevista, senza anticipare né il mutamento del fiume né la provenienza della frutta; la cautela di Kaza sulla zampa riprende il capitolo 1. Forza stilistica 8,5/10: il tremito sotto le dita e il battito di silenzio fanno percepire la scoperta senza spiegarla, mentre l’immagine iniziale è meno precisa. Non serve aggiungere una reazione di Kaza: qui si verifica l’eco, non ancora il suo effetto sul leone.",
+      "changedPaths": [
+        "evaluations/director/chapters/002-capitolo-2-il-suono-sbagliato.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 6374,
+        "outputTokens": 2249,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0426405
+    },
+    {
+      "id": "activity_08b3f224-9061-49bd-8960-c94db9921743",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 1 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 1,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:18:21.278Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:18:28.896Z",
+      "summary": "2 fixes applied, 467 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/001-il-ricordo-che-vibra.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4476,
+        "outputTokens": 887,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.020250999999999998
+    },
+    {
+      "id": "activity_6abe85de-59b6-4908-9d95-0a9331fb7e46",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "repair",
+      "phase": "review",
+      "title": "Applicazione delle correzioni del direttore alla scena 2 del capitolo 2",
+      "reason": "Si applicano solo le correzioni approvate dal direttore.",
+      "next": "Proseguire con le altre correzioni o con un nuovo giro di revisione.",
+      "chapterNumber": 2,
+      "sceneNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:18:29.171Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:18:34.872Z",
+      "summary": "1 fixes applied, 428 words.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/002-la-roccia-che-parla.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4294,
+        "outputTokens": 804,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.018770500000000002
+    },
+    {
+      "id": "activity_45027c72-ca40-480d-93b0-29d47a21478c",
+      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
+      "task": "consolidate",
+      "phase": "review",
+      "title": "Chiusura del capitolo 2 «Capitolo 2 - Il suono sbagliato»",
+      "reason": "Riassunto, recap, continuità e storia finora mantengono coerenti i capitoli successivi.",
+      "next": "Passare al capitolo successivo.",
+      "chapterNumber": 2,
+      "status": "succeeded",
+      "startedAt": "2026-11-27T08:18:35.099Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T08:18:51.050Z",
+      "summary": "Bomo ricorda il breve silenzio prima che l’acqua del fiume restituisse i colpi dei tamburi e propone di cercare un suono che allontani Kaza dalla frutta. Nella radura né il tonfo di un ramo né il tintinnio delle pietre producono un’eco: il leone alza la testa al tonfo, ma non si sposta. Sulla riva, due pietre allineate in un solco producono un suono che la roccia lucida rimanda più pieno e netto, sia quando Nira spinge la prima sia quando la muove una raffica; Bomo la chiama Roccia del Ritardo. Nira rimette la pietra a monte e fissa le orecchie di Kaza, senza sapere ancora se reagirà all’eco.",
+      "changedPaths": [
+        "chapters/002-capitolo-2-il-suono-sbagliato/chapter.md",
+        "resumes/chapters/002-capitolo-2-il-suono-sbagliato.md",
+        "resumes/total.md",
+        "plot.md",
+        "autopilot/plan.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 2612,
+        "outputTokens": 1910,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.031311
     }
   ]
 }
