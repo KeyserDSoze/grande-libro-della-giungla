@@ -2,34 +2,6 @@
   "schemaVersion": 1,
   "activities": [
     {
-      "id": "activity_e98c3c1c-9026-4b53-8d3e-2ada6fc95667",
-      "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
-      "task": "reader",
-      "phase": "review",
-      "title": "Lettore orientato alla trama legge il capitolo 1 «Capitolo 1 - L'ombra che pesa»",
-      "reason": "I lettori simulati leggono alla cieca: niente canone né segreti, solo il capitolo.",
-      "next": "Confrontare le opinioni dei lettori.",
-      "chapterNumber": 1,
-      "reader": "Lettore orientato alla trama",
-      "status": "succeeded",
-      "startedAt": "2026-11-27T08:38:44.745Z",
-      "host": "browser",
-      "interventionIds": [],
-      "endedAt": "2026-11-27T08:38:50.326Z",
-      "summary": "7/10 — Il capitolo parte da un’urgenza concreta e la trasforma in un ostacolo leggibile, ma si ferma prima che lo stallo produca una conseguenza significativa.",
-      "changedPaths": [
-        "evaluations/readers/chapters/001-capitolo-1-l-ombra-che-pesa/standard-plot.md"
-      ],
-      "model": "gpt-6.2-sol",
-      "provider": "azure_openai",
-      "usage": {
-        "inputTokens": 2151,
-        "outputTokens": 422,
-        "cachedInputTokens": 0
-      },
-      "cost": 0.00967225
-    },
-    {
       "id": "activity_d03142b9-d8b4-40d7-90a4-c591e2f7a7c1",
       "runId": "run_886dd773-451b-4374-8e39-ce051b87a718",
       "task": "readers-summary",
@@ -5536,6 +5508,32 @@
         "cachedInputTokens": 0
       },
       "cost": 0.03091025
+    },
+    {
+      "id": "activity_ae74d44f-9d54-48bb-87a9-f91d810ba753",
+      "runId": "run_3b293bac-779d-4c8c-8b3d-36c4eeba0af6",
+      "task": "final",
+      "phase": "final",
+      "title": "Il direttore valuta l'intero libro",
+      "reason": "Archi, promesse e fili aperti si verificano quando tutti i capitoli sono approvati.",
+      "next": "L'autopilot è completato.",
+      "status": "succeeded",
+      "startedAt": "2026-11-27T09:39:44.769Z",
+      "host": "browser",
+      "interventionIds": [],
+      "endedAt": "2026-11-27T09:40:06.916Z",
+      "summary": "revise 7.4/10 — Il libro mantiene la promessa dell’astuzia come osservazione, ma non chiude con la stessa precisione il conflitto che apre. Il cibo arriva, la sete resta e il gesto di Kaza suggerisce una tregua più di quanto renda leggibile lo scambio. L’impianto regge: servono correzioni mirate alla giuntura fra secondo e terzo capitolo e al finale, non una riscrittura. Valuto il materiale fornito: mappa, sinossi e brevi citazioni, non il manoscritto integrale.",
+      "changedPaths": [
+        "evaluations/director/book.md"
+      ],
+      "model": "gpt-6.2-sol",
+      "provider": "azure_openai",
+      "usage": {
+        "inputTokens": 4970,
+        "outputTokens": 2023,
+        "cachedInputTokens": 0
+      },
+      "cost": 0.0370195
     }
   ]
 }
